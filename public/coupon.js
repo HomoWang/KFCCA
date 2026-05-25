@@ -1,97 +1,21851 @@
 window.KFC_COUPON_DATA = {
-  "lastUpdated": "2026-05-25T00:00:00+08:00",
+  "lastUpdated": "2026-05-25T21:17:14+08:00",
   "source": {
     "candidateSources": [
-      "sample"
+      "kfc.izo.tw"
     ],
-    "verifiedBy": "sample_data"
+    "verifiedBy": "official_api"
   },
   "coupons": [
     {
-      "code": "12345",
-      "title": "卡拉雞腿堡 + 炸雞",
-      "description": "測試資料：卡拉雞腿堡 1 份與炸雞 1 份",
-      "price": 50,
-      "startDate": "2026-05-01",
-      "endDate": "2026-06-30",
+      "code": "15532",
+      "title": "優惠券 15532",
+      "description": "優惠券 15532",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
       "available": true,
-      "items": {
-        "zinger_burger": 1,
-        "fried_chicken": 1
-      },
+      "items": {},
       "rawItems": [
         {
-          "name": "卡拉雞腿堡",
+          "name": "優惠券 15532 優惠券 15532",
           "quantity": 1
-        },
+        }
+      ],
+      "unknownItems": [
         {
-          "name": "炸雞",
+          "name": "優惠券 15532 優惠券 15532",
           "quantity": 1
         }
       ],
       "sourceCandidates": [
-        "sample"
+        "kfc.izo.tw"
       ],
-      "verifiedAt": "2026-05-25T00:00:00+08:00"
+      "verifiedAt": "2026-05-25T21:02:41+08:00"
     },
     {
-      "code": "23456",
-      "title": "飲料 + 炸雞",
-      "description": "測試資料：飲料 1 杯與炸雞 1 份",
-      "price": 60,
-      "startDate": "2026-05-01",
-      "endDate": "2026-06-30",
+      "code": "15533",
+      "title": "優惠券 15533",
+      "description": "優惠券 15533",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
       "available": true,
-      "items": {
-        "drink": 1,
-        "fried_chicken": 1
-      },
+      "items": {},
       "rawItems": [
         {
-          "name": "飲料",
+          "name": "優惠券 15533 優惠券 15533",
           "quantity": 1
-        },
+        }
+      ],
+      "unknownItems": [
         {
-          "name": "炸雞",
+          "name": "優惠券 15533 優惠券 15533",
           "quantity": 1
         }
       ],
       "sourceCandidates": [
-        "sample"
+        "kfc.izo.tw"
       ],
-      "verifiedAt": "2026-05-25T00:00:00+08:00"
+      "verifiedAt": "2026-05-25T21:02:42+08:00"
     },
     {
-      "code": "34567",
-      "title": "卡拉雞腿堡 + 炸雞 2 份 + 飲料",
-      "description": "測試資料：完整套餐組",
-      "price": 150,
-      "startDate": "2026-05-01",
-      "endDate": "2026-06-30",
+      "code": "15592",
+      "title": "優惠券 15592",
+      "description": "優惠券 15592",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
       "available": true,
-      "items": {
-        "zinger_burger": 1,
-        "fried_chicken": 2,
-        "drink": 1
-      },
+      "items": {},
       "rawItems": [
         {
-          "name": "卡拉雞腿堡",
+          "name": "優惠券 15592 優惠券 15592",
           "quantity": 1
-        },
+        }
+      ],
+      "unknownItems": [
         {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "飲料",
+          "name": "優惠券 15592 優惠券 15592",
           "quantity": 1
         }
       ],
       "sourceCandidates": [
-        "sample"
+        "kfc.izo.tw"
       ],
-      "verifiedAt": "2026-05-25T00:00:00+08:00"
+      "verifiedAt": "2026-05-25T21:02:44+08:00"
+    },
+    {
+      "code": "15619",
+      "title": "優惠券 15619",
+      "description": "優惠券 15619",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15619 優惠券 15619",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15619 優惠券 15619",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:45+08:00"
+    },
+    {
+      "code": "15730",
+      "title": "優惠券 15730",
+      "description": "優惠券 15730",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15730 優惠券 15730",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15730 優惠券 15730",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:46+08:00"
+    },
+    {
+      "code": "15731",
+      "title": "優惠券 15731",
+      "description": "優惠券 15731",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15731 優惠券 15731",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15731 優惠券 15731",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:47+08:00"
+    },
+    {
+      "code": "15732",
+      "title": "優惠券 15732",
+      "description": "優惠券 15732",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15732 優惠券 15732",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15732 優惠券 15732",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:48+08:00"
+    },
+    {
+      "code": "15753",
+      "title": "優惠券 15753",
+      "description": "優惠券 15753",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15753 優惠券 15753",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15753 優惠券 15753",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:50+08:00"
+    },
+    {
+      "code": "15776",
+      "title": "優惠券 15776",
+      "description": "優惠券 15776",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15776 優惠券 15776",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15776 優惠券 15776",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:51+08:00"
+    },
+    {
+      "code": "15777",
+      "title": "優惠券 15777",
+      "description": "優惠券 15777",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15777 優惠券 15777",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15777 優惠券 15777",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:52+08:00"
+    },
+    {
+      "code": "15851",
+      "title": "優惠券 15851",
+      "description": "優惠券 15851",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15851 優惠券 15851",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15851 優惠券 15851",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:53+08:00"
+    },
+    {
+      "code": "15852",
+      "title": "優惠券 15852",
+      "description": "優惠券 15852",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15852 優惠券 15852",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15852 優惠券 15852",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:54+08:00"
+    },
+    {
+      "code": "15853",
+      "title": "優惠券 15853",
+      "description": "優惠券 15853",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15853 優惠券 15853",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15853 優惠券 15853",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:55+08:00"
+    },
+    {
+      "code": "15854",
+      "title": "優惠券 15854",
+      "description": "優惠券 15854",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15854 優惠券 15854",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15854 優惠券 15854",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:56+08:00"
+    },
+    {
+      "code": "15855",
+      "title": "優惠券 15855",
+      "description": "優惠券 15855",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15855 優惠券 15855",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15855 優惠券 15855",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:57+08:00"
+    },
+    {
+      "code": "15856",
+      "title": "優惠券 15856",
+      "description": "優惠券 15856",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15856 優惠券 15856",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15856 優惠券 15856",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:58+08:00"
+    },
+    {
+      "code": "15857",
+      "title": "優惠券 15857",
+      "description": "優惠券 15857",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15857 優惠券 15857",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15857 優惠券 15857",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:02:59+08:00"
+    },
+    {
+      "code": "15858",
+      "title": "優惠券 15858",
+      "description": "優惠券 15858",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15858 優惠券 15858",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15858 優惠券 15858",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:01+08:00"
+    },
+    {
+      "code": "15864",
+      "title": "優惠券 15864",
+      "description": "優惠券 15864",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15864 優惠券 15864",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15864 優惠券 15864",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:02+08:00"
+    },
+    {
+      "code": "15865",
+      "title": "優惠券 15865",
+      "description": "優惠券 15865",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15865 優惠券 15865",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15865 優惠券 15865",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:03+08:00"
+    },
+    {
+      "code": "15866",
+      "title": "優惠券 15866",
+      "description": "優惠券 15866",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15866 優惠券 15866",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15866 優惠券 15866",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:04+08:00"
+    },
+    {
+      "code": "15867",
+      "title": "優惠券 15867",
+      "description": "優惠券 15867",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15867 優惠券 15867",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15867 優惠券 15867",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:05+08:00"
+    },
+    {
+      "code": "15868",
+      "title": "優惠券 15868",
+      "description": "優惠券 15868",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15868 優惠券 15868",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15868 優惠券 15868",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:06+08:00"
+    },
+    {
+      "code": "15876",
+      "title": "優惠券 15876",
+      "description": "優惠券 15876",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15876 優惠券 15876",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15876 優惠券 15876",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:07+08:00"
+    },
+    {
+      "code": "15877",
+      "title": "優惠券 15877",
+      "description": "優惠券 15877",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15877 優惠券 15877",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15877 優惠券 15877",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:08+08:00"
+    },
+    {
+      "code": "15923",
+      "title": "優惠券 15923",
+      "description": "優惠券 15923",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15923 優惠券 15923",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15923 優惠券 15923",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:09+08:00"
+    },
+    {
+      "code": "15924",
+      "title": "優惠券 15924",
+      "description": "優惠券 15924",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15924 優惠券 15924",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15924 優惠券 15924",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:10+08:00"
+    },
+    {
+      "code": "15925",
+      "title": "優惠券 15925",
+      "description": "優惠券 15925",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15925 優惠券 15925",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15925 優惠券 15925",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:11+08:00"
+    },
+    {
+      "code": "15926",
+      "title": "優惠券 15926",
+      "description": "優惠券 15926",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15926 優惠券 15926",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15926 優惠券 15926",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:12+08:00"
+    },
+    {
+      "code": "15927",
+      "title": "優惠券 15927",
+      "description": "優惠券 15927",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15927 優惠券 15927",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15927 優惠券 15927",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:14+08:00"
+    },
+    {
+      "code": "15928",
+      "title": "優惠券 15928",
+      "description": "優惠券 15928",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15928 優惠券 15928",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15928 優惠券 15928",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:15+08:00"
+    },
+    {
+      "code": "15929",
+      "title": "優惠券 15929",
+      "description": "優惠券 15929",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15929 優惠券 15929",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15929 優惠券 15929",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:16+08:00"
+    },
+    {
+      "code": "15930",
+      "title": "優惠券 15930",
+      "description": "優惠券 15930",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15930 優惠券 15930",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15930 優惠券 15930",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:17+08:00"
+    },
+    {
+      "code": "15931",
+      "title": "優惠券 15931",
+      "description": "優惠券 15931",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15931 優惠券 15931",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15931 優惠券 15931",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:18+08:00"
+    },
+    {
+      "code": "15932",
+      "title": "優惠券 15932",
+      "description": "優惠券 15932",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15932 優惠券 15932",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15932 優惠券 15932",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:19+08:00"
+    },
+    {
+      "code": "15933",
+      "title": "優惠券 15933",
+      "description": "優惠券 15933",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15933 優惠券 15933",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15933 優惠券 15933",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:20+08:00"
+    },
+    {
+      "code": "15934",
+      "title": "優惠券 15934",
+      "description": "優惠券 15934",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15934 優惠券 15934",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15934 優惠券 15934",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:21+08:00"
+    },
+    {
+      "code": "15935",
+      "title": "優惠券 15935",
+      "description": "優惠券 15935",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15935 優惠券 15935",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15935 優惠券 15935",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:22+08:00"
+    },
+    {
+      "code": "15936",
+      "title": "優惠券 15936",
+      "description": "優惠券 15936",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15936 優惠券 15936",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15936 優惠券 15936",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:23+08:00"
+    },
+    {
+      "code": "15937",
+      "title": "優惠券 15937",
+      "description": "優惠券 15937",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15937 優惠券 15937",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15937 優惠券 15937",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:24+08:00"
+    },
+    {
+      "code": "15938",
+      "title": "優惠券 15938",
+      "description": "優惠券 15938",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15938 優惠券 15938",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15938 優惠券 15938",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:25+08:00"
+    },
+    {
+      "code": "15939",
+      "title": "優惠券 15939",
+      "description": "優惠券 15939",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15939 優惠券 15939",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15939 優惠券 15939",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:26+08:00"
+    },
+    {
+      "code": "15940",
+      "title": "優惠券 15940",
+      "description": "優惠券 15940",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15940 優惠券 15940",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15940 優惠券 15940",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:27+08:00"
+    },
+    {
+      "code": "15941",
+      "title": "優惠券 15941",
+      "description": "優惠券 15941",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15941 優惠券 15941",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15941 優惠券 15941",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:28+08:00"
+    },
+    {
+      "code": "15942",
+      "title": "優惠券 15942",
+      "description": "優惠券 15942",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15942 優惠券 15942",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15942 優惠券 15942",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:29+08:00"
+    },
+    {
+      "code": "15943",
+      "title": "優惠券 15943",
+      "description": "優惠券 15943",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15943 優惠券 15943",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15943 優惠券 15943",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:30+08:00"
+    },
+    {
+      "code": "15944",
+      "title": "優惠券 15944",
+      "description": "優惠券 15944",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15944 優惠券 15944",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15944 優惠券 15944",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:31+08:00"
+    },
+    {
+      "code": "15945",
+      "title": "優惠券 15945",
+      "description": "優惠券 15945",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15945 優惠券 15945",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15945 優惠券 15945",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:32+08:00"
+    },
+    {
+      "code": "15947",
+      "title": "優惠券 15947",
+      "description": "優惠券 15947",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15947 優惠券 15947",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15947 優惠券 15947",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:33+08:00"
+    },
+    {
+      "code": "15948",
+      "title": "優惠券 15948",
+      "description": "優惠券 15948",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15948 優惠券 15948",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15948 優惠券 15948",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:34+08:00"
+    },
+    {
+      "code": "15951",
+      "title": "優惠券 15951",
+      "description": "優惠券 15951",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15951 優惠券 15951",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15951 優惠券 15951",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:35+08:00"
+    },
+    {
+      "code": "15952",
+      "title": "優惠券 15952",
+      "description": "優惠券 15952",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15952 優惠券 15952",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15952 優惠券 15952",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:36+08:00"
+    },
+    {
+      "code": "15953",
+      "title": "優惠券 15953",
+      "description": "優惠券 15953",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15953 優惠券 15953",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15953 優惠券 15953",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:37+08:00"
+    },
+    {
+      "code": "15954",
+      "title": "優惠券 15954",
+      "description": "優惠券 15954",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15954 優惠券 15954",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15954 優惠券 15954",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:38+08:00"
+    },
+    {
+      "code": "15955",
+      "title": "優惠券 15955",
+      "description": "優惠券 15955",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15955 優惠券 15955",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15955 優惠券 15955",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:39+08:00"
+    },
+    {
+      "code": "15956",
+      "title": "優惠券 15956",
+      "description": "優惠券 15956",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15956 優惠券 15956",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15956 優惠券 15956",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:40+08:00"
+    },
+    {
+      "code": "15957",
+      "title": "優惠券 15957",
+      "description": "優惠券 15957",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15957 優惠券 15957",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15957 優惠券 15957",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:41+08:00"
+    },
+    {
+      "code": "15959",
+      "title": "優惠券 15959",
+      "description": "優惠券 15959",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15959 優惠券 15959",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15959 優惠券 15959",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:42+08:00"
+    },
+    {
+      "code": "15960",
+      "title": "優惠券 15960",
+      "description": "優惠券 15960",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15960 優惠券 15960",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15960 優惠券 15960",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:43+08:00"
+    },
+    {
+      "code": "15961",
+      "title": "優惠券 15961",
+      "description": "優惠券 15961",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15961 優惠券 15961",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15961 優惠券 15961",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:44+08:00"
+    },
+    {
+      "code": "15962",
+      "title": "優惠券 15962",
+      "description": "優惠券 15962",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15962 優惠券 15962",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15962 優惠券 15962",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:45+08:00"
+    },
+    {
+      "code": "15964",
+      "title": "優惠券 15964",
+      "description": "優惠券 15964",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15964 優惠券 15964",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15964 優惠券 15964",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:46+08:00"
+    },
+    {
+      "code": "15966",
+      "title": "優惠券 15966",
+      "description": "優惠券 15966",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15966 優惠券 15966",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15966 優惠券 15966",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:47+08:00"
+    },
+    {
+      "code": "15967",
+      "title": "優惠券 15967",
+      "description": "優惠券 15967",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15967 優惠券 15967",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15967 優惠券 15967",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:48+08:00"
+    },
+    {
+      "code": "15975",
+      "title": "優惠券 15975",
+      "description": "優惠券 15975",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15975 優惠券 15975",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15975 優惠券 15975",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:49+08:00"
+    },
+    {
+      "code": "15976",
+      "title": "優惠券 15976",
+      "description": "優惠券 15976",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15976 優惠券 15976",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15976 優惠券 15976",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:50+08:00"
+    },
+    {
+      "code": "15977",
+      "title": "優惠券 15977",
+      "description": "優惠券 15977",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15977 優惠券 15977",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15977 優惠券 15977",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:51+08:00"
+    },
+    {
+      "code": "15978",
+      "title": "優惠券 15978",
+      "description": "優惠券 15978",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15978 優惠券 15978",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15978 優惠券 15978",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:52+08:00"
+    },
+    {
+      "code": "15979",
+      "title": "優惠券 15979",
+      "description": "優惠券 15979",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15979 優惠券 15979",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15979 優惠券 15979",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:53+08:00"
+    },
+    {
+      "code": "15983",
+      "title": "優惠券 15983",
+      "description": "優惠券 15983",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15983 優惠券 15983",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15983 優惠券 15983",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:54+08:00"
+    },
+    {
+      "code": "15995",
+      "title": "優惠券 15995",
+      "description": "優惠券 15995",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15995 優惠券 15995",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15995 優惠券 15995",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:55+08:00"
+    },
+    {
+      "code": "15996",
+      "title": "優惠券 15996",
+      "description": "優惠券 15996",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15996 優惠券 15996",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15996 優惠券 15996",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:56+08:00"
+    },
+    {
+      "code": "15997",
+      "title": "優惠券 15997",
+      "description": "優惠券 15997",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15997 優惠券 15997",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15997 優惠券 15997",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:58+08:00"
+    },
+    {
+      "code": "15998",
+      "title": "優惠券 15998",
+      "description": "優惠券 15998",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15998 優惠券 15998",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15998 優惠券 15998",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:03:59+08:00"
+    },
+    {
+      "code": "15999",
+      "title": "優惠券 15999",
+      "description": "優惠券 15999",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 15999 優惠券 15999",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 15999 優惠券 15999",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:00+08:00"
+    },
+    {
+      "code": "16001",
+      "title": "優惠券 16001",
+      "description": "優惠券 16001",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16001 優惠券 16001",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16001 優惠券 16001",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:01+08:00"
+    },
+    {
+      "code": "16002",
+      "title": "優惠券 16002",
+      "description": "優惠券 16002",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16002 優惠券 16002",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16002 優惠券 16002",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:02+08:00"
+    },
+    {
+      "code": "16003",
+      "title": "優惠券 16003",
+      "description": "優惠券 16003",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16003 優惠券 16003",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16003 優惠券 16003",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:03+08:00"
+    },
+    {
+      "code": "16004",
+      "title": "優惠券 16004",
+      "description": "優惠券 16004",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16004 優惠券 16004",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16004 優惠券 16004",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:04+08:00"
+    },
+    {
+      "code": "16005",
+      "title": "優惠券 16005",
+      "description": "優惠券 16005",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16005 優惠券 16005",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16005 優惠券 16005",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:05+08:00"
+    },
+    {
+      "code": "16006",
+      "title": "優惠券 16006",
+      "description": "優惠券 16006",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16006 優惠券 16006",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16006 優惠券 16006",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:06+08:00"
+    },
+    {
+      "code": "16007",
+      "title": "優惠券 16007",
+      "description": "優惠券 16007",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16007 優惠券 16007",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16007 優惠券 16007",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:07+08:00"
+    },
+    {
+      "code": "16008",
+      "title": "優惠券 16008",
+      "description": "優惠券 16008",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16008 優惠券 16008",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16008 優惠券 16008",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:08+08:00"
+    },
+    {
+      "code": "16009",
+      "title": "優惠券 16009",
+      "description": "優惠券 16009",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16009 優惠券 16009",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16009 優惠券 16009",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:09+08:00"
+    },
+    {
+      "code": "16010",
+      "title": "優惠券 16010",
+      "description": "優惠券 16010",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16010 優惠券 16010",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16010 優惠券 16010",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:10+08:00"
+    },
+    {
+      "code": "16011",
+      "title": "優惠券 16011",
+      "description": "優惠券 16011",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16011 優惠券 16011",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16011 優惠券 16011",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:11+08:00"
+    },
+    {
+      "code": "16012",
+      "title": "優惠券 16012",
+      "description": "優惠券 16012",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16012 優惠券 16012",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16012 優惠券 16012",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:12+08:00"
+    },
+    {
+      "code": "16013",
+      "title": "優惠券 16013",
+      "description": "優惠券 16013",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16013 優惠券 16013",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16013 優惠券 16013",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:13+08:00"
+    },
+    {
+      "code": "16014",
+      "title": "優惠券 16014",
+      "description": "優惠券 16014",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16014 優惠券 16014",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16014 優惠券 16014",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:14+08:00"
+    },
+    {
+      "code": "16015",
+      "title": "優惠券 16015",
+      "description": "優惠券 16015",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16015 優惠券 16015",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16015 優惠券 16015",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:15+08:00"
+    },
+    {
+      "code": "16016",
+      "title": "優惠券 16016",
+      "description": "優惠券 16016",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16016 優惠券 16016",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16016 優惠券 16016",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:16+08:00"
+    },
+    {
+      "code": "16017",
+      "title": "優惠券 16017",
+      "description": "優惠券 16017",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16017 優惠券 16017",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16017 優惠券 16017",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:17+08:00"
+    },
+    {
+      "code": "16018",
+      "title": "優惠券 16018",
+      "description": "優惠券 16018",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16018 優惠券 16018",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16018 優惠券 16018",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:18+08:00"
+    },
+    {
+      "code": "16019",
+      "title": "優惠券 16019",
+      "description": "優惠券 16019",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16019 優惠券 16019",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16019 優惠券 16019",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:19+08:00"
+    },
+    {
+      "code": "16023",
+      "title": "優惠券 16023",
+      "description": "優惠券 16023",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16023 優惠券 16023",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16023 優惠券 16023",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:20+08:00"
+    },
+    {
+      "code": "16024",
+      "title": "優惠券 16024",
+      "description": "優惠券 16024",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16024 優惠券 16024",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16024 優惠券 16024",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:21+08:00"
+    },
+    {
+      "code": "16025",
+      "title": "優惠券 16025",
+      "description": "優惠券 16025",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16025 優惠券 16025",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16025 優惠券 16025",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:22+08:00"
+    },
+    {
+      "code": "16026",
+      "title": "優惠券 16026",
+      "description": "優惠券 16026",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16026 優惠券 16026",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16026 優惠券 16026",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:23+08:00"
+    },
+    {
+      "code": "16027",
+      "title": "優惠券 16027",
+      "description": "優惠券 16027",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16027 優惠券 16027",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16027 優惠券 16027",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:24+08:00"
+    },
+    {
+      "code": "16028",
+      "title": "優惠券 16028",
+      "description": "優惠券 16028",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16028 優惠券 16028",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16028 優惠券 16028",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:25+08:00"
+    },
+    {
+      "code": "16029",
+      "title": "優惠券 16029",
+      "description": "優惠券 16029",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16029 優惠券 16029",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16029 優惠券 16029",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:26+08:00"
+    },
+    {
+      "code": "16030",
+      "title": "優惠券 16030",
+      "description": "優惠券 16030",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16030 優惠券 16030",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16030 優惠券 16030",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:27+08:00"
+    },
+    {
+      "code": "16031",
+      "title": "優惠券 16031",
+      "description": "優惠券 16031",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16031 優惠券 16031",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16031 優惠券 16031",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:28+08:00"
+    },
+    {
+      "code": "16032",
+      "title": "優惠券 16032",
+      "description": "優惠券 16032",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16032 優惠券 16032",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16032 優惠券 16032",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:29+08:00"
+    },
+    {
+      "code": "16033",
+      "title": "優惠券 16033",
+      "description": "優惠券 16033",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16033 優惠券 16033",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16033 優惠券 16033",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:30+08:00"
+    },
+    {
+      "code": "16034",
+      "title": "優惠券 16034",
+      "description": "優惠券 16034",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16034 優惠券 16034",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16034 優惠券 16034",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:31+08:00"
+    },
+    {
+      "code": "16035",
+      "title": "優惠券 16035",
+      "description": "優惠券 16035",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16035 優惠券 16035",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16035 優惠券 16035",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:32+08:00"
+    },
+    {
+      "code": "16036",
+      "title": "優惠券 16036",
+      "description": "優惠券 16036",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16036 優惠券 16036",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16036 優惠券 16036",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:33+08:00"
+    },
+    {
+      "code": "16037",
+      "title": "優惠券 16037",
+      "description": "優惠券 16037",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16037 優惠券 16037",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16037 優惠券 16037",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:34+08:00"
+    },
+    {
+      "code": "16038",
+      "title": "優惠券 16038",
+      "description": "優惠券 16038",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16038 優惠券 16038",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16038 優惠券 16038",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:35+08:00"
+    },
+    {
+      "code": "16039",
+      "title": "優惠券 16039",
+      "description": "優惠券 16039",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16039 優惠券 16039",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16039 優惠券 16039",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:36+08:00"
+    },
+    {
+      "code": "16040",
+      "title": "優惠券 16040",
+      "description": "優惠券 16040",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16040 優惠券 16040",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16040 優惠券 16040",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:37+08:00"
+    },
+    {
+      "code": "16041",
+      "title": "優惠券 16041",
+      "description": "優惠券 16041",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16041 優惠券 16041",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16041 優惠券 16041",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:38+08:00"
+    },
+    {
+      "code": "16042",
+      "title": "優惠券 16042",
+      "description": "優惠券 16042",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16042 優惠券 16042",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16042 優惠券 16042",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:39+08:00"
+    },
+    {
+      "code": "16043",
+      "title": "優惠券 16043",
+      "description": "優惠券 16043",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16043 優惠券 16043",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16043 優惠券 16043",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:40+08:00"
+    },
+    {
+      "code": "16044",
+      "title": "優惠券 16044",
+      "description": "優惠券 16044",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16044 優惠券 16044",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16044 優惠券 16044",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:42+08:00"
+    },
+    {
+      "code": "16045",
+      "title": "優惠券 16045",
+      "description": "優惠券 16045",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16045 優惠券 16045",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16045 優惠券 16045",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:43+08:00"
+    },
+    {
+      "code": "16046",
+      "title": "優惠券 16046",
+      "description": "優惠券 16046",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16046 優惠券 16046",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16046 優惠券 16046",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:44+08:00"
+    },
+    {
+      "code": "16047",
+      "title": "優惠券 16047",
+      "description": "優惠券 16047",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16047 優惠券 16047",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16047 優惠券 16047",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:45+08:00"
+    },
+    {
+      "code": "16048",
+      "title": "優惠券 16048",
+      "description": "優惠券 16048",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16048 優惠券 16048",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16048 優惠券 16048",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:46+08:00"
+    },
+    {
+      "code": "16049",
+      "title": "優惠券 16049",
+      "description": "優惠券 16049",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16049 優惠券 16049",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16049 優惠券 16049",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:47+08:00"
+    },
+    {
+      "code": "16050",
+      "title": "優惠券 16050",
+      "description": "優惠券 16050",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16050 優惠券 16050",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16050 優惠券 16050",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:48+08:00"
+    },
+    {
+      "code": "16051",
+      "title": "優惠券 16051",
+      "description": "優惠券 16051",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16051 優惠券 16051",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16051 優惠券 16051",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:49+08:00"
+    },
+    {
+      "code": "16054",
+      "title": "優惠券 16054",
+      "description": "優惠券 16054",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16054 優惠券 16054",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16054 優惠券 16054",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:50+08:00"
+    },
+    {
+      "code": "16055",
+      "title": "優惠券 16055",
+      "description": "優惠券 16055",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16055 優惠券 16055",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16055 優惠券 16055",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:51+08:00"
+    },
+    {
+      "code": "16056",
+      "title": "優惠券 16056",
+      "description": "優惠券 16056",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16056 優惠券 16056",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16056 優惠券 16056",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:52+08:00"
+    },
+    {
+      "code": "16057",
+      "title": "優惠券 16057",
+      "description": "優惠券 16057",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16057 優惠券 16057",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16057 優惠券 16057",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:53+08:00"
+    },
+    {
+      "code": "16058",
+      "title": "優惠券 16058",
+      "description": "優惠券 16058",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16058 優惠券 16058",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16058 優惠券 16058",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:54+08:00"
+    },
+    {
+      "code": "16059",
+      "title": "優惠券 16059",
+      "description": "優惠券 16059",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16059 優惠券 16059",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16059 優惠券 16059",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:55+08:00"
+    },
+    {
+      "code": "16060",
+      "title": "優惠券 16060",
+      "description": "優惠券 16060",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16060 優惠券 16060",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16060 優惠券 16060",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:56+08:00"
+    },
+    {
+      "code": "16061",
+      "title": "優惠券 16061",
+      "description": "優惠券 16061",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16061 優惠券 16061",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16061 優惠券 16061",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:57+08:00"
+    },
+    {
+      "code": "16062",
+      "title": "優惠券 16062",
+      "description": "優惠券 16062",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16062 優惠券 16062",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16062 優惠券 16062",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:58+08:00"
+    },
+    {
+      "code": "16063",
+      "title": "優惠券 16063",
+      "description": "優惠券 16063",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16063 優惠券 16063",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16063 優惠券 16063",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:04:59+08:00"
+    },
+    {
+      "code": "16066",
+      "title": "優惠券 16066",
+      "description": "優惠券 16066",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16066 優惠券 16066",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16066 優惠券 16066",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:00+08:00"
+    },
+    {
+      "code": "16067",
+      "title": "優惠券 16067",
+      "description": "優惠券 16067",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16067 優惠券 16067",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16067 優惠券 16067",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:01+08:00"
+    },
+    {
+      "code": "16068",
+      "title": "優惠券 16068",
+      "description": "優惠券 16068",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16068 優惠券 16068",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16068 優惠券 16068",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:02+08:00"
+    },
+    {
+      "code": "16072",
+      "title": "優惠券 16072",
+      "description": "優惠券 16072",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16072 優惠券 16072",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16072 優惠券 16072",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:03+08:00"
+    },
+    {
+      "code": "16073",
+      "title": "優惠券 16073",
+      "description": "優惠券 16073",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16073 優惠券 16073",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16073 優惠券 16073",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:04+08:00"
+    },
+    {
+      "code": "16074",
+      "title": "優惠券 16074",
+      "description": "優惠券 16074",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16074 優惠券 16074",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16074 優惠券 16074",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:05+08:00"
+    },
+    {
+      "code": "16075",
+      "title": "優惠券 16075",
+      "description": "優惠券 16075",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16075 優惠券 16075",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16075 優惠券 16075",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:06+08:00"
+    },
+    {
+      "code": "16076",
+      "title": "優惠券 16076",
+      "description": "優惠券 16076",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16076 優惠券 16076",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16076 優惠券 16076",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:07+08:00"
+    },
+    {
+      "code": "16077",
+      "title": "優惠券 16077",
+      "description": "優惠券 16077",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16077 優惠券 16077",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16077 優惠券 16077",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:08+08:00"
+    },
+    {
+      "code": "16078",
+      "title": "優惠券 16078",
+      "description": "優惠券 16078",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16078 優惠券 16078",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16078 優惠券 16078",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:10+08:00"
+    },
+    {
+      "code": "16079",
+      "title": "優惠券 16079",
+      "description": "優惠券 16079",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16079 優惠券 16079",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16079 優惠券 16079",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:11+08:00"
+    },
+    {
+      "code": "16080",
+      "title": "優惠券 16080",
+      "description": "優惠券 16080",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16080 優惠券 16080",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16080 優惠券 16080",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:12+08:00"
+    },
+    {
+      "code": "16081",
+      "title": "優惠券 16081",
+      "description": "優惠券 16081",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16081 優惠券 16081",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16081 優惠券 16081",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:14+08:00"
+    },
+    {
+      "code": "16082",
+      "title": "優惠券 16082",
+      "description": "優惠券 16082",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16082 優惠券 16082",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16082 優惠券 16082",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:15+08:00"
+    },
+    {
+      "code": "16083",
+      "title": "優惠券 16083",
+      "description": "優惠券 16083",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16083 優惠券 16083",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16083 優惠券 16083",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:16+08:00"
+    },
+    {
+      "code": "16084",
+      "title": "優惠券 16084",
+      "description": "優惠券 16084",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16084 優惠券 16084",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16084 優惠券 16084",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:17+08:00"
+    },
+    {
+      "code": "16085",
+      "title": "優惠券 16085",
+      "description": "優惠券 16085",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16085 優惠券 16085",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16085 優惠券 16085",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:19+08:00"
+    },
+    {
+      "code": "16086",
+      "title": "優惠券 16086",
+      "description": "優惠券 16086",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16086 優惠券 16086",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16086 優惠券 16086",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:20+08:00"
+    },
+    {
+      "code": "16087",
+      "title": "優惠券 16087",
+      "description": "優惠券 16087",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16087 優惠券 16087",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16087 優惠券 16087",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:21+08:00"
+    },
+    {
+      "code": "16088",
+      "title": "優惠券 16088",
+      "description": "優惠券 16088",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16088 優惠券 16088",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16088 優惠券 16088",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:22+08:00"
+    },
+    {
+      "code": "16089",
+      "title": "優惠券 16089",
+      "description": "優惠券 16089",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16089 優惠券 16089",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16089 優惠券 16089",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:23+08:00"
+    },
+    {
+      "code": "16090",
+      "title": "優惠券 16090",
+      "description": "優惠券 16090",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16090 優惠券 16090",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16090 優惠券 16090",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:24+08:00"
+    },
+    {
+      "code": "16091",
+      "title": "優惠券 16091",
+      "description": "優惠券 16091",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16091 優惠券 16091",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16091 優惠券 16091",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:25+08:00"
+    },
+    {
+      "code": "16092",
+      "title": "優惠券 16092",
+      "description": "優惠券 16092",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16092 優惠券 16092",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16092 優惠券 16092",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:26+08:00"
+    },
+    {
+      "code": "16093",
+      "title": "優惠券 16093",
+      "description": "優惠券 16093",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16093 優惠券 16093",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16093 優惠券 16093",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:27+08:00"
+    },
+    {
+      "code": "16094",
+      "title": "優惠券 16094",
+      "description": "優惠券 16094",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16094 優惠券 16094",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16094 優惠券 16094",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:28+08:00"
+    },
+    {
+      "code": "16095",
+      "title": "優惠券 16095",
+      "description": "優惠券 16095",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16095 優惠券 16095",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16095 優惠券 16095",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:29+08:00"
+    },
+    {
+      "code": "16096",
+      "title": "優惠券 16096",
+      "description": "優惠券 16096",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16096 優惠券 16096",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16096 優惠券 16096",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:30+08:00"
+    },
+    {
+      "code": "16097",
+      "title": "優惠券 16097",
+      "description": "優惠券 16097",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16097 優惠券 16097",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16097 優惠券 16097",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:31+08:00"
+    },
+    {
+      "code": "16098",
+      "title": "優惠券 16098",
+      "description": "優惠券 16098",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16098 優惠券 16098",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16098 優惠券 16098",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:32+08:00"
+    },
+    {
+      "code": "16099",
+      "title": "優惠券 16099",
+      "description": "優惠券 16099",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16099 優惠券 16099",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16099 優惠券 16099",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:34+08:00"
+    },
+    {
+      "code": "16100",
+      "title": "優惠券 16100",
+      "description": "優惠券 16100",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16100 優惠券 16100",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16100 優惠券 16100",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:35+08:00"
+    },
+    {
+      "code": "16101",
+      "title": "優惠券 16101",
+      "description": "優惠券 16101",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16101 優惠券 16101",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16101 優惠券 16101",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:36+08:00"
+    },
+    {
+      "code": "16102",
+      "title": "優惠券 16102",
+      "description": "優惠券 16102",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16102 優惠券 16102",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16102 優惠券 16102",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:37+08:00"
+    },
+    {
+      "code": "16106",
+      "title": "優惠券 16106",
+      "description": "優惠券 16106",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16106 優惠券 16106",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16106 優惠券 16106",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:38+08:00"
+    },
+    {
+      "code": "16107",
+      "title": "優惠券 16107",
+      "description": "優惠券 16107",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16107 優惠券 16107",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16107 優惠券 16107",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:39+08:00"
+    },
+    {
+      "code": "16108",
+      "title": "優惠券 16108",
+      "description": "優惠券 16108",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16108 優惠券 16108",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16108 優惠券 16108",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:40+08:00"
+    },
+    {
+      "code": "16109",
+      "title": "優惠券 16109",
+      "description": "優惠券 16109",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16109 優惠券 16109",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16109 優惠券 16109",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:41+08:00"
+    },
+    {
+      "code": "16110",
+      "title": "優惠券 16110",
+      "description": "優惠券 16110",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16110 優惠券 16110",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16110 優惠券 16110",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:42+08:00"
+    },
+    {
+      "code": "16111",
+      "title": "優惠券 16111",
+      "description": "優惠券 16111",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16111 優惠券 16111",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16111 優惠券 16111",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:43+08:00"
+    },
+    {
+      "code": "16120",
+      "title": "優惠券 16120",
+      "description": "優惠券 16120",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16120 優惠券 16120",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16120 優惠券 16120",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:44+08:00"
+    },
+    {
+      "code": "16121",
+      "title": "優惠券 16121",
+      "description": "優惠券 16121",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16121 優惠券 16121",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16121 優惠券 16121",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:45+08:00"
+    },
+    {
+      "code": "16125",
+      "title": "優惠券 16125",
+      "description": "優惠券 16125",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16125 優惠券 16125",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16125 優惠券 16125",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:46+08:00"
+    },
+    {
+      "code": "16126",
+      "title": "優惠券 16126",
+      "description": "優惠券 16126",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16126 優惠券 16126",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16126 優惠券 16126",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:47+08:00"
+    },
+    {
+      "code": "16127",
+      "title": "優惠券 16127",
+      "description": "優惠券 16127",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16127 優惠券 16127",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16127 優惠券 16127",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:49+08:00"
+    },
+    {
+      "code": "16128",
+      "title": "優惠券 16128",
+      "description": "優惠券 16128",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16128 優惠券 16128",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16128 優惠券 16128",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:50+08:00"
+    },
+    {
+      "code": "16129",
+      "title": "優惠券 16129",
+      "description": "優惠券 16129",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16129 優惠券 16129",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16129 優惠券 16129",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:51+08:00"
+    },
+    {
+      "code": "16130",
+      "title": "優惠券 16130",
+      "description": "優惠券 16130",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16130 優惠券 16130",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16130 優惠券 16130",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:52+08:00"
+    },
+    {
+      "code": "16131",
+      "title": "優惠券 16131",
+      "description": "優惠券 16131",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16131 優惠券 16131",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16131 優惠券 16131",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:53+08:00"
+    },
+    {
+      "code": "16132",
+      "title": "優惠券 16132",
+      "description": "優惠券 16132",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16132 優惠券 16132",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16132 優惠券 16132",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:54+08:00"
+    },
+    {
+      "code": "16133",
+      "title": "優惠券 16133",
+      "description": "優惠券 16133",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16133 優惠券 16133",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16133 優惠券 16133",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:55+08:00"
+    },
+    {
+      "code": "16134",
+      "title": "優惠券 16134",
+      "description": "優惠券 16134",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16134 優惠券 16134",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16134 優惠券 16134",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:56+08:00"
+    },
+    {
+      "code": "16135",
+      "title": "優惠券 16135",
+      "description": "優惠券 16135",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16135 優惠券 16135",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16135 優惠券 16135",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:57+08:00"
+    },
+    {
+      "code": "16136",
+      "title": "優惠券 16136",
+      "description": "優惠券 16136",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16136 優惠券 16136",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16136 優惠券 16136",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:58+08:00"
+    },
+    {
+      "code": "16137",
+      "title": "優惠券 16137",
+      "description": "優惠券 16137",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16137 優惠券 16137",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16137 優惠券 16137",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:05:59+08:00"
+    },
+    {
+      "code": "16138",
+      "title": "優惠券 16138",
+      "description": "優惠券 16138",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16138 優惠券 16138",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16138 優惠券 16138",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:00+08:00"
+    },
+    {
+      "code": "16139",
+      "title": "優惠券 16139",
+      "description": "優惠券 16139",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16139 優惠券 16139",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16139 優惠券 16139",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:02+08:00"
+    },
+    {
+      "code": "16140",
+      "title": "優惠券 16140",
+      "description": "優惠券 16140",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16140 優惠券 16140",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16140 優惠券 16140",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:03+08:00"
+    },
+    {
+      "code": "16141",
+      "title": "優惠券 16141",
+      "description": "優惠券 16141",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16141 優惠券 16141",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16141 優惠券 16141",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:04+08:00"
+    },
+    {
+      "code": "16142",
+      "title": "優惠券 16142",
+      "description": "優惠券 16142",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16142 優惠券 16142",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16142 優惠券 16142",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:05+08:00"
+    },
+    {
+      "code": "16143",
+      "title": "優惠券 16143",
+      "description": "優惠券 16143",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16143 優惠券 16143",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16143 優惠券 16143",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:06+08:00"
+    },
+    {
+      "code": "16144",
+      "title": "優惠券 16144",
+      "description": "優惠券 16144",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16144 優惠券 16144",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16144 優惠券 16144",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:07+08:00"
+    },
+    {
+      "code": "16145",
+      "title": "優惠券 16145",
+      "description": "優惠券 16145",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16145 優惠券 16145",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16145 優惠券 16145",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:08+08:00"
+    },
+    {
+      "code": "16146",
+      "title": "優惠券 16146",
+      "description": "優惠券 16146",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16146 優惠券 16146",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16146 優惠券 16146",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:09+08:00"
+    },
+    {
+      "code": "16147",
+      "title": "優惠券 16147",
+      "description": "優惠券 16147",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16147 優惠券 16147",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16147 優惠券 16147",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:10+08:00"
+    },
+    {
+      "code": "16148",
+      "title": "優惠券 16148",
+      "description": "優惠券 16148",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16148 優惠券 16148",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16148 優惠券 16148",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:11+08:00"
+    },
+    {
+      "code": "16149",
+      "title": "優惠券 16149",
+      "description": "優惠券 16149",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16149 優惠券 16149",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16149 優惠券 16149",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:12+08:00"
+    },
+    {
+      "code": "16150",
+      "title": "優惠券 16150",
+      "description": "優惠券 16150",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16150 優惠券 16150",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16150 優惠券 16150",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:13+08:00"
+    },
+    {
+      "code": "16151",
+      "title": "優惠券 16151",
+      "description": "優惠券 16151",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16151 優惠券 16151",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16151 優惠券 16151",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:14+08:00"
+    },
+    {
+      "code": "16159",
+      "title": "優惠券 16159",
+      "description": "優惠券 16159",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16159 優惠券 16159",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16159 優惠券 16159",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:15+08:00"
+    },
+    {
+      "code": "16160",
+      "title": "優惠券 16160",
+      "description": "優惠券 16160",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16160 優惠券 16160",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16160 優惠券 16160",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:16+08:00"
+    },
+    {
+      "code": "16161",
+      "title": "優惠券 16161",
+      "description": "優惠券 16161",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16161 優惠券 16161",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16161 優惠券 16161",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:17+08:00"
+    },
+    {
+      "code": "16162",
+      "title": "優惠券 16162",
+      "description": "優惠券 16162",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16162 優惠券 16162",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16162 優惠券 16162",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:18+08:00"
+    },
+    {
+      "code": "16163",
+      "title": "優惠券 16163",
+      "description": "優惠券 16163",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16163 優惠券 16163",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16163 優惠券 16163",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:19+08:00"
+    },
+    {
+      "code": "16164",
+      "title": "優惠券 16164",
+      "description": "優惠券 16164",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16164 優惠券 16164",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16164 優惠券 16164",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:20+08:00"
+    },
+    {
+      "code": "16165",
+      "title": "優惠券 16165",
+      "description": "優惠券 16165",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16165 優惠券 16165",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16165 優惠券 16165",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:21+08:00"
+    },
+    {
+      "code": "16166",
+      "title": "優惠券 16166",
+      "description": "優惠券 16166",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16166 優惠券 16166",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16166 優惠券 16166",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:22+08:00"
+    },
+    {
+      "code": "16167",
+      "title": "優惠券 16167",
+      "description": "優惠券 16167",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16167 優惠券 16167",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16167 優惠券 16167",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:23+08:00"
+    },
+    {
+      "code": "16168",
+      "title": "優惠券 16168",
+      "description": "優惠券 16168",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16168 優惠券 16168",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16168 優惠券 16168",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:24+08:00"
+    },
+    {
+      "code": "16169",
+      "title": "優惠券 16169",
+      "description": "優惠券 16169",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16169 優惠券 16169",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16169 優惠券 16169",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:25+08:00"
+    },
+    {
+      "code": "16170",
+      "title": "優惠券 16170",
+      "description": "優惠券 16170",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16170 優惠券 16170",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16170 優惠券 16170",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:26+08:00"
+    },
+    {
+      "code": "16171",
+      "title": "優惠券 16171",
+      "description": "優惠券 16171",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16171 優惠券 16171",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16171 優惠券 16171",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:27+08:00"
+    },
+    {
+      "code": "16172",
+      "title": "優惠券 16172",
+      "description": "優惠券 16172",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16172 優惠券 16172",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16172 優惠券 16172",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:28+08:00"
+    },
+    {
+      "code": "16173",
+      "title": "優惠券 16173",
+      "description": "優惠券 16173",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16173 優惠券 16173",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16173 優惠券 16173",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:29+08:00"
+    },
+    {
+      "code": "16174",
+      "title": "優惠券 16174",
+      "description": "優惠券 16174",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16174 優惠券 16174",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16174 優惠券 16174",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:30+08:00"
+    },
+    {
+      "code": "16175",
+      "title": "優惠券 16175",
+      "description": "優惠券 16175",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16175 優惠券 16175",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16175 優惠券 16175",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:31+08:00"
+    },
+    {
+      "code": "16176",
+      "title": "優惠券 16176",
+      "description": "優惠券 16176",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16176 優惠券 16176",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16176 優惠券 16176",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:32+08:00"
+    },
+    {
+      "code": "16177",
+      "title": "優惠券 16177",
+      "description": "優惠券 16177",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16177 優惠券 16177",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16177 優惠券 16177",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:33+08:00"
+    },
+    {
+      "code": "16178",
+      "title": "優惠券 16178",
+      "description": "優惠券 16178",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16178 優惠券 16178",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16178 優惠券 16178",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:34+08:00"
+    },
+    {
+      "code": "16179",
+      "title": "優惠券 16179",
+      "description": "優惠券 16179",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16179 優惠券 16179",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16179 優惠券 16179",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:35+08:00"
+    },
+    {
+      "code": "16180",
+      "title": "優惠券 16180",
+      "description": "優惠券 16180",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16180 優惠券 16180",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16180 優惠券 16180",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:36+08:00"
+    },
+    {
+      "code": "16181",
+      "title": "優惠券 16181",
+      "description": "優惠券 16181",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16181 優惠券 16181",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16181 優惠券 16181",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:37+08:00"
+    },
+    {
+      "code": "16182",
+      "title": "優惠券 16182",
+      "description": "優惠券 16182",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16182 優惠券 16182",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16182 優惠券 16182",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:38+08:00"
+    },
+    {
+      "code": "16183",
+      "title": "優惠券 16183",
+      "description": "優惠券 16183",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16183 優惠券 16183",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16183 優惠券 16183",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:39+08:00"
+    },
+    {
+      "code": "16184",
+      "title": "優惠券 16184",
+      "description": "優惠券 16184",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16184 優惠券 16184",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16184 優惠券 16184",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:40+08:00"
+    },
+    {
+      "code": "16185",
+      "title": "優惠券 16185",
+      "description": "優惠券 16185",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16185 優惠券 16185",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16185 優惠券 16185",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:41+08:00"
+    },
+    {
+      "code": "16186",
+      "title": "優惠券 16186",
+      "description": "優惠券 16186",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 16186 優惠券 16186",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 16186 優惠券 16186",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:42+08:00"
+    },
+    {
+      "code": "25317",
+      "title": "優惠券 25317",
+      "description": "優惠券 25317",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 25317 優惠券 25317",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 25317 優惠券 25317",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:43+08:00"
+    },
+    {
+      "code": "26301",
+      "title": "優惠券 26301",
+      "description": "優惠券 26301",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26301 優惠券 26301",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26301 優惠券 26301",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:44+08:00"
+    },
+    {
+      "code": "26303",
+      "title": "優惠券 26303",
+      "description": "優惠券 26303",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26303 優惠券 26303",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26303 優惠券 26303",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:45+08:00"
+    },
+    {
+      "code": "26304",
+      "title": "優惠券 26304",
+      "description": "優惠券 26304",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26304 優惠券 26304",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26304 優惠券 26304",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:46+08:00"
+    },
+    {
+      "code": "26305",
+      "title": "優惠券 26305",
+      "description": "優惠券 26305",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26305 優惠券 26305",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26305 優惠券 26305",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:47+08:00"
+    },
+    {
+      "code": "26306",
+      "title": "優惠券 26306",
+      "description": "優惠券 26306",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26306 優惠券 26306",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26306 優惠券 26306",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:48+08:00"
+    },
+    {
+      "code": "26307",
+      "title": "優惠券 26307",
+      "description": "優惠券 26307",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26307 優惠券 26307",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26307 優惠券 26307",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:49+08:00"
+    },
+    {
+      "code": "26308",
+      "title": "優惠券 26308",
+      "description": "優惠券 26308",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26308 優惠券 26308",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26308 優惠券 26308",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:50+08:00"
+    },
+    {
+      "code": "26309",
+      "title": "優惠券 26309",
+      "description": "優惠券 26309",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26309 優惠券 26309",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26309 優惠券 26309",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:51+08:00"
+    },
+    {
+      "code": "26310",
+      "title": "優惠券 26310",
+      "description": "優惠券 26310",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26310 優惠券 26310",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26310 優惠券 26310",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:52+08:00"
+    },
+    {
+      "code": "26311",
+      "title": "優惠券 26311",
+      "description": "優惠券 26311",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26311 優惠券 26311",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26311 優惠券 26311",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:53+08:00"
+    },
+    {
+      "code": "26312",
+      "title": "優惠券 26312",
+      "description": "優惠券 26312",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26312 優惠券 26312",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26312 優惠券 26312",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:54+08:00"
+    },
+    {
+      "code": "26313",
+      "title": "優惠券 26313",
+      "description": "優惠券 26313",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26313 優惠券 26313",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26313 優惠券 26313",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:55+08:00"
+    },
+    {
+      "code": "26314",
+      "title": "優惠券 26314",
+      "description": "優惠券 26314",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26314 優惠券 26314",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26314 優惠券 26314",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:56+08:00"
+    },
+    {
+      "code": "26318",
+      "title": "優惠券 26318",
+      "description": "優惠券 26318",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26318 優惠券 26318",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26318 優惠券 26318",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:57+08:00"
+    },
+    {
+      "code": "26319",
+      "title": "優惠券 26319",
+      "description": "優惠券 26319",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26319 優惠券 26319",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26319 優惠券 26319",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:06:59+08:00"
+    },
+    {
+      "code": "26320",
+      "title": "優惠券 26320",
+      "description": "優惠券 26320",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26320 優惠券 26320",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26320 優惠券 26320",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:00+08:00"
+    },
+    {
+      "code": "26321",
+      "title": "優惠券 26321",
+      "description": "優惠券 26321",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26321 優惠券 26321",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26321 優惠券 26321",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:01+08:00"
+    },
+    {
+      "code": "26322",
+      "title": "優惠券 26322",
+      "description": "優惠券 26322",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26322 優惠券 26322",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26322 優惠券 26322",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:02+08:00"
+    },
+    {
+      "code": "26323",
+      "title": "優惠券 26323",
+      "description": "優惠券 26323",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26323 優惠券 26323",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26323 優惠券 26323",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:03+08:00"
+    },
+    {
+      "code": "26324",
+      "title": "優惠券 26324",
+      "description": "優惠券 26324",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26324 優惠券 26324",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26324 優惠券 26324",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:04+08:00"
+    },
+    {
+      "code": "26326",
+      "title": "優惠券 26326",
+      "description": "優惠券 26326",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26326 優惠券 26326",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26326 優惠券 26326",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:05+08:00"
+    },
+    {
+      "code": "26327",
+      "title": "優惠券 26327",
+      "description": "優惠券 26327",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26327 優惠券 26327",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26327 優惠券 26327",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:06+08:00"
+    },
+    {
+      "code": "26328",
+      "title": "優惠券 26328",
+      "description": "優惠券 26328",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26328 優惠券 26328",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26328 優惠券 26328",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:07+08:00"
+    },
+    {
+      "code": "26329",
+      "title": "優惠券 26329",
+      "description": "優惠券 26329",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26329 優惠券 26329",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26329 優惠券 26329",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:08+08:00"
+    },
+    {
+      "code": "26330",
+      "title": "優惠券 26330",
+      "description": "優惠券 26330",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26330 優惠券 26330",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26330 優惠券 26330",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:09+08:00"
+    },
+    {
+      "code": "26331",
+      "title": "優惠券 26331",
+      "description": "優惠券 26331",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26331 優惠券 26331",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26331 優惠券 26331",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:10+08:00"
+    },
+    {
+      "code": "26337",
+      "title": "優惠券 26337",
+      "description": "優惠券 26337",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26337 優惠券 26337",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26337 優惠券 26337",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:11+08:00"
+    },
+    {
+      "code": "26338",
+      "title": "優惠券 26338",
+      "description": "優惠券 26338",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26338 優惠券 26338",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26338 優惠券 26338",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:12+08:00"
+    },
+    {
+      "code": "26339",
+      "title": "優惠券 26339",
+      "description": "優惠券 26339",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26339 優惠券 26339",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26339 優惠券 26339",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:13+08:00"
+    },
+    {
+      "code": "26340",
+      "title": "優惠券 26340",
+      "description": "優惠券 26340",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26340 優惠券 26340",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26340 優惠券 26340",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:14+08:00"
+    },
+    {
+      "code": "26341",
+      "title": "優惠券 26341",
+      "description": "優惠券 26341",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26341 優惠券 26341",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26341 優惠券 26341",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:15+08:00"
+    },
+    {
+      "code": "26342",
+      "title": "優惠券 26342",
+      "description": "優惠券 26342",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26342 優惠券 26342",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26342 優惠券 26342",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:16+08:00"
+    },
+    {
+      "code": "26343",
+      "title": "優惠券 26343",
+      "description": "優惠券 26343",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26343 優惠券 26343",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26343 優惠券 26343",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:17+08:00"
+    },
+    {
+      "code": "26344",
+      "title": "優惠券 26344",
+      "description": "優惠券 26344",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26344 優惠券 26344",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26344 優惠券 26344",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:18+08:00"
+    },
+    {
+      "code": "26347",
+      "title": "優惠券 26347",
+      "description": "優惠券 26347",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26347 優惠券 26347",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26347 優惠券 26347",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:19+08:00"
+    },
+    {
+      "code": "26348",
+      "title": "優惠券 26348",
+      "description": "優惠券 26348",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26348 優惠券 26348",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26348 優惠券 26348",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:20+08:00"
+    },
+    {
+      "code": "26349",
+      "title": "優惠券 26349",
+      "description": "優惠券 26349",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26349 優惠券 26349",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26349 優惠券 26349",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:21+08:00"
+    },
+    {
+      "code": "26350",
+      "title": "優惠券 26350",
+      "description": "優惠券 26350",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26350 優惠券 26350",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26350 優惠券 26350",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:22+08:00"
+    },
+    {
+      "code": "26351",
+      "title": "優惠券 26351",
+      "description": "優惠券 26351",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26351 優惠券 26351",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26351 優惠券 26351",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:23+08:00"
+    },
+    {
+      "code": "26352",
+      "title": "優惠券 26352",
+      "description": "優惠券 26352",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26352 優惠券 26352",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26352 優惠券 26352",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:24+08:00"
+    },
+    {
+      "code": "26355",
+      "title": "優惠券 26355",
+      "description": "優惠券 26355",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26355 優惠券 26355",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26355 優惠券 26355",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:25+08:00"
+    },
+    {
+      "code": "26370",
+      "title": "優惠券 26370",
+      "description": "優惠券 26370",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26370 優惠券 26370",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26370 優惠券 26370",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:26+08:00"
+    },
+    {
+      "code": "26371",
+      "title": "優惠券 26371",
+      "description": "優惠券 26371",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26371 優惠券 26371",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26371 優惠券 26371",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:27+08:00"
+    },
+    {
+      "code": "26372",
+      "title": "優惠券 26372",
+      "description": "優惠券 26372",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26372 優惠券 26372",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26372 優惠券 26372",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:28+08:00"
+    },
+    {
+      "code": "26373",
+      "title": "優惠券 26373",
+      "description": "優惠券 26373",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26373 優惠券 26373",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26373 優惠券 26373",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:29+08:00"
+    },
+    {
+      "code": "26374",
+      "title": "優惠券 26374",
+      "description": "優惠券 26374",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26374 優惠券 26374",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26374 優惠券 26374",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:30+08:00"
+    },
+    {
+      "code": "26375",
+      "title": "優惠券 26375",
+      "description": "優惠券 26375",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26375 優惠券 26375",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26375 優惠券 26375",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:31+08:00"
+    },
+    {
+      "code": "26390",
+      "title": "優惠券 26390",
+      "description": "優惠券 26390",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26390 優惠券 26390",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26390 優惠券 26390",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:32+08:00"
+    },
+    {
+      "code": "26391",
+      "title": "優惠券 26391",
+      "description": "優惠券 26391",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26391 優惠券 26391",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26391 優惠券 26391",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:33+08:00"
+    },
+    {
+      "code": "26398",
+      "title": "優惠券 26398",
+      "description": "優惠券 26398",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26398 優惠券 26398",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26398 優惠券 26398",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:34+08:00"
+    },
+    {
+      "code": "26399",
+      "title": "優惠券 26399",
+      "description": "優惠券 26399",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26399 優惠券 26399",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26399 優惠券 26399",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:35+08:00"
+    },
+    {
+      "code": "26400",
+      "title": "優惠券 26400",
+      "description": "優惠券 26400",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26400 優惠券 26400",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26400 優惠券 26400",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:36+08:00"
+    },
+    {
+      "code": "26423",
+      "title": "優惠券 26423",
+      "description": "優惠券 26423",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26423 優惠券 26423",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26423 優惠券 26423",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:37+08:00"
+    },
+    {
+      "code": "26424",
+      "title": "優惠券 26424",
+      "description": "優惠券 26424",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26424 優惠券 26424",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26424 優惠券 26424",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:38+08:00"
+    },
+    {
+      "code": "26425",
+      "title": "優惠券 26425",
+      "description": "優惠券 26425",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26425 優惠券 26425",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26425 優惠券 26425",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:39+08:00"
+    },
+    {
+      "code": "26426",
+      "title": "優惠券 26426",
+      "description": "優惠券 26426",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26426 優惠券 26426",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26426 優惠券 26426",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:40+08:00"
+    },
+    {
+      "code": "26427",
+      "title": "優惠券 26427",
+      "description": "優惠券 26427",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26427 優惠券 26427",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26427 優惠券 26427",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:41+08:00"
+    },
+    {
+      "code": "26428",
+      "title": "優惠券 26428",
+      "description": "優惠券 26428",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26428 優惠券 26428",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26428 優惠券 26428",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:42+08:00"
+    },
+    {
+      "code": "26429",
+      "title": "優惠券 26429",
+      "description": "優惠券 26429",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26429 優惠券 26429",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26429 優惠券 26429",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:43+08:00"
+    },
+    {
+      "code": "26430",
+      "title": "優惠券 26430",
+      "description": "優惠券 26430",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26430 優惠券 26430",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26430 優惠券 26430",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:44+08:00"
+    },
+    {
+      "code": "26431",
+      "title": "優惠券 26431",
+      "description": "優惠券 26431",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26431 優惠券 26431",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26431 優惠券 26431",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:45+08:00"
+    },
+    {
+      "code": "26432",
+      "title": "優惠券 26432",
+      "description": "優惠券 26432",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26432 優惠券 26432",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26432 優惠券 26432",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:46+08:00"
+    },
+    {
+      "code": "26433",
+      "title": "優惠券 26433",
+      "description": "優惠券 26433",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26433 優惠券 26433",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26433 優惠券 26433",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:47+08:00"
+    },
+    {
+      "code": "26434",
+      "title": "優惠券 26434",
+      "description": "優惠券 26434",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26434 優惠券 26434",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26434 優惠券 26434",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:48+08:00"
+    },
+    {
+      "code": "26435",
+      "title": "優惠券 26435",
+      "description": "優惠券 26435",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26435 優惠券 26435",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26435 優惠券 26435",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:49+08:00"
+    },
+    {
+      "code": "26436",
+      "title": "優惠券 26436",
+      "description": "優惠券 26436",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26436 優惠券 26436",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26436 優惠券 26436",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:50+08:00"
+    },
+    {
+      "code": "26437",
+      "title": "優惠券 26437",
+      "description": "優惠券 26437",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26437 優惠券 26437",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26437 優惠券 26437",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:51+08:00"
+    },
+    {
+      "code": "26438",
+      "title": "優惠券 26438",
+      "description": "優惠券 26438",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26438 優惠券 26438",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26438 優惠券 26438",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:52+08:00"
+    },
+    {
+      "code": "26439",
+      "title": "優惠券 26439",
+      "description": "優惠券 26439",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26439 優惠券 26439",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26439 優惠券 26439",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:53+08:00"
+    },
+    {
+      "code": "26440",
+      "title": "優惠券 26440",
+      "description": "優惠券 26440",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26440 優惠券 26440",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26440 優惠券 26440",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:54+08:00"
+    },
+    {
+      "code": "26441",
+      "title": "優惠券 26441",
+      "description": "優惠券 26441",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26441 優惠券 26441",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26441 優惠券 26441",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:55+08:00"
+    },
+    {
+      "code": "26442",
+      "title": "優惠券 26442",
+      "description": "優惠券 26442",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26442 優惠券 26442",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26442 優惠券 26442",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:56+08:00"
+    },
+    {
+      "code": "26443",
+      "title": "優惠券 26443",
+      "description": "優惠券 26443",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26443 優惠券 26443",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26443 優惠券 26443",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:57+08:00"
+    },
+    {
+      "code": "26444",
+      "title": "優惠券 26444",
+      "description": "優惠券 26444",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26444 優惠券 26444",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26444 優惠券 26444",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:07:58+08:00"
+    },
+    {
+      "code": "26445",
+      "title": "優惠券 26445",
+      "description": "優惠券 26445",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26445 優惠券 26445",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26445 優惠券 26445",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:00+08:00"
+    },
+    {
+      "code": "26446",
+      "title": "優惠券 26446",
+      "description": "優惠券 26446",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26446 優惠券 26446",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26446 優惠券 26446",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:01+08:00"
+    },
+    {
+      "code": "26447",
+      "title": "優惠券 26447",
+      "description": "優惠券 26447",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26447 優惠券 26447",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26447 優惠券 26447",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:02+08:00"
+    },
+    {
+      "code": "26448",
+      "title": "優惠券 26448",
+      "description": "優惠券 26448",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26448 優惠券 26448",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26448 優惠券 26448",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:03+08:00"
+    },
+    {
+      "code": "26449",
+      "title": "優惠券 26449",
+      "description": "優惠券 26449",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26449 優惠券 26449",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26449 優惠券 26449",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:04+08:00"
+    },
+    {
+      "code": "26450",
+      "title": "優惠券 26450",
+      "description": "優惠券 26450",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26450 優惠券 26450",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26450 優惠券 26450",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:05+08:00"
+    },
+    {
+      "code": "26451",
+      "title": "優惠券 26451",
+      "description": "優惠券 26451",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26451 優惠券 26451",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26451 優惠券 26451",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:06+08:00"
+    },
+    {
+      "code": "26452",
+      "title": "優惠券 26452",
+      "description": "優惠券 26452",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26452 優惠券 26452",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26452 優惠券 26452",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:07+08:00"
+    },
+    {
+      "code": "26453",
+      "title": "優惠券 26453",
+      "description": "優惠券 26453",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26453 優惠券 26453",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26453 優惠券 26453",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:08+08:00"
+    },
+    {
+      "code": "26454",
+      "title": "優惠券 26454",
+      "description": "優惠券 26454",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26454 優惠券 26454",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26454 優惠券 26454",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:09+08:00"
+    },
+    {
+      "code": "26455",
+      "title": "優惠券 26455",
+      "description": "優惠券 26455",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26455 優惠券 26455",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26455 優惠券 26455",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:10+08:00"
+    },
+    {
+      "code": "26456",
+      "title": "優惠券 26456",
+      "description": "優惠券 26456",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26456 優惠券 26456",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26456 優惠券 26456",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:11+08:00"
+    },
+    {
+      "code": "26457",
+      "title": "優惠券 26457",
+      "description": "優惠券 26457",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26457 優惠券 26457",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26457 優惠券 26457",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:12+08:00"
+    },
+    {
+      "code": "26458",
+      "title": "優惠券 26458",
+      "description": "優惠券 26458",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26458 優惠券 26458",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26458 優惠券 26458",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:13+08:00"
+    },
+    {
+      "code": "26459",
+      "title": "優惠券 26459",
+      "description": "優惠券 26459",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26459 優惠券 26459",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26459 優惠券 26459",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:14+08:00"
+    },
+    {
+      "code": "26461",
+      "title": "優惠券 26461",
+      "description": "優惠券 26461",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26461 優惠券 26461",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26461 優惠券 26461",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:15+08:00"
+    },
+    {
+      "code": "26462",
+      "title": "優惠券 26462",
+      "description": "優惠券 26462",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26462 優惠券 26462",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26462 優惠券 26462",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:16+08:00"
+    },
+    {
+      "code": "26469",
+      "title": "優惠券 26469",
+      "description": "優惠券 26469",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26469 優惠券 26469",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26469 優惠券 26469",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:17+08:00"
+    },
+    {
+      "code": "26470",
+      "title": "優惠券 26470",
+      "description": "優惠券 26470",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26470 優惠券 26470",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26470 優惠券 26470",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:18+08:00"
+    },
+    {
+      "code": "26471",
+      "title": "優惠券 26471",
+      "description": "優惠券 26471",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26471 優惠券 26471",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26471 優惠券 26471",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:19+08:00"
+    },
+    {
+      "code": "26472",
+      "title": "優惠券 26472",
+      "description": "優惠券 26472",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26472 優惠券 26472",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26472 優惠券 26472",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:20+08:00"
+    },
+    {
+      "code": "26473",
+      "title": "優惠券 26473",
+      "description": "優惠券 26473",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26473 優惠券 26473",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26473 優惠券 26473",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:21+08:00"
+    },
+    {
+      "code": "26474",
+      "title": "優惠券 26474",
+      "description": "優惠券 26474",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26474 優惠券 26474",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26474 優惠券 26474",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:22+08:00"
+    },
+    {
+      "code": "26475",
+      "title": "優惠券 26475",
+      "description": "優惠券 26475",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26475 優惠券 26475",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26475 優惠券 26475",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:23+08:00"
+    },
+    {
+      "code": "26476",
+      "title": "優惠券 26476",
+      "description": "優惠券 26476",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26476 優惠券 26476",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26476 優惠券 26476",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:24+08:00"
+    },
+    {
+      "code": "26477",
+      "title": "優惠券 26477",
+      "description": "優惠券 26477",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26477 優惠券 26477",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26477 優惠券 26477",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:25+08:00"
+    },
+    {
+      "code": "26478",
+      "title": "優惠券 26478",
+      "description": "優惠券 26478",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26478 優惠券 26478",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26478 優惠券 26478",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:26+08:00"
+    },
+    {
+      "code": "26479",
+      "title": "優惠券 26479",
+      "description": "優惠券 26479",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26479 優惠券 26479",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26479 優惠券 26479",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:27+08:00"
+    },
+    {
+      "code": "26480",
+      "title": "優惠券 26480",
+      "description": "優惠券 26480",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26480 優惠券 26480",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26480 優惠券 26480",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:28+08:00"
+    },
+    {
+      "code": "26481",
+      "title": "優惠券 26481",
+      "description": "優惠券 26481",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26481 優惠券 26481",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26481 優惠券 26481",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:29+08:00"
+    },
+    {
+      "code": "26482",
+      "title": "優惠券 26482",
+      "description": "優惠券 26482",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26482 優惠券 26482",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26482 優惠券 26482",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:30+08:00"
+    },
+    {
+      "code": "26483",
+      "title": "優惠券 26483",
+      "description": "優惠券 26483",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26483 優惠券 26483",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26483 優惠券 26483",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:31+08:00"
+    },
+    {
+      "code": "26484",
+      "title": "優惠券 26484",
+      "description": "優惠券 26484",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26484 優惠券 26484",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26484 優惠券 26484",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:32+08:00"
+    },
+    {
+      "code": "26485",
+      "title": "優惠券 26485",
+      "description": "優惠券 26485",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26485 優惠券 26485",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26485 優惠券 26485",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:33+08:00"
+    },
+    {
+      "code": "26486",
+      "title": "優惠券 26486",
+      "description": "優惠券 26486",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26486 優惠券 26486",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26486 優惠券 26486",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:34+08:00"
+    },
+    {
+      "code": "26487",
+      "title": "優惠券 26487",
+      "description": "優惠券 26487",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26487 優惠券 26487",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26487 優惠券 26487",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:35+08:00"
+    },
+    {
+      "code": "26488",
+      "title": "優惠券 26488",
+      "description": "優惠券 26488",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26488 優惠券 26488",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26488 優惠券 26488",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:36+08:00"
+    },
+    {
+      "code": "26489",
+      "title": "優惠券 26489",
+      "description": "優惠券 26489",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26489 優惠券 26489",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26489 優惠券 26489",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:37+08:00"
+    },
+    {
+      "code": "26490",
+      "title": "優惠券 26490",
+      "description": "優惠券 26490",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26490 優惠券 26490",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26490 優惠券 26490",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:38+08:00"
+    },
+    {
+      "code": "26493",
+      "title": "優惠券 26493",
+      "description": "優惠券 26493",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26493 優惠券 26493",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26493 優惠券 26493",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:39+08:00"
+    },
+    {
+      "code": "26494",
+      "title": "優惠券 26494",
+      "description": "優惠券 26494",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26494 優惠券 26494",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26494 優惠券 26494",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:40+08:00"
+    },
+    {
+      "code": "26501",
+      "title": "優惠券 26501",
+      "description": "優惠券 26501",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26501 優惠券 26501",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26501 優惠券 26501",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:41+08:00"
+    },
+    {
+      "code": "26502",
+      "title": "優惠券 26502",
+      "description": "優惠券 26502",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26502 優惠券 26502",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26502 優惠券 26502",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:42+08:00"
+    },
+    {
+      "code": "26503",
+      "title": "優惠券 26503",
+      "description": "優惠券 26503",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26503 優惠券 26503",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26503 優惠券 26503",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:43+08:00"
+    },
+    {
+      "code": "26504",
+      "title": "優惠券 26504",
+      "description": "優惠券 26504",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26504 優惠券 26504",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26504 優惠券 26504",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:44+08:00"
+    },
+    {
+      "code": "26505",
+      "title": "優惠券 26505",
+      "description": "優惠券 26505",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26505 優惠券 26505",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26505 優惠券 26505",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:45+08:00"
+    },
+    {
+      "code": "26506",
+      "title": "優惠券 26506",
+      "description": "優惠券 26506",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26506 優惠券 26506",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26506 優惠券 26506",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:46+08:00"
+    },
+    {
+      "code": "26507",
+      "title": "優惠券 26507",
+      "description": "優惠券 26507",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26507 優惠券 26507",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26507 優惠券 26507",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:47+08:00"
+    },
+    {
+      "code": "26508",
+      "title": "優惠券 26508",
+      "description": "優惠券 26508",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26508 優惠券 26508",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26508 優惠券 26508",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:48+08:00"
+    },
+    {
+      "code": "26509",
+      "title": "優惠券 26509",
+      "description": "優惠券 26509",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26509 優惠券 26509",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26509 優惠券 26509",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:49+08:00"
+    },
+    {
+      "code": "26510",
+      "title": "優惠券 26510",
+      "description": "優惠券 26510",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26510 優惠券 26510",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26510 優惠券 26510",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:50+08:00"
+    },
+    {
+      "code": "26511",
+      "title": "優惠券 26511",
+      "description": "優惠券 26511",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26511 優惠券 26511",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26511 優惠券 26511",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:51+08:00"
+    },
+    {
+      "code": "26512",
+      "title": "優惠券 26512",
+      "description": "優惠券 26512",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26512 優惠券 26512",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26512 優惠券 26512",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:53+08:00"
+    },
+    {
+      "code": "26513",
+      "title": "優惠券 26513",
+      "description": "優惠券 26513",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26513 優惠券 26513",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26513 優惠券 26513",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:54+08:00"
+    },
+    {
+      "code": "26514",
+      "title": "優惠券 26514",
+      "description": "優惠券 26514",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26514 優惠券 26514",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26514 優惠券 26514",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:55+08:00"
+    },
+    {
+      "code": "26515",
+      "title": "優惠券 26515",
+      "description": "優惠券 26515",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26515 優惠券 26515",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26515 優惠券 26515",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:56+08:00"
+    },
+    {
+      "code": "26516",
+      "title": "優惠券 26516",
+      "description": "優惠券 26516",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26516 優惠券 26516",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26516 優惠券 26516",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:57+08:00"
+    },
+    {
+      "code": "26517",
+      "title": "優惠券 26517",
+      "description": "優惠券 26517",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26517 優惠券 26517",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26517 優惠券 26517",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:58+08:00"
+    },
+    {
+      "code": "26518",
+      "title": "優惠券 26518",
+      "description": "優惠券 26518",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26518 優惠券 26518",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26518 優惠券 26518",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:08:59+08:00"
+    },
+    {
+      "code": "26519",
+      "title": "優惠券 26519",
+      "description": "優惠券 26519",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26519 優惠券 26519",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26519 優惠券 26519",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:00+08:00"
+    },
+    {
+      "code": "26520",
+      "title": "優惠券 26520",
+      "description": "優惠券 26520",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26520 優惠券 26520",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26520 優惠券 26520",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:01+08:00"
+    },
+    {
+      "code": "26521",
+      "title": "優惠券 26521",
+      "description": "優惠券 26521",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26521 優惠券 26521",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26521 優惠券 26521",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:02+08:00"
+    },
+    {
+      "code": "26522",
+      "title": "優惠券 26522",
+      "description": "優惠券 26522",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26522 優惠券 26522",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26522 優惠券 26522",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:03+08:00"
+    },
+    {
+      "code": "26526",
+      "title": "優惠券 26526",
+      "description": "優惠券 26526",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26526 優惠券 26526",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26526 優惠券 26526",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:04+08:00"
+    },
+    {
+      "code": "26527",
+      "title": "優惠券 26527",
+      "description": "優惠券 26527",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26527 優惠券 26527",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26527 優惠券 26527",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:05+08:00"
+    },
+    {
+      "code": "26528",
+      "title": "優惠券 26528",
+      "description": "優惠券 26528",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26528 優惠券 26528",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26528 優惠券 26528",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:06+08:00"
+    },
+    {
+      "code": "26529",
+      "title": "優惠券 26529",
+      "description": "優惠券 26529",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26529 優惠券 26529",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26529 優惠券 26529",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:07+08:00"
+    },
+    {
+      "code": "26530",
+      "title": "優惠券 26530",
+      "description": "優惠券 26530",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26530 優惠券 26530",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26530 優惠券 26530",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:08+08:00"
+    },
+    {
+      "code": "26531",
+      "title": "優惠券 26531",
+      "description": "優惠券 26531",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26531 優惠券 26531",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26531 優惠券 26531",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:09+08:00"
+    },
+    {
+      "code": "26532",
+      "title": "優惠券 26532",
+      "description": "優惠券 26532",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26532 優惠券 26532",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26532 優惠券 26532",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:10+08:00"
+    },
+    {
+      "code": "26533",
+      "title": "優惠券 26533",
+      "description": "優惠券 26533",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26533 優惠券 26533",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26533 優惠券 26533",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:11+08:00"
+    },
+    {
+      "code": "26534",
+      "title": "優惠券 26534",
+      "description": "優惠券 26534",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26534 優惠券 26534",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26534 優惠券 26534",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:12+08:00"
+    },
+    {
+      "code": "26535",
+      "title": "優惠券 26535",
+      "description": "優惠券 26535",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26535 優惠券 26535",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26535 優惠券 26535",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:14+08:00"
+    },
+    {
+      "code": "26536",
+      "title": "優惠券 26536",
+      "description": "優惠券 26536",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26536 優惠券 26536",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26536 優惠券 26536",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:15+08:00"
+    },
+    {
+      "code": "26537",
+      "title": "優惠券 26537",
+      "description": "優惠券 26537",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26537 優惠券 26537",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26537 優惠券 26537",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:16+08:00"
+    },
+    {
+      "code": "26538",
+      "title": "優惠券 26538",
+      "description": "優惠券 26538",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26538 優惠券 26538",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26538 優惠券 26538",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:17+08:00"
+    },
+    {
+      "code": "26539",
+      "title": "優惠券 26539",
+      "description": "優惠券 26539",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26539 優惠券 26539",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26539 優惠券 26539",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:18+08:00"
+    },
+    {
+      "code": "26540",
+      "title": "優惠券 26540",
+      "description": "優惠券 26540",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26540 優惠券 26540",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26540 優惠券 26540",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:20+08:00"
+    },
+    {
+      "code": "26541",
+      "title": "優惠券 26541",
+      "description": "優惠券 26541",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26541 優惠券 26541",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26541 優惠券 26541",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:21+08:00"
+    },
+    {
+      "code": "26542",
+      "title": "優惠券 26542",
+      "description": "優惠券 26542",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26542 優惠券 26542",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26542 優惠券 26542",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:22+08:00"
+    },
+    {
+      "code": "26543",
+      "title": "優惠券 26543",
+      "description": "優惠券 26543",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26543 優惠券 26543",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26543 優惠券 26543",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:23+08:00"
+    },
+    {
+      "code": "26544",
+      "title": "優惠券 26544",
+      "description": "優惠券 26544",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26544 優惠券 26544",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26544 優惠券 26544",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:24+08:00"
+    },
+    {
+      "code": "26545",
+      "title": "優惠券 26545",
+      "description": "優惠券 26545",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26545 優惠券 26545",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26545 優惠券 26545",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:25+08:00"
+    },
+    {
+      "code": "26546",
+      "title": "優惠券 26546",
+      "description": "優惠券 26546",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26546 優惠券 26546",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26546 優惠券 26546",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:27+08:00"
+    },
+    {
+      "code": "26547",
+      "title": "優惠券 26547",
+      "description": "優惠券 26547",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26547 優惠券 26547",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26547 優惠券 26547",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:28+08:00"
+    },
+    {
+      "code": "26548",
+      "title": "優惠券 26548",
+      "description": "優惠券 26548",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26548 優惠券 26548",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26548 優惠券 26548",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:29+08:00"
+    },
+    {
+      "code": "26549",
+      "title": "優惠券 26549",
+      "description": "優惠券 26549",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26549 優惠券 26549",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26549 優惠券 26549",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:30+08:00"
+    },
+    {
+      "code": "26550",
+      "title": "優惠券 26550",
+      "description": "優惠券 26550",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26550 優惠券 26550",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26550 優惠券 26550",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:31+08:00"
+    },
+    {
+      "code": "26551",
+      "title": "優惠券 26551",
+      "description": "優惠券 26551",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26551 優惠券 26551",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26551 優惠券 26551",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:32+08:00"
+    },
+    {
+      "code": "26552",
+      "title": "優惠券 26552",
+      "description": "優惠券 26552",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26552 優惠券 26552",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26552 優惠券 26552",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:33+08:00"
+    },
+    {
+      "code": "26553",
+      "title": "優惠券 26553",
+      "description": "優惠券 26553",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26553 優惠券 26553",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26553 優惠券 26553",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:34+08:00"
+    },
+    {
+      "code": "26554",
+      "title": "優惠券 26554",
+      "description": "優惠券 26554",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26554 優惠券 26554",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26554 優惠券 26554",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:35+08:00"
+    },
+    {
+      "code": "26559",
+      "title": "優惠券 26559",
+      "description": "優惠券 26559",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26559 優惠券 26559",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26559 優惠券 26559",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:36+08:00"
+    },
+    {
+      "code": "26560",
+      "title": "優惠券 26560",
+      "description": "優惠券 26560",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26560 優惠券 26560",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26560 優惠券 26560",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:37+08:00"
+    },
+    {
+      "code": "26561",
+      "title": "優惠券 26561",
+      "description": "優惠券 26561",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26561 優惠券 26561",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26561 優惠券 26561",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:38+08:00"
+    },
+    {
+      "code": "26562",
+      "title": "優惠券 26562",
+      "description": "優惠券 26562",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26562 優惠券 26562",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26562 優惠券 26562",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:39+08:00"
+    },
+    {
+      "code": "26563",
+      "title": "優惠券 26563",
+      "description": "優惠券 26563",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26563 優惠券 26563",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26563 優惠券 26563",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:40+08:00"
+    },
+    {
+      "code": "26564",
+      "title": "優惠券 26564",
+      "description": "優惠券 26564",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26564 優惠券 26564",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26564 優惠券 26564",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:42+08:00"
+    },
+    {
+      "code": "26565",
+      "title": "優惠券 26565",
+      "description": "優惠券 26565",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26565 優惠券 26565",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26565 優惠券 26565",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:43+08:00"
+    },
+    {
+      "code": "26566",
+      "title": "優惠券 26566",
+      "description": "優惠券 26566",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26566 優惠券 26566",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26566 優惠券 26566",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:44+08:00"
+    },
+    {
+      "code": "26567",
+      "title": "優惠券 26567",
+      "description": "優惠券 26567",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26567 優惠券 26567",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26567 優惠券 26567",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:45+08:00"
+    },
+    {
+      "code": "26568",
+      "title": "優惠券 26568",
+      "description": "優惠券 26568",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26568 優惠券 26568",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26568 優惠券 26568",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:46+08:00"
+    },
+    {
+      "code": "26569",
+      "title": "優惠券 26569",
+      "description": "優惠券 26569",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26569 優惠券 26569",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26569 優惠券 26569",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:47+08:00"
+    },
+    {
+      "code": "26570",
+      "title": "優惠券 26570",
+      "description": "優惠券 26570",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26570 優惠券 26570",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26570 優惠券 26570",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:48+08:00"
+    },
+    {
+      "code": "26571",
+      "title": "優惠券 26571",
+      "description": "優惠券 26571",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26571 優惠券 26571",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26571 優惠券 26571",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:49+08:00"
+    },
+    {
+      "code": "26572",
+      "title": "優惠券 26572",
+      "description": "優惠券 26572",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26572 優惠券 26572",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26572 優惠券 26572",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:50+08:00"
+    },
+    {
+      "code": "26573",
+      "title": "優惠券 26573",
+      "description": "優惠券 26573",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26573 優惠券 26573",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26573 優惠券 26573",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:51+08:00"
+    },
+    {
+      "code": "26574",
+      "title": "優惠券 26574",
+      "description": "優惠券 26574",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26574 優惠券 26574",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26574 優惠券 26574",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:52+08:00"
+    },
+    {
+      "code": "26575",
+      "title": "優惠券 26575",
+      "description": "優惠券 26575",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26575 優惠券 26575",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26575 優惠券 26575",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:53+08:00"
+    },
+    {
+      "code": "26576",
+      "title": "優惠券 26576",
+      "description": "優惠券 26576",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26576 優惠券 26576",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26576 優惠券 26576",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:54+08:00"
+    },
+    {
+      "code": "26577",
+      "title": "優惠券 26577",
+      "description": "優惠券 26577",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26577 優惠券 26577",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26577 優惠券 26577",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:55+08:00"
+    },
+    {
+      "code": "26578",
+      "title": "優惠券 26578",
+      "description": "優惠券 26578",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26578 優惠券 26578",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26578 優惠券 26578",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:56+08:00"
+    },
+    {
+      "code": "26579",
+      "title": "優惠券 26579",
+      "description": "優惠券 26579",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26579 優惠券 26579",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26579 優惠券 26579",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:57+08:00"
+    },
+    {
+      "code": "26580",
+      "title": "優惠券 26580",
+      "description": "優惠券 26580",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26580 優惠券 26580",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26580 優惠券 26580",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:58+08:00"
+    },
+    {
+      "code": "26581",
+      "title": "優惠券 26581",
+      "description": "優惠券 26581",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26581 優惠券 26581",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26581 優惠券 26581",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:09:59+08:00"
+    },
+    {
+      "code": "26582",
+      "title": "優惠券 26582",
+      "description": "優惠券 26582",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26582 優惠券 26582",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26582 優惠券 26582",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:00+08:00"
+    },
+    {
+      "code": "26583",
+      "title": "優惠券 26583",
+      "description": "優惠券 26583",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26583 優惠券 26583",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26583 優惠券 26583",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:02+08:00"
+    },
+    {
+      "code": "26584",
+      "title": "優惠券 26584",
+      "description": "優惠券 26584",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26584 優惠券 26584",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26584 優惠券 26584",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:03+08:00"
+    },
+    {
+      "code": "26585",
+      "title": "優惠券 26585",
+      "description": "優惠券 26585",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26585 優惠券 26585",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26585 優惠券 26585",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:04+08:00"
+    },
+    {
+      "code": "26586",
+      "title": "優惠券 26586",
+      "description": "優惠券 26586",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26586 優惠券 26586",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26586 優惠券 26586",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:05+08:00"
+    },
+    {
+      "code": "26587",
+      "title": "優惠券 26587",
+      "description": "優惠券 26587",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26587 優惠券 26587",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26587 優惠券 26587",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:06+08:00"
+    },
+    {
+      "code": "26588",
+      "title": "優惠券 26588",
+      "description": "優惠券 26588",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26588 優惠券 26588",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26588 優惠券 26588",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:07+08:00"
+    },
+    {
+      "code": "26589",
+      "title": "優惠券 26589",
+      "description": "優惠券 26589",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26589 優惠券 26589",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26589 優惠券 26589",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:08+08:00"
+    },
+    {
+      "code": "26590",
+      "title": "優惠券 26590",
+      "description": "優惠券 26590",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26590 優惠券 26590",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26590 優惠券 26590",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:09+08:00"
+    },
+    {
+      "code": "26591",
+      "title": "優惠券 26591",
+      "description": "優惠券 26591",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26591 優惠券 26591",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26591 優惠券 26591",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:10+08:00"
+    },
+    {
+      "code": "26592",
+      "title": "優惠券 26592",
+      "description": "優惠券 26592",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26592 優惠券 26592",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26592 優惠券 26592",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:11+08:00"
+    },
+    {
+      "code": "26593",
+      "title": "優惠券 26593",
+      "description": "優惠券 26593",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26593 優惠券 26593",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26593 優惠券 26593",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:12+08:00"
+    },
+    {
+      "code": "26594",
+      "title": "優惠券 26594",
+      "description": "優惠券 26594",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26594 優惠券 26594",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26594 優惠券 26594",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:13+08:00"
+    },
+    {
+      "code": "26595",
+      "title": "優惠券 26595",
+      "description": "優惠券 26595",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26595 優惠券 26595",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26595 優惠券 26595",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:14+08:00"
+    },
+    {
+      "code": "26596",
+      "title": "優惠券 26596",
+      "description": "優惠券 26596",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26596 優惠券 26596",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26596 優惠券 26596",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:15+08:00"
+    },
+    {
+      "code": "26597",
+      "title": "優惠券 26597",
+      "description": "優惠券 26597",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26597 優惠券 26597",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26597 優惠券 26597",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:16+08:00"
+    },
+    {
+      "code": "26598",
+      "title": "優惠券 26598",
+      "description": "優惠券 26598",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26598 優惠券 26598",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26598 優惠券 26598",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:17+08:00"
+    },
+    {
+      "code": "26599",
+      "title": "優惠券 26599",
+      "description": "優惠券 26599",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26599 優惠券 26599",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26599 優惠券 26599",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:18+08:00"
+    },
+    {
+      "code": "26600",
+      "title": "優惠券 26600",
+      "description": "優惠券 26600",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26600 優惠券 26600",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26600 優惠券 26600",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:19+08:00"
+    },
+    {
+      "code": "26601",
+      "title": "優惠券 26601",
+      "description": "優惠券 26601",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26601 優惠券 26601",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26601 優惠券 26601",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:20+08:00"
+    },
+    {
+      "code": "26602",
+      "title": "優惠券 26602",
+      "description": "優惠券 26602",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26602 優惠券 26602",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26602 優惠券 26602",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:21+08:00"
+    },
+    {
+      "code": "26603",
+      "title": "優惠券 26603",
+      "description": "優惠券 26603",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26603 優惠券 26603",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26603 優惠券 26603",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:22+08:00"
+    },
+    {
+      "code": "26604",
+      "title": "優惠券 26604",
+      "description": "優惠券 26604",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26604 優惠券 26604",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26604 優惠券 26604",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:23+08:00"
+    },
+    {
+      "code": "26605",
+      "title": "優惠券 26605",
+      "description": "優惠券 26605",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26605 優惠券 26605",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26605 優惠券 26605",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:24+08:00"
+    },
+    {
+      "code": "26606",
+      "title": "優惠券 26606",
+      "description": "優惠券 26606",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26606 優惠券 26606",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26606 優惠券 26606",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:25+08:00"
+    },
+    {
+      "code": "26607",
+      "title": "優惠券 26607",
+      "description": "優惠券 26607",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26607 優惠券 26607",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26607 優惠券 26607",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:26+08:00"
+    },
+    {
+      "code": "26608",
+      "title": "優惠券 26608",
+      "description": "優惠券 26608",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26608 優惠券 26608",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26608 優惠券 26608",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:27+08:00"
+    },
+    {
+      "code": "26609",
+      "title": "優惠券 26609",
+      "description": "優惠券 26609",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26609 優惠券 26609",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26609 優惠券 26609",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:28+08:00"
+    },
+    {
+      "code": "26610",
+      "title": "優惠券 26610",
+      "description": "優惠券 26610",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26610 優惠券 26610",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26610 優惠券 26610",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:29+08:00"
+    },
+    {
+      "code": "26611",
+      "title": "優惠券 26611",
+      "description": "優惠券 26611",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26611 優惠券 26611",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26611 優惠券 26611",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:30+08:00"
+    },
+    {
+      "code": "26612",
+      "title": "優惠券 26612",
+      "description": "優惠券 26612",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26612 優惠券 26612",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26612 優惠券 26612",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:31+08:00"
+    },
+    {
+      "code": "26613",
+      "title": "優惠券 26613",
+      "description": "優惠券 26613",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26613 優惠券 26613",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26613 優惠券 26613",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:32+08:00"
+    },
+    {
+      "code": "26614",
+      "title": "優惠券 26614",
+      "description": "優惠券 26614",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26614 優惠券 26614",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26614 優惠券 26614",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:33+08:00"
+    },
+    {
+      "code": "26615",
+      "title": "優惠券 26615",
+      "description": "優惠券 26615",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26615 優惠券 26615",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26615 優惠券 26615",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:34+08:00"
+    },
+    {
+      "code": "26616",
+      "title": "優惠券 26616",
+      "description": "優惠券 26616",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26616 優惠券 26616",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26616 優惠券 26616",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:35+08:00"
+    },
+    {
+      "code": "26618",
+      "title": "優惠券 26618",
+      "description": "優惠券 26618",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26618 優惠券 26618",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26618 優惠券 26618",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:36+08:00"
+    },
+    {
+      "code": "26619",
+      "title": "優惠券 26619",
+      "description": "優惠券 26619",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26619 優惠券 26619",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26619 優惠券 26619",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:37+08:00"
+    },
+    {
+      "code": "26620",
+      "title": "優惠券 26620",
+      "description": "優惠券 26620",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26620 優惠券 26620",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26620 優惠券 26620",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:38+08:00"
+    },
+    {
+      "code": "26621",
+      "title": "優惠券 26621",
+      "description": "優惠券 26621",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26621 優惠券 26621",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26621 優惠券 26621",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:39+08:00"
+    },
+    {
+      "code": "26622",
+      "title": "優惠券 26622",
+      "description": "優惠券 26622",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26622 優惠券 26622",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26622 優惠券 26622",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:40+08:00"
+    },
+    {
+      "code": "26623",
+      "title": "優惠券 26623",
+      "description": "優惠券 26623",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26623 優惠券 26623",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26623 優惠券 26623",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:41+08:00"
+    },
+    {
+      "code": "26624",
+      "title": "優惠券 26624",
+      "description": "優惠券 26624",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26624 優惠券 26624",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26624 優惠券 26624",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:42+08:00"
+    },
+    {
+      "code": "26625",
+      "title": "優惠券 26625",
+      "description": "優惠券 26625",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26625 優惠券 26625",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26625 優惠券 26625",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:43+08:00"
+    },
+    {
+      "code": "26626",
+      "title": "優惠券 26626",
+      "description": "優惠券 26626",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26626 優惠券 26626",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26626 優惠券 26626",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:44+08:00"
+    },
+    {
+      "code": "26631",
+      "title": "優惠券 26631",
+      "description": "優惠券 26631",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26631 優惠券 26631",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26631 優惠券 26631",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:45+08:00"
+    },
+    {
+      "code": "26632",
+      "title": "優惠券 26632",
+      "description": "優惠券 26632",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26632 優惠券 26632",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26632 優惠券 26632",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:46+08:00"
+    },
+    {
+      "code": "26633",
+      "title": "優惠券 26633",
+      "description": "優惠券 26633",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26633 優惠券 26633",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26633 優惠券 26633",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:47+08:00"
+    },
+    {
+      "code": "26634",
+      "title": "優惠券 26634",
+      "description": "優惠券 26634",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26634 優惠券 26634",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26634 優惠券 26634",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:48+08:00"
+    },
+    {
+      "code": "26635",
+      "title": "優惠券 26635",
+      "description": "優惠券 26635",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26635 優惠券 26635",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26635 優惠券 26635",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:49+08:00"
+    },
+    {
+      "code": "26636",
+      "title": "優惠券 26636",
+      "description": "優惠券 26636",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26636 優惠券 26636",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26636 優惠券 26636",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:50+08:00"
+    },
+    {
+      "code": "26637",
+      "title": "優惠券 26637",
+      "description": "優惠券 26637",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26637 優惠券 26637",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26637 優惠券 26637",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:51+08:00"
+    },
+    {
+      "code": "26638",
+      "title": "優惠券 26638",
+      "description": "優惠券 26638",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26638 優惠券 26638",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26638 優惠券 26638",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:52+08:00"
+    },
+    {
+      "code": "26639",
+      "title": "優惠券 26639",
+      "description": "優惠券 26639",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26639 優惠券 26639",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26639 優惠券 26639",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:53+08:00"
+    },
+    {
+      "code": "26640",
+      "title": "優惠券 26640",
+      "description": "優惠券 26640",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26640 優惠券 26640",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26640 優惠券 26640",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:54+08:00"
+    },
+    {
+      "code": "26641",
+      "title": "優惠券 26641",
+      "description": "優惠券 26641",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26641 優惠券 26641",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26641 優惠券 26641",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:55+08:00"
+    },
+    {
+      "code": "26642",
+      "title": "優惠券 26642",
+      "description": "優惠券 26642",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26642 優惠券 26642",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26642 優惠券 26642",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:57+08:00"
+    },
+    {
+      "code": "26643",
+      "title": "優惠券 26643",
+      "description": "優惠券 26643",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26643 優惠券 26643",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26643 優惠券 26643",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:58+08:00"
+    },
+    {
+      "code": "26651",
+      "title": "優惠券 26651",
+      "description": "優惠券 26651",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26651 優惠券 26651",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26651 優惠券 26651",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:10:59+08:00"
+    },
+    {
+      "code": "26652",
+      "title": "優惠券 26652",
+      "description": "優惠券 26652",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26652 優惠券 26652",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26652 優惠券 26652",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:00+08:00"
+    },
+    {
+      "code": "26653",
+      "title": "優惠券 26653",
+      "description": "優惠券 26653",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26653 優惠券 26653",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26653 優惠券 26653",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:01+08:00"
+    },
+    {
+      "code": "26654",
+      "title": "優惠券 26654",
+      "description": "優惠券 26654",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26654 優惠券 26654",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26654 優惠券 26654",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:02+08:00"
+    },
+    {
+      "code": "26655",
+      "title": "優惠券 26655",
+      "description": "優惠券 26655",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26655 優惠券 26655",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26655 優惠券 26655",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:03+08:00"
+    },
+    {
+      "code": "26656",
+      "title": "優惠券 26656",
+      "description": "優惠券 26656",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26656 優惠券 26656",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26656 優惠券 26656",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:04+08:00"
+    },
+    {
+      "code": "26657",
+      "title": "優惠券 26657",
+      "description": "優惠券 26657",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26657 優惠券 26657",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26657 優惠券 26657",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:05+08:00"
+    },
+    {
+      "code": "26658",
+      "title": "優惠券 26658",
+      "description": "優惠券 26658",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26658 優惠券 26658",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26658 優惠券 26658",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:06+08:00"
+    },
+    {
+      "code": "26659",
+      "title": "優惠券 26659",
+      "description": "優惠券 26659",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26659 優惠券 26659",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26659 優惠券 26659",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:07+08:00"
+    },
+    {
+      "code": "26660",
+      "title": "優惠券 26660",
+      "description": "優惠券 26660",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26660 優惠券 26660",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26660 優惠券 26660",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:08+08:00"
+    },
+    {
+      "code": "26661",
+      "title": "優惠券 26661",
+      "description": "優惠券 26661",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26661 優惠券 26661",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26661 優惠券 26661",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:09+08:00"
+    },
+    {
+      "code": "26662",
+      "title": "優惠券 26662",
+      "description": "優惠券 26662",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26662 優惠券 26662",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26662 優惠券 26662",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:10+08:00"
+    },
+    {
+      "code": "26663",
+      "title": "優惠券 26663",
+      "description": "優惠券 26663",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26663 優惠券 26663",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26663 優惠券 26663",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:11+08:00"
+    },
+    {
+      "code": "26664",
+      "title": "優惠券 26664",
+      "description": "優惠券 26664",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26664 優惠券 26664",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26664 優惠券 26664",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:12+08:00"
+    },
+    {
+      "code": "26665",
+      "title": "優惠券 26665",
+      "description": "優惠券 26665",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26665 優惠券 26665",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26665 優惠券 26665",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:13+08:00"
+    },
+    {
+      "code": "26666",
+      "title": "優惠券 26666",
+      "description": "優惠券 26666",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26666 優惠券 26666",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26666 優惠券 26666",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:14+08:00"
+    },
+    {
+      "code": "26667",
+      "title": "優惠券 26667",
+      "description": "優惠券 26667",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26667 優惠券 26667",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26667 優惠券 26667",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:15+08:00"
+    },
+    {
+      "code": "26668",
+      "title": "優惠券 26668",
+      "description": "優惠券 26668",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26668 優惠券 26668",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26668 優惠券 26668",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:16+08:00"
+    },
+    {
+      "code": "26669",
+      "title": "優惠券 26669",
+      "description": "優惠券 26669",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26669 優惠券 26669",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26669 優惠券 26669",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:17+08:00"
+    },
+    {
+      "code": "26670",
+      "title": "優惠券 26670",
+      "description": "優惠券 26670",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26670 優惠券 26670",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26670 優惠券 26670",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:18+08:00"
+    },
+    {
+      "code": "26671",
+      "title": "優惠券 26671",
+      "description": "優惠券 26671",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26671 優惠券 26671",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26671 優惠券 26671",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:19+08:00"
+    },
+    {
+      "code": "26672",
+      "title": "優惠券 26672",
+      "description": "優惠券 26672",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26672 優惠券 26672",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26672 優惠券 26672",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:20+08:00"
+    },
+    {
+      "code": "26673",
+      "title": "優惠券 26673",
+      "description": "優惠券 26673",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26673 優惠券 26673",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26673 優惠券 26673",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:21+08:00"
+    },
+    {
+      "code": "26674",
+      "title": "優惠券 26674",
+      "description": "優惠券 26674",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26674 優惠券 26674",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26674 優惠券 26674",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:22+08:00"
+    },
+    {
+      "code": "26675",
+      "title": "優惠券 26675",
+      "description": "優惠券 26675",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26675 優惠券 26675",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26675 優惠券 26675",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:23+08:00"
+    },
+    {
+      "code": "26676",
+      "title": "優惠券 26676",
+      "description": "優惠券 26676",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26676 優惠券 26676",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26676 優惠券 26676",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:24+08:00"
+    },
+    {
+      "code": "26677",
+      "title": "優惠券 26677",
+      "description": "優惠券 26677",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26677 優惠券 26677",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26677 優惠券 26677",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:25+08:00"
+    },
+    {
+      "code": "26678",
+      "title": "優惠券 26678",
+      "description": "優惠券 26678",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26678 優惠券 26678",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26678 優惠券 26678",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:26+08:00"
+    },
+    {
+      "code": "26679",
+      "title": "優惠券 26679",
+      "description": "優惠券 26679",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26679 優惠券 26679",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26679 優惠券 26679",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:27+08:00"
+    },
+    {
+      "code": "26680",
+      "title": "優惠券 26680",
+      "description": "優惠券 26680",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26680 優惠券 26680",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26680 優惠券 26680",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:28+08:00"
+    },
+    {
+      "code": "26681",
+      "title": "優惠券 26681",
+      "description": "優惠券 26681",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26681 優惠券 26681",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26681 優惠券 26681",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:29+08:00"
+    },
+    {
+      "code": "26682",
+      "title": "優惠券 26682",
+      "description": "優惠券 26682",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26682 優惠券 26682",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26682 優惠券 26682",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:30+08:00"
+    },
+    {
+      "code": "26683",
+      "title": "優惠券 26683",
+      "description": "優惠券 26683",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26683 優惠券 26683",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26683 優惠券 26683",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:31+08:00"
+    },
+    {
+      "code": "26684",
+      "title": "優惠券 26684",
+      "description": "優惠券 26684",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26684 優惠券 26684",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26684 優惠券 26684",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:32+08:00"
+    },
+    {
+      "code": "26685",
+      "title": "優惠券 26685",
+      "description": "優惠券 26685",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26685 優惠券 26685",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26685 優惠券 26685",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:33+08:00"
+    },
+    {
+      "code": "26686",
+      "title": "優惠券 26686",
+      "description": "優惠券 26686",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26686 優惠券 26686",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26686 優惠券 26686",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:34+08:00"
+    },
+    {
+      "code": "26687",
+      "title": "優惠券 26687",
+      "description": "優惠券 26687",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26687 優惠券 26687",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26687 優惠券 26687",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:35+08:00"
+    },
+    {
+      "code": "26688",
+      "title": "優惠券 26688",
+      "description": "優惠券 26688",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26688 優惠券 26688",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26688 優惠券 26688",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:36+08:00"
+    },
+    {
+      "code": "26689",
+      "title": "優惠券 26689",
+      "description": "優惠券 26689",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26689 優惠券 26689",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26689 優惠券 26689",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:37+08:00"
+    },
+    {
+      "code": "26690",
+      "title": "優惠券 26690",
+      "description": "優惠券 26690",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26690 優惠券 26690",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26690 優惠券 26690",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:38+08:00"
+    },
+    {
+      "code": "26691",
+      "title": "優惠券 26691",
+      "description": "優惠券 26691",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26691 優惠券 26691",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26691 優惠券 26691",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:39+08:00"
+    },
+    {
+      "code": "26692",
+      "title": "優惠券 26692",
+      "description": "優惠券 26692",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26692 優惠券 26692",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26692 優惠券 26692",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:40+08:00"
+    },
+    {
+      "code": "26693",
+      "title": "優惠券 26693",
+      "description": "優惠券 26693",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26693 優惠券 26693",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26693 優惠券 26693",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:41+08:00"
+    },
+    {
+      "code": "26694",
+      "title": "優惠券 26694",
+      "description": "優惠券 26694",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26694 優惠券 26694",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26694 優惠券 26694",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:42+08:00"
+    },
+    {
+      "code": "26695",
+      "title": "優惠券 26695",
+      "description": "優惠券 26695",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26695 優惠券 26695",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26695 優惠券 26695",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:43+08:00"
+    },
+    {
+      "code": "26696",
+      "title": "優惠券 26696",
+      "description": "優惠券 26696",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26696 優惠券 26696",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26696 優惠券 26696",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:44+08:00"
+    },
+    {
+      "code": "26697",
+      "title": "優惠券 26697",
+      "description": "優惠券 26697",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26697 優惠券 26697",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26697 優惠券 26697",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:45+08:00"
+    },
+    {
+      "code": "26698",
+      "title": "優惠券 26698",
+      "description": "優惠券 26698",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26698 優惠券 26698",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26698 優惠券 26698",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:46+08:00"
+    },
+    {
+      "code": "26699",
+      "title": "優惠券 26699",
+      "description": "優惠券 26699",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26699 優惠券 26699",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26699 優惠券 26699",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:47+08:00"
+    },
+    {
+      "code": "26700",
+      "title": "優惠券 26700",
+      "description": "優惠券 26700",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26700 優惠券 26700",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26700 優惠券 26700",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:48+08:00"
+    },
+    {
+      "code": "26701",
+      "title": "優惠券 26701",
+      "description": "優惠券 26701",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26701 優惠券 26701",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26701 優惠券 26701",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:50+08:00"
+    },
+    {
+      "code": "26702",
+      "title": "優惠券 26702",
+      "description": "優惠券 26702",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26702 優惠券 26702",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26702 優惠券 26702",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:51+08:00"
+    },
+    {
+      "code": "26703",
+      "title": "優惠券 26703",
+      "description": "優惠券 26703",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26703 優惠券 26703",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26703 優惠券 26703",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:52+08:00"
+    },
+    {
+      "code": "26704",
+      "title": "優惠券 26704",
+      "description": "優惠券 26704",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26704 優惠券 26704",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26704 優惠券 26704",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:53+08:00"
+    },
+    {
+      "code": "26705",
+      "title": "優惠券 26705",
+      "description": "優惠券 26705",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26705 優惠券 26705",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26705 優惠券 26705",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:54+08:00"
+    },
+    {
+      "code": "26706",
+      "title": "優惠券 26706",
+      "description": "優惠券 26706",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26706 優惠券 26706",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26706 優惠券 26706",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:55+08:00"
+    },
+    {
+      "code": "26707",
+      "title": "優惠券 26707",
+      "description": "優惠券 26707",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26707 優惠券 26707",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26707 優惠券 26707",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:56+08:00"
+    },
+    {
+      "code": "26708",
+      "title": "優惠券 26708",
+      "description": "優惠券 26708",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26708 優惠券 26708",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26708 優惠券 26708",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:57+08:00"
+    },
+    {
+      "code": "26709",
+      "title": "優惠券 26709",
+      "description": "優惠券 26709",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26709 優惠券 26709",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26709 優惠券 26709",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:58+08:00"
+    },
+    {
+      "code": "26710",
+      "title": "優惠券 26710",
+      "description": "優惠券 26710",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26710 優惠券 26710",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26710 優惠券 26710",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:11:59+08:00"
+    },
+    {
+      "code": "26711",
+      "title": "優惠券 26711",
+      "description": "優惠券 26711",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26711 優惠券 26711",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26711 優惠券 26711",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:00+08:00"
+    },
+    {
+      "code": "26712",
+      "title": "優惠券 26712",
+      "description": "優惠券 26712",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26712 優惠券 26712",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26712 優惠券 26712",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:01+08:00"
+    },
+    {
+      "code": "26713",
+      "title": "優惠券 26713",
+      "description": "優惠券 26713",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26713 優惠券 26713",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26713 優惠券 26713",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:02+08:00"
+    },
+    {
+      "code": "26714",
+      "title": "優惠券 26714",
+      "description": "優惠券 26714",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26714 優惠券 26714",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26714 優惠券 26714",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:03+08:00"
+    },
+    {
+      "code": "26715",
+      "title": "優惠券 26715",
+      "description": "優惠券 26715",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26715 優惠券 26715",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26715 優惠券 26715",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:04+08:00"
+    },
+    {
+      "code": "26716",
+      "title": "優惠券 26716",
+      "description": "優惠券 26716",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26716 優惠券 26716",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26716 優惠券 26716",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:05+08:00"
+    },
+    {
+      "code": "26717",
+      "title": "優惠券 26717",
+      "description": "優惠券 26717",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26717 優惠券 26717",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26717 優惠券 26717",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:06+08:00"
+    },
+    {
+      "code": "26718",
+      "title": "優惠券 26718",
+      "description": "優惠券 26718",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26718 優惠券 26718",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26718 優惠券 26718",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:07+08:00"
+    },
+    {
+      "code": "26719",
+      "title": "優惠券 26719",
+      "description": "優惠券 26719",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26719 優惠券 26719",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26719 優惠券 26719",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:08+08:00"
+    },
+    {
+      "code": "26720",
+      "title": "優惠券 26720",
+      "description": "優惠券 26720",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26720 優惠券 26720",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26720 優惠券 26720",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:09+08:00"
+    },
+    {
+      "code": "26721",
+      "title": "優惠券 26721",
+      "description": "優惠券 26721",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26721 優惠券 26721",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26721 優惠券 26721",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:10+08:00"
+    },
+    {
+      "code": "26722",
+      "title": "優惠券 26722",
+      "description": "優惠券 26722",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26722 優惠券 26722",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26722 優惠券 26722",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:11+08:00"
+    },
+    {
+      "code": "26723",
+      "title": "優惠券 26723",
+      "description": "優惠券 26723",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26723 優惠券 26723",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26723 優惠券 26723",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:12+08:00"
+    },
+    {
+      "code": "26724",
+      "title": "優惠券 26724",
+      "description": "優惠券 26724",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26724 優惠券 26724",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26724 優惠券 26724",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:13+08:00"
+    },
+    {
+      "code": "26725",
+      "title": "優惠券 26725",
+      "description": "優惠券 26725",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26725 優惠券 26725",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26725 優惠券 26725",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:14+08:00"
+    },
+    {
+      "code": "26726",
+      "title": "優惠券 26726",
+      "description": "優惠券 26726",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26726 優惠券 26726",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26726 優惠券 26726",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:15+08:00"
+    },
+    {
+      "code": "26727",
+      "title": "優惠券 26727",
+      "description": "優惠券 26727",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26727 優惠券 26727",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26727 優惠券 26727",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:16+08:00"
+    },
+    {
+      "code": "26728",
+      "title": "優惠券 26728",
+      "description": "優惠券 26728",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26728 優惠券 26728",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26728 優惠券 26728",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:17+08:00"
+    },
+    {
+      "code": "26729",
+      "title": "優惠券 26729",
+      "description": "優惠券 26729",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26729 優惠券 26729",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26729 優惠券 26729",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:18+08:00"
+    },
+    {
+      "code": "26730",
+      "title": "優惠券 26730",
+      "description": "優惠券 26730",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26730 優惠券 26730",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26730 優惠券 26730",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:19+08:00"
+    },
+    {
+      "code": "26731",
+      "title": "優惠券 26731",
+      "description": "優惠券 26731",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26731 優惠券 26731",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26731 優惠券 26731",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:20+08:00"
+    },
+    {
+      "code": "26732",
+      "title": "優惠券 26732",
+      "description": "優惠券 26732",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26732 優惠券 26732",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26732 優惠券 26732",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:21+08:00"
+    },
+    {
+      "code": "26733",
+      "title": "優惠券 26733",
+      "description": "優惠券 26733",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26733 優惠券 26733",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26733 優惠券 26733",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:22+08:00"
+    },
+    {
+      "code": "26734",
+      "title": "優惠券 26734",
+      "description": "優惠券 26734",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26734 優惠券 26734",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26734 優惠券 26734",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:23+08:00"
+    },
+    {
+      "code": "26735",
+      "title": "優惠券 26735",
+      "description": "優惠券 26735",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26735 優惠券 26735",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26735 優惠券 26735",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:24+08:00"
+    },
+    {
+      "code": "26736",
+      "title": "優惠券 26736",
+      "description": "優惠券 26736",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26736 優惠券 26736",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26736 優惠券 26736",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:25+08:00"
+    },
+    {
+      "code": "26737",
+      "title": "優惠券 26737",
+      "description": "優惠券 26737",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26737 優惠券 26737",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26737 優惠券 26737",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:26+08:00"
+    },
+    {
+      "code": "26738",
+      "title": "優惠券 26738",
+      "description": "優惠券 26738",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26738 優惠券 26738",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26738 優惠券 26738",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:27+08:00"
+    },
+    {
+      "code": "26739",
+      "title": "優惠券 26739",
+      "description": "優惠券 26739",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26739 優惠券 26739",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26739 優惠券 26739",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:28+08:00"
+    },
+    {
+      "code": "26740",
+      "title": "優惠券 26740",
+      "description": "優惠券 26740",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26740 優惠券 26740",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26740 優惠券 26740",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:29+08:00"
+    },
+    {
+      "code": "26741",
+      "title": "優惠券 26741",
+      "description": "優惠券 26741",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26741 優惠券 26741",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26741 優惠券 26741",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:30+08:00"
+    },
+    {
+      "code": "26742",
+      "title": "優惠券 26742",
+      "description": "優惠券 26742",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26742 優惠券 26742",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26742 優惠券 26742",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:31+08:00"
+    },
+    {
+      "code": "26743",
+      "title": "優惠券 26743",
+      "description": "優惠券 26743",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26743 優惠券 26743",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26743 優惠券 26743",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:32+08:00"
+    },
+    {
+      "code": "26744",
+      "title": "優惠券 26744",
+      "description": "優惠券 26744",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26744 優惠券 26744",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26744 優惠券 26744",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:33+08:00"
+    },
+    {
+      "code": "26745",
+      "title": "優惠券 26745",
+      "description": "優惠券 26745",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26745 優惠券 26745",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26745 優惠券 26745",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:34+08:00"
+    },
+    {
+      "code": "26746",
+      "title": "優惠券 26746",
+      "description": "優惠券 26746",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26746 優惠券 26746",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26746 優惠券 26746",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:35+08:00"
+    },
+    {
+      "code": "26747",
+      "title": "優惠券 26747",
+      "description": "優惠券 26747",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26747 優惠券 26747",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26747 優惠券 26747",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:36+08:00"
+    },
+    {
+      "code": "26748",
+      "title": "優惠券 26748",
+      "description": "優惠券 26748",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26748 優惠券 26748",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26748 優惠券 26748",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:37+08:00"
+    },
+    {
+      "code": "26749",
+      "title": "優惠券 26749",
+      "description": "優惠券 26749",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26749 優惠券 26749",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26749 優惠券 26749",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:38+08:00"
+    },
+    {
+      "code": "26750",
+      "title": "優惠券 26750",
+      "description": "優惠券 26750",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26750 優惠券 26750",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26750 優惠券 26750",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:39+08:00"
+    },
+    {
+      "code": "26751",
+      "title": "優惠券 26751",
+      "description": "優惠券 26751",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26751 優惠券 26751",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26751 優惠券 26751",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:40+08:00"
+    },
+    {
+      "code": "26752",
+      "title": "優惠券 26752",
+      "description": "優惠券 26752",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26752 優惠券 26752",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26752 優惠券 26752",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:41+08:00"
+    },
+    {
+      "code": "26753",
+      "title": "優惠券 26753",
+      "description": "優惠券 26753",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26753 優惠券 26753",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26753 優惠券 26753",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:42+08:00"
+    },
+    {
+      "code": "26754",
+      "title": "優惠券 26754",
+      "description": "優惠券 26754",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26754 優惠券 26754",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26754 優惠券 26754",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:43+08:00"
+    },
+    {
+      "code": "26755",
+      "title": "優惠券 26755",
+      "description": "優惠券 26755",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26755 優惠券 26755",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26755 優惠券 26755",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:45+08:00"
+    },
+    {
+      "code": "26756",
+      "title": "優惠券 26756",
+      "description": "優惠券 26756",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26756 優惠券 26756",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26756 優惠券 26756",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:46+08:00"
+    },
+    {
+      "code": "26757",
+      "title": "優惠券 26757",
+      "description": "優惠券 26757",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26757 優惠券 26757",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26757 優惠券 26757",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:47+08:00"
+    },
+    {
+      "code": "26758",
+      "title": "優惠券 26758",
+      "description": "優惠券 26758",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26758 優惠券 26758",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26758 優惠券 26758",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:48+08:00"
+    },
+    {
+      "code": "26760",
+      "title": "優惠券 26760",
+      "description": "優惠券 26760",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26760 優惠券 26760",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26760 優惠券 26760",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:49+08:00"
+    },
+    {
+      "code": "26761",
+      "title": "優惠券 26761",
+      "description": "優惠券 26761",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26761 優惠券 26761",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26761 優惠券 26761",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:50+08:00"
+    },
+    {
+      "code": "26762",
+      "title": "優惠券 26762",
+      "description": "優惠券 26762",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26762 優惠券 26762",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26762 優惠券 26762",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:51+08:00"
+    },
+    {
+      "code": "26763",
+      "title": "優惠券 26763",
+      "description": "優惠券 26763",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26763 優惠券 26763",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26763 優惠券 26763",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:52+08:00"
+    },
+    {
+      "code": "26764",
+      "title": "優惠券 26764",
+      "description": "優惠券 26764",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26764 優惠券 26764",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26764 優惠券 26764",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:53+08:00"
+    },
+    {
+      "code": "26765",
+      "title": "優惠券 26765",
+      "description": "優惠券 26765",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26765 優惠券 26765",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26765 優惠券 26765",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:54+08:00"
+    },
+    {
+      "code": "26766",
+      "title": "優惠券 26766",
+      "description": "優惠券 26766",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26766 優惠券 26766",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26766 優惠券 26766",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:55+08:00"
+    },
+    {
+      "code": "26767",
+      "title": "優惠券 26767",
+      "description": "優惠券 26767",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26767 優惠券 26767",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26767 優惠券 26767",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:56+08:00"
+    },
+    {
+      "code": "26768",
+      "title": "優惠券 26768",
+      "description": "優惠券 26768",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26768 優惠券 26768",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26768 優惠券 26768",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:57+08:00"
+    },
+    {
+      "code": "26769",
+      "title": "優惠券 26769",
+      "description": "優惠券 26769",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26769 優惠券 26769",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26769 優惠券 26769",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:58+08:00"
+    },
+    {
+      "code": "26770",
+      "title": "優惠券 26770",
+      "description": "優惠券 26770",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26770 優惠券 26770",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26770 優惠券 26770",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:12:59+08:00"
+    },
+    {
+      "code": "26771",
+      "title": "優惠券 26771",
+      "description": "優惠券 26771",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26771 優惠券 26771",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26771 優惠券 26771",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:00+08:00"
+    },
+    {
+      "code": "26772",
+      "title": "優惠券 26772",
+      "description": "優惠券 26772",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26772 優惠券 26772",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26772 優惠券 26772",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:01+08:00"
+    },
+    {
+      "code": "26773",
+      "title": "優惠券 26773",
+      "description": "優惠券 26773",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26773 優惠券 26773",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26773 優惠券 26773",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:02+08:00"
+    },
+    {
+      "code": "26774",
+      "title": "優惠券 26774",
+      "description": "優惠券 26774",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26774 優惠券 26774",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26774 優惠券 26774",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:03+08:00"
+    },
+    {
+      "code": "26775",
+      "title": "優惠券 26775",
+      "description": "優惠券 26775",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26775 優惠券 26775",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26775 優惠券 26775",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:04+08:00"
+    },
+    {
+      "code": "26776",
+      "title": "優惠券 26776",
+      "description": "優惠券 26776",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26776 優惠券 26776",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26776 優惠券 26776",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:05+08:00"
+    },
+    {
+      "code": "26777",
+      "title": "優惠券 26777",
+      "description": "優惠券 26777",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26777 優惠券 26777",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26777 優惠券 26777",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:06+08:00"
+    },
+    {
+      "code": "26778",
+      "title": "優惠券 26778",
+      "description": "優惠券 26778",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26778 優惠券 26778",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26778 優惠券 26778",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:07+08:00"
+    },
+    {
+      "code": "26779",
+      "title": "優惠券 26779",
+      "description": "優惠券 26779",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26779 優惠券 26779",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26779 優惠券 26779",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:08+08:00"
+    },
+    {
+      "code": "26780",
+      "title": "優惠券 26780",
+      "description": "優惠券 26780",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26780 優惠券 26780",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26780 優惠券 26780",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:09+08:00"
+    },
+    {
+      "code": "26781",
+      "title": "優惠券 26781",
+      "description": "優惠券 26781",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26781 優惠券 26781",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26781 優惠券 26781",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:10+08:00"
+    },
+    {
+      "code": "26782",
+      "title": "優惠券 26782",
+      "description": "優惠券 26782",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26782 優惠券 26782",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26782 優惠券 26782",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:11+08:00"
+    },
+    {
+      "code": "26783",
+      "title": "優惠券 26783",
+      "description": "優惠券 26783",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26783 優惠券 26783",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26783 優惠券 26783",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:12+08:00"
+    },
+    {
+      "code": "26784",
+      "title": "優惠券 26784",
+      "description": "優惠券 26784",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26784 優惠券 26784",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26784 優惠券 26784",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:14+08:00"
+    },
+    {
+      "code": "26785",
+      "title": "優惠券 26785",
+      "description": "優惠券 26785",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26785 優惠券 26785",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26785 優惠券 26785",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:15+08:00"
+    },
+    {
+      "code": "26786",
+      "title": "優惠券 26786",
+      "description": "優惠券 26786",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26786 優惠券 26786",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26786 優惠券 26786",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:17+08:00"
+    },
+    {
+      "code": "26787",
+      "title": "優惠券 26787",
+      "description": "優惠券 26787",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26787 優惠券 26787",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26787 優惠券 26787",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:18+08:00"
+    },
+    {
+      "code": "26788",
+      "title": "優惠券 26788",
+      "description": "優惠券 26788",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26788 優惠券 26788",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26788 優惠券 26788",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:19+08:00"
+    },
+    {
+      "code": "26789",
+      "title": "優惠券 26789",
+      "description": "優惠券 26789",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26789 優惠券 26789",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26789 優惠券 26789",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:20+08:00"
+    },
+    {
+      "code": "26790",
+      "title": "優惠券 26790",
+      "description": "優惠券 26790",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26790 優惠券 26790",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26790 優惠券 26790",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:21+08:00"
+    },
+    {
+      "code": "26791",
+      "title": "優惠券 26791",
+      "description": "優惠券 26791",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26791 優惠券 26791",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26791 優惠券 26791",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:23+08:00"
+    },
+    {
+      "code": "26792",
+      "title": "優惠券 26792",
+      "description": "優惠券 26792",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26792 優惠券 26792",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26792 優惠券 26792",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:24+08:00"
+    },
+    {
+      "code": "26793",
+      "title": "優惠券 26793",
+      "description": "優惠券 26793",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26793 優惠券 26793",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26793 優惠券 26793",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:25+08:00"
+    },
+    {
+      "code": "26794",
+      "title": "優惠券 26794",
+      "description": "優惠券 26794",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26794 優惠券 26794",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26794 優惠券 26794",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:26+08:00"
+    },
+    {
+      "code": "26795",
+      "title": "優惠券 26795",
+      "description": "優惠券 26795",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26795 優惠券 26795",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26795 優惠券 26795",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:27+08:00"
+    },
+    {
+      "code": "26796",
+      "title": "優惠券 26796",
+      "description": "優惠券 26796",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26796 優惠券 26796",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26796 優惠券 26796",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:28+08:00"
+    },
+    {
+      "code": "26797",
+      "title": "優惠券 26797",
+      "description": "優惠券 26797",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26797 優惠券 26797",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26797 優惠券 26797",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:29+08:00"
+    },
+    {
+      "code": "26798",
+      "title": "優惠券 26798",
+      "description": "優惠券 26798",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26798 優惠券 26798",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26798 優惠券 26798",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:30+08:00"
+    },
+    {
+      "code": "26799",
+      "title": "優惠券 26799",
+      "description": "優惠券 26799",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26799 優惠券 26799",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26799 優惠券 26799",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:31+08:00"
+    },
+    {
+      "code": "26800",
+      "title": "優惠券 26800",
+      "description": "優惠券 26800",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26800 優惠券 26800",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26800 優惠券 26800",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:32+08:00"
+    },
+    {
+      "code": "26801",
+      "title": "優惠券 26801",
+      "description": "優惠券 26801",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26801 優惠券 26801",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26801 優惠券 26801",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:34+08:00"
+    },
+    {
+      "code": "26802",
+      "title": "優惠券 26802",
+      "description": "優惠券 26802",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26802 優惠券 26802",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26802 優惠券 26802",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:35+08:00"
+    },
+    {
+      "code": "26803",
+      "title": "優惠券 26803",
+      "description": "優惠券 26803",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26803 優惠券 26803",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26803 優惠券 26803",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:36+08:00"
+    },
+    {
+      "code": "26804",
+      "title": "優惠券 26804",
+      "description": "優惠券 26804",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26804 優惠券 26804",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26804 優惠券 26804",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:37+08:00"
+    },
+    {
+      "code": "26805",
+      "title": "優惠券 26805",
+      "description": "優惠券 26805",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26805 優惠券 26805",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26805 優惠券 26805",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:38+08:00"
+    },
+    {
+      "code": "26806",
+      "title": "優惠券 26806",
+      "description": "優惠券 26806",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26806 優惠券 26806",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26806 優惠券 26806",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:39+08:00"
+    },
+    {
+      "code": "26807",
+      "title": "優惠券 26807",
+      "description": "優惠券 26807",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26807 優惠券 26807",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26807 優惠券 26807",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:40+08:00"
+    },
+    {
+      "code": "26808",
+      "title": "優惠券 26808",
+      "description": "優惠券 26808",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26808 優惠券 26808",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26808 優惠券 26808",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:41+08:00"
+    },
+    {
+      "code": "26809",
+      "title": "優惠券 26809",
+      "description": "優惠券 26809",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26809 優惠券 26809",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26809 優惠券 26809",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:42+08:00"
+    },
+    {
+      "code": "26810",
+      "title": "優惠券 26810",
+      "description": "優惠券 26810",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26810 優惠券 26810",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26810 優惠券 26810",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:43+08:00"
+    },
+    {
+      "code": "26811",
+      "title": "優惠券 26811",
+      "description": "優惠券 26811",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26811 優惠券 26811",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26811 優惠券 26811",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:44+08:00"
+    },
+    {
+      "code": "26812",
+      "title": "優惠券 26812",
+      "description": "優惠券 26812",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26812 優惠券 26812",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26812 優惠券 26812",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:45+08:00"
+    },
+    {
+      "code": "26813",
+      "title": "優惠券 26813",
+      "description": "優惠券 26813",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26813 優惠券 26813",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26813 優惠券 26813",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:46+08:00"
+    },
+    {
+      "code": "26814",
+      "title": "優惠券 26814",
+      "description": "優惠券 26814",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26814 優惠券 26814",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26814 優惠券 26814",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:47+08:00"
+    },
+    {
+      "code": "26815",
+      "title": "優惠券 26815",
+      "description": "優惠券 26815",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26815 優惠券 26815",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26815 優惠券 26815",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:48+08:00"
+    },
+    {
+      "code": "26816",
+      "title": "優惠券 26816",
+      "description": "優惠券 26816",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26816 優惠券 26816",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26816 優惠券 26816",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:49+08:00"
+    },
+    {
+      "code": "26817",
+      "title": "優惠券 26817",
+      "description": "優惠券 26817",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26817 優惠券 26817",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26817 優惠券 26817",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:50+08:00"
+    },
+    {
+      "code": "26818",
+      "title": "優惠券 26818",
+      "description": "優惠券 26818",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26818 優惠券 26818",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26818 優惠券 26818",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:51+08:00"
+    },
+    {
+      "code": "26819",
+      "title": "優惠券 26819",
+      "description": "優惠券 26819",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26819 優惠券 26819",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26819 優惠券 26819",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:52+08:00"
+    },
+    {
+      "code": "26820",
+      "title": "優惠券 26820",
+      "description": "優惠券 26820",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26820 優惠券 26820",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26820 優惠券 26820",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:53+08:00"
+    },
+    {
+      "code": "26821",
+      "title": "優惠券 26821",
+      "description": "優惠券 26821",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26821 優惠券 26821",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26821 優惠券 26821",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:54+08:00"
+    },
+    {
+      "code": "26822",
+      "title": "優惠券 26822",
+      "description": "優惠券 26822",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26822 優惠券 26822",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26822 優惠券 26822",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:56+08:00"
+    },
+    {
+      "code": "26823",
+      "title": "優惠券 26823",
+      "description": "優惠券 26823",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26823 優惠券 26823",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26823 優惠券 26823",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:57+08:00"
+    },
+    {
+      "code": "26824",
+      "title": "優惠券 26824",
+      "description": "優惠券 26824",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26824 優惠券 26824",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26824 優惠券 26824",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:58+08:00"
+    },
+    {
+      "code": "26825",
+      "title": "優惠券 26825",
+      "description": "優惠券 26825",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26825 優惠券 26825",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26825 優惠券 26825",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:13:59+08:00"
+    },
+    {
+      "code": "26826",
+      "title": "優惠券 26826",
+      "description": "優惠券 26826",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26826 優惠券 26826",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26826 優惠券 26826",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:00+08:00"
+    },
+    {
+      "code": "26827",
+      "title": "優惠券 26827",
+      "description": "優惠券 26827",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26827 優惠券 26827",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26827 優惠券 26827",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:01+08:00"
+    },
+    {
+      "code": "26828",
+      "title": "優惠券 26828",
+      "description": "優惠券 26828",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26828 優惠券 26828",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26828 優惠券 26828",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:02+08:00"
+    },
+    {
+      "code": "26829",
+      "title": "優惠券 26829",
+      "description": "優惠券 26829",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26829 優惠券 26829",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26829 優惠券 26829",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:03+08:00"
+    },
+    {
+      "code": "26830",
+      "title": "優惠券 26830",
+      "description": "優惠券 26830",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26830 優惠券 26830",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26830 優惠券 26830",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:04+08:00"
+    },
+    {
+      "code": "26831",
+      "title": "優惠券 26831",
+      "description": "優惠券 26831",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26831 優惠券 26831",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26831 優惠券 26831",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:05+08:00"
+    },
+    {
+      "code": "26832",
+      "title": "優惠券 26832",
+      "description": "優惠券 26832",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26832 優惠券 26832",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26832 優惠券 26832",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:06+08:00"
+    },
+    {
+      "code": "26833",
+      "title": "優惠券 26833",
+      "description": "優惠券 26833",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26833 優惠券 26833",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26833 優惠券 26833",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:07+08:00"
+    },
+    {
+      "code": "26834",
+      "title": "優惠券 26834",
+      "description": "優惠券 26834",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26834 優惠券 26834",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26834 優惠券 26834",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:08+08:00"
+    },
+    {
+      "code": "26835",
+      "title": "優惠券 26835",
+      "description": "優惠券 26835",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26835 優惠券 26835",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26835 優惠券 26835",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:09+08:00"
+    },
+    {
+      "code": "26836",
+      "title": "優惠券 26836",
+      "description": "優惠券 26836",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26836 優惠券 26836",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26836 優惠券 26836",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:10+08:00"
+    },
+    {
+      "code": "26837",
+      "title": "優惠券 26837",
+      "description": "優惠券 26837",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26837 優惠券 26837",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26837 優惠券 26837",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:11+08:00"
+    },
+    {
+      "code": "26838",
+      "title": "優惠券 26838",
+      "description": "優惠券 26838",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26838 優惠券 26838",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26838 優惠券 26838",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:12+08:00"
+    },
+    {
+      "code": "26839",
+      "title": "優惠券 26839",
+      "description": "優惠券 26839",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26839 優惠券 26839",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26839 優惠券 26839",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:14+08:00"
+    },
+    {
+      "code": "26840",
+      "title": "優惠券 26840",
+      "description": "優惠券 26840",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26840 優惠券 26840",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26840 優惠券 26840",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:15+08:00"
+    },
+    {
+      "code": "26841",
+      "title": "優惠券 26841",
+      "description": "優惠券 26841",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26841 優惠券 26841",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26841 優惠券 26841",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:16+08:00"
+    },
+    {
+      "code": "26842",
+      "title": "優惠券 26842",
+      "description": "優惠券 26842",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26842 優惠券 26842",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26842 優惠券 26842",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:17+08:00"
+    },
+    {
+      "code": "26843",
+      "title": "優惠券 26843",
+      "description": "優惠券 26843",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26843 優惠券 26843",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26843 優惠券 26843",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:18+08:00"
+    },
+    {
+      "code": "26844",
+      "title": "優惠券 26844",
+      "description": "優惠券 26844",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26844 優惠券 26844",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26844 優惠券 26844",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:19+08:00"
+    },
+    {
+      "code": "26845",
+      "title": "優惠券 26845",
+      "description": "優惠券 26845",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26845 優惠券 26845",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26845 優惠券 26845",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:20+08:00"
+    },
+    {
+      "code": "26846",
+      "title": "優惠券 26846",
+      "description": "優惠券 26846",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26846 優惠券 26846",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26846 優惠券 26846",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:21+08:00"
+    },
+    {
+      "code": "26847",
+      "title": "優惠券 26847",
+      "description": "優惠券 26847",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26847 優惠券 26847",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26847 優惠券 26847",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:22+08:00"
+    },
+    {
+      "code": "26848",
+      "title": "優惠券 26848",
+      "description": "優惠券 26848",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26848 優惠券 26848",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26848 優惠券 26848",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:23+08:00"
+    },
+    {
+      "code": "26849",
+      "title": "優惠券 26849",
+      "description": "優惠券 26849",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26849 優惠券 26849",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26849 優惠券 26849",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:24+08:00"
+    },
+    {
+      "code": "26850",
+      "title": "優惠券 26850",
+      "description": "優惠券 26850",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26850 優惠券 26850",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26850 優惠券 26850",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:25+08:00"
+    },
+    {
+      "code": "26851",
+      "title": "優惠券 26851",
+      "description": "優惠券 26851",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26851 優惠券 26851",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26851 優惠券 26851",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:26+08:00"
+    },
+    {
+      "code": "26852",
+      "title": "優惠券 26852",
+      "description": "優惠券 26852",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26852 優惠券 26852",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26852 優惠券 26852",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:27+08:00"
+    },
+    {
+      "code": "26853",
+      "title": "優惠券 26853",
+      "description": "優惠券 26853",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26853 優惠券 26853",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26853 優惠券 26853",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:28+08:00"
+    },
+    {
+      "code": "26854",
+      "title": "優惠券 26854",
+      "description": "優惠券 26854",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26854 優惠券 26854",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26854 優惠券 26854",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:29+08:00"
+    },
+    {
+      "code": "26855",
+      "title": "優惠券 26855",
+      "description": "優惠券 26855",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26855 優惠券 26855",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26855 優惠券 26855",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:30+08:00"
+    },
+    {
+      "code": "26856",
+      "title": "優惠券 26856",
+      "description": "優惠券 26856",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26856 優惠券 26856",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26856 優惠券 26856",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:31+08:00"
+    },
+    {
+      "code": "26857",
+      "title": "優惠券 26857",
+      "description": "優惠券 26857",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26857 優惠券 26857",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26857 優惠券 26857",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:32+08:00"
+    },
+    {
+      "code": "26858",
+      "title": "優惠券 26858",
+      "description": "優惠券 26858",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26858 優惠券 26858",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26858 優惠券 26858",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:33+08:00"
+    },
+    {
+      "code": "26859",
+      "title": "優惠券 26859",
+      "description": "優惠券 26859",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26859 優惠券 26859",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26859 優惠券 26859",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:34+08:00"
+    },
+    {
+      "code": "26860",
+      "title": "優惠券 26860",
+      "description": "優惠券 26860",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26860 優惠券 26860",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26860 優惠券 26860",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:35+08:00"
+    },
+    {
+      "code": "26861",
+      "title": "優惠券 26861",
+      "description": "優惠券 26861",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26861 優惠券 26861",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26861 優惠券 26861",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:36+08:00"
+    },
+    {
+      "code": "26862",
+      "title": "優惠券 26862",
+      "description": "優惠券 26862",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26862 優惠券 26862",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26862 優惠券 26862",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:37+08:00"
+    },
+    {
+      "code": "26863",
+      "title": "優惠券 26863",
+      "description": "優惠券 26863",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26863 優惠券 26863",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26863 優惠券 26863",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:38+08:00"
+    },
+    {
+      "code": "26864",
+      "title": "優惠券 26864",
+      "description": "優惠券 26864",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26864 優惠券 26864",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26864 優惠券 26864",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:39+08:00"
+    },
+    {
+      "code": "26865",
+      "title": "優惠券 26865",
+      "description": "優惠券 26865",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26865 優惠券 26865",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26865 優惠券 26865",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:40+08:00"
+    },
+    {
+      "code": "26866",
+      "title": "優惠券 26866",
+      "description": "優惠券 26866",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26866 優惠券 26866",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26866 優惠券 26866",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:41+08:00"
+    },
+    {
+      "code": "26867",
+      "title": "優惠券 26867",
+      "description": "優惠券 26867",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26867 優惠券 26867",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26867 優惠券 26867",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:42+08:00"
+    },
+    {
+      "code": "26868",
+      "title": "優惠券 26868",
+      "description": "優惠券 26868",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26868 優惠券 26868",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26868 優惠券 26868",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:43+08:00"
+    },
+    {
+      "code": "26869",
+      "title": "優惠券 26869",
+      "description": "優惠券 26869",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26869 優惠券 26869",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26869 優惠券 26869",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:44+08:00"
+    },
+    {
+      "code": "26870",
+      "title": "優惠券 26870",
+      "description": "優惠券 26870",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26870 優惠券 26870",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26870 優惠券 26870",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:45+08:00"
+    },
+    {
+      "code": "26871",
+      "title": "優惠券 26871",
+      "description": "優惠券 26871",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26871 優惠券 26871",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26871 優惠券 26871",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:46+08:00"
+    },
+    {
+      "code": "26872",
+      "title": "優惠券 26872",
+      "description": "優惠券 26872",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26872 優惠券 26872",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26872 優惠券 26872",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:47+08:00"
+    },
+    {
+      "code": "26873",
+      "title": "優惠券 26873",
+      "description": "優惠券 26873",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26873 優惠券 26873",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26873 優惠券 26873",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:48+08:00"
+    },
+    {
+      "code": "26874",
+      "title": "優惠券 26874",
+      "description": "優惠券 26874",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26874 優惠券 26874",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26874 優惠券 26874",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:49+08:00"
+    },
+    {
+      "code": "26875",
+      "title": "優惠券 26875",
+      "description": "優惠券 26875",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26875 優惠券 26875",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26875 優惠券 26875",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:51+08:00"
+    },
+    {
+      "code": "26876",
+      "title": "優惠券 26876",
+      "description": "優惠券 26876",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26876 優惠券 26876",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26876 優惠券 26876",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:52+08:00"
+    },
+    {
+      "code": "26877",
+      "title": "優惠券 26877",
+      "description": "優惠券 26877",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26877 優惠券 26877",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26877 優惠券 26877",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:53+08:00"
+    },
+    {
+      "code": "26878",
+      "title": "優惠券 26878",
+      "description": "優惠券 26878",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26878 優惠券 26878",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26878 優惠券 26878",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:54+08:00"
+    },
+    {
+      "code": "26879",
+      "title": "優惠券 26879",
+      "description": "優惠券 26879",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26879 優惠券 26879",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26879 優惠券 26879",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:55+08:00"
+    },
+    {
+      "code": "26880",
+      "title": "優惠券 26880",
+      "description": "優惠券 26880",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26880 優惠券 26880",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26880 優惠券 26880",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:56+08:00"
+    },
+    {
+      "code": "26881",
+      "title": "優惠券 26881",
+      "description": "優惠券 26881",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26881 優惠券 26881",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26881 優惠券 26881",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:57+08:00"
+    },
+    {
+      "code": "26882",
+      "title": "優惠券 26882",
+      "description": "優惠券 26882",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26882 優惠券 26882",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26882 優惠券 26882",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:58+08:00"
+    },
+    {
+      "code": "26883",
+      "title": "優惠券 26883",
+      "description": "優惠券 26883",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26883 優惠券 26883",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26883 優惠券 26883",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:14:59+08:00"
+    },
+    {
+      "code": "26884",
+      "title": "優惠券 26884",
+      "description": "優惠券 26884",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26884 優惠券 26884",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26884 優惠券 26884",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:00+08:00"
+    },
+    {
+      "code": "26885",
+      "title": "優惠券 26885",
+      "description": "優惠券 26885",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26885 優惠券 26885",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26885 優惠券 26885",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:01+08:00"
+    },
+    {
+      "code": "26886",
+      "title": "優惠券 26886",
+      "description": "優惠券 26886",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26886 優惠券 26886",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26886 優惠券 26886",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:02+08:00"
+    },
+    {
+      "code": "26887",
+      "title": "優惠券 26887",
+      "description": "優惠券 26887",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26887 優惠券 26887",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26887 優惠券 26887",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:03+08:00"
+    },
+    {
+      "code": "26888",
+      "title": "優惠券 26888",
+      "description": "優惠券 26888",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26888 優惠券 26888",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26888 優惠券 26888",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:04+08:00"
+    },
+    {
+      "code": "26889",
+      "title": "優惠券 26889",
+      "description": "優惠券 26889",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26889 優惠券 26889",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26889 優惠券 26889",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:05+08:00"
+    },
+    {
+      "code": "26890",
+      "title": "優惠券 26890",
+      "description": "優惠券 26890",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26890 優惠券 26890",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26890 優惠券 26890",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:06+08:00"
+    },
+    {
+      "code": "26891",
+      "title": "優惠券 26891",
+      "description": "優惠券 26891",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26891 優惠券 26891",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26891 優惠券 26891",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:07+08:00"
+    },
+    {
+      "code": "26892",
+      "title": "優惠券 26892",
+      "description": "優惠券 26892",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26892 優惠券 26892",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26892 優惠券 26892",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:08+08:00"
+    },
+    {
+      "code": "26893",
+      "title": "優惠券 26893",
+      "description": "優惠券 26893",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26893 優惠券 26893",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26893 優惠券 26893",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:09+08:00"
+    },
+    {
+      "code": "26894",
+      "title": "優惠券 26894",
+      "description": "優惠券 26894",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26894 優惠券 26894",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26894 優惠券 26894",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:10+08:00"
+    },
+    {
+      "code": "26895",
+      "title": "優惠券 26895",
+      "description": "優惠券 26895",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26895 優惠券 26895",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26895 優惠券 26895",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:11+08:00"
+    },
+    {
+      "code": "26896",
+      "title": "優惠券 26896",
+      "description": "優惠券 26896",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26896 優惠券 26896",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26896 優惠券 26896",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:12+08:00"
+    },
+    {
+      "code": "26897",
+      "title": "優惠券 26897",
+      "description": "優惠券 26897",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26897 優惠券 26897",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26897 優惠券 26897",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:13+08:00"
+    },
+    {
+      "code": "26898",
+      "title": "優惠券 26898",
+      "description": "優惠券 26898",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26898 優惠券 26898",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26898 優惠券 26898",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:14+08:00"
+    },
+    {
+      "code": "26899",
+      "title": "優惠券 26899",
+      "description": "優惠券 26899",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26899 優惠券 26899",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26899 優惠券 26899",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:15+08:00"
+    },
+    {
+      "code": "26900",
+      "title": "優惠券 26900",
+      "description": "優惠券 26900",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26900 優惠券 26900",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26900 優惠券 26900",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:16+08:00"
+    },
+    {
+      "code": "26901",
+      "title": "優惠券 26901",
+      "description": "優惠券 26901",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26901 優惠券 26901",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26901 優惠券 26901",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:17+08:00"
+    },
+    {
+      "code": "26902",
+      "title": "優惠券 26902",
+      "description": "優惠券 26902",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26902 優惠券 26902",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26902 優惠券 26902",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:18+08:00"
+    },
+    {
+      "code": "26903",
+      "title": "優惠券 26903",
+      "description": "優惠券 26903",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26903 優惠券 26903",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26903 優惠券 26903",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:19+08:00"
+    },
+    {
+      "code": "26904",
+      "title": "優惠券 26904",
+      "description": "優惠券 26904",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26904 優惠券 26904",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26904 優惠券 26904",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:20+08:00"
+    },
+    {
+      "code": "26905",
+      "title": "優惠券 26905",
+      "description": "優惠券 26905",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26905 優惠券 26905",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26905 優惠券 26905",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:21+08:00"
+    },
+    {
+      "code": "26906",
+      "title": "優惠券 26906",
+      "description": "優惠券 26906",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26906 優惠券 26906",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26906 優惠券 26906",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:22+08:00"
+    },
+    {
+      "code": "26907",
+      "title": "優惠券 26907",
+      "description": "優惠券 26907",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26907 優惠券 26907",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26907 優惠券 26907",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:23+08:00"
+    },
+    {
+      "code": "26908",
+      "title": "優惠券 26908",
+      "description": "優惠券 26908",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26908 優惠券 26908",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26908 優惠券 26908",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:24+08:00"
+    },
+    {
+      "code": "26909",
+      "title": "優惠券 26909",
+      "description": "優惠券 26909",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26909 優惠券 26909",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26909 優惠券 26909",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:25+08:00"
+    },
+    {
+      "code": "26910",
+      "title": "優惠券 26910",
+      "description": "優惠券 26910",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26910 優惠券 26910",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26910 優惠券 26910",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:26+08:00"
+    },
+    {
+      "code": "26911",
+      "title": "優惠券 26911",
+      "description": "優惠券 26911",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26911 優惠券 26911",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26911 優惠券 26911",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:27+08:00"
+    },
+    {
+      "code": "26912",
+      "title": "優惠券 26912",
+      "description": "優惠券 26912",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26912 優惠券 26912",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26912 優惠券 26912",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:28+08:00"
+    },
+    {
+      "code": "26913",
+      "title": "優惠券 26913",
+      "description": "優惠券 26913",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26913 優惠券 26913",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26913 優惠券 26913",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:29+08:00"
+    },
+    {
+      "code": "26914",
+      "title": "優惠券 26914",
+      "description": "優惠券 26914",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26914 優惠券 26914",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26914 優惠券 26914",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:30+08:00"
+    },
+    {
+      "code": "26918",
+      "title": "優惠券 26918",
+      "description": "優惠券 26918",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26918 優惠券 26918",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26918 優惠券 26918",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:31+08:00"
+    },
+    {
+      "code": "26919",
+      "title": "優惠券 26919",
+      "description": "優惠券 26919",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26919 優惠券 26919",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26919 優惠券 26919",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:32+08:00"
+    },
+    {
+      "code": "26920",
+      "title": "優惠券 26920",
+      "description": "優惠券 26920",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26920 優惠券 26920",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26920 優惠券 26920",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:33+08:00"
+    },
+    {
+      "code": "26921",
+      "title": "優惠券 26921",
+      "description": "優惠券 26921",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26921 優惠券 26921",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26921 優惠券 26921",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:34+08:00"
+    },
+    {
+      "code": "26922",
+      "title": "優惠券 26922",
+      "description": "優惠券 26922",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26922 優惠券 26922",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26922 優惠券 26922",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:35+08:00"
+    },
+    {
+      "code": "26923",
+      "title": "優惠券 26923",
+      "description": "優惠券 26923",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26923 優惠券 26923",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26923 優惠券 26923",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:36+08:00"
+    },
+    {
+      "code": "26924",
+      "title": "優惠券 26924",
+      "description": "優惠券 26924",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26924 優惠券 26924",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26924 優惠券 26924",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:37+08:00"
+    },
+    {
+      "code": "26925",
+      "title": "優惠券 26925",
+      "description": "優惠券 26925",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26925 優惠券 26925",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26925 優惠券 26925",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:38+08:00"
+    },
+    {
+      "code": "26926",
+      "title": "優惠券 26926",
+      "description": "優惠券 26926",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26926 優惠券 26926",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26926 優惠券 26926",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:39+08:00"
+    },
+    {
+      "code": "26927",
+      "title": "優惠券 26927",
+      "description": "優惠券 26927",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26927 優惠券 26927",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26927 優惠券 26927",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:40+08:00"
+    },
+    {
+      "code": "26928",
+      "title": "優惠券 26928",
+      "description": "優惠券 26928",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26928 優惠券 26928",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26928 優惠券 26928",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:41+08:00"
+    },
+    {
+      "code": "26933",
+      "title": "優惠券 26933",
+      "description": "優惠券 26933",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26933 優惠券 26933",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26933 優惠券 26933",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:42+08:00"
+    },
+    {
+      "code": "26934",
+      "title": "優惠券 26934",
+      "description": "優惠券 26934",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26934 優惠券 26934",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26934 優惠券 26934",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:43+08:00"
+    },
+    {
+      "code": "26935",
+      "title": "優惠券 26935",
+      "description": "優惠券 26935",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26935 優惠券 26935",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26935 優惠券 26935",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:44+08:00"
+    },
+    {
+      "code": "26936",
+      "title": "優惠券 26936",
+      "description": "優惠券 26936",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26936 優惠券 26936",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26936 優惠券 26936",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:46+08:00"
+    },
+    {
+      "code": "26937",
+      "title": "優惠券 26937",
+      "description": "優惠券 26937",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26937 優惠券 26937",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26937 優惠券 26937",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:47+08:00"
+    },
+    {
+      "code": "26938",
+      "title": "優惠券 26938",
+      "description": "優惠券 26938",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26938 優惠券 26938",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26938 優惠券 26938",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:48+08:00"
+    },
+    {
+      "code": "26939",
+      "title": "優惠券 26939",
+      "description": "優惠券 26939",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26939 優惠券 26939",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26939 優惠券 26939",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:49+08:00"
+    },
+    {
+      "code": "26940",
+      "title": "優惠券 26940",
+      "description": "優惠券 26940",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26940 優惠券 26940",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26940 優惠券 26940",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:50+08:00"
+    },
+    {
+      "code": "26941",
+      "title": "優惠券 26941",
+      "description": "優惠券 26941",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26941 優惠券 26941",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26941 優惠券 26941",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:51+08:00"
+    },
+    {
+      "code": "26942",
+      "title": "優惠券 26942",
+      "description": "優惠券 26942",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26942 優惠券 26942",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26942 優惠券 26942",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:52+08:00"
+    },
+    {
+      "code": "26943",
+      "title": "優惠券 26943",
+      "description": "優惠券 26943",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26943 優惠券 26943",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26943 優惠券 26943",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:53+08:00"
+    },
+    {
+      "code": "26944",
+      "title": "優惠券 26944",
+      "description": "優惠券 26944",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26944 優惠券 26944",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26944 優惠券 26944",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:54+08:00"
+    },
+    {
+      "code": "26945",
+      "title": "優惠券 26945",
+      "description": "優惠券 26945",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26945 優惠券 26945",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26945 優惠券 26945",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:55+08:00"
+    },
+    {
+      "code": "26946",
+      "title": "優惠券 26946",
+      "description": "優惠券 26946",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26946 優惠券 26946",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26946 優惠券 26946",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:56+08:00"
+    },
+    {
+      "code": "26947",
+      "title": "優惠券 26947",
+      "description": "優惠券 26947",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26947 優惠券 26947",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26947 優惠券 26947",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:57+08:00"
+    },
+    {
+      "code": "26948",
+      "title": "優惠券 26948",
+      "description": "優惠券 26948",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26948 優惠券 26948",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26948 優惠券 26948",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:58+08:00"
+    },
+    {
+      "code": "26949",
+      "title": "優惠券 26949",
+      "description": "優惠券 26949",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26949 優惠券 26949",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26949 優惠券 26949",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:15:59+08:00"
+    },
+    {
+      "code": "26950",
+      "title": "優惠券 26950",
+      "description": "優惠券 26950",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26950 優惠券 26950",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26950 優惠券 26950",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:00+08:00"
+    },
+    {
+      "code": "26951",
+      "title": "優惠券 26951",
+      "description": "優惠券 26951",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26951 優惠券 26951",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26951 優惠券 26951",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:01+08:00"
+    },
+    {
+      "code": "26952",
+      "title": "優惠券 26952",
+      "description": "優惠券 26952",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26952 優惠券 26952",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26952 優惠券 26952",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:02+08:00"
+    },
+    {
+      "code": "26953",
+      "title": "優惠券 26953",
+      "description": "優惠券 26953",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26953 優惠券 26953",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26953 優惠券 26953",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:03+08:00"
+    },
+    {
+      "code": "26954",
+      "title": "優惠券 26954",
+      "description": "優惠券 26954",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26954 優惠券 26954",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26954 優惠券 26954",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:04+08:00"
+    },
+    {
+      "code": "26955",
+      "title": "優惠券 26955",
+      "description": "優惠券 26955",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26955 優惠券 26955",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26955 優惠券 26955",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:05+08:00"
+    },
+    {
+      "code": "26957",
+      "title": "優惠券 26957",
+      "description": "優惠券 26957",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26957 優惠券 26957",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26957 優惠券 26957",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:06+08:00"
+    },
+    {
+      "code": "26958",
+      "title": "優惠券 26958",
+      "description": "優惠券 26958",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26958 優惠券 26958",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26958 優惠券 26958",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:07+08:00"
+    },
+    {
+      "code": "26959",
+      "title": "優惠券 26959",
+      "description": "優惠券 26959",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26959 優惠券 26959",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26959 優惠券 26959",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:08+08:00"
+    },
+    {
+      "code": "26960",
+      "title": "優惠券 26960",
+      "description": "優惠券 26960",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26960 優惠券 26960",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26960 優惠券 26960",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:09+08:00"
+    },
+    {
+      "code": "26961",
+      "title": "優惠券 26961",
+      "description": "優惠券 26961",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26961 優惠券 26961",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26961 優惠券 26961",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:10+08:00"
+    },
+    {
+      "code": "26962",
+      "title": "優惠券 26962",
+      "description": "優惠券 26962",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26962 優惠券 26962",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26962 優惠券 26962",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:11+08:00"
+    },
+    {
+      "code": "26963",
+      "title": "優惠券 26963",
+      "description": "優惠券 26963",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26963 優惠券 26963",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26963 優惠券 26963",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:12+08:00"
+    },
+    {
+      "code": "26964",
+      "title": "優惠券 26964",
+      "description": "優惠券 26964",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26964 優惠券 26964",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26964 優惠券 26964",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:13+08:00"
+    },
+    {
+      "code": "26965",
+      "title": "優惠券 26965",
+      "description": "優惠券 26965",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26965 優惠券 26965",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26965 優惠券 26965",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:14+08:00"
+    },
+    {
+      "code": "26966",
+      "title": "優惠券 26966",
+      "description": "優惠券 26966",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26966 優惠券 26966",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26966 優惠券 26966",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:15+08:00"
+    },
+    {
+      "code": "26967",
+      "title": "優惠券 26967",
+      "description": "優惠券 26967",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26967 優惠券 26967",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26967 優惠券 26967",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:16+08:00"
+    },
+    {
+      "code": "26968",
+      "title": "優惠券 26968",
+      "description": "優惠券 26968",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26968 優惠券 26968",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26968 優惠券 26968",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:17+08:00"
+    },
+    {
+      "code": "26969",
+      "title": "優惠券 26969",
+      "description": "優惠券 26969",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26969 優惠券 26969",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26969 優惠券 26969",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:18+08:00"
+    },
+    {
+      "code": "26970",
+      "title": "優惠券 26970",
+      "description": "優惠券 26970",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26970 優惠券 26970",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26970 優惠券 26970",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:19+08:00"
+    },
+    {
+      "code": "26971",
+      "title": "優惠券 26971",
+      "description": "優惠券 26971",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26971 優惠券 26971",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26971 優惠券 26971",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:20+08:00"
+    },
+    {
+      "code": "26972",
+      "title": "優惠券 26972",
+      "description": "優惠券 26972",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26972 優惠券 26972",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26972 優惠券 26972",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:21+08:00"
+    },
+    {
+      "code": "26973",
+      "title": "優惠券 26973",
+      "description": "優惠券 26973",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26973 優惠券 26973",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26973 優惠券 26973",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:22+08:00"
+    },
+    {
+      "code": "26974",
+      "title": "優惠券 26974",
+      "description": "優惠券 26974",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26974 優惠券 26974",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26974 優惠券 26974",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:23+08:00"
+    },
+    {
+      "code": "26975",
+      "title": "優惠券 26975",
+      "description": "優惠券 26975",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26975 優惠券 26975",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26975 優惠券 26975",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:24+08:00"
+    },
+    {
+      "code": "26976",
+      "title": "優惠券 26976",
+      "description": "優惠券 26976",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26976 優惠券 26976",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26976 優惠券 26976",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:25+08:00"
+    },
+    {
+      "code": "26977",
+      "title": "優惠券 26977",
+      "description": "優惠券 26977",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26977 優惠券 26977",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26977 優惠券 26977",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:26+08:00"
+    },
+    {
+      "code": "26978",
+      "title": "優惠券 26978",
+      "description": "優惠券 26978",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26978 優惠券 26978",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26978 優惠券 26978",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:27+08:00"
+    },
+    {
+      "code": "26980",
+      "title": "優惠券 26980",
+      "description": "優惠券 26980",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26980 優惠券 26980",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26980 優惠券 26980",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:28+08:00"
+    },
+    {
+      "code": "26982",
+      "title": "優惠券 26982",
+      "description": "優惠券 26982",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26982 優惠券 26982",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26982 優惠券 26982",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:29+08:00"
+    },
+    {
+      "code": "26983",
+      "title": "優惠券 26983",
+      "description": "優惠券 26983",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26983 優惠券 26983",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26983 優惠券 26983",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:30+08:00"
+    },
+    {
+      "code": "26984",
+      "title": "優惠券 26984",
+      "description": "優惠券 26984",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26984 優惠券 26984",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26984 優惠券 26984",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:31+08:00"
+    },
+    {
+      "code": "26985",
+      "title": "優惠券 26985",
+      "description": "優惠券 26985",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26985 優惠券 26985",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26985 優惠券 26985",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:32+08:00"
+    },
+    {
+      "code": "26986",
+      "title": "優惠券 26986",
+      "description": "優惠券 26986",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26986 優惠券 26986",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26986 優惠券 26986",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:33+08:00"
+    },
+    {
+      "code": "26987",
+      "title": "優惠券 26987",
+      "description": "優惠券 26987",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26987 優惠券 26987",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26987 優惠券 26987",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:34+08:00"
+    },
+    {
+      "code": "26988",
+      "title": "優惠券 26988",
+      "description": "優惠券 26988",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26988 優惠券 26988",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26988 優惠券 26988",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:35+08:00"
+    },
+    {
+      "code": "26989",
+      "title": "優惠券 26989",
+      "description": "優惠券 26989",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26989 優惠券 26989",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26989 優惠券 26989",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:36+08:00"
+    },
+    {
+      "code": "26990",
+      "title": "優惠券 26990",
+      "description": "優惠券 26990",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26990 優惠券 26990",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26990 優惠券 26990",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:37+08:00"
+    },
+    {
+      "code": "26991",
+      "title": "優惠券 26991",
+      "description": "優惠券 26991",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26991 優惠券 26991",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26991 優惠券 26991",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:38+08:00"
+    },
+    {
+      "code": "26996",
+      "title": "優惠券 26996",
+      "description": "優惠券 26996",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26996 優惠券 26996",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26996 優惠券 26996",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:39+08:00"
+    },
+    {
+      "code": "26997",
+      "title": "優惠券 26997",
+      "description": "優惠券 26997",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26997 優惠券 26997",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26997 優惠券 26997",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:40+08:00"
+    },
+    {
+      "code": "26998",
+      "title": "優惠券 26998",
+      "description": "優惠券 26998",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26998 優惠券 26998",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26998 優惠券 26998",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:41+08:00"
+    },
+    {
+      "code": "26999",
+      "title": "優惠券 26999",
+      "description": "優惠券 26999",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 26999 優惠券 26999",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 26999 優惠券 26999",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:42+08:00"
+    },
+    {
+      "code": "40431",
+      "title": "優惠券 40431",
+      "description": "優惠券 40431",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40431 優惠券 40431",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40431 優惠券 40431",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:44+08:00"
+    },
+    {
+      "code": "40432",
+      "title": "優惠券 40432",
+      "description": "優惠券 40432",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40432 優惠券 40432",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40432 優惠券 40432",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:45+08:00"
+    },
+    {
+      "code": "40442",
+      "title": "優惠券 40442",
+      "description": "優惠券 40442",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40442 優惠券 40442",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40442 優惠券 40442",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:46+08:00"
+    },
+    {
+      "code": "40443",
+      "title": "優惠券 40443",
+      "description": "優惠券 40443",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40443 優惠券 40443",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40443 優惠券 40443",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:47+08:00"
+    },
+    {
+      "code": "40445",
+      "title": "優惠券 40445",
+      "description": "優惠券 40445",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40445 優惠券 40445",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40445 優惠券 40445",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:48+08:00"
+    },
+    {
+      "code": "40449",
+      "title": "優惠券 40449",
+      "description": "優惠券 40449",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40449 優惠券 40449",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40449 優惠券 40449",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:49+08:00"
+    },
+    {
+      "code": "40451",
+      "title": "優惠券 40451",
+      "description": "優惠券 40451",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40451 優惠券 40451",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40451 優惠券 40451",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:50+08:00"
+    },
+    {
+      "code": "40483",
+      "title": "優惠券 40483",
+      "description": "優惠券 40483",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40483 優惠券 40483",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40483 優惠券 40483",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:51+08:00"
+    },
+    {
+      "code": "40508",
+      "title": "優惠券 40508",
+      "description": "優惠券 40508",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40508 優惠券 40508",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40508 優惠券 40508",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:52+08:00"
+    },
+    {
+      "code": "40509",
+      "title": "優惠券 40509",
+      "description": "優惠券 40509",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40509 優惠券 40509",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40509 優惠券 40509",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:53+08:00"
+    },
+    {
+      "code": "40553",
+      "title": "優惠券 40553",
+      "description": "優惠券 40553",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40553 優惠券 40553",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40553 優惠券 40553",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:54+08:00"
+    },
+    {
+      "code": "40558",
+      "title": "優惠券 40558",
+      "description": "優惠券 40558",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40558 優惠券 40558",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40558 優惠券 40558",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:55+08:00"
+    },
+    {
+      "code": "40573",
+      "title": "優惠券 40573",
+      "description": "優惠券 40573",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40573 優惠券 40573",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40573 優惠券 40573",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:56+08:00"
+    },
+    {
+      "code": "40574",
+      "title": "優惠券 40574",
+      "description": "優惠券 40574",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40574 優惠券 40574",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40574 優惠券 40574",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:57+08:00"
+    },
+    {
+      "code": "40576",
+      "title": "優惠券 40576",
+      "description": "優惠券 40576",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40576 優惠券 40576",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40576 優惠券 40576",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:58+08:00"
+    },
+    {
+      "code": "40634",
+      "title": "優惠券 40634",
+      "description": "優惠券 40634",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40634 優惠券 40634",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40634 優惠券 40634",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:16:59+08:00"
+    },
+    {
+      "code": "40701",
+      "title": "優惠券 40701",
+      "description": "優惠券 40701",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 40701 優惠券 40701",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 40701 優惠券 40701",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:00+08:00"
+    },
+    {
+      "code": "50374",
+      "title": "優惠券 50374",
+      "description": "優惠券 50374",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50374 優惠券 50374",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50374 優惠券 50374",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:01+08:00"
+    },
+    {
+      "code": "50389",
+      "title": "優惠券 50389",
+      "description": "優惠券 50389",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50389 優惠券 50389",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50389 優惠券 50389",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:02+08:00"
+    },
+    {
+      "code": "50467",
+      "title": "優惠券 50467",
+      "description": "優惠券 50467",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50467 優惠券 50467",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50467 優惠券 50467",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:03+08:00"
+    },
+    {
+      "code": "50468",
+      "title": "優惠券 50468",
+      "description": "優惠券 50468",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50468 優惠券 50468",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50468 優惠券 50468",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:04+08:00"
+    },
+    {
+      "code": "50469",
+      "title": "優惠券 50469",
+      "description": "優惠券 50469",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50469 優惠券 50469",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50469 優惠券 50469",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:05+08:00"
+    },
+    {
+      "code": "50470",
+      "title": "優惠券 50470",
+      "description": "優惠券 50470",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50470 優惠券 50470",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50470 優惠券 50470",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:06+08:00"
+    },
+    {
+      "code": "50471",
+      "title": "優惠券 50471",
+      "description": "優惠券 50471",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50471 優惠券 50471",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50471 優惠券 50471",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:07+08:00"
+    },
+    {
+      "code": "50472",
+      "title": "優惠券 50472",
+      "description": "優惠券 50472",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50472 優惠券 50472",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50472 優惠券 50472",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:08+08:00"
+    },
+    {
+      "code": "50473",
+      "title": "優惠券 50473",
+      "description": "優惠券 50473",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50473 優惠券 50473",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50473 優惠券 50473",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:09+08:00"
+    },
+    {
+      "code": "50496",
+      "title": "優惠券 50496",
+      "description": "優惠券 50496",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50496 優惠券 50496",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50496 優惠券 50496",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:10+08:00"
+    },
+    {
+      "code": "50506",
+      "title": "優惠券 50506",
+      "description": "優惠券 50506",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50506 優惠券 50506",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50506 優惠券 50506",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:11+08:00"
+    },
+    {
+      "code": "50507",
+      "title": "優惠券 50507",
+      "description": "優惠券 50507",
+      "price": 0,
+      "startDate": null,
+      "endDate": null,
+      "available": true,
+      "items": {},
+      "rawItems": [
+        {
+          "name": "優惠券 50507 優惠券 50507",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "優惠券 50507 優惠券 50507",
+          "quantity": 1
+        }
+      ],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "verifiedAt": "2026-05-25T21:17:13+08:00"
     }
   ]
 };
