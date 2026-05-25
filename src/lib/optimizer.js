@@ -1,9 +1,11 @@
 import { productLabel } from "./productNormalizer.js";
 
 const DEFAULT_OPTIONS = {
-  maxCandidates: 24,
+  maxCandidates: 36,
   extraBuffer: 2,
-  maxStates: 250000
+  maxStates: 250000,
+  similarLimit: 5,
+  minSimilarity: 0.5
 };
 
 export function optimizeCoupons(requirementItems, coupons, options = {}) {
@@ -33,9 +35,7 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
     return { ...emptyResult(), missingItems };
   }
 
-  const candidates = activeCoupons
-    .filter((coupon) => intersects(Object.keys(coupon.items), targetKeys))
-    .sort((a, b) => scoreCoupon(a, reachableDemand) - scoreCoupon(b, reachableDemand))
+  const candidates = selectCandidateCoupons(activeCoupons, reachableDemand, opts)
     .slice(0, opts.maxCandidates)
     .map((coupon) => ({ coupon, maxQuantity: estimateMaxQuantity(coupon, reachableDemand, opts) }))
     .filter((entry) => entry.maxQuantity > 0);
@@ -72,13 +72,57 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
 
   dfs(0, [], {}, 0, 0);
 
-  if (best) return best;
+  if (best) {
+    return Object.keys(best.missingItems ?? {}).length
+      ? { ...best, similarCoupons: findSimilarCoupons(demand, coupons, opts) }
+      : best;
+  }
 
   return {
     ...emptyResult(),
     missingItems: { ...demand },
+    similarCoupons: findSimilarCoupons(demand, coupons, opts),
     searchLimitReached: visited > opts.maxStates
   };
+}
+
+export function findSimilarCoupons(requirementItems, coupons, options = {}) {
+  const opts = { ...DEFAULT_OPTIONS, ...options };
+  const demand = cleanItems(requirementItems);
+  const totalDemand = itemCount(demand);
+  if (!totalDemand) return [];
+
+  return coupons
+    .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
+    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(coupon.items) }))
+    .map((coupon) => {
+      const matchedItems = {};
+      for (const [key, quantity] of Object.entries(demand)) {
+        const matched = Math.min(quantity, coupon.items[key] ?? 0);
+        if (matched > 0) matchedItems[key] = matched;
+      }
+      const matchedCount = itemCount(matchedItems);
+      const matchedKinds = Object.keys(matchedItems).length;
+      const similarity = matchedCount / totalDemand;
+      return { coupon, matchedItems, matchedCount, matchedKinds, similarity };
+    })
+    .filter((entry) => entry.similarity >= opts.minSimilarity)
+    .sort((a, b) =>
+      b.similarity - a.similarity ||
+      b.matchedKinds - a.matchedKinds ||
+      a.coupon.price - b.coupon.price ||
+      String(a.coupon.endDate ?? "").localeCompare(String(b.coupon.endDate ?? ""))
+    )
+    .slice(0, opts.similarLimit)
+    .map((entry) => ({
+      code: entry.coupon.code,
+      title: entry.coupon.title,
+      price: entry.coupon.price,
+      endDate: entry.coupon.endDate,
+      items: entry.coupon.items,
+      matchedItems: entry.matchedItems,
+      similarity: entry.similarity
+    }));
 }
 
 export function allocateToPeople(peopleRequirements, providedItems) {
@@ -143,6 +187,51 @@ function compareResults(a, b) {
     a.couponCount - b.couponCount ||
     String(b.latestEndDate).localeCompare(String(a.latestEndDate))
   );
+}
+
+function selectCandidateCoupons(activeCoupons, demand, opts) {
+  const targetKeys = Object.keys(demand);
+  const byEfficiency = activeCoupons
+    .filter((coupon) => intersects(Object.keys(coupon.items), targetKeys))
+    .sort((a, b) => scoreCoupon(a, demand) - scoreCoupon(b, demand));
+  const byCoverage = [...byEfficiency].sort((a, b) =>
+    coverageKinds(b, demand) - coverageKinds(a, demand) ||
+    coveredUnits(b, demand) - coveredUnits(a, demand) ||
+    extraUnits(a, demand) - extraUnits(b, demand) ||
+    a.price - b.price
+  );
+  const perKey = targetKeys.flatMap((key) =>
+    byEfficiency
+      .filter((coupon) => coupon.items[key])
+      .slice(0, 6)
+  );
+
+  return uniqueCoupons([
+    ...byCoverage.slice(0, Math.ceil(opts.maxCandidates * 0.6)),
+    ...byEfficiency.slice(0, Math.ceil(opts.maxCandidates * 0.6)),
+    ...perKey
+  ]);
+}
+
+function coverageKinds(coupon, demand) {
+  return Object.keys(demand).filter((key) => coupon.items[key]).length;
+}
+
+function coveredUnits(coupon, demand) {
+  return Object.entries(demand).reduce((sum, [key, quantity]) => sum + Math.min(quantity, coupon.items[key] ?? 0), 0);
+}
+
+function extraUnits(coupon, demand) {
+  return Object.entries(coupon.items).reduce((sum, [key, quantity]) => sum + Math.max(0, quantity - (demand[key] ?? 0)), 0);
+}
+
+function uniqueCoupons(coupons) {
+  const seen = new Set();
+  return coupons.filter((coupon) => {
+    if (seen.has(coupon.code)) return false;
+    seen.add(coupon.code);
+    return true;
+  });
 }
 
 function estimateMaxQuantity(coupon, demand, opts) {

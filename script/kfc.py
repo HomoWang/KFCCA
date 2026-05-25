@@ -122,6 +122,7 @@ def finalize_coupon(coupon: dict[str, Any]) -> dict[str, Any]:
         "startDate": coupon.get("startDate"),
         "endDate": coupon.get("endDate"),
         "available": coupon.get("available", True) is not False,
+        "deliveryAvailable": coupon.get("deliveryAvailable") if coupon.get("deliveryAvailable") is not None else coupon.get("available", True) is not False,
         "parseStatus": parse_status,
         "parseIssues": parse_issues,
         "sourceCandidates": coupon.get("sourceCandidates", []),

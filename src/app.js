@@ -1,6 +1,6 @@
 import { catalogOptions, PRODUCT_CATALOG } from "./lib/productNormalizer.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
-import { allocateToPeople, formatItems, optimizeCoupons } from "./lib/optimizer.js";
+import { allocateToPeople, findSimilarCoupons, formatItems, optimizeCoupons } from "./lib/optimizer.js";
 
 const state = {
   data: { lastUpdated: null, coupons: [] },
@@ -134,6 +134,8 @@ function renderCouponCard(coupon) {
   const parseIssues = coupon.parseIssues?.length
     ? `<p class="muted">解析訊息：${coupon.parseIssues.map(escapeHtml).join(", ")}</p>`
     : "";
+  const canDeliver = coupon.deliveryAvailable !== false;
+  const delivery = `<span class="badge ${canDeliver ? "" : "warn"}">${canDeliver ? "可外送" : "不可外送"}</span>`;
   return `
     <article class="coupon-card">
       <div class="coupon-top">
@@ -147,6 +149,7 @@ function renderCouponCard(coupon) {
       <div>${formatItems(coupon.items)}</div>
       <div class="badge-row">
         <span class="badge">${isCouponCurrentlyAvailable(coupon) ? "目前可用" : "非可用期間"}</span>
+        ${delivery}
         ${categories.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}
         ${unknown}
         ${parseStatus}
@@ -242,15 +245,27 @@ function calculateBestDeal() {
     for (const [key, quantity] of Object.entries(person.items)) sum[key] = (sum[key] ?? 0) + quantity;
     return sum;
   }, {});
-  const result = optimizeCoupons(demand, state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length));
+  const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
+  const result = optimizeCoupons(demand, usableCoupons);
   const allocation = allocateToPeople(people, result.providedItems);
-  renderResult(result, allocation);
+  const similarCoupons = result.similarCoupons ?? (Object.keys(result.missingItems ?? {}).length ? findSimilarCoupons(demand, usableCoupons) : []);
+  renderResult(result, allocation, similarCoupons);
 }
 
-function renderResult(result, allocation) {
+function renderResult(result, allocation, similarCoupons = []) {
   const coupons = result.selectedCoupons.length
     ? `<ul class="mini-list">${result.selectedCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)} x ${coupon.quantity}，$${coupon.price}/份 ${escapeHtml(coupon.title ?? "")}</li>`).join("")}</ul>`
     : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`;
+  const similar = similarCoupons.length
+    ? `
+      <div>
+        <h3>相似推薦</h3>
+        <ul class="mini-list">
+          ${similarCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)}，$${coupon.price}，相似度 ${Math.round(coupon.similarity * 100)}%，符合 ${formatItems(coupon.matchedItems)}</li>`).join("")}
+        </ul>
+      </div>
+    `
+    : "";
 
   els.result.innerHTML = `
     <div class="result-panel">
@@ -279,6 +294,7 @@ function renderResult(result, allocation) {
           ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
         </ul>
       </div>
+      ${similar}
     </div>
   `;
 }

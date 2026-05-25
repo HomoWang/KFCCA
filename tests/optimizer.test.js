@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { optimizeCoupons } from "../src/lib/optimizer.js";
+import { findSimilarCoupons, optimizeCoupons } from "../src/lib/optimizer.js";
 
 test("chooses 12345 + 23456 instead of the more expensive equivalent coupon", () => {
   const coupons = [
@@ -70,4 +70,36 @@ test("does not buy absurd quantities of cheap extra items", () => {
   assert.equal(result.providedItems.zinger_burger, 3);
   assert.equal(result.providedItems.drink, 3);
   assert.equal(result.extraItems.drink, 2);
+});
+
+test("keeps high-coverage coupon candidates even when cheap partial coupons exist", () => {
+  const cheapDrinkCoupons = Array.from({ length: 40 }, (_, index) => ({
+    code: `drink-${index}`,
+    price: 10 + index,
+    items: { drink: 1 },
+    available: true
+  }));
+  const result = optimizeCoupons(
+    { zinger_burger: 1, fried_chicken: 1, drink: 1 },
+    [
+      ...cheapDrinkCoupons,
+      { code: "15854", price: 155, items: { zinger_burger: 1, fried_chicken: 1, drink: 1 }, available: true }
+    ]
+  );
+
+  assert.deepEqual(result.selectedCoupons.map((coupon) => coupon.code), ["15854"]);
+  assert.deepEqual(result.missingItems, {});
+});
+
+test("returns similar coupon recommendations when no full match exists", () => {
+  const recommendations = findSimilarCoupons(
+    { zinger_burger: 1, fried_chicken: 1, drink: 1 },
+    [
+      { code: "partial", price: 99, items: { fried_chicken: 1, drink: 1 }, available: true },
+      { code: "weak", price: 50, items: { fries: 1 }, available: true }
+    ]
+  );
+
+  assert.equal(recommendations[0].code, "partial");
+  assert.deepEqual(recommendations[0].matchedItems, { fried_chicken: 1, drink: 1 });
 });

@@ -102,6 +102,7 @@ class OfficialApiClient:
             "startDate": parse_date(first_value(data, ["startDate", "StartDate"])),
             "endDate": parse_date(first_value(data, ["endDate", "EndDate"])),
             "available": True,
+            "deliveryAvailable": None,
             "productCode": str(product_code).strip() if product_code else None,
             "rawItems": [],
             "items": {},
@@ -116,7 +117,7 @@ class OfficialApiClient:
 
         meal_period = self._find_available_meal_period(code)
         if not meal_period:
-            return {}
+            return {"deliveryAvailable": False}
 
         payload = self._post(
             self.config.query_food_detail_url,
@@ -256,6 +257,7 @@ def convert_food_detail_data(data: Any, code: str) -> dict[str, Any]:
         "endDate": parse_date(detail.get("EndDate")),
         "productCode": detail.get("Fcode"),
         "available": True,
+        "deliveryAvailable": True,
         "verifiedAt": datetime.now(TAIPEI).isoformat(timespec="seconds"),
     }
 

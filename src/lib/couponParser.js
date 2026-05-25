@@ -21,7 +21,7 @@ export function enrichCoupon(coupon) {
     ? coupon.rawItems
     : parseRawItemsFromText(`${coupon.title ?? ""} ${coupon.description ?? ""}`);
   const normalized = normalizeRawItems(rawItems);
-  const items = coupon.items && Object.keys(coupon.items).length ? coupon.items : normalized.items;
+  const items = mergeItems(coupon.items, normalized.items);
   const parseIssues = buildParseIssues(coupon, rawItems);
 
   return {
@@ -31,6 +31,7 @@ export function enrichCoupon(coupon) {
     unknownItems: coupon.unknownItems ?? normalized.unknownItems,
     parseIssues: coupon.parseIssues?.length ? coupon.parseIssues : parseIssues,
     parseStatus: coupon.parseStatus ?? (parseIssues[0] || "ok"),
+    deliveryAvailable: coupon.deliveryAvailable ?? coupon.available ?? true,
     available: coupon.available ?? isCouponCurrentlyAvailable(coupon)
   };
 }
@@ -48,4 +49,12 @@ function buildParseIssues(coupon, rawItems) {
   if (!rawItems.length) issues.push("missing_items");
   if (!coupon.startDate || !coupon.endDate) issues.push("missing_dates");
   return issues;
+}
+
+function mergeItems(existingItems = {}, normalizedItems = {}) {
+  const items = { ...existingItems };
+  for (const [key, quantity] of Object.entries(normalizedItems)) {
+    items[key] = Math.max(Number(items[key] ?? 0), Number(quantity) || 0);
+  }
+  return items;
 }
