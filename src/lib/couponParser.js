@@ -2,6 +2,20 @@ import { normalizeRawItems } from "./productNormalizer.js";
 
 const QUANTITY_RE = /(.+?)(?:\s*[xX]\s*(\d+)|\s*(\d+)\s*(?:份|個|塊|顆|杯|包|入|桶))?$/;
 const FREE_RE = /(免費|0\s*元|零元|兌換|贈)/;
+const PRECISE_BURGER_KEYS = [
+  "peanut_zinger_burger",
+  "sichuan_zinger_burger",
+  "crispy_chicken_burger",
+  "new_orleans_burger",
+  "shrimp_burger"
+];
+const PRECISE_REPLACEMENTS = [
+  { parent: "zinger_burger", children: PRECISE_BURGER_KEYS },
+  { parent: "burger", children: PRECISE_BURGER_KEYS },
+  { parent: "fried_chicken", children: ["sichuan_fried_chicken"] },
+  { parent: "drink", children: ["small_drink", "medium_drink"] },
+  { parent: "fries", children: ["medium_fries", "large_fries"] }
+];
 
 export function parseRawItemsFromText(text = "") {
   return String(text)
@@ -53,6 +67,11 @@ function buildParseIssues(coupon, rawItems) {
 
 function mergeItems(existingItems = {}, normalizedItems = {}) {
   const items = { ...existingItems };
+  for (const replacement of PRECISE_REPLACEMENTS) {
+    if (replacement.children.some((key) => normalizedItems[key])) {
+      delete items[replacement.parent];
+    }
+  }
   for (const [key, quantity] of Object.entries(normalizedItems)) {
     items[key] = Math.max(Number(items[key] ?? 0), Number(quantity) || 0);
   }

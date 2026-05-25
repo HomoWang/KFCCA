@@ -1,4 +1,4 @@
-import { productLabel } from "./productNormalizer.js";
+import { expandItemAliases, productLabel } from "./productNormalizer.js";
 
 const DEFAULT_OPTIONS = {
   maxCandidates: 36,
@@ -17,7 +17,7 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
 
   const activeCoupons = coupons
     .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
-    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(coupon.items) }))
+    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(expandItemAliases(coupon.items)) }))
     .filter((coupon) => intersects(Object.keys(coupon.items), demandKeys));
 
   const missingItems = {};
@@ -94,7 +94,7 @@ export function findSimilarCoupons(requirementItems, coupons, options = {}) {
 
   return coupons
     .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
-    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(coupon.items) }))
+    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(expandItemAliases(coupon.items)) }))
     .map((coupon) => {
       const matchedItems = {};
       for (const [key, quantity] of Object.entries(demand)) {

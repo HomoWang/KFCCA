@@ -1,4 +1,4 @@
-import { catalogOptions, PRODUCT_CATALOG } from "./lib/productNormalizer.js";
+import { catalogOptions, expandItemAliases, PRODUCT_CATALOG } from "./lib/productNormalizer.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
 import { allocateToPeople, findSimilarCoupons, formatItems, optimizeCoupons } from "./lib/optimizer.js";
 
@@ -110,7 +110,7 @@ function renderCoupons() {
   const filtered = state.coupons
     .filter((coupon) => {
       const haystack = `${coupon.code} ${coupon.title} ${coupon.description} ${JSON.stringify(coupon.rawItems)}`.toLowerCase();
-      const itemKeys = Object.keys(coupon.items ?? {});
+      const itemKeys = Object.keys(expandItemAliases(coupon.items ?? {}));
       return (
         (!query || haystack.includes(query)) &&
         (!selectedKeys.length || selectedKeys.some((key) => itemKeys.includes(key))) &&
@@ -300,7 +300,7 @@ function renderResult(result, allocation, similarCoupons = []) {
 }
 
 function countCouponsForItem(key) {
-  return state.coupons.filter((coupon) => Number(coupon.items?.[key] ?? 0) > 0).length;
+  return state.coupons.filter((coupon) => Number(expandItemAliases(coupon.items ?? {})[key] ?? 0) > 0).length;
 }
 
 function formatDateTime(value) {

@@ -91,6 +91,57 @@ test("keeps high-coverage coupon candidates even when cheap partial coupons exis
   assert.deepEqual(result.missingItems, {});
 });
 
+test("can optimize with precise burger and drink categories", () => {
+  const result = optimizeCoupons(
+    { sichuan_zinger_burger: 1, sichuan_fried_chicken: 1, small_drink: 1 },
+    [
+      {
+        code: "15854",
+        price: 155,
+        items: { sichuan_zinger_burger: 1, sichuan_fried_chicken: 1, small_drink: 1 },
+        available: true
+      }
+    ]
+  );
+
+  assert.equal(result.totalPrice, 155);
+  assert.deepEqual(result.missingItems, {});
+});
+
+test("does not treat one precise burger variant as another precise variant", () => {
+  const result = optimizeCoupons(
+    { peanut_zinger_burger: 1 },
+    [
+      {
+        code: "sichuan",
+        price: 155,
+        items: { sichuan_zinger_burger: 1 },
+        available: true
+      }
+    ]
+  );
+
+  assert.deepEqual(result.selectedCoupons, []);
+  assert.deepEqual(result.missingItems, { peanut_zinger_burger: 1 });
+});
+
+test("broad selections can match precise item variants", () => {
+  const result = optimizeCoupons(
+    { zinger_burger: 1, fried_chicken: 1, drink: 1 },
+    [
+      {
+        code: "15854",
+        price: 155,
+        items: { sichuan_zinger_burger: 1, sichuan_fried_chicken: 1, small_drink: 1 },
+        available: true
+      }
+    ]
+  );
+
+  assert.equal(result.totalPrice, 155);
+  assert.deepEqual(result.missingItems, {});
+});
+
 test("returns similar coupon recommendations when no full match exists", () => {
   const recommendations = findSimilarCoupons(
     { zinger_burger: 1, fried_chicken: 1, drink: 1 },

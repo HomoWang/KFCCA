@@ -1,11 +1,21 @@
 export const PRODUCT_CATALOG = {
-  zinger_burger: { label: "卡啦雞腿堡", category: "漢堡" },
-  burger: { label: "漢堡", category: "漢堡" },
-  fried_chicken: { label: "炸雞", category: "炸雞" },
   egg_tart: { label: "蛋塔", category: "甜點" },
-  drink: { label: "飲料", category: "飲料" },
-  fries: { label: "薯條", category: "配餐" },
+  fries: { label: "小薯", category: "配餐" },
+  medium_fries: { label: "中薯", category: "配餐" },
+  large_fries: { label: "大薯", category: "配餐" },
   nugget: { label: "雞塊", category: "炸雞" },
+  fried_chicken: { label: "炸雞", category: "炸雞" },
+  sichuan_fried_chicken: { label: "青花椒炸雞", category: "炸雞" },
+  zinger_burger: { label: "卡啦雞腿堡", category: "漢堡" },
+  peanut_zinger_burger: { label: "花生熔岩雞腿堡", category: "漢堡" },
+  sichuan_zinger_burger: { label: "青花椒雞腿堡", category: "漢堡" },
+  crispy_chicken_burger: { label: "脆雞堡", category: "漢堡" },
+  new_orleans_burger: { label: "紐奧良烤雞腿堡", category: "漢堡" },
+  shrimp_burger: { label: "蝦堡", category: "漢堡" },
+  paper_chicken: { label: "紙包雞", category: "主餐" },
+  drink: { label: "飲料", category: "飲料" },
+  small_drink: { label: "小飲", category: "飲料" },
+  medium_drink: { label: "中飲", category: "飲料" },
   popcorn_chicken: { label: "雞米花", category: "炸雞" },
   biscuit: { label: "比司吉", category: "配餐" },
   rice: { label: "雞汁風味飯", category: "配餐" },
@@ -15,21 +25,38 @@ export const PRODUCT_CATALOG = {
 };
 
 const RULES = [
-  { key: "zinger_burger", patterns: ["卡啦雞腿堡", "咔啦雞腿堡", "青花椒卡啦雞腿堡", "雙層卡啦雞腿堡"] },
-  { key: "fried_chicken", patterns: ["炸雞", "青花椒炸雞", "咔啦脆雞", "卡啦脆雞"] },
-  { key: "egg_tart", patterns: ["蛋塔", "蛋撻", "奶皇流心蛋撻", "冰心蛋塔"] },
-  { key: "drink", patterns: ["小飲", "中飲", "大飲", "可樂", "百事", "七喜", "冰紅茶", "綠茶", "紅茶", "茶", "瓶裝"] },
-  { key: "fries", patterns: ["小薯", "中薯", "大薯", "薯條"] },
+  { key: "peanut_zinger_burger", patterns: ["花生熔岩雞腿堡", "花生熔岩咔啦雞腿堡", "花生脆雞堡"] },
+  { key: "sichuan_zinger_burger", patterns: ["青花椒卡啦雞腿堡", "青花椒咔啦雞腿堡", "青花椒香麻咔啦雞腿堡"] },
+  { key: "new_orleans_burger", patterns: ["紐奧良烤雞腿堡"] },
+  { key: "shrimp_burger", patterns: ["蝦堡", "魚子海陸蝦堡"] },
+  { key: "crispy_chicken_burger", patterns: ["脆雞堡", "原味脆雞堡"] },
+  { key: "zinger_burger", patterns: ["卡啦雞腿堡", "咔啦雞腿堡", "卡拉雞腿堡"] },
+  { key: "paper_chicken", patterns: ["紙包雞", "義式香草紙包雞"] },
+  { key: "sichuan_fried_chicken", patterns: ["青花椒炸雞", "青花椒香麻脆雞"] },
+  { key: "fried_chicken", patterns: ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"] },
+  { key: "egg_tart", patterns: ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋撻", "葡式蛋撻"] },
+  { key: "small_drink", patterns: ["小飲", "小杯", "(小)"] },
+  { key: "medium_drink", patterns: ["中飲", "中杯", "(中)"] },
+  { key: "drink", patterns: ["飲料", "可樂", "百事", "七喜", "冰紅茶", "紅茶", "綠茶", "檸檬風味紅茶", "無糖綠茶", "瓶裝"] },
+  { key: "large_fries", patterns: ["大薯"] },
+  { key: "medium_fries", patterns: ["中薯"] },
+  { key: "fries", patterns: ["小薯", "薯條"] },
   { key: "nugget", patterns: ["雞塊", "上校雞塊", "蝦塊"] },
   { key: "popcorn_chicken", patterns: ["雞米花", "爆米花雞"] },
   { key: "biscuit", patterns: ["比司吉", "蜂蜜奶油餅乾"] },
   { key: "rice", patterns: ["雞汁風味飯"] },
   { key: "soup", patterns: ["小濃湯", "濃湯"] },
   { key: "sweet_potato_ball", patterns: ["地瓜球"] },
-  { key: "burger", patterns: ["漢堡", "蝦堡", "脆雞堡", "烤雞腿堡", "花生熔岩"] },
   { key: "combo", patterns: ["套餐", "XL", "桶"] }
 ];
+
 const IGNORED_ITEM_RE = /(醬|餐具|紙袋)/;
+const ITEM_ALIASES = {
+  zinger_burger: ["peanut_zinger_burger", "sichuan_zinger_burger"],
+  fried_chicken: ["sichuan_fried_chicken"],
+  drink: ["small_drink", "medium_drink"],
+  fries: ["medium_fries", "large_fries"]
+};
 
 export function normalizeProductName(name = "") {
   const normalized = String(name).trim().replace(/\s+/g, "");
@@ -73,6 +100,15 @@ function shouldIgnoreItem(name = "") {
 
 export function productLabel(key) {
   return PRODUCT_CATALOG[key]?.label ?? key;
+}
+
+export function expandItemAliases(items = {}) {
+  const expanded = { ...items };
+  for (const [parent, children] of Object.entries(ITEM_ALIASES)) {
+    const childTotal = children.reduce((sum, child) => sum + Number(items[child] ?? 0), 0);
+    if (childTotal > 0) expanded[parent] = Math.max(Number(expanded[parent] ?? 0), childTotal);
+  }
+  return expanded;
 }
 
 export function catalogOptions() {
