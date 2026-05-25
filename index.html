@@ -10,33 +10,33 @@
     <header class="site-header">
       <div>
         <h1>KFC 優惠券查詢</h1>
-        <p id="last-updated">最後更新：讀取中</p>
+        <p id="last-updated">資料更新中</p>
       </div>
-      <a class="header-link" href="#calculator">最划算計算器</a>
     </header>
 
     <main>
-      <section class="toolbar" aria-label="優惠券篩選">
-        <input id="search" type="search" placeholder="搜尋優惠內容、代碼或商品" />
-        <select id="category">
-          <option value="">全部類型</option>
-          <option value="漢堡">漢堡</option>
-          <option value="炸雞">炸雞</option>
-          <option value="蛋塔">蛋塔</option>
-          <option value="飲料">飲料</option>
-          <option value="薯條">薯條</option>
-          <option value="套餐">套餐</option>
-        </select>
-        <input id="max-price" type="number" min="0" placeholder="最高價格" />
-        <select id="sort">
-          <option value="endDateAsc">期限近到遠</option>
-          <option value="endDateDesc">期限遠到近</option>
-          <option value="priceAsc">價格低到高</option>
-          <option value="priceDesc">價格高到低</option>
-        </select>
-      </section>
+      <nav class="view-tabs" aria-label="主要功能">
+        <button class="tab-button active" type="button" data-view-tab="coupons">優惠券清單</button>
+        <button class="tab-button" type="button" data-view-tab="calculator">最划算計算</button>
+      </nav>
 
-      <section>
+      <section id="coupons-view" data-view-panel="coupons">
+        <section class="toolbar" aria-label="優惠券篩選">
+          <input id="search" type="search" placeholder="肯德基 最新優惠碼 代碼 快速搜尋" />
+          <input id="max-price" type="number" min="0" placeholder="最高金額" />
+          <select id="sort">
+            <option value="endDateAsc">期限 近到遠</option>
+            <option value="endDateDesc">期限 遠到近</option>
+            <option value="priceAsc">金額 低到高</option>
+            <option value="priceDesc">金額 高到低</option>
+          </select>
+        </section>
+
+        <section class="filter-panel" aria-label="品項篩選">
+          <div id="item-filters" class="filter-chips"></div>
+          <button id="clear-item-filters" class="ghost-button" type="button">清除篩選</button>
+        </section>
+
         <div class="section-title">
           <h2>優惠券清單</h2>
           <span id="coupon-count"></span>
@@ -44,7 +44,7 @@
         <div id="coupon-list" class="coupon-grid"></div>
       </section>
 
-      <section id="calculator" class="calculator">
+      <section id="calculator-view" class="calculator hidden" data-view-panel="calculator">
         <div class="section-title">
           <h2>最划算購買方式計算器</h2>
         </div>

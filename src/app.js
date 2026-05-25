@@ -1,21 +1,25 @@
-import { catalogOptions, PRODUCT_CATALOG, productLabel } from "./lib/productNormalizer.js";
+import { catalogOptions, PRODUCT_CATALOG } from "./lib/productNormalizer.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
 import { allocateToPeople, formatItems, optimizeCoupons } from "./lib/optimizer.js";
 
 const state = {
   data: { lastUpdated: null, coupons: [] },
   coupons: [],
-  people: []
+  people: [],
+  selectedItemFilters: new Set()
 };
 
 const els = {
   lastUpdated: document.querySelector("#last-updated"),
   search: document.querySelector("#search"),
-  category: document.querySelector("#category"),
   maxPrice: document.querySelector("#max-price"),
   sort: document.querySelector("#sort"),
+  itemFilters: document.querySelector("#item-filters"),
+  clearItemFilters: document.querySelector("#clear-item-filters"),
   couponCount: document.querySelector("#coupon-count"),
   couponList: document.querySelector("#coupon-list"),
+  tabs: [...document.querySelectorAll("[data-view-tab]")],
+  panels: [...document.querySelectorAll("[data-view-panel]")],
   personCount: document.querySelector("#person-count"),
   buildPeople: document.querySelector("#build-people"),
   peopleForms: document.querySelector("#people-forms"),
@@ -25,6 +29,8 @@ const els = {
 
 async function init() {
   await loadCoupons();
+  renderItemFilters();
+  updateFilterChipStates();
   bindEvents();
   buildPeopleForms();
   renderCoupons();
@@ -45,30 +51,78 @@ async function loadCoupons() {
 }
 
 function bindEvents() {
-  [els.search, els.category, els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
+  [els.search, els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
+  els.clearItemFilters.addEventListener("click", clearItemFilters);
+  els.tabs.forEach((tab) => {
+    tab.addEventListener("click", () => switchView(tab.dataset.viewTab));
+  });
   els.buildPeople.addEventListener("click", buildPeopleForms);
   els.calculate.addEventListener("click", calculateBestDeal);
 }
 
+function renderItemFilters() {
+  els.itemFilters.innerHTML = catalogOptions()
+    .map((option) => {
+      const count = countCouponsForItem(option.key);
+      if (count === 0) return "";
+      return `
+        <button class="filter-chip" type="button" data-item-filter="${escapeHtml(option.key)}">
+          ${escapeHtml(option.label)}
+          <span>${count}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  els.itemFilters.querySelectorAll("[data-item-filter]").forEach((button) => {
+    button.addEventListener("click", () => toggleItemFilter(button.dataset.itemFilter));
+  });
+}
+
+function toggleItemFilter(key) {
+  if (state.selectedItemFilters.has(key)) {
+    state.selectedItemFilters.delete(key);
+  } else {
+    state.selectedItemFilters.add(key);
+  }
+  updateFilterChipStates();
+  renderCoupons();
+}
+
+function clearItemFilters() {
+  state.selectedItemFilters.clear();
+  updateFilterChipStates();
+  renderCoupons();
+}
+
+function updateFilterChipStates() {
+  els.itemFilters.querySelectorAll("[data-item-filter]").forEach((button) => {
+    button.classList.toggle("active", state.selectedItemFilters.has(button.dataset.itemFilter));
+  });
+  els.clearItemFilters.hidden = state.selectedItemFilters.size === 0;
+}
+
 function renderCoupons() {
   const query = els.search.value.trim().toLowerCase();
-  const category = els.category.value;
   const maxPrice = Number(els.maxPrice.value);
+  const selectedKeys = [...state.selectedItemFilters];
 
   const filtered = state.coupons
     .filter((coupon) => {
       const haystack = `${coupon.code} ${coupon.title} ${coupon.description} ${JSON.stringify(coupon.rawItems)}`.toLowerCase();
-      const categories = Object.keys(coupon.items ?? {}).map((key) => PRODUCT_CATALOG[key]?.category);
+      const itemKeys = Object.keys(coupon.items ?? {});
       return (
         (!query || haystack.includes(query)) &&
-        (!category || categories.includes(category)) &&
+        (!selectedKeys.length || selectedKeys.some((key) => itemKeys.includes(key))) &&
         (!els.maxPrice.value || Number(coupon.price) <= maxPrice)
       );
     })
     .sort(sortCoupons);
 
   els.couponCount.textContent = `${filtered.length} 張`;
-  els.couponList.innerHTML = filtered.length ? filtered.map(renderCouponCard).join("") : `<p class="muted">目前沒有符合條件的優惠券。</p>`;
+  els.couponList.innerHTML = filtered.length
+    ? filtered.map(renderCouponCard).join("")
+    : `<p class="muted empty-state">目前沒有符合條件的優惠券。</p>`;
 }
 
 function renderCouponCard(coupon) {
@@ -115,6 +169,11 @@ function sortCoupons(a, b) {
     default:
       return String(a.endDate ?? "9999-12-31").localeCompare(String(b.endDate ?? "9999-12-31"));
   }
+}
+
+function switchView(view) {
+  els.tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.viewTab === view));
+  els.panels.forEach((panel) => panel.classList.toggle("hidden", panel.dataset.viewPanel !== view));
 }
 
 function buildPeopleForms() {
@@ -191,7 +250,7 @@ function calculateBestDeal() {
 function renderResult(result, allocation) {
   const coupons = result.selectedCoupons.length
     ? `<ul class="mini-list">${result.selectedCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)} x ${coupon.quantity}，$${coupon.price}/份 ${escapeHtml(coupon.title ?? "")}</li>`).join("")}</ul>`
-    : `<p class="muted">目前沒有可推薦的優惠券組合。</p>`;
+    : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`;
 
   els.result.innerHTML = `
     <div class="result-panel">
@@ -217,15 +276,19 @@ function renderResult(result, allocation) {
       <div>
         <h3>個人分配</h3>
         <ul class="mini-list">
-          ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `；缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
+          ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
         </ul>
       </div>
     </div>
   `;
 }
 
+function countCouponsForItem(key) {
+  return state.coupons.filter((coupon) => Number(coupon.items?.[key] ?? 0) > 0).length;
+}
+
 function formatDateTime(value) {
-  if (!value) return "尚未產生資料";
+  if (!value) return "尚未取得資料";
   return new Intl.DateTimeFormat("zh-TW", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
 }
 

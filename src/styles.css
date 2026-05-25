@@ -1,10 +1,12 @@
 :root {
   color-scheme: light;
   --red: #c41230;
+  --red-dark: #9f1028;
+  --blue: #0d6efd;
   --ink: #202124;
   --muted: #626973;
-  --line: #e2e5e9;
-  --bg: #f7f8fa;
+  --line: #dfe3e8;
+  --bg: #f6f7f9;
   --panel: #ffffff;
   --accent: #146c5c;
   --warn: #8a5b00;
@@ -26,7 +28,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 22px clamp(16px, 4vw, 44px);
+  padding: 20px clamp(16px, 4vw, 44px);
   background: var(--panel);
   border-bottom: 1px solid var(--line);
 }
@@ -44,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   letter-spacing: 0;
 }
 
@@ -59,7 +61,6 @@ h3 {
   font-size: 0.92rem;
 }
 
-.header-link,
 button {
   border: 0;
   border-radius: 8px;
@@ -74,10 +75,30 @@ button {
 
 main {
   width: min(1180px, calc(100% - 32px));
-  margin: 24px auto 56px;
+  margin: 18px auto 56px;
+}
+
+.view-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tab-button {
+  background: #eef1f5;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.tab-button.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
 }
 
 .toolbar,
+.filter-panel,
 .person-control,
 .coupon-card,
 .person-card,
@@ -89,10 +110,67 @@ main {
 
 .toolbar {
   display: grid;
-  grid-template-columns: 1fr 160px 140px 160px;
+  grid-template-columns: 1fr 140px 160px;
   gap: 10px;
   padding: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.filter-panel {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  margin-bottom: 22px;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  border: 1px solid var(--blue);
+  background: #fff;
+  color: var(--blue);
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-weight: 700;
+}
+
+.filter-chip span {
+  min-width: 24px;
+  border-radius: 999px;
+  background: #edf2ff;
+  color: #31568f;
+  padding: 2px 7px;
+  font-size: 0.78rem;
+}
+
+.filter-chip.active {
+  background: var(--blue);
+  color: #fff;
+}
+
+.filter-chip.active span {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+.ghost-button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--muted);
+}
+
+.ghost-button[hidden] {
+  display: none;
 }
 
 input,
@@ -123,7 +201,7 @@ select {
 
 .coupon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 14px;
 }
 
@@ -172,8 +250,14 @@ select {
   color: var(--warn);
 }
 
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 28px 0;
+  text-align: center;
+}
+
 .calculator {
-  margin-top: 34px;
+  margin-top: 4px;
 }
 
 .person-control {
@@ -239,6 +323,10 @@ select {
   padding-left: 18px;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 760px) {
   .site-header {
     align-items: flex-start;
@@ -246,7 +334,16 @@ select {
   }
 
   .toolbar,
+  .filter-panel,
   .person-control {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-panel {
+    display: grid;
+  }
+
+  .coupon-grid {
     grid-template-columns: 1fr;
   }
 }
