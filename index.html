@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KFC 優惠券查詢</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>KFC 優惠券查詢</h1>
+        <p id="last-updated">最後更新：讀取中</p>
+      </div>
+      <a class="header-link" href="#calculator">最划算計算器</a>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="優惠券篩選">
+        <input id="search" type="search" placeholder="搜尋優惠內容、代碼或商品" />
+        <select id="category">
+          <option value="">全部類型</option>
+          <option value="漢堡">漢堡</option>
+          <option value="炸雞">炸雞</option>
+          <option value="蛋塔">蛋塔</option>
+          <option value="飲料">飲料</option>
+          <option value="薯條">薯條</option>
+          <option value="套餐">套餐</option>
+        </select>
+        <input id="max-price" type="number" min="0" placeholder="最高價格" />
+        <select id="sort">
+          <option value="endDateAsc">期限近到遠</option>
+          <option value="endDateDesc">期限遠到近</option>
+          <option value="priceAsc">價格低到高</option>
+          <option value="priceDesc">價格高到低</option>
+        </select>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>優惠券清單</h2>
+          <span id="coupon-count"></span>
+        </div>
+        <div id="coupon-list" class="coupon-grid"></div>
+      </section>
+
+      <section id="calculator" class="calculator">
+        <div class="section-title">
+          <h2>最划算購買方式計算器</h2>
+        </div>
+        <div class="person-control">
+          <label for="person-count">人數</label>
+          <input id="person-count" type="number" min="1" max="10" value="2" />
+          <button id="build-people" type="button">產生需求</button>
+        </div>
+        <div id="people-forms" class="people-forms"></div>
+        <button id="calculate" class="primary" type="button">計算最划算組合</button>
+        <div id="result" class="result" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
