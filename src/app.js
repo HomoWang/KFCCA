@@ -74,6 +74,12 @@ function renderCoupons() {
 function renderCouponCard(coupon) {
   const categories = [...new Set(Object.keys(coupon.items ?? {}).map((key) => PRODUCT_CATALOG[key]?.category).filter(Boolean))];
   const unknown = coupon.unknownItems?.length ? `<span class="badge warn">含未標準化品項</span>` : "";
+  const parseStatus = coupon.parseStatus && coupon.parseStatus !== "ok"
+    ? `<span class="badge warn">解析狀態：${escapeHtml(coupon.parseStatus)}</span>`
+    : "";
+  const parseIssues = coupon.parseIssues?.length
+    ? `<p class="muted">解析訊息：${coupon.parseIssues.map(escapeHtml).join(", ")}</p>`
+    : "";
   return `
     <article class="coupon-card">
       <div class="coupon-top">
@@ -89,8 +95,10 @@ function renderCouponCard(coupon) {
         <span class="badge">${isCouponCurrentlyAvailable(coupon) ? "目前可用" : "非可用期間"}</span>
         ${categories.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}
         ${unknown}
+        ${parseStatus}
       </div>
       <p class="muted">期間：${escapeHtml(coupon.startDate ?? "未提供")} - ${escapeHtml(coupon.endDate ?? "未提供")}</p>
+      ${parseIssues}
     </article>
   `;
 }

@@ -29,6 +29,11 @@ jobs:
           COUPON_RANGES: ${{ vars.COUPON_RANGES }}
           CHECK_RANGES: ${{ vars.CHECK_RANGES }}
           KFC_OFFICIAL_API_URL: ${{ secrets.KFC_OFFICIAL_API_URL }}
+          KFC_GET_EVOUCHER_URL: ${{ vars.KFC_GET_EVOUCHER_URL || secrets.KFC_OFFICIAL_API_URL }}
+          KFC_CHECK_COUPON_PRODUCT_URL: ${{ vars.KFC_CHECK_COUPON_PRODUCT_URL }}
+          KFC_QUERY_FOOD_DETAIL_URL: ${{ vars.KFC_QUERY_FOOD_DETAIL_URL }}
+          KFC_SHOP_CODE: ${{ vars.KFC_SHOP_CODE || 'TWI104' }}
+          KFC_MAX_CANDIDATES: ${{ vars.KFC_MAX_CANDIDATES }}
           KFC_OFFICIAL_API_METHOD: ${{ vars.KFC_OFFICIAL_API_METHOD || 'POST' }}
           KFC_API_TIMEOUT: "20"
           KFC_API_RETRIES: "2"
