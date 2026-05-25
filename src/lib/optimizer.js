@@ -65,6 +65,7 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
       const nextProvided = quantity
         ? addItems(provided, coupon.items, quantity)
         : provided;
+      if (exceedsExtraBuffer(nextProvided, reachableDemand, opts.extraBuffer)) continue;
       dfs(index + 1, nextSelected, nextProvided, totalPrice + coupon.price * quantity, count + quantity);
     }
   }
@@ -167,6 +168,10 @@ function addItems(base, addition, multiplier = 1) {
 
 function covers(provided, demand) {
   return Object.entries(demand).every(([key, quantity]) => (provided[key] ?? 0) >= quantity);
+}
+
+function exceedsExtraBuffer(provided, demand, extraBuffer) {
+  return Object.entries(provided).some(([key, quantity]) => quantity > (demand[key] ?? 0) + extraBuffer);
 }
 
 function intersects(a, b) {

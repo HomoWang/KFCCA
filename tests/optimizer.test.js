@@ -57,3 +57,17 @@ test("tie breaker chooses fewer coupon count when price and extras are equal", (
 
   assert.deepEqual(result.selectedCoupons.map((coupon) => coupon.code), ["20000"]);
 });
+
+test("does not buy absurd quantities of cheap extra items", () => {
+  const result = optimizeCoupons(
+    { zinger_burger: 3, drink: 1 },
+    [
+      { code: "burger", price: 100, items: { zinger_burger: 1 }, available: true },
+      { code: "drink-pack", price: 1, items: { drink: 3 }, available: true }
+    ]
+  );
+
+  assert.equal(result.providedItems.zinger_burger, 3);
+  assert.equal(result.providedItems.drink, 3);
+  assert.equal(result.extraItems.drink, 2);
+});
