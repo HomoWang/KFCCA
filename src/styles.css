@@ -318,6 +318,30 @@ select {
   gap: 12px;
 }
 
+.result-grid.compact {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.alternative-plans {
+  display: grid;
+  gap: 12px;
+}
+
+.plan-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.plan-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 .mini-list {
   margin: 8px 0 0;
   padding-left: 18px;

@@ -3,16 +3,18 @@ import { normalizeRawItems } from "./productNormalizer.js";
 const QUANTITY_RE = /(.+?)(?:\s*[xX]\s*(\d+)|\s*(\d+)\s*(?:份|個|塊|顆|杯|包|入|桶))?$/;
 const FREE_RE = /(免費|0\s*元|零元|兌換|贈)/;
 const PRECISE_BURGER_KEYS = [
+  "zinger_burger",
   "peanut_zinger_burger",
   "sichuan_zinger_burger",
   "crispy_chicken_burger",
   "new_orleans_burger",
-  "shrimp_burger"
+  "shrimp_burger",
+  "pork_burger"
 ];
 const PRECISE_REPLACEMENTS = [
   { parent: "zinger_burger", children: PRECISE_BURGER_KEYS },
   { parent: "burger", children: PRECISE_BURGER_KEYS },
-  { parent: "fried_chicken", children: ["sichuan_fried_chicken"] },
+  { parent: "fried_chicken", children: ["sichuan_fried_chicken", "spicy_crispy_chicken", "original_crispy_chicken"] },
   { parent: "drink", children: ["small_drink", "medium_drink"] },
   { parent: "fries", children: ["medium_fries", "large_fries"] }
 ];

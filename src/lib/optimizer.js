@@ -1,9 +1,11 @@
-import { expandItemAliases, productLabel } from "./productNormalizer.js";
+import { aliasParentsForItem, expandItemAliases, productLabel } from "./productNormalizer.js";
 
 const DEFAULT_OPTIONS = {
   maxCandidates: 36,
   extraBuffer: 2,
   maxStates: 250000,
+  alternativeLimit: 5,
+  alternativeSearchLimit: 30,
   similarLimit: 5,
   minSimilarity: 0.5
 };
@@ -13,11 +15,11 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
   const demand = cleanItems(requirementItems);
   const demandKeys = Object.keys(demand);
 
-  if (!demandKeys.length) return emptyResult();
+  if (!demandKeys.length) return wrapPlans(emptyResult(), [], false);
 
   const activeCoupons = coupons
     .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
-    .map((coupon) => ({ ...coupon, price: Number(coupon.price) || 0, items: cleanItems(expandItemAliases(coupon.items)) }))
+    .map((coupon) => prepareCouponForOptimization(coupon, demand))
     .filter((coupon) => intersects(Object.keys(coupon.items), demandKeys));
 
   const missingItems = {};
@@ -32,7 +34,7 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
 
   const targetKeys = Object.keys(reachableDemand);
   if (!targetKeys.length) {
-    return { ...emptyResult(), missingItems };
+    return wrapPlans({ ...emptyResult(), missingItems }, [], false);
   }
 
   const candidates = selectCandidateCoupons(activeCoupons, reachableDemand, opts)
@@ -40,18 +42,17 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
     .map((coupon) => ({ coupon, maxQuantity: estimateMaxQuantity(coupon, reachableDemand, opts) }))
     .filter((entry) => entry.maxQuantity > 0);
 
-  let best = null;
+  const completePlans = [];
   let visited = 0;
 
   function dfs(index, selected, provided, totalPrice, count) {
     visited += 1;
     if (visited > opts.maxStates) return;
 
-    if (best && totalPrice > best.totalPrice) return;
-
     if (covers(provided, reachableDemand)) {
+      if (hasOverRepeatedCoupons(selected, reachableDemand)) return;
       const candidate = buildResult(selected, provided, reachableDemand, missingItems, totalPrice, count);
-      if (!best || compareResults(candidate, best) < 0) best = candidate;
+      rememberCompletePlan(completePlans, candidate, opts.alternativeLimit + opts.alternativeSearchLimit);
       return;
     }
 
@@ -72,18 +73,30 @@ export function optimizeCoupons(requirementItems, coupons, options = {}) {
 
   dfs(0, [], {}, 0, 0);
 
+  const rankedPlans = completePlans.sort(compareResults);
+  const best = rankedPlans[0] ?? null;
+
   if (best) {
+    const canUseAlternatives = !Object.keys(best.missingItems ?? {}).length;
+    const alternatives = canUseAlternatives
+      ? rankedPlans
+          .slice(1)
+          .filter((plan) => !Object.keys(plan.missingItems ?? {}).length)
+          .slice(0, opts.alternativeLimit)
+          .map((plan, index) => ({ ...plan, rank: index + 2, priceDelta: plan.totalPrice - best.totalPrice }))
+      : [];
+    const result = wrapPlans({ ...best, rank: 1, priceDelta: 0 }, alternatives, visited > opts.maxStates);
     return Object.keys(best.missingItems ?? {}).length
-      ? { ...best, similarCoupons: findSimilarCoupons(demand, coupons, opts) }
-      : best;
+      ? { ...result, similarCoupons: findSimilarCoupons(demand, coupons, opts) }
+      : result;
   }
 
-  return {
+  return wrapPlans({
     ...emptyResult(),
     missingItems: { ...demand },
     similarCoupons: findSimilarCoupons(demand, coupons, opts),
     searchLimitReached: visited > opts.maxStates
-  };
+  }, [], visited > opts.maxStates);
 }
 
 export function findSimilarCoupons(requirementItems, coupons, options = {}) {
@@ -163,6 +176,11 @@ function buildResult(selected, provided, demand, missingItems, totalPrice, coupo
     .sort((a, b) => String(a.code).localeCompare(String(b.code)));
 
   const providedItems = stripZeroes(provided);
+  const fulfilledItems = {};
+  for (const [key, quantity] of Object.entries(demand)) {
+    const fulfilled = Math.min(providedItems[key] ?? 0, quantity);
+    if (fulfilled > 0) fulfilledItems[key] = fulfilled;
+  }
   const extraItems = {};
   for (const [key, quantity] of Object.entries(providedItems)) {
     const extra = quantity - (demand[key] ?? 0);
@@ -173,10 +191,68 @@ function buildResult(selected, provided, demand, missingItems, totalPrice, coupo
     totalPrice,
     selectedCoupons,
     providedItems,
+    fulfilledItems,
     extraItems,
     missingItems,
     couponCount,
     latestEndDate: selectedCoupons.reduce((latest, coupon) => maxDateString(latest, coupon.endDate), "")
+  };
+}
+
+function prepareCouponForOptimization(coupon, demand) {
+  const actualItems = cleanItems(coupon.items);
+  const expandedItems = cleanItems(expandItemAliases(actualItems));
+  return {
+    ...coupon,
+    price: Number(coupon.price) || 0,
+    actualItems,
+    items: buildMatchItems(actualItems, expandedItems, demand)
+  };
+}
+
+function buildMatchItems(actualItems, expandedItems, demand) {
+  const matchItems = {};
+  for (const key of Object.keys(demand)) {
+    if (expandedItems[key] > 0) matchItems[key] = expandedItems[key];
+  }
+
+  for (const [key, quantity] of Object.entries(actualItems)) {
+    if (matchItems[key]) continue;
+    const consumedByDemandedParent = aliasParentsForItem(key).some((parent) => demand[parent] && !demand[key]);
+    if (consumedByDemandedParent) continue;
+    matchItems[key] = quantity;
+  }
+
+  return cleanItems(matchItems);
+}
+
+function rememberCompletePlan(plans, candidate, maxPlans) {
+  if (Object.keys(candidate.missingItems ?? {}).length) {
+    plans.push(candidate);
+    return;
+  }
+
+  const existingIndex = plans.findIndex((plan) => planKey(plan) === planKey(candidate));
+  if (existingIndex >= 0) {
+    if (compareResults(candidate, plans[existingIndex]) < 0) plans[existingIndex] = candidate;
+  } else {
+    plans.push(candidate);
+  }
+
+  plans.sort(compareResults);
+  if (plans.length > maxPlans) plans.length = maxPlans;
+}
+
+function planKey(plan) {
+  return plan.selectedCoupons.map((coupon) => `${coupon.code}:${coupon.quantity}`).join("|");
+}
+
+function wrapPlans(bestPlan, alternativePlans = [], searchLimitReached = false) {
+  return {
+    ...bestPlan,
+    bestPlan,
+    alternativePlans,
+    searchLimitReached
   };
 }
 
@@ -242,6 +318,17 @@ function estimateMaxQuantity(coupon, demand, opts) {
   return Math.max(...relevantQuantities) + opts.extraBuffer;
 }
 
+function hasOverRepeatedCoupons(selected, demand) {
+  return selected.some(({ coupon, quantity }) => quantity > estimateRequiredQuantity(coupon, demand));
+}
+
+function estimateRequiredQuantity(coupon, demand) {
+  const relevantQuantities = Object.entries(coupon.items)
+    .filter(([key]) => demand[key])
+    .map(([key, quantity]) => Math.ceil(demand[key] / Math.max(1, quantity)));
+  return relevantQuantities.length ? Math.max(...relevantQuantities) : 0;
+}
+
 function scoreCoupon(coupon, demand) {
   const relevantUnits = Object.entries(coupon.items).reduce((sum, [key, quantity]) => sum + (demand[key] ? quantity : 0), 0);
   return coupon.price / Math.max(1, relevantUnits);
@@ -296,6 +383,7 @@ function emptyResult() {
     totalPrice: 0,
     selectedCoupons: [],
     providedItems: {},
+    fulfilledItems: {},
     extraItems: {},
     missingItems: {}
   };

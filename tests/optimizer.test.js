@@ -12,7 +12,73 @@ test("chooses 12345 + 23456 instead of the more expensive equivalent coupon", ()
   const result = optimizeCoupons({ zinger_burger: 1, fried_chicken: 2, drink: 1 }, coupons);
 
   assert.equal(result.totalPrice, 110);
+  assert.equal(result.bestPlan.totalPrice, 110);
   assert.deepEqual(result.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["12345", 1], ["23456", 1]]);
+});
+
+test("alternative Test Case A lists the more expensive complete single-coupon plan", () => {
+  const result = optimizeCoupons(
+    { burger: 1, fried_chicken: 2, drink: 1 },
+    [
+      { code: "12345", price: 50, items: { zinger_burger: 1, fried_chicken: 1 }, available: true },
+      { code: "23456", price: 60, items: { drink: 1, fried_chicken: 1 }, available: true },
+      { code: "34567", price: 150, items: { zinger_burger: 1, fried_chicken: 2, drink: 1 }, available: true }
+    ]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 110);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["12345", 1], ["23456", 1]]);
+  assert.equal(result.alternativePlans[0].totalPrice, 150);
+  assert.equal(result.alternativePlans[0].priceDelta, 40);
+  assert.deepEqual(result.alternativePlans[0].selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["34567", 1]]);
+  assert.deepEqual(result.alternativePlans[0].missingItems, {});
+});
+
+test("alternative Test Case B includes complete broad burger drink plans only", () => {
+  const result = optimizeCoupons(
+    { burger: 1, drink: 1 },
+    [
+      { code: "A", price: 95, items: { pork_burger: 1, drink: 1 }, available: true },
+      { code: "B", price: 100, items: { zinger_burger: 1, drink: 1 }, available: true },
+      { code: "C", price: 90, items: { zinger_burger: 1, fries: 1 }, available: true }
+    ]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 95);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => coupon.code), ["A"]);
+  assert.deepEqual(result.alternativePlans.map((plan) => plan.selectedCoupons[0].code), ["B"]);
+});
+
+test("alternative Test Case C allows extras and sorts by total price", () => {
+  const result = optimizeCoupons(
+    { burger: 1 },
+    [
+      { code: "A", price: 80, items: { zinger_burger: 1 }, available: true },
+      { code: "B", price: 70, items: { pork_burger: 1, fries: 1 }, available: true },
+      { code: "C", price: 90, items: { zinger_burger: 1, drink: 1 }, available: true }
+    ]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 70);
+  assert.deepEqual(result.bestPlan.extraItems, { fries: 1 });
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => coupon.code), ["B"]);
+  assert.deepEqual(result.alternativePlans.map((plan) => [plan.selectedCoupons[0].code, plan.totalPrice]), [["A", 80], ["C", 90]]);
+  assert.deepEqual(result.alternativePlans[1].extraItems, { drink: 1 });
+});
+
+test("alternative Test Case D exact spicy crispy chicken cannot be replaced by similar chicken", () => {
+  const result = optimizeCoupons(
+    { burger: 1, spicy_crispy_chicken: 1 },
+    [
+      { code: "A", price: 99, items: { zinger_burger: 1, spicy_crispy_chicken: 1 }, available: true },
+      { code: "B", price: 89, items: { pork_burger: 1, original_crispy_chicken: 1 }, available: true },
+      { code: "C", price: 120, items: { zinger_burger: 1, sichuan_fried_chicken: 1 }, available: true }
+    ]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 99);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => coupon.code), ["A"]);
+  assert.deepEqual(result.alternativePlans, []);
 });
 
 test("reports missingItems when demand cannot be fully satisfied", () => {

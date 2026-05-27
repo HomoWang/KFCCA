@@ -6,7 +6,8 @@ const state = {
   data: { lastUpdated: null, coupons: [] },
   coupons: [],
   people: [],
-  selectedItemFilters: new Set()
+  selectedItemFilters: new Set(),
+  alternativeVisibleCount: 5
 };
 
 const els = {
@@ -246,16 +247,20 @@ function calculateBestDeal() {
     return sum;
   }, {});
   const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
-  const result = optimizeCoupons(demand, usableCoupons);
-  const allocation = allocateToPeople(people, result.providedItems);
+  state.alternativeVisibleCount = 5;
+  const result = optimizeCoupons(demand, usableCoupons, { alternativeLimit: 12 });
   const similarCoupons = result.similarCoupons ?? (Object.keys(result.missingItems ?? {}).length ? findSimilarCoupons(demand, usableCoupons) : []);
-  renderResult(result, allocation, similarCoupons);
+  renderResult(result, people, similarCoupons);
 }
 
-function renderResult(result, allocation, similarCoupons = []) {
-  const coupons = result.selectedCoupons.length
-    ? `<ul class="mini-list">${result.selectedCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)} x ${coupon.quantity}，$${coupon.price}/份 ${escapeHtml(coupon.title ?? "")}</li>`).join("")}</ul>`
-    : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`;
+function renderResult(result, people, similarCoupons = []) {
+  const bestPlan = result.bestPlan ?? result;
+  const allocation = allocateToPeople(people, bestPlan.providedItems);
+  const alternatives = result.alternativePlans ?? [];
+  const visibleAlternatives = alternatives.slice(0, state.alternativeVisibleCount);
+  const moreButton = alternatives.length > visibleAlternatives.length
+    ? `<button class="secondary" type="button" data-show-more-plans>顯示更多方案</button>`
+    : "";
   const similar = similarCoupons.length
     ? `
       <div>
@@ -269,23 +274,19 @@ function renderResult(result, allocation, similarCoupons = []) {
 
   els.result.innerHTML = `
     <div class="result-panel">
-      <div>
-        <h3>推薦組合</h3>
-        <p class="price">$${result.totalPrice}</p>
-        ${coupons}
-      </div>
+      ${renderPlan(bestPlan, people, { title: "最佳方案", rank: 1 })}
       <div class="result-grid">
         <div>
           <h3>可滿足品項</h3>
-          <p>${formatItems(result.providedItems)}</p>
+          <p>${formatItems(bestPlan.fulfilledItems ?? bestPlan.providedItems)}</p>
         </div>
         <div>
           <h3>多出品項</h3>
-          <p>${formatItems(result.extraItems)}</p>
+          <p>${formatItems(bestPlan.extraItems)}</p>
         </div>
         <div>
           <h3>無法滿足品項</h3>
-          <p>${formatItems(result.missingItems)}</p>
+          <p>${formatItems(bestPlan.missingItems)}</p>
         </div>
       </div>
       <div>
@@ -294,8 +295,57 @@ function renderResult(result, allocation, similarCoupons = []) {
           ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
         </ul>
       </div>
+      ${visibleAlternatives.length ? `
+        <div class="alternative-plans">
+          <h3>其他可行方案</h3>
+          ${visibleAlternatives.map((plan, index) => renderPlan(plan, people, { title: `方案 ${index + 2}`, rank: index + 2, bestPrice: bestPlan.totalPrice })).join("")}
+          ${moreButton}
+        </div>
+      ` : ""}
       ${similar}
     </div>
+  `;
+
+  els.result.querySelector("[data-show-more-plans]")?.addEventListener("click", () => {
+    state.alternativeVisibleCount += 5;
+    renderResult(result, people, similarCoupons);
+  });
+}
+
+function renderPlan(plan, people, { title, rank, bestPrice = null } = {}) {
+  const allocation = allocateToPeople(people, plan.providedItems);
+  const delta = bestPrice === null ? "" : `<span class="muted">比最佳方案貴 $${Math.max(0, plan.totalPrice - bestPrice)}</span>`;
+  const coupons = plan.selectedCoupons.length
+    ? `<ul class="mini-list">${plan.selectedCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)} x ${coupon.quantity}，$${coupon.price}/份 ${escapeHtml(coupon.title ?? "")}</li>`).join("")}</ul>`
+    : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`;
+
+  return `
+    <article class="plan-card">
+      <div class="plan-heading">
+        <div>
+          <h3>${escapeHtml(title ?? `方案 ${rank ?? ""}`)}</h3>
+          ${delta}
+        </div>
+        <p class="price">$${plan.totalPrice}</p>
+      </div>
+      ${coupons}
+      <div class="result-grid compact">
+        <div>
+          <h3>滿足需求</h3>
+          <p>${formatItems(plan.fulfilledItems ?? plan.providedItems)}</p>
+        </div>
+        <div>
+          <h3>多買品項</h3>
+          <p>${formatItems(plan.extraItems)}</p>
+        </div>
+      </div>
+      <div>
+        <h3>個人分配</h3>
+        <ul class="mini-list">
+          ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
+        </ul>
+      </div>
+    </article>
   `;
 }
 

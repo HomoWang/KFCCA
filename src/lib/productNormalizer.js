@@ -6,12 +6,16 @@ export const PRODUCT_CATALOG = {
   nugget: { label: "雞塊", category: "炸雞" },
   fried_chicken: { label: "炸雞", category: "炸雞" },
   sichuan_fried_chicken: { label: "青花椒炸雞", category: "炸雞" },
+  spicy_crispy_chicken: { label: "卡拉脆雞-辣", category: "炸雞" },
+  original_crispy_chicken: { label: "卡拉脆雞-原味", category: "炸雞" },
+  burger: { label: "任一漢堡", category: "漢堡" },
   zinger_burger: { label: "卡啦雞腿堡", category: "漢堡" },
   peanut_zinger_burger: { label: "花生熔岩雞腿堡", category: "漢堡" },
   sichuan_zinger_burger: { label: "青花椒雞腿堡", category: "漢堡" },
   crispy_chicken_burger: { label: "脆雞堡", category: "漢堡" },
   new_orleans_burger: { label: "紐奧良烤雞腿堡", category: "漢堡" },
   shrimp_burger: { label: "蝦堡", category: "漢堡" },
+  pork_burger: { label: "起司豬肉堡", category: "漢堡" },
   paper_chicken: { label: "紙包雞", category: "主餐" },
   drink: { label: "飲料", category: "飲料" },
   small_drink: { label: "小飲", category: "飲料" },
@@ -30,8 +34,11 @@ const RULES = [
   { key: "new_orleans_burger", patterns: ["紐奧良烤雞腿堡"] },
   { key: "shrimp_burger", patterns: ["蝦堡", "魚子海陸蝦堡"] },
   { key: "crispy_chicken_burger", patterns: ["脆雞堡", "原味脆雞堡"] },
+  { key: "pork_burger", patterns: ["起司豬肉堡", "豬肉堡"] },
   { key: "zinger_burger", patterns: ["卡啦雞腿堡", "咔啦雞腿堡", "卡拉雞腿堡"] },
   { key: "paper_chicken", patterns: ["紙包雞", "義式香草紙包雞"] },
+  { key: "spicy_crispy_chicken", patterns: ["卡拉脆雞-辣", "卡啦脆雞-辣", "咔啦脆雞-辣", "卡拉脆雞(辣)", "卡啦脆雞(辣)", "咔啦脆雞(辣)"] },
+  { key: "original_crispy_chicken", patterns: ["卡拉脆雞-原味", "卡啦脆雞-原味", "咔啦脆雞-原味", "卡拉脆雞(原味)", "卡啦脆雞(原味)", "咔啦脆雞(原味)"] },
   { key: "sichuan_fried_chicken", patterns: ["青花椒炸雞", "青花椒香麻脆雞"] },
   { key: "fried_chicken", patterns: ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"] },
   { key: "egg_tart", patterns: ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋撻", "葡式蛋撻"] },
@@ -52,8 +59,9 @@ const RULES = [
 
 const IGNORED_ITEM_RE = /(醬|餐具|紙袋)/;
 const ITEM_ALIASES = {
+  burger: ["zinger_burger", "peanut_zinger_burger", "sichuan_zinger_burger", "crispy_chicken_burger", "new_orleans_burger", "shrimp_burger", "pork_burger"],
   zinger_burger: ["peanut_zinger_burger", "sichuan_zinger_burger"],
-  fried_chicken: ["sichuan_fried_chicken"],
+  fried_chicken: ["sichuan_fried_chicken", "spicy_crispy_chicken", "original_crispy_chicken"],
   drink: ["small_drink", "medium_drink"],
   fries: ["medium_fries", "large_fries"]
 };
@@ -109,6 +117,12 @@ export function expandItemAliases(items = {}) {
     if (childTotal > 0) expanded[parent] = Math.max(Number(expanded[parent] ?? 0), childTotal);
   }
   return expanded;
+}
+
+export function aliasParentsForItem(key) {
+  return Object.entries(ITEM_ALIASES)
+    .filter(([, children]) => children.includes(key))
+    .map(([parent]) => parent);
 }
 
 export function catalogOptions() {
