@@ -14,10 +14,9 @@ test("fills drink markers from raw beverage names even when items are incomplete
     ]
   });
 
-  assert.equal(coupon.items.fried_chicken_piece, 1);
   assert.equal(coupon.items.sichuan_fried_chicken, 1);
-  assert.equal(coupon.items.small_drink, 1);
-  assert.equal(expandItemAliases(coupon.items).fried_chicken, 2);
+  assert.equal(coupon.items.iced_tea, 1);
+  assert.equal(expandItemAliases(coupon.items).fried_chicken, 1);
   assert.equal(expandItemAliases(coupon.items).drink, 1);
 });
 
@@ -53,5 +52,17 @@ test("does not double count legacy and normalized keys for the same product", ()
   });
 
   assert.equal(coupon.items.crispy_chicken_spicy, 1);
+  assert.equal(coupon.items.fried_chicken_piece, undefined);
   assert.equal(coupon.displayItems.find((item) => item.productKey === "crispy_chicken_spicy").quantity, 1);
+});
+
+test("raw items replace stale generated item keys", () => {
+  const coupon = enrichCoupon({
+    code: "stale",
+    price: 85,
+    items: { fried_chicken: 1 },
+    rawItems: [{ name: "咔啦脆雞(辣)", quantity: 1 }]
+  });
+
+  assert.deepEqual(coupon.items, { crispy_chicken_spicy: 1 });
 });

@@ -24,6 +24,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Update coupon data
         env:
           COUPON_RANGES: ${{ vars.COUPON_RANGES }}
@@ -39,6 +43,9 @@ jobs:
           KFC_API_RETRIES: "2"
           KFC_API_SLEEP: "0.8"
         run: python script/kfc.py
+
+      - name: Validate coupon data and calculator logic
+        run: node --test
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5

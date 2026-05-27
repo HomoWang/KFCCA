@@ -15,7 +15,7 @@ const RULES = productCategories.flatMap((category) =>
   }))
 );
 
-const IGNORED_ITEM_RE = /(醬|餐具|紙袋)/;
+const IGNORED_ITEM_RE = /(醬|餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)/;
 
 export { catalogOptions, PRODUCT_CATALOG, productLabel };
 

@@ -9,8 +9,9 @@ export const productCategories = [
       { key: "sichuan_zinger_burger", label: "青花椒雞腿堡", aliases: ["青花椒卡啦雞腿堡", "青花椒咔啦雞腿堡", "青花椒香麻咔啦雞腿堡"] },
       { key: "crispy_chicken_burger", label: "脆雞堡", aliases: ["脆雞堡", "原味脆雞堡"] },
       { key: "new_orleans_burger", label: "紐奧良烤雞腿堡", aliases: ["紐奧良烤雞腿堡"] },
-      { key: "shrimp_burger", label: "蝦堡", aliases: ["蝦堡", "魚子海陸蝦堡"] },
-      { key: "pork_burger", label: "起司豬肉堡", aliases: ["起司豬肉堡", "豬肉堡"] }
+      { key: "shrimp_burger", label: "蝦堡", aliases: ["蝦堡", "魚子海陸蝦堡", "黃金魚子海陸堡"] },
+      { key: "pork_burger", label: "起司豬肉堡", aliases: ["起司豬肉堡", "豬肉堡"] },
+      { key: "peanut_cheese_egg_burger", label: "花生起司蛋堡", aliases: ["花生起司蛋堡"] }
     ]
   },
   {
@@ -31,9 +32,9 @@ export const productCategories = [
     label: "薯條",
     broadOptionLabel: "任一薯條",
     products: [
-      { key: "small_fries", label: "小薯", aliases: ["小薯", "小份薯條"] },
-      { key: "medium_fries", label: "中薯", aliases: ["中薯", "中份薯條"] },
-      { key: "large_fries", label: "大薯", aliases: ["大薯", "大份薯條"] }
+      { key: "small_fries", label: "小薯", aliases: ["小薯", "小份薯條", "香酥脆薯(小)"] },
+      { key: "medium_fries", label: "中薯", aliases: ["中薯", "中份薯條", "香酥脆薯(中)"] },
+      { key: "large_fries", label: "大薯", aliases: ["大薯", "大份薯條", "薯條(大)", "香酥脆薯(大)"] }
     ]
   },
   {
@@ -49,14 +50,16 @@ export const productCategories = [
     label: "飲料",
     broadOptionLabel: "任一飲料",
     products: [
-      { key: "drink", label: "飲料", aliases: ["飲料"] },
-      { key: "small_drink", label: "小飲", aliases: ["小飲", "小杯飲料", "小杯", "(小)"] },
-      { key: "medium_drink", label: "中飲", aliases: ["中飲", "中杯飲料", "中杯", "(中)"] },
       { key: "pepsi", label: "百事可樂", aliases: ["百事可樂", "可樂"] },
       { key: "iced_tea", label: "冰紅茶", aliases: ["冰紅茶", "紅茶", "檸檬風味紅茶"] },
       { key: "seven_up", label: "七喜", aliases: ["七喜"] },
       { key: "green_tea", label: "綠茶", aliases: ["綠茶", "無糖綠茶"] },
-      { key: "bottled_drink", label: "瓶裝飲料", aliases: ["瓶裝"] }
+      { key: "milk_tea", label: "冰奶茶", aliases: ["經典冰奶茶", "冰奶茶"] },
+      { key: "apple_juice", label: "蘋果汁", aliases: ["蘋果汁"] },
+      { key: "bottled_drink", label: "瓶裝飲料", aliases: ["瓶裝"] },
+      { key: "small_drink", label: "小飲", aliases: ["小飲", "小杯飲料", "小杯"] },
+      { key: "medium_drink", label: "中飲", aliases: ["中飲", "中杯飲料", "中杯"] },
+      { key: "drink", label: "飲料", aliases: ["飲料"] }
     ]
   },
   {
@@ -70,6 +73,9 @@ export const productCategories = [
       { key: "onion_rings", label: "洋蔥圈", aliases: ["洋蔥圈"] },
       { key: "biscuit", label: "比司吉", aliases: ["比司吉", "蜂蜜奶油餅乾"] },
       { key: "sweet_potato_ball", label: "地瓜球", aliases: ["地瓜球"] },
+      { key: "qq_ball", label: "雙色轉轉QQ球", aliases: ["雙色轉轉QQ球"] },
+      { key: "strawberry_cheese_mochi", label: "草苺起司冰淇淋大福", aliases: ["草苺起司冰淇淋大福", "草莓起司冰淇淋大福", "冰淇淋大福"] },
+      { key: "cod_ring", label: "鱈魚圈圈", aliases: ["鱈魚圈圈", "鱈魚圈"] },
       { key: "soup", label: "濃湯", aliases: ["小濃湯", "濃湯"] }
     ]
   },
@@ -81,6 +87,7 @@ export const productCategories = [
     products: [
       { key: "rice", label: "雞汁風味飯", aliases: ["雞汁風味飯"] },
       { key: "paper_chicken", label: "紙包雞", aliases: ["紙包雞", "義式香草紙包雞"] },
+      { key: "omelet_flatbread", label: "總匯歐姆蛋燒餅", aliases: ["總匯歐姆蛋燒餅"] },
       { key: "combo", label: "套餐", aliases: ["套餐", "XL", "桶"] }
     ]
   }

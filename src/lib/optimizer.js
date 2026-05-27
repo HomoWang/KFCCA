@@ -53,7 +53,7 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
 
     const evaluated = evaluatePlan(selected, people, missingBeforeSearch, totalPrice, couponCount);
     if (!evaluated.missingRequirements.length) {
-      if (hasOverRepeatedCoupons(selected, searchableRequirements)) return;
+      if (hasRedundantCouponCopy(selected, people, missingBeforeSearch)) return;
       rememberPlan(plans, evaluated, opts.alternativeLimit + opts.alternativeSearchLimit);
       return;
     }
@@ -263,7 +263,7 @@ function normalizeRequirement(requirement, personIndex, index) {
   }
 
   const rawKey = requirement.productKey ?? requirement.key;
-  if (isCategoryKey(rawKey)) {
+  if (requirement.type !== "exact" && isCategoryKey(rawKey)) {
     return {
       id: requirement.id ?? `p${personIndex}-r${index}`,
       personIndex,
@@ -375,15 +375,14 @@ function estimateMaxQuantity(coupon, requirements, opts) {
   return relevant.length ? Math.max(...relevant) + opts.extraBuffer : 0;
 }
 
-function hasOverRepeatedCoupons(selected, requirements) {
-  return selected.some(({ coupon, quantity }) => quantity > estimateRequiredQuantity(coupon, requirements));
-}
-
-function estimateRequiredQuantity(coupon, requirements) {
-  const relevant = requirements
-    .filter((requirement) => couponCanSatisfy(coupon, requirement))
-    .map((requirement) => Math.ceil(requirement.quantity / Math.max(1, matchingQuantity(coupon.items, requirement))));
-  return relevant.length ? Math.max(...relevant) : 0;
+function hasRedundantCouponCopy(selected, people, seedMissing) {
+  return selected.some((entry) => {
+    if (entry.quantity <= 1) return false;
+    const reduced = selected
+      .map((candidate) => candidate === entry ? { ...candidate, quantity: candidate.quantity - 1 } : candidate)
+      .filter((candidate) => candidate.quantity > 0);
+    return evaluatePlan(reduced, people, seedMissing, 0, 0).missingRequirements.length === 0;
+  });
 }
 
 function exceedsExtraBuffer(selected, requirements, extraBuffer) {

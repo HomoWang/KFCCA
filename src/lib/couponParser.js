@@ -30,7 +30,7 @@ export function enrichCoupon(coupon) {
     rawItems,
     items,
     displayItems: buildDisplayItems(items),
-    unknownItems: coupon.unknownItems ?? normalized.unknownItems,
+    unknownItems: rawItems.length ? normalized.unknownItems : (coupon.unknownItems ?? normalized.unknownItems),
     parseIssues: coupon.parseIssues?.length ? coupon.parseIssues : parseIssues,
     parseStatus: coupon.parseStatus ?? (parseIssues[0] || "ok"),
     deliveryAvailable: coupon.deliveryAvailable ?? coupon.available ?? true,
@@ -56,7 +56,7 @@ function buildParseIssues(coupon, rawItems) {
 function mergeItems(existingItems = {}, normalizedItems = {}) {
   const existing = canonicalizeItems(existingItems);
   const normalized = canonicalizeItems(normalizedItems);
-  return { ...existing, ...normalized };
+  return Object.keys(normalized).length ? normalized : existing;
 }
 
 function buildDisplayItems(items = {}) {

@@ -63,6 +63,32 @@ test("Test Case 4: exact requirement is assigned before broad requirement", () =
   assert.deepEqual(person1.assignedItems.map((item) => item.productKey), ["pork_burger"]);
 });
 
+test("repeated coupon copies are allowed when broad and exact demand both need them", () => {
+  const result = optimizeCoupons(
+    {
+      people: [
+        { name: "第 1 人", requirements: [{ type: "broad", category: "burger", quantity: 1 }] },
+        { name: "第 2 人", requirements: [{ type: "exact", productKey: "zinger_burger", quantity: 1 }] }
+      ]
+    },
+    [{ code: "A", price: 50, items: { zinger_burger: 1 }, available: true }]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 100);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["A", 2]]);
+  assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
+test("exact drink product is not treated as broad drink category", () => {
+  const result = optimizeCoupons(
+    { people: [{ requirements: [{ type: "exact", productKey: "drink", quantity: 1 }] }] },
+    [{ code: "A", price: 40, items: { small_drink: 1 }, available: true }]
+  );
+
+  assert.deepEqual(result.bestPlan.selectedCoupons, []);
+  assert.equal(result.bestPlan.missingRequirements[0].productKey, "drink");
+});
+
 test("Test Case 5: cheapest plan may include extra items", () => {
   const result = optimizeCoupons(
     { people: [{ requirements: [{ type: "broad", category: "burger", quantity: 1 }] }] },

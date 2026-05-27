@@ -14,6 +14,50 @@ from gatherer.official_api import OfficialApiClient, is_free_coupon, merge_coupo
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 TAIPEI = timezone(timedelta(hours=8))
+PRODUCT_LABELS = {
+    "zinger_burger": "卡啦雞腿堡",
+    "peanut_zinger_burger": "花生熔岩雞腿堡",
+    "sichuan_zinger_burger": "青花椒雞腿堡",
+    "crispy_chicken_burger": "脆雞堡",
+    "new_orleans_burger": "紐奧良烤雞腿堡",
+    "shrimp_burger": "蝦堡",
+    "pork_burger": "起司豬肉堡",
+    "peanut_cheese_egg_burger": "花生起司蛋堡",
+    "crispy_chicken_spicy": "卡拉脆雞-辣",
+    "crispy_chicken_original": "卡拉脆雞-原味",
+    "sichuan_fried_chicken": "青花椒炸雞",
+    "original_fried_chicken": "原味炸雞",
+    "spicy_fried_chicken": "辣味炸雞",
+    "fried_chicken_piece": "炸雞",
+    "small_fries": "小薯",
+    "medium_fries": "中薯",
+    "large_fries": "大薯",
+    "egg_tart": "蛋塔",
+    "drink": "飲料",
+    "small_drink": "小飲",
+    "medium_drink": "中飲",
+    "pepsi": "百事可樂",
+    "iced_tea": "冰紅茶",
+    "seven_up": "七喜",
+    "green_tea": "綠茶",
+    "milk_tea": "冰奶茶",
+    "apple_juice": "蘋果汁",
+    "bottled_drink": "瓶裝飲料",
+    "chicken_nuggets": "雞塊",
+    "popcorn_chicken": "雞米花",
+    "hash_brown": "薯餅",
+    "onion_rings": "洋蔥圈",
+    "biscuit": "比司吉",
+    "sweet_potato_ball": "地瓜球",
+    "qq_ball": "雙色轉轉QQ球",
+    "strawberry_cheese_mochi": "草苺起司冰淇淋大福",
+    "cod_ring": "鱈魚圈圈",
+    "soup": "濃湯",
+    "rice": "雞汁風味飯",
+    "paper_chicken": "紙包雞",
+    "omelet_flatbread": "總匯歐姆蛋燒餅",
+    "combo": "套餐",
+}
 
 
 def main() -> int:
@@ -99,8 +143,10 @@ def finalize_coupon(coupon: dict[str, Any]) -> dict[str, Any]:
     items = coupon.get("items") if isinstance(coupon.get("items"), dict) else {}
     unknown_items = coupon.get("unknownItems") if isinstance(coupon.get("unknownItems"), list) else []
 
-    if raw_items and not items:
-        items, unknown_items = normalize_raw_items(raw_items)
+    if raw_items:
+        normalized_items, normalized_unknown_items = normalize_raw_items(raw_items)
+        items = normalized_items or items
+        unknown_items = normalized_unknown_items
 
     parse_issues: list[str] = []
     if int(coupon.get("price") or 0) == 0 and not is_free_coupon(coupon):
@@ -118,6 +164,7 @@ def finalize_coupon(coupon: dict[str, Any]) -> dict[str, Any]:
         "price": int(coupon.get("price") or 0),
         "rawItems": raw_items,
         "items": items,
+        "displayItems": build_display_items(items),
         "unknownItems": unknown_items,
         "startDate": coupon.get("startDate"),
         "endDate": coupon.get("endDate"),
@@ -157,6 +204,21 @@ def log_quality(quality: dict[str, Any]) -> None:
     logging.info("Parsed items success count: %s", quality["parsedItemsCount"])
     logging.info("Parse failure count: %s", quality["parseFailureCount"])
     logging.info("First 5 parse failures: %s", quality["firstFailures"])
+
+
+def merge_item_quantities(existing: dict[str, Any], normalized: dict[str, int]) -> dict[str, int]:
+    merged = {str(key): int(value) for key, value in existing.items() if int(value or 0) > 0}
+    for key, value in normalized.items():
+        merged[str(key)] = int(value)
+    return merged
+
+
+def build_display_items(items: dict[str, Any]) -> list[dict[str, Any]]:
+    return [
+        {"productKey": str(key), "label": PRODUCT_LABELS.get(str(key), str(key)), "quantity": int(value)}
+        for key, value in items.items()
+        if int(value or 0) > 0
+    ]
 
 
 def parse_positive_int(value: str | None) -> int | None:
