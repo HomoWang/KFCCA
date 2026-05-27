@@ -1,23 +1,8 @@
-import { normalizeRawItems } from "./productNormalizer.js";
+import { canonicalizeItems, normalizeRawItems } from "./productNormalizer.js";
+import { productLabel } from "./productCatalog.js";
 
-const QUANTITY_RE = /(.+?)(?:\s*[xX]\s*(\d+)|\s*(\d+)\s*(?:份|個|塊|顆|杯|包|入|桶))?$/;
-const FREE_RE = /(免費|0\s*元|零元|兌換|贈)/;
-const PRECISE_BURGER_KEYS = [
-  "zinger_burger",
-  "peanut_zinger_burger",
-  "sichuan_zinger_burger",
-  "crispy_chicken_burger",
-  "new_orleans_burger",
-  "shrimp_burger",
-  "pork_burger"
-];
-const PRECISE_REPLACEMENTS = [
-  { parent: "zinger_burger", children: PRECISE_BURGER_KEYS },
-  { parent: "burger", children: PRECISE_BURGER_KEYS },
-  { parent: "fried_chicken", children: ["sichuan_fried_chicken", "spicy_crispy_chicken", "original_crispy_chicken"] },
-  { parent: "drink", children: ["small_drink", "medium_drink"] },
-  { parent: "fries", children: ["medium_fries", "large_fries"] }
-];
+const QUANTITY_RE = /(.+?)(?:\s*[xX]\s*(\d+)|\s*(\d+)\s*(?:個|份|塊|顆|杯)?)?$/;
+const FREE_RE = /(免費|0\s*元|贈|送)/;
 
 export function parseRawItemsFromText(text = "") {
   return String(text)
@@ -44,6 +29,7 @@ export function enrichCoupon(coupon) {
     ...coupon,
     rawItems,
     items,
+    displayItems: buildDisplayItems(items),
     unknownItems: coupon.unknownItems ?? normalized.unknownItems,
     parseIssues: coupon.parseIssues?.length ? coupon.parseIssues : parseIssues,
     parseStatus: coupon.parseStatus ?? (parseIssues[0] || "ok"),
@@ -68,14 +54,13 @@ function buildParseIssues(coupon, rawItems) {
 }
 
 function mergeItems(existingItems = {}, normalizedItems = {}) {
-  const items = { ...existingItems };
-  for (const replacement of PRECISE_REPLACEMENTS) {
-    if (replacement.children.some((key) => normalizedItems[key])) {
-      delete items[replacement.parent];
-    }
-  }
-  for (const [key, quantity] of Object.entries(normalizedItems)) {
-    items[key] = Math.max(Number(items[key] ?? 0), Number(quantity) || 0);
-  }
-  return items;
+  return canonicalizeItems({ ...existingItems, ...normalizedItems });
+}
+
+function buildDisplayItems(items = {}) {
+  return Object.entries(canonicalizeItems(items)).map(([productKey, quantity]) => ({
+    productKey,
+    label: productLabel(productKey),
+    quantity
+  }));
 }

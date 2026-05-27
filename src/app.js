@@ -1,13 +1,23 @@
-import { catalogOptions, expandItemAliases, PRODUCT_CATALOG } from "./lib/productNormalizer.js";
+import {
+  broadLabel,
+  calculatorCategories,
+  categoryProducts,
+  productCategoryKey,
+  PRODUCT_CATALOG,
+  productLabel
+} from "./lib/productCatalog.js";
+import { canonicalizeItems, expandItemAliases } from "./lib/productNormalizer.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
-import { allocateToPeople, findSimilarCoupons, formatItems, optimizeCoupons } from "./lib/optimizer.js";
+import { findSimilarCoupons, formatItems, optimizeCoupons, requirementLabel } from "./lib/optimizer.js";
 
 const state = {
   data: { lastUpdated: null, coupons: [] },
   coupons: [],
   people: [],
   selectedItemFilters: new Set(),
-  alternativeVisibleCount: 5
+  alternativeVisibleCount: 5,
+  lastResult: null,
+  lastPeople: []
 };
 
 const els = {
@@ -48,21 +58,24 @@ async function loadCoupons() {
   }
 
   state.coupons = (state.data.coupons ?? []).map(enrichCoupon);
-  els.lastUpdated.textContent = `最後更新：${formatDateTime(state.data.lastUpdated)}`;
+  els.lastUpdated.textContent = `資料更新：${formatDateTime(state.data.lastUpdated)}`;
 }
 
 function bindEvents() {
   [els.search, els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
   els.clearItemFilters.addEventListener("click", clearItemFilters);
-  els.tabs.forEach((tab) => {
-    tab.addEventListener("click", () => switchView(tab.dataset.viewTab));
-  });
+  els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.viewTab)));
   els.buildPeople.addEventListener("click", buildPeopleForms);
   els.calculate.addEventListener("click", calculateBestDeal);
 }
 
 function renderItemFilters() {
-  els.itemFilters.innerHTML = catalogOptions()
+  const filters = calculatorCategories().flatMap((category) => [
+    { key: category.key, label: category.broadOptionLabel },
+    ...category.products.map((product) => ({ key: product.key, label: product.label }))
+  ]);
+
+  els.itemFilters.innerHTML = filters
     .map((option) => {
       const count = countCouponsForItem(option.key);
       if (count === 0) return "";
@@ -81,11 +94,8 @@ function renderItemFilters() {
 }
 
 function toggleItemFilter(key) {
-  if (state.selectedItemFilters.has(key)) {
-    state.selectedItemFilters.delete(key);
-  } else {
-    state.selectedItemFilters.add(key);
-  }
+  if (state.selectedItemFilters.has(key)) state.selectedItemFilters.delete(key);
+  else state.selectedItemFilters.add(key);
   updateFilterChipStates();
   renderCoupons();
 }
@@ -130,32 +140,33 @@ function renderCouponCard(coupon) {
   const categories = [...new Set(Object.keys(coupon.items ?? {}).map((key) => PRODUCT_CATALOG[key]?.category).filter(Boolean))];
   const unknown = coupon.unknownItems?.length ? `<span class="badge warn">含未標準化品項</span>` : "";
   const parseStatus = coupon.parseStatus && coupon.parseStatus !== "ok"
-    ? `<span class="badge warn">解析狀態：${escapeHtml(coupon.parseStatus)}</span>`
+    ? `<span class="badge warn">解析：${escapeHtml(coupon.parseStatus)}</span>`
     : "";
   const parseIssues = coupon.parseIssues?.length
-    ? `<p class="muted">解析訊息：${coupon.parseIssues.map(escapeHtml).join(", ")}</p>`
+    ? `<p class="muted">解析問題：${coupon.parseIssues.map(escapeHtml).join(", ")}</p>`
     : "";
   const canDeliver = coupon.deliveryAvailable !== false;
   const delivery = `<span class="badge ${canDeliver ? "" : "warn"}">${canDeliver ? "可外送" : "不可外送"}</span>`;
+
   return `
     <article class="coupon-card">
       <div class="coupon-top">
         <div>
           <div class="code">${escapeHtml(coupon.code)}</div>
-          <h3>${escapeHtml(coupon.title ?? "未命名優惠")}</h3>
+          <h3>${escapeHtml(coupon.title ?? "未命名優惠券")}</h3>
         </div>
         <div class="price">$${Number(coupon.price ?? 0)}</div>
       </div>
       <p class="muted">${escapeHtml(coupon.description ?? "")}</p>
-      <div>${formatItems(coupon.items)}</div>
+      <div>${renderItemDetails(coupon.displayItems ?? itemObjectToDetails(coupon.items))}</div>
       <div class="badge-row">
-        <span class="badge">${isCouponCurrentlyAvailable(coupon) ? "目前可用" : "非可用期間"}</span>
+        <span class="badge">${isCouponCurrentlyAvailable(coupon) ? "目前可用" : "未在期限內"}</span>
         ${delivery}
         ${categories.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}
         ${unknown}
         ${parseStatus}
       </div>
-      <p class="muted">期間：${escapeHtml(coupon.startDate ?? "未提供")} - ${escapeHtml(coupon.endDate ?? "未提供")}</p>
+      <p class="muted">期限：${escapeHtml(coupon.startDate ?? "未提供")} - ${escapeHtml(coupon.endDate ?? "未提供")}</p>
       ${parseIssues}
     </article>
   `;
@@ -182,80 +193,119 @@ function switchView(view) {
 
 function buildPeopleForms() {
   const count = clamp(Number(els.personCount.value) || 1, 1, 10);
-  state.people = Array.from({ length: count }, (_, index) => state.people[index] ?? { items: {} });
-  els.peopleForms.innerHTML = state.people.map((_, index) => renderPersonForm(index)).join("");
-
-  els.peopleForms.querySelectorAll("[data-add]").forEach((button) => {
-    button.addEventListener("click", () => addRequirementRow(Number(button.dataset.add)));
-  });
-  els.peopleForms.querySelectorAll("[data-remove]").forEach((button) => {
-    button.addEventListener("click", () => button.closest(".requirement-row").remove());
-  });
+  const current = readPeopleRequirements({ silent: true });
+  state.people = Array.from({ length: count }, (_, index) => current[index] ?? defaultPerson(index));
+  els.peopleForms.innerHTML = state.people.map((person, index) => renderPersonForm(person, index)).join("");
+  bindRequirementRows();
 }
 
-function renderPersonForm(index) {
-  const rows = Object.entries(state.people[index].items);
-  const safeRows = rows.length ? rows : [["zinger_burger", 1]];
+function defaultPerson(index) {
+  return {
+    name: `第 ${index + 1} 人`,
+    requirements: [{ type: "broad", category: "burger", quantity: 1 }]
+  };
+}
+
+function renderPersonForm(person, index) {
+  const rows = person.requirements?.length ? person.requirements : defaultPerson(index).requirements;
   return `
     <article class="person-card" data-person="${index}">
       <h3>第 ${index + 1} 人</h3>
       <div class="rows">
-        ${safeRows.map(([key, quantity]) => renderRequirementRow(key, quantity)).join("")}
+        ${rows.map((requirement) => renderRequirementRow(requirement)).join("")}
       </div>
       <button class="secondary" type="button" data-add="${index}">新增品項</button>
     </article>
   `;
 }
 
-function renderRequirementRow(selectedKey = "zinger_burger", quantity = 1) {
-  const options = catalogOptions()
-    .map((option) => `<option value="${option.key}" ${option.key === selectedKey ? "selected" : ""}>${option.label}</option>`)
-    .join("");
+function renderRequirementRow(requirement = { type: "broad", category: "burger", quantity: 1 }) {
+  const type = requirement.type ?? "broad";
+  const category = requirement.category ?? productCategoryKey(requirement.productKey) ?? "burger";
+  const productKey = requirement.productKey ?? categoryProducts(category)[0]?.key ?? "";
+
   return `
-    <div class="requirement-row">
-      <select data-product>${options}</select>
-      <input data-quantity type="number" min="1" max="20" value="${Number(quantity) || 1}" />
-      <button class="icon-button" type="button" data-remove aria-label="移除">×</button>
+    <div class="requirement-row" data-requirement-row>
+      <select data-requirement-type aria-label="需求類型">
+        <option value="broad" ${type === "broad" ? "selected" : ""}>廣泛分類</option>
+        <option value="exact" ${type === "exact" ? "selected" : ""}>精準品項</option>
+      </select>
+      <select data-category aria-label="分類">
+        ${calculatorCategories().map((item) => `<option value="${item.key}" ${item.key === category ? "selected" : ""}>${item.label}</option>`).join("")}
+      </select>
+      <select data-product aria-label="品項">
+        ${productOptionsHtml(type, category, productKey)}
+      </select>
+      <input data-quantity type="number" min="1" max="20" value="${Number(requirement.quantity) || 1}" aria-label="數量" />
+      <button class="icon-button" type="button" data-remove aria-label="移除">x</button>
     </div>
   `;
+}
+
+function productOptionsHtml(type, category, selectedProductKey) {
+  if (type === "broad") {
+    return `<option value="${category}">${broadLabel(category)}</option>`;
+  }
+  return categoryProducts(category)
+    .map((product) => `<option value="${product.key}" ${product.key === selectedProductKey ? "selected" : ""}>${product.label}</option>`)
+    .join("");
+}
+
+function bindRequirementRows() {
+  els.peopleForms.querySelectorAll("[data-add]").forEach((button) => {
+    button.addEventListener("click", () => addRequirementRow(Number(button.dataset.add)));
+  });
+  els.peopleForms.querySelectorAll("[data-remove]").forEach((button) => {
+    button.addEventListener("click", () => button.closest("[data-requirement-row]").remove());
+  });
+  els.peopleForms.querySelectorAll("[data-requirement-type], [data-category]").forEach((select) => {
+    select.addEventListener("change", () => refreshRequirementRow(select.closest("[data-requirement-row]")));
+  });
+}
+
+function refreshRequirementRow(row) {
+  const type = row.querySelector("[data-requirement-type]").value;
+  const category = row.querySelector("[data-category]").value;
+  const product = row.querySelector("[data-product]");
+  product.innerHTML = productOptionsHtml(type, category, product.value);
 }
 
 function addRequirementRow(personIndex) {
   const person = els.peopleForms.querySelector(`[data-person="${personIndex}"] .rows`);
   person.insertAdjacentHTML("beforeend", renderRequirementRow());
-  person.querySelectorAll("[data-remove]").forEach((button) => {
-    button.onclick = () => button.closest(".requirement-row").remove();
-  });
+  bindRequirementRows();
 }
 
-function readPeopleRequirements() {
-  return [...els.peopleForms.querySelectorAll("[data-person]")].map((card) => {
-    const items = {};
-    card.querySelectorAll(".requirement-row").forEach((row) => {
-      const key = row.querySelector("[data-product]").value;
+function readPeopleRequirements({ silent = false } = {}) {
+  const cards = [...els.peopleForms.querySelectorAll("[data-person]")];
+  if (!cards.length && silent) return [];
+
+  return cards.map((card, index) => ({
+    name: `第 ${index + 1} 人`,
+    requirements: [...card.querySelectorAll("[data-requirement-row]")].map((row) => {
+      const type = row.querySelector("[data-requirement-type]").value;
+      const category = row.querySelector("[data-category]").value;
       const quantity = Number(row.querySelector("[data-quantity]").value) || 0;
-      if (key && quantity > 0) items[key] = (items[key] ?? 0) + quantity;
-    });
-    return { items };
-  });
+      return type === "broad"
+        ? { type: "broad", category, quantity }
+        : { type: "exact", category, productKey: row.querySelector("[data-product]").value, quantity };
+    }).filter((requirement) => requirement.quantity > 0)
+  }));
 }
 
 function calculateBestDeal() {
   const people = readPeopleRequirements();
-  const demand = people.reduce((sum, person) => {
-    for (const [key, quantity] of Object.entries(person.items)) sum[key] = (sum[key] ?? 0) + quantity;
-    return sum;
-  }, {});
   const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
   state.alternativeVisibleCount = 5;
-  const result = optimizeCoupons(demand, usableCoupons, { alternativeLimit: 12 });
-  const similarCoupons = result.similarCoupons ?? (Object.keys(result.missingItems ?? {}).length ? findSimilarCoupons(demand, usableCoupons) : []);
+  const result = optimizeCoupons({ people }, usableCoupons, { alternativeLimit: 12 });
+  const similarCoupons = result.similarCoupons ?? (result.missingRequirements?.length ? findSimilarCoupons({ people }, usableCoupons) : []);
+  state.lastResult = result;
+  state.lastPeople = people;
   renderResult(result, people, similarCoupons);
 }
 
 function renderResult(result, people, similarCoupons = []) {
   const bestPlan = result.bestPlan ?? result;
-  const allocation = allocateToPeople(people, bestPlan.providedItems);
   const alternatives = result.alternativePlans ?? [];
   const visibleAlternatives = alternatives.slice(0, state.alternativeVisibleCount);
   const moreButton = alternatives.length > visibleAlternatives.length
@@ -263,44 +313,24 @@ function renderResult(result, people, similarCoupons = []) {
     : "";
   const similar = similarCoupons.length
     ? `
-      <div>
+      <section>
         <h3>相似推薦</h3>
         <ul class="mini-list">
           ${similarCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)}，$${coupon.price}，相似度 ${Math.round(coupon.similarity * 100)}%，符合 ${formatItems(coupon.matchedItems)}</li>`).join("")}
         </ul>
-      </div>
+      </section>
     `
     : "";
 
   els.result.innerHTML = `
     <div class="result-panel">
-      ${renderPlan(bestPlan, people, { title: "最佳方案", rank: 1 })}
-      <div class="result-grid">
-        <div>
-          <h3>可滿足品項</h3>
-          <p>${formatItems(bestPlan.fulfilledItems ?? bestPlan.providedItems)}</p>
-        </div>
-        <div>
-          <h3>多出品項</h3>
-          <p>${formatItems(bestPlan.extraItems)}</p>
-        </div>
-        <div>
-          <h3>無法滿足品項</h3>
-          <p>${formatItems(bestPlan.missingItems)}</p>
-        </div>
-      </div>
-      <div>
-        <h3>個人分配</h3>
-        <ul class="mini-list">
-          ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
-        </ul>
-      </div>
+      ${renderPlan(bestPlan, people, { title: "最佳方案", rank: 1, isBest: true })}
       ${visibleAlternatives.length ? `
-        <div class="alternative-plans">
+        <section class="alternative-plans">
           <h3>其他可行方案</h3>
           ${visibleAlternatives.map((plan, index) => renderPlan(plan, people, { title: `方案 ${index + 2}`, rank: index + 2, bestPrice: bestPlan.totalPrice })).join("")}
           ${moreButton}
-        </div>
+        </section>
       ` : ""}
       ${similar}
     </div>
@@ -312,12 +342,9 @@ function renderResult(result, people, similarCoupons = []) {
   });
 }
 
-function renderPlan(plan, people, { title, rank, bestPrice = null } = {}) {
-  const allocation = allocateToPeople(people, plan.providedItems);
+function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = false } = {}) {
   const delta = bestPrice === null ? "" : `<span class="muted">比最佳方案貴 $${Math.max(0, plan.totalPrice - bestPrice)}</span>`;
-  const coupons = plan.selectedCoupons.length
-    ? `<ul class="mini-list">${plan.selectedCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)} x ${coupon.quantity}，$${coupon.price}/份 ${escapeHtml(coupon.title ?? "")}</li>`).join("")}</ul>`
-    : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`;
+  const totalCouponCount = plan.selectedCoupons.reduce((sum, coupon) => sum + coupon.quantity, 0);
 
   return `
     <article class="plan-card">
@@ -328,25 +355,91 @@ function renderPlan(plan, people, { title, rank, bestPrice = null } = {}) {
         </div>
         <p class="price">$${plan.totalPrice}</p>
       </div>
-      ${coupons}
-      <div class="result-grid compact">
-        <div>
-          <h3>滿足需求</h3>
-          <p>${formatItems(plan.fulfilledItems ?? plan.providedItems)}</p>
-        </div>
+      ${isBest ? `
+        <section class="summary-strip">
+          <span>使用優惠券 ${totalCouponCount} 張</span>
+          <span>${Object.keys(plan.extraItems ?? {}).length ? "有多買品項" : "沒有多買品項"}</span>
+          <span>${plan.missingRequirements?.length ? "有無法滿足項目" : "需求皆可滿足"}</span>
+        </section>
+      ` : ""}
+      <section>
+        <h3>推薦購買</h3>
+        ${plan.selectedCoupons.length ? plan.selectedCoupons.map(renderSelectedCoupon).join("") : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`}
+      </section>
+      <section>
+        <h3>需求滿足明細</h3>
+        ${renderAssignment(plan.assignment ?? [], people)}
+      </section>
+      <section class="result-grid compact">
         <div>
           <h3>多買品項</h3>
           <p>${formatItems(plan.extraItems)}</p>
         </div>
+        <div>
+          <h3>無法滿足品項</h3>
+          <p>${renderMissingRequirements(plan.missingRequirements ?? [])}</p>
+        </div>
+      </section>
+    </article>
+  `;
+}
+
+function renderSelectedCoupon(coupon) {
+  return `
+    <article class="coupon-purchase">
+      <h4>優惠券 ${escapeHtml(coupon.code)}｜${escapeHtml(coupon.title ?? "")}</h4>
+      <div class="purchase-meta">
+        <span>單價：$${coupon.unitPrice ?? coupon.price}</span>
+        <span>數量：${coupon.quantity}</span>
+        <span>小計：$${coupon.subtotal ?? (coupon.price * coupon.quantity)}</span>
+        ${coupon.endDate ? `<span>期限：${escapeHtml(coupon.endDate)}</span>` : ""}
       </div>
       <div>
-        <h3>個人分配</h3>
-        <ul class="mini-list">
-          ${allocation.people.map((person) => `<li>第 ${person.personIndex} 人：${formatItems(person.assigned)}${Object.keys(person.missing).length ? `，缺少 ${formatItems(person.missing)}` : ""}</li>`).join("")}
-        </ul>
+        <strong>優惠內容：</strong>
+        ${renderItemDetails(coupon.displayItems)}
       </div>
     </article>
   `;
+}
+
+function renderAssignment(assignment, people) {
+  if (!assignment.length) return `<p class="muted">無</p>`;
+  return people.map((person, index) => {
+    const entries = assignment.filter((entry) => entry.personIndex === index + 1);
+    return `
+      <div class="assignment-person">
+        <h4>${escapeHtml(person.name ?? `第 ${index + 1} 人`)}</h4>
+        <ul class="mini-list">
+          ${entries.map((entry) => `
+            <li>
+              需求：${escapeHtml(requirementLabel(entry))} x ${entry.quantity}<br />
+              實際分配：${entry.assignedItems.length ? entry.assignedItems.map((item) => `${escapeHtml(item.label)} x ${item.quantity}`).join("、") : "無"}<br />
+              來源：${entry.assignedItems.length ? [...new Set(entry.assignedItems.map((item) => item.couponCode))].map(escapeHtml).join("、") : "無"}
+            </li>
+          `).join("")}
+        </ul>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderMissingRequirements(requirements) {
+  if (!requirements.length) return "無";
+  return requirements.map((requirement) => `${requirementLabel(requirement)} x ${requirement.quantity}`).join("、");
+}
+
+function renderItemDetails(items = []) {
+  const details = Array.isArray(items) ? items : itemObjectToDetails(items);
+  if (!details.length) return "無";
+  return `<ul class="mini-list">${details.map((item) => `<li>${escapeHtml(item.label ?? productLabel(item.productKey))} x ${item.quantity}</li>`).join("")}</ul>`;
+}
+
+function itemObjectToDetails(items = {}) {
+  return Object.entries(canonicalizeItems(items)).map(([productKey, quantity]) => ({
+    productKey,
+    label: productLabel(productKey),
+    quantity
+  }));
 }
 
 function countCouponsForItem(key) {
@@ -354,7 +447,7 @@ function countCouponsForItem(key) {
 }
 
 function formatDateTime(value) {
-  if (!value) return "尚未取得資料";
+  if (!value) return "未提供資料時間";
   return new Intl.DateTimeFormat("zh-TW", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
 }
 

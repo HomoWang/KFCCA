@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import logging
@@ -21,7 +21,7 @@ QUERY_DELIVERY_SHOPS_URL = "https://olo-api.kfcclub.com.tw/menu/v1/QueryDelivery
 QUERY_DELIVERY_TIME_URL = "https://olo-api.kfcclub.com.tw/menu/v1/QueryDeliveryTime"
 
 DATE_RE = re.compile(r"(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})")
-FREE_RE = re.compile(r"(免費|0\s*元|零元|兌換|贈)")
+FREE_RE = re.compile(r"(免費|0\s*元|贈|送)")
 
 PRODUCT_RULES: list[tuple[str, list[str]]] = [
     ("peanut_zinger_burger", ["花生熔岩雞腿堡", "花生熔岩咔啦雞腿堡", "花生脆雞堡"]),
@@ -32,23 +32,32 @@ PRODUCT_RULES: list[tuple[str, list[str]]] = [
     ("pork_burger", ["起司豬肉堡", "豬肉堡"]),
     ("zinger_burger", ["卡啦雞腿堡", "咔啦雞腿堡", "卡拉雞腿堡"]),
     ("paper_chicken", ["紙包雞", "義式香草紙包雞"]),
-    ("spicy_crispy_chicken", ["卡拉脆雞-辣", "卡啦脆雞-辣", "咔啦脆雞-辣", "卡拉脆雞(辣)", "卡啦脆雞(辣)", "咔啦脆雞(辣)"]),
-    ("original_crispy_chicken", ["卡拉脆雞-原味", "卡啦脆雞-原味", "咔啦脆雞-原味", "卡拉脆雞(原味)", "卡啦脆雞(原味)", "咔啦脆雞(原味)"]),
-    ("sichuan_fried_chicken", ["青花椒炸雞", "青花椒香麻脆雞"]),
-    ("fried_chicken", ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"]),
-    ("egg_tart", ["蛋塔", "蛋撻", "奶皇流心蛋撻", "冰心蛋塔"]),
-    ("small_drink", ["小飲", "小杯", "(小)"]),
-    ("medium_drink", ["中飲", "中杯", "(中)"]),
-    ("drink", ["飲料", "可樂", "百事", "七喜", "冰紅茶", "紅茶", "綠茶", "檸檬風味紅茶", "無糖綠茶", "瓶裝"]),
-    ("large_fries", ["大薯"]),
-    ("medium_fries", ["中薯"]),
-    ("fries", ["小薯", "薯條"]),
-    ("nugget", ["雞塊", "上校雞塊", "蝦塊"]),
+    ("crispy_chicken_spicy", ["卡拉脆雞-辣", "卡啦脆雞-辣", "咔啦脆雞-辣", "卡拉脆雞(辣)", "咔啦脆雞辣味", "辣味卡拉脆雞"]),
+    ("crispy_chicken_original", ["卡拉脆雞-原味", "卡啦脆雞-原味", "咔啦脆雞-原味", "卡拉脆雞(原味)", "咔啦脆雞原味", "原味卡拉脆雞"]),
+    ("sichuan_fried_chicken", ["青花椒炸雞", "青花椒卡拉脆雞", "青花椒香麻脆雞"]),
+    ("original_fried_chicken", ["原味炸雞"]),
+    ("spicy_fried_chicken", ["辣味炸雞"]),
+    ("fried_chicken_piece", ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"]),
+    ("egg_tart", ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻", "冰心蛋塔"]),
+    ("small_drink", ["小飲", "小杯飲料", "小杯", "(小)"]),
+    ("medium_drink", ["中飲", "中杯飲料", "中杯", "(中)"]),
+    ("pepsi", ["百事可樂", "可樂"]),
+    ("iced_tea", ["冰紅茶", "紅茶", "檸檬風味紅茶"]),
+    ("seven_up", ["七喜"]),
+    ("green_tea", ["綠茶", "無糖綠茶"]),
+    ("bottled_drink", ["瓶裝"]),
+    ("drink", ["飲料"]),
+    ("large_fries", ["大薯", "大份薯條"]),
+    ("medium_fries", ["中薯", "中份薯條"]),
+    ("small_fries", ["小薯", "小份薯條", "薯條"]),
+    ("chicken_nuggets", ["雞塊", "上校雞塊", "蝦塊"]),
     ("popcorn_chicken", ["雞米花", "爆米花雞"]),
+    ("hash_brown", ["薯餅"]),
+    ("onion_rings", ["洋蔥圈"]),
     ("biscuit", ["比司吉", "蜂蜜奶油餅乾"]),
-    ("rice", ["雞汁風味飯"]),
-    ("soup", ["小濃湯", "濃湯"]),
     ("sweet_potato_ball", ["地瓜球"]),
+    ("soup", ["小濃湯", "濃湯"]),
+    ("rice", ["雞汁風味飯"]),
     ("combo", ["套餐", "XL", "桶"]),
 ]
 IGNORED_ITEM_RE = re.compile(r"(醬|餐具|紙袋)")
@@ -109,7 +118,7 @@ class OfficialApiClient:
         title = first_value(data, ["productName", "couponName", "name", "title"])
         return {
             "code": code,
-            "title": str(title).strip() if title else f"優惠券 {code}",
+            "title": str(title).strip() if title else f"?芣???{code}",
             "description": str(title).strip() if title else "",
             "price": parse_price(first_value(data, ["amount", "price", "couponPrice", "discountAmount"])),
             "startDate": parse_date(first_value(data, ["startDate", "StartDate"])),
@@ -257,7 +266,7 @@ def convert_food_detail_data(data: Any, code: str) -> dict[str, Any]:
         price += parse_price(main_item.get("MListPrice")) * quantity
 
     items, unknown_items = normalize_raw_items(raw_items)
-    title = normalize_name(detail.get("Name", "")) or f"優惠券 {code}"
+    title = normalize_name(detail.get("Name", "")) or f"?芣???{code}"
     return {
         "code": code,
         "title": title,
@@ -315,7 +324,8 @@ def is_invalid_payload(payload: Any) -> bool:
     status = str(payload.get("status") or payload.get("resultCode") or payload.get("code") or "").lower()
     if success is False or status in {"false", "0", "invalid", "notfound", "404"}:
         return True
-    return any(token in message for token in ("無效", "不存在", "查無", "錯誤"))
+    invalid_tokens = ("無效", "不可用", "不存在", "查無", "invalid", "not found")
+    return any(token in message.lower() for token in invalid_tokens)
 
 
 def first_value(data: dict[str, Any], keys: list[str]) -> Any:
@@ -377,7 +387,7 @@ def normalize_product_name(name: str) -> str | None:
 
 
 def infer_quantity_multiplier(name: str) -> int:
-    match = re.match(r"(\d+)\s*(?:入|塊|顆)", name)
+    match = re.match(r"(\d+)\s*(?:入|塊|顆|杯)", name)
     if match:
         return int(match.group(1))
     match = re.search(r"雞塊\s*(\d+)\s*塊", name)
@@ -395,3 +405,4 @@ def is_free_coupon(coupon: dict[str, Any]) -> bool:
 
 def today_slash() -> str:
     return datetime.now(TAIPEI).strftime("%Y/%m/%d")
+

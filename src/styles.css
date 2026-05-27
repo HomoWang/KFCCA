@@ -281,7 +281,7 @@ select {
 
 .requirement-row {
   display: grid;
-  grid-template-columns: 1fr 76px 42px;
+  grid-template-columns: 130px 120px 1fr 76px 42px;
   gap: 8px;
   margin-top: 10px;
 }
@@ -335,6 +335,28 @@ select {
   gap: 12px;
 }
 
+.coupon-purchase {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.purchase-meta,
+.summary-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.assignment-person {
+  margin-top: 10px;
+}
+
 .plan-heading {
   display: flex;
   justify-content: space-between;
@@ -359,7 +381,8 @@ select {
 
   .toolbar,
   .filter-panel,
-  .person-control {
+  .person-control,
+  .requirement-row {
     grid-template-columns: 1fr;
   }
 

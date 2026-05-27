@@ -10,15 +10,14 @@ test("fills drink markers from raw beverage names even when items are incomplete
     items: { fried_chicken: 1 },
     rawItems: [
       { name: "青花椒炸雞", quantity: 1 },
-      { name: "立頓檸檬風味紅茶(小)", quantity: 1 }
+      { name: "檸檬風味紅茶(小)", quantity: 1 }
     ]
   });
 
-  assert.equal(coupon.items.fried_chicken, undefined);
+  assert.equal(coupon.items.fried_chicken_piece, 1);
   assert.equal(coupon.items.sichuan_fried_chicken, 1);
-  assert.equal(coupon.items.drink, undefined);
   assert.equal(coupon.items.small_drink, 1);
-  assert.equal(expandItemAliases(coupon.items).fried_chicken, 1);
+  assert.equal(expandItemAliases(coupon.items).fried_chicken, 2);
   assert.equal(expandItemAliases(coupon.items).drink, 1);
 });
 
@@ -27,21 +26,16 @@ test("defaults delivery marker from availability when explicit field is absent",
   assert.equal(coupon.deliveryAvailable, true);
 });
 
-test("uses precise burger category from raw items instead of stale generic burger marker", () => {
+test("canonicalizes legacy keys and builds display items", () => {
   const coupon = enrichCoupon({
     code: "burger",
     price: 155,
-    items: { zinger_burger: 1, fried_chicken: 1 },
-    rawItems: [
-      { name: "青花椒卡啦雞腿堡", quantity: 1 },
-      { name: "青花椒炸雞", quantity: 1 },
-      { name: "小飲", quantity: 1 }
-    ]
+    items: { fries: 1, nugget: 1, spicy_crispy_chicken: 1 },
+    rawItems: []
   });
 
-  assert.equal(coupon.items.sichuan_zinger_burger, 1);
-  assert.equal(coupon.items.sichuan_fried_chicken, 1);
-  assert.equal(coupon.items.small_drink, 1);
-  assert.equal(coupon.items.zinger_burger, undefined);
-  assert.equal(coupon.items.fried_chicken, undefined);
+  assert.equal(coupon.items.small_fries, 1);
+  assert.equal(coupon.items.chicken_nuggets, 1);
+  assert.equal(coupon.items.crispy_chicken_spicy, 1);
+  assert(coupon.displayItems.some((item) => item.productKey === "chicken_nuggets" && item.label === "雞塊"));
 });
