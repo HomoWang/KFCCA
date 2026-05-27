@@ -54,7 +54,9 @@ function buildParseIssues(coupon, rawItems) {
 }
 
 function mergeItems(existingItems = {}, normalizedItems = {}) {
-  return canonicalizeItems({ ...existingItems, ...normalizedItems });
+  const existing = canonicalizeItems(existingItems);
+  const normalized = canonicalizeItems(normalizedItems);
+  return { ...existing, ...normalized };
 }
 
 function buildDisplayItems(items = {}) {

@@ -39,3 +39,19 @@ test("canonicalizes legacy keys and builds display items", () => {
   assert.equal(coupon.items.crispy_chicken_spicy, 1);
   assert(coupon.displayItems.some((item) => item.productKey === "chicken_nuggets" && item.label === "雞塊"));
 });
+
+test("does not double count legacy and normalized keys for the same product", () => {
+  const coupon = enrichCoupon({
+    code: "26918",
+    price: 85,
+    items: { spicy_crispy_chicken: 1, rice: 1, small_drink: 1 },
+    rawItems: [
+      { name: "咔啦脆雞(辣)", quantity: 1 },
+      { name: "雞汁風味飯", quantity: 1 },
+      { name: "無糖綠茶(小)", quantity: 1 }
+    ]
+  });
+
+  assert.equal(coupon.items.crispy_chicken_spicy, 1);
+  assert.equal(coupon.displayItems.find((item) => item.productKey === "crispy_chicken_spicy").quantity, 1);
+});
