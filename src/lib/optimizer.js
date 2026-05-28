@@ -50,6 +50,7 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
   function dfs(index, selected, totalPrice, couponCount) {
     visited += 1;
     if (visited > opts.maxStates) return;
+    if (plans.length >= opts.alternativeLimit + opts.alternativeSearchLimit && totalPrice > plans[plans.length - 1].totalPrice) return;
 
     const evaluated = evaluatePlan(selected, people, missingBeforeSearch, totalPrice, couponCount);
     if (!evaluated.missingRequirements.length) {
@@ -63,7 +64,6 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
     const { coupon, maxQuantity } = candidates[index];
     for (let quantity = maxQuantity; quantity >= 0; quantity -= 1) {
       const nextSelected = quantity ? [...selected, { coupon, quantity }] : selected;
-      if (exceedsExtraBuffer(nextSelected, searchableRequirements, opts.extraBuffer)) continue;
       dfs(index + 1, nextSelected, totalPrice + coupon.price * quantity, couponCount + quantity);
     }
   }
@@ -382,22 +382,6 @@ function hasRedundantCouponCopy(selected, people, seedMissing) {
       .map((candidate) => candidate === entry ? { ...candidate, quantity: candidate.quantity - 1 } : candidate)
       .filter((candidate) => candidate.quantity > 0);
     return evaluatePlan(reduced, people, seedMissing, 0, 0).missingRequirements.length === 0;
-  });
-}
-
-function exceedsExtraBuffer(selected, requirements, extraBuffer) {
-  const provided = summarizeUnits(buildItemUnits(selected));
-  const categoryDemand = {};
-  for (const requirement of requirements) {
-    if (requirement.type === "broad") categoryDemand[requirement.category] = (categoryDemand[requirement.category] ?? 0) + requirement.quantity;
-  }
-
-  return Object.entries(provided).some(([productKey, quantity]) => {
-    const directDemand = requirements
-      .filter((requirement) => requirement.type === "exact" && requirement.productKey === productKey)
-      .reduce((sum, requirement) => sum + requirement.quantity, 0);
-    const categoryDemandForItem = categoryDemand[productCategoryKey(productKey)] ?? 0;
-    return quantity > directDemand + categoryDemandForItem + extraBuffer;
   });
 }
 

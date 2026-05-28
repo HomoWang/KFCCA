@@ -404,6 +404,12 @@ select {
   padding: 10px 12px;
 }
 
+.best-extra-note {
+  margin: 10px 0 0;
+  color: var(--red);
+  font-weight: 700;
+}
+
 .assignment-person {
   margin-top: 10px;
 }

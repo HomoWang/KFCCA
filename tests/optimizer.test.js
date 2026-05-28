@@ -1,6 +1,32 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
+import { enrichCoupon } from "../src/lib/couponParser.js";
 import { findSimilarCoupons, optimizeCoupons } from "../src/lib/optimizer.js";
+
+const data = JSON.parse(fs.readFileSync(new URL("../public/coupon.json", import.meta.url), "utf8"));
+const realCoupon15867 = enrichCoupon(data.coupons.find((coupon) => coupon.code === "15867"));
+
+function holidayBundleDemand(chickenNuggetsQuantity) {
+  return {
+    people: [
+      {
+        requirements: [
+          { type: "exact", productKey: "peanut_zinger_burger", quantity: 1 },
+          { type: "exact", productKey: "chicken_nuggets", quantity: chickenNuggetsQuantity },
+          { type: "broad", category: "egg_tart", quantity: 3 }
+        ]
+      },
+      {
+        requirements: [
+          { type: "exact", productKey: "zinger_burger", quantity: 1 },
+          { type: "broad", category: "drink", quantity: 2 },
+          { type: "broad", category: "egg_tart", quantity: 3 }
+        ]
+      }
+    ]
+  };
+}
 
 test("Test Case 1: broad burger plus exact spicy crispy chicken", () => {
   const result = optimizeCoupons(
@@ -200,6 +226,52 @@ test("Test Case 15867: complete coupon beats repeated expensive bundle", () => {
   assert.equal(result.bestPlan.totalPrice, 398);
   assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
   assert.deepEqual(result.bestPlan.extraItems, { sauce: 1 });
+  assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
+test("real 15867 wins when chicken nugget demand is lower than provided quantity", () => {
+  assert(realCoupon15867);
+  const nearMatch = {
+    code: "near-match-466",
+    price: 466,
+    items: {
+      peanut_zinger_burger: 1,
+      zinger_burger: 1,
+      chicken_nuggets: 3,
+      egg_tart: 6,
+      green_tea: 2
+    },
+    available: true
+  };
+
+  const result = optimizeCoupons(holidayBundleDemand(3), [nearMatch, realCoupon15867]);
+
+  assert.equal(result.bestPlan.totalPrice, 398);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
+  assert.deepEqual(result.bestPlan.extraItems, { chicken_nuggets: 5, sauce: 1 });
+  assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
+test("real 15867 wins when chicken nugget demand is close to provided quantity", () => {
+  assert(realCoupon15867);
+  const nearMatch = {
+    code: "near-match-466",
+    price: 466,
+    items: {
+      peanut_zinger_burger: 1,
+      zinger_burger: 1,
+      chicken_nuggets: 6,
+      egg_tart: 6,
+      green_tea: 2
+    },
+    available: true
+  };
+
+  const result = optimizeCoupons(holidayBundleDemand(6), [nearMatch, realCoupon15867]);
+
+  assert.equal(result.bestPlan.totalPrice, 398);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
+  assert.deepEqual(result.bestPlan.extraItems, { chicken_nuggets: 2, sauce: 1 });
   assert.deepEqual(result.bestPlan.missingRequirements, []);
 });
 

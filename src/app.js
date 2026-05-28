@@ -351,6 +351,7 @@ function renderResult(result, people, similarCoupons = []) {
 function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = false } = {}) {
   const delta = bestPrice === null ? "" : `<span class="muted">比最佳方案貴 $${Math.max(0, plan.totalPrice - bestPrice)}</span>`;
   const totalCouponCount = plan.selectedCoupons.reduce((sum, coupon) => sum + coupon.quantity, 0);
+  const hasExtraItems = Object.keys(plan.extraItems ?? {}).length > 0;
 
   return `
     <article class="plan-card ${isBest ? "best-plan-card" : "alternative-plan-card"}">
@@ -365,9 +366,10 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
       ${isBest ? `
         <section class="summary-strip">
           <span>使用優惠券 ${totalCouponCount} 張</span>
-          <span>${Object.keys(plan.extraItems ?? {}).length ? "有多買品項" : "沒有多買品項"}</span>
+          <span>${hasExtraItems ? "有多買品項" : "沒有多買品項"}</span>
           <span>${plan.missingRequirements?.length ? "有無法滿足項目" : "需求皆可滿足"}</span>
         </section>
+        ${hasExtraItems ? `<p class="best-extra-note">此方案雖然有多買品項，但總價最低，因此列為最佳方案。</p>` : ""}
       ` : ""}
       <section>
         <h3>推薦購買</h3>
