@@ -6,7 +6,8 @@ import {
   PRODUCT_CATALOG,
   productLabel
 } from "./lib/productCatalog.js";
-import { canonicalizeItems, expandItemAliases } from "./lib/productNormalizer.js";
+import { canonicalizeItems } from "./lib/productNormalizer.js";
+import { couponMatchesItemFilters, makeFilterId } from "./lib/couponFilters.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
 import { findSimilarCoupons, formatItems, optimizeCoupons, requirementLabel } from "./lib/optimizer.js";
 
@@ -67,20 +68,22 @@ function bindEvents() {
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.viewTab)));
   els.buildPeople.addEventListener("click", buildPeopleForms);
   els.calculate.addEventListener("click", calculateBestDeal);
+  els.peopleForms.addEventListener("click", handlePeopleFormsClick);
+  els.peopleForms.addEventListener("change", handlePeopleFormsChange);
 }
 
 function renderItemFilters() {
   const filters = calculatorCategories().flatMap((category) => [
-    { key: category.key, label: category.broadOptionLabel },
-    ...category.products.map((product) => ({ key: product.key, label: product.label }))
+    { id: makeFilterId("broad", category.key), type: "broad", key: category.key, label: category.broadOptionLabel },
+    ...category.products.map((product) => ({ id: makeFilterId("exact", product.key), type: "exact", key: product.key, label: product.label }))
   ]);
 
   els.itemFilters.innerHTML = filters
     .map((option) => {
-      const count = countCouponsForItem(option.key);
+      const count = countCouponsForItem(option);
       if (count === 0) return "";
       return `
-        <button class="filter-chip" type="button" data-item-filter="${escapeHtml(option.key)}">
+        <button class="filter-chip" type="button" data-item-filter="${escapeHtml(option.id)}">
           ${escapeHtml(option.label)}
           <span>${count}</span>
         </button>
@@ -121,10 +124,9 @@ function renderCoupons() {
   const filtered = state.coupons
     .filter((coupon) => {
       const haystack = `${coupon.code} ${coupon.title} ${coupon.description} ${JSON.stringify(coupon.rawItems)}`.toLowerCase();
-      const itemKeys = Object.keys(expandItemAliases(coupon.items ?? {}));
       return (
         (!query || haystack.includes(query)) &&
-        (!selectedKeys.length || selectedKeys.some((key) => itemKeys.includes(key))) &&
+        couponMatchesItemFilters(coupon, selectedKeys) &&
         (!els.maxPrice.value || Number(coupon.price) <= maxPrice)
       );
     })
@@ -196,7 +198,6 @@ function buildPeopleForms() {
   const current = readPeopleRequirements({ silent: true });
   state.people = Array.from({ length: count }, (_, index) => current[index] ?? defaultPerson(index));
   els.peopleForms.innerHTML = state.people.map((person, index) => renderPersonForm(person, index)).join("");
-  bindRequirementRows();
 }
 
 function defaultPerson(index) {
@@ -251,16 +252,22 @@ function productOptionsHtml(type, category, selectedProductKey) {
     .join("");
 }
 
-function bindRequirementRows() {
-  els.peopleForms.querySelectorAll("[data-add]").forEach((button) => {
-    button.addEventListener("click", () => addRequirementRow(Number(button.dataset.add)));
-  });
-  els.peopleForms.querySelectorAll("[data-remove]").forEach((button) => {
-    button.addEventListener("click", () => button.closest("[data-requirement-row]").remove());
-  });
-  els.peopleForms.querySelectorAll("[data-requirement-type], [data-category]").forEach((select) => {
-    select.addEventListener("change", () => refreshRequirementRow(select.closest("[data-requirement-row]")));
-  });
+function handlePeopleFormsClick(event) {
+  const addButton = event.target.closest("[data-add]");
+  if (addButton && els.peopleForms.contains(addButton)) {
+    addRequirementRow(Number(addButton.dataset.add));
+    return;
+  }
+
+  const removeButton = event.target.closest("[data-remove]");
+  if (removeButton && els.peopleForms.contains(removeButton)) {
+    removeButton.closest("[data-requirement-row]")?.remove();
+  }
+}
+
+function handlePeopleFormsChange(event) {
+  if (!event.target.matches("[data-requirement-type], [data-category]")) return;
+  refreshRequirementRow(event.target.closest("[data-requirement-row]"));
 }
 
 function refreshRequirementRow(row) {
@@ -273,7 +280,6 @@ function refreshRequirementRow(row) {
 function addRequirementRow(personIndex) {
   const person = els.peopleForms.querySelector(`[data-person="${personIndex}"] .rows`);
   person.insertAdjacentHTML("beforeend", renderRequirementRow());
-  bindRequirementRows();
 }
 
 function readPeopleRequirements({ silent = false } = {}) {
@@ -324,7 +330,7 @@ function renderResult(result, people, similarCoupons = []) {
 
   els.result.innerHTML = `
     <div class="result-panel">
-      ${renderPlan(bestPlan, people, { title: "最佳方案", rank: 1, isBest: true })}
+      ${renderPlan(bestPlan, people, { title: "最佳方案摘要", rank: 1, isBest: true })}
       ${visibleAlternatives.length ? `
         <section class="alternative-plans">
           <h3>其他可行方案</h3>
@@ -347,13 +353,14 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
   const totalCouponCount = plan.selectedCoupons.reduce((sum, coupon) => sum + coupon.quantity, 0);
 
   return `
-    <article class="plan-card">
+    <article class="plan-card ${isBest ? "best-plan-card" : "alternative-plan-card"}">
       <div class="plan-heading">
         <div>
+          ${isBest ? `<span class="plan-label">最佳方案</span>` : `<span class="plan-label muted-label">其他方案</span>`}
           <h3>${escapeHtml(title ?? `方案 ${rank ?? ""}`)}</h3>
           ${delta}
         </div>
-        <p class="price">$${plan.totalPrice}</p>
+        <p class="price plan-price"><span>總金額</span>$${plan.totalPrice}</p>
       </div>
       ${isBest ? `
         <section class="summary-strip">
@@ -442,8 +449,8 @@ function itemObjectToDetails(items = {}) {
   }));
 }
 
-function countCouponsForItem(key) {
-  return state.coupons.filter((coupon) => Number(expandItemAliases(coupon.items ?? {})[key] ?? 0) > 0).length;
+function countCouponsForItem(filter) {
+  return state.coupons.filter((coupon) => couponMatchesItemFilters(coupon, [filter.id])).length;
 }
 
 function formatDateTime(value) {

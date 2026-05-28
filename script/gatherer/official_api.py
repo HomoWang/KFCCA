@@ -39,7 +39,8 @@ PRODUCT_RULES: list[tuple[str, list[str]]] = [
     ("original_fried_chicken", ["原味炸雞"]),
     ("spicy_fried_chicken", ["辣味炸雞"]),
     ("fried_chicken_piece", ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"]),
-    ("egg_tart", ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻", "冰心蛋塔"]),
+    ("egg_tart_ice_cream", ["蛋塔風味冰淇淋", "蛋撻風味冰淇淋", "冰心蛋塔冰淇淋", "冰心蛋撻風味冰淇淋"]),
+    ("egg_tart", ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻"]),
     ("pepsi", ["百事可樂", "可樂"]),
     ("iced_tea", ["冰紅茶", "紅茶", "檸檬風味紅茶"]),
     ("seven_up", ["七喜"]),
@@ -65,9 +66,10 @@ PRODUCT_RULES: list[tuple[str, list[str]]] = [
     ("soup", ["小濃湯", "濃湯"]),
     ("rice", ["雞汁風味飯"]),
     ("omelet_flatbread", ["總匯歐姆蛋燒餅"]),
+    ("sauce", ["糖醋醬", "南洋酸甜醬", "青花椒香麻沾醬", "醬料", "沾醬"]),
     ("combo", ["套餐", "XL", "桶"]),
 ]
-IGNORED_ITEM_RE = re.compile(r"(醬|餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)")
+IGNORED_ITEM_RE = re.compile(r"(餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)")
 
 
 @dataclass
@@ -384,6 +386,8 @@ def normalize_raw_items(raw_items: list[dict[str, Any]]) -> tuple[dict[str, int]
 
 
 def normalize_product_name(name: str) -> str | None:
+    if ("冰淇淋" in name or "冰心" in name) and ("蛋塔" in name or "蛋撻" in name):
+        return "egg_tart_ice_cream"
     for key, patterns in PRODUCT_RULES:
         if name in patterns:
             return key

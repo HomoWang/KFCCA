@@ -42,7 +42,16 @@ export const productCategories = [
     label: "蛋塔",
     broadOptionLabel: "任一蛋塔",
     products: [
-      { key: "egg_tart", label: "蛋塔", aliases: ["蛋塔", "蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻", "奶皇流心蛋撻", "冰心蛋塔"] }
+      { key: "egg_tart", label: "蛋塔", aliases: ["蛋塔", "蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻", "奶皇流心蛋撻"] }
+    ]
+  },
+  {
+    key: "ice_cream",
+    label: "冰淇淋",
+    broadOptionLabel: "任一冰淇淋",
+    products: [
+      { key: "egg_tart_ice_cream", label: "蛋塔風味冰淇淋", aliases: ["蛋塔風味冰淇淋", "蛋撻風味冰淇淋", "冰心蛋塔冰淇淋", "冰心蛋撻風味冰淇淋"] },
+      { key: "strawberry_cheese_mochi", label: "草苺起司冰淇淋大福", aliases: ["草苺起司冰淇淋大福", "草莓起司冰淇淋大福", "冰淇淋大福"] }
     ]
   },
   {
@@ -74,7 +83,6 @@ export const productCategories = [
       { key: "biscuit", label: "比司吉", aliases: ["比司吉", "蜂蜜奶油餅乾"] },
       { key: "sweet_potato_ball", label: "地瓜球", aliases: ["地瓜球"] },
       { key: "qq_ball", label: "雙色轉轉QQ球", aliases: ["雙色轉轉QQ球"] },
-      { key: "strawberry_cheese_mochi", label: "草苺起司冰淇淋大福", aliases: ["草苺起司冰淇淋大福", "草莓起司冰淇淋大福", "冰淇淋大福"] },
       { key: "cod_ring", label: "鱈魚圈圈", aliases: ["鱈魚圈圈", "鱈魚圈"] },
       { key: "soup", label: "濃湯", aliases: ["小濃湯", "濃湯"] }
     ]
@@ -88,6 +96,7 @@ export const productCategories = [
       { key: "rice", label: "雞汁風味飯", aliases: ["雞汁風味飯"] },
       { key: "paper_chicken", label: "紙包雞", aliases: ["紙包雞", "義式香草紙包雞"] },
       { key: "omelet_flatbread", label: "總匯歐姆蛋燒餅", aliases: ["總匯歐姆蛋燒餅"] },
+      { key: "sauce", label: "醬料", aliases: ["糖醋醬", "南洋酸甜醬", "青花椒香麻沾醬", "醬料", "沾醬"] },
       { key: "combo", label: "套餐", aliases: ["套餐", "XL", "桶"] }
     ]
   }

@@ -14,8 +14,8 @@ const RULES = productCategories.flatMap((category) =>
     patterns: product.aliases ?? [product.label]
   }))
 );
-
-const IGNORED_ITEM_RE = /(醬|餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)/;
+const FUZZY_RULES = [...RULES].sort((a, b) => longestPatternLength(b) - longestPatternLength(a));
+const IGNORED_ITEM_RE = /(餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)/;
 
 export { catalogOptions, PRODUCT_CATALOG, productLabel };
 
@@ -23,10 +23,14 @@ export function normalizeProductName(name = "") {
   const normalized = normalizeText(name);
   if (!normalized) return null;
 
+  if (/(冰淇淋|冰心)/.test(normalized) && /(蛋塔|蛋撻)/.test(normalized)) {
+    return "egg_tart_ice_cream";
+  }
+
   const exact = RULES.find((rule) => rule.patterns.some((pattern) => normalized === normalizeText(pattern)));
   if (exact) return exact.key;
 
-  const fuzzy = RULES.find((rule) => rule.patterns.some((pattern) => normalized.includes(normalizeText(pattern))));
+  const fuzzy = FUZZY_RULES.find((rule) => rule.patterns.some((pattern) => normalized.includes(normalizeText(pattern))));
   return fuzzy?.key ?? null;
 }
 
@@ -79,7 +83,7 @@ export function aliasParentsForItem(key) {
 
 function inferQuantityMultiplier(name = "") {
   const text = String(name).trim();
-  const prefix = text.match(/^(\d+)\s*(?:入|塊|顆)/);
+  const prefix = text.match(/^(\d+)\s*(?:入|塊|顆|杯)/);
   if (prefix) return Number(prefix[1]);
   const nuggets = text.match(/雞塊\s*(\d+)\s*塊/);
   return nuggets ? Number(nuggets[1]) : 1;
@@ -91,4 +95,8 @@ function shouldIgnoreItem(name = "") {
 
 function normalizeText(value = "") {
   return String(value).trim().replace(/\s+/g, "");
+}
+
+function longestPatternLength(rule) {
+  return Math.max(...rule.patterns.map((pattern) => normalizeText(pattern).length));
 }

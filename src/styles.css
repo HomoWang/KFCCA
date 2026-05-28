@@ -281,9 +281,13 @@ select {
 
 .requirement-row {
   display: grid;
-  grid-template-columns: 130px 120px 1fr 76px 42px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
   margin-top: 10px;
+}
+
+.requirement-row [data-product] {
+  grid-column: 1 / -1;
 }
 
 .icon-button {
@@ -335,6 +339,46 @@ select {
   gap: 12px;
 }
 
+.best-plan-card {
+  border-color: rgba(196, 18, 48, 0.45);
+  box-shadow: 0 10px 24px rgba(32, 33, 36, 0.06);
+}
+
+.alternative-plan-card {
+  background: #fbfcfd;
+}
+
+.plan-label {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 6px;
+  border-radius: 999px;
+  background: var(--red);
+  color: #fff;
+  padding: 4px 9px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.muted-label {
+  background: #eef1f5;
+  color: var(--muted);
+}
+
+.plan-price {
+  display: grid;
+  justify-items: end;
+  gap: 2px;
+  min-width: 110px;
+}
+
+.plan-price span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .coupon-purchase {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -351,6 +395,13 @@ select {
   gap: 8px 14px;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.summary-strip {
+  border-radius: 8px;
+  background: #fff7f8;
+  border: 1px solid rgba(196, 18, 48, 0.18);
+  padding: 10px 12px;
 }
 
 .assignment-person {

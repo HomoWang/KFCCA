@@ -147,6 +147,62 @@ test("Test Case 9: real fried chicken can satisfy broad fried chicken", () => {
   assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => coupon.code), ["A"]);
 });
 
+test("Test Case 15867: complete coupon beats repeated expensive bundle", () => {
+  const result = optimizeCoupons(
+    {
+      people: [
+        {
+          requirements: [
+            { type: "exact", productKey: "peanut_zinger_burger", quantity: 1 },
+            { type: "exact", productKey: "chicken_nuggets", quantity: 8 },
+            { type: "broad", category: "egg_tart", quantity: 3 }
+          ]
+        },
+        {
+          requirements: [
+            { type: "exact", productKey: "zinger_burger", quantity: 1 },
+            { type: "broad", category: "drink", quantity: 2 },
+            { type: "broad", category: "egg_tart", quantity: 3 }
+          ]
+        }
+      ]
+    },
+    [
+      {
+        code: "15867",
+        price: 398,
+        items: {
+          peanut_zinger_burger: 1,
+          zinger_burger: 1,
+          chicken_nuggets: 8,
+          egg_tart: 6,
+          green_tea: 2,
+          sauce: 1
+        },
+        available: true
+      },
+      {
+        code: "15933",
+        price: 350,
+        items: {
+          peanut_zinger_burger: 1,
+          zinger_burger: 1,
+          chicken_nuggets: 4,
+          egg_tart: 3,
+          sweet_potato_ball: 1,
+          small_drink: 2
+        },
+        available: true
+      }
+    ]
+  );
+
+  assert.equal(result.bestPlan.totalPrice, 398);
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
+  assert.deepEqual(result.bestPlan.extraItems, { sauce: 1 });
+  assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
 test("legacy flat demand remains supported", () => {
   const result = optimizeCoupons(
     { burger: 1, drink: 1 },

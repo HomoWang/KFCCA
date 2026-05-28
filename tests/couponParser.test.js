@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { enrichCoupon } from "../src/lib/couponParser.js";
-import { expandItemAliases } from "../src/lib/productNormalizer.js";
+import { expandItemAliases, normalizeProductName } from "../src/lib/productNormalizer.js";
+import { productCategoryKey } from "../src/lib/productCatalog.js";
 
 test("fills drink markers from raw beverage names even when items are incomplete", () => {
   const coupon = enrichCoupon({
@@ -65,4 +66,23 @@ test("raw items replace stale generated item keys", () => {
   });
 
   assert.deepEqual(coupon.items, { crispy_chicken_spicy: 1 });
+});
+
+test("longer product aliases win over shorter fuzzy matches", () => {
+  assert.equal(normalizeProductName("花生熔岩咔啦雞腿堡(辣)"), "peanut_zinger_burger");
+  assert.equal(normalizeProductName("咔啦雞腿堡(辣)"), "zinger_burger");
+});
+
+test("egg tart flavored ice cream is not categorized as egg tart", () => {
+  assert.equal(normalizeProductName("蛋塔"), "egg_tart");
+  assert.equal(normalizeProductName("原味蛋撻"), "egg_tart");
+  assert.equal(normalizeProductName("蛋塔風味冰淇淋"), "egg_tart_ice_cream");
+  assert.equal(normalizeProductName("冰心蛋塔"), "egg_tart_ice_cream");
+  assert.equal(productCategoryKey("egg_tart_ice_cream"), "ice_cream");
+});
+
+test("ice cream mochi keeps the strawberry cheese product key", () => {
+  assert.equal(normalizeProductName("冰淇淋大福"), "strawberry_cheese_mochi");
+  assert.equal(normalizeProductName("草莓起司冰淇淋大福"), "strawberry_cheese_mochi");
+  assert.equal(productCategoryKey("strawberry_cheese_mochi"), "ice_cream");
 });

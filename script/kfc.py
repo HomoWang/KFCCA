@@ -33,6 +33,8 @@ PRODUCT_LABELS = {
     "medium_fries": "中薯",
     "large_fries": "大薯",
     "egg_tart": "蛋塔",
+    "egg_tart_ice_cream": "蛋塔風味冰淇淋",
+    "ice_cream_mochi": "冰淇淋大福",
     "drink": "飲料",
     "small_drink": "小飲",
     "medium_drink": "中飲",
@@ -56,6 +58,7 @@ PRODUCT_LABELS = {
     "rice": "雞汁風味飯",
     "paper_chicken": "紙包雞",
     "omelet_flatbread": "總匯歐姆蛋燒餅",
+    "sauce": "醬料",
     "combo": "套餐",
 }
 
