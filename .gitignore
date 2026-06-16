@@ -3,3 +3,8 @@ __pycache__/
 node_modules/
 .env
 .DS_Store
+
+# 開發工具產物（不部署到 GitHub Pages）
+.claude/
+claude_data/
+logs/

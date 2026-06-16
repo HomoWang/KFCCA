@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from gatherer.coupon import fetch_range_codes
+from gatherer.history import read_history, update_history, write_history
 from gatherer.izo import fetch_izo_codes, fetch_izo_coupon
 from gatherer.official_api import OfficialApiClient, is_free_coupon, merge_coupon_data, normalize_raw_items
 
@@ -136,9 +137,22 @@ def main() -> int:
         "coupons": sorted(coupons, key=lambda coupon: coupon.get("code", "")),
     }
     write_data(data)
+    update_product_history(coupons, now)
     log_quality(data["quality"])
     logging.info("Wrote %s verified coupons.", len(coupons))
     return 0
+
+
+def update_product_history(coupons: list[dict[str, Any]], now: str) -> None:
+    # 累積每個 code / productKey 的首次出現日，供前端標記「新登場」。失敗不可中斷主流程。
+    try:
+        history_path = PUBLIC / "product-history.json"
+        history = read_history(history_path)
+        history = update_history(history, coupons, now[:10], now)
+        write_history(history_path, history)
+        logging.info("Updated product history (%s codes, %s products).", len(history["codes"]), len(history["products"]))
+    except Exception as exc:
+        logging.warning("Updating product history failed: %s", exc)
 
 
 def finalize_coupon(coupon: dict[str, Any]) -> dict[str, Any]:

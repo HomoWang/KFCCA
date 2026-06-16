@@ -1,6 +1,10 @@
 name: Update coupons
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/**"
   schedule:
     - cron: "15 17 * * *"
   workflow_dispatch:
@@ -51,7 +55,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update coupon data"
-          file_pattern: public/coupon.json public/coupon.js
+          file_pattern: public/coupon.json public/coupon.js public/product-history.json
 
       - uses: actions/configure-pages@v5
 

@@ -9,6 +9,9 @@ import {
 import { canonicalizeItems } from "./lib/productNormalizer.js";
 import { couponMatchesItemFilters, makeFilterId } from "./lib/couponFilters.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
+import { getCouponLifecycle, matchesStatus } from "./lib/couponLifecycle.js";
+import { buildProductStatus, productStatusFor } from "./lib/productStatus.js";
+import { matchCoupon, buildSuggestions } from "./lib/couponSearch.js";
 import { findSimilarCoupons, formatItems, optimizeCoupons, requirementLabel } from "./lib/optimizer.js";
 
 const state = {
@@ -16,6 +19,10 @@ const state = {
   coupons: [],
   people: [],
   selectedItemFilters: new Set(),
+  selectedStatus: "all",
+  history: null,
+  productStatus: null,
+  now: new Date(),
   alternativeVisibleCount: 5,
   lastResult: null,
   lastPeople: []
@@ -24,8 +31,10 @@ const state = {
 const els = {
   lastUpdated: document.querySelector("#last-updated"),
   search: document.querySelector("#search"),
+  searchSuggestions: document.querySelector("#search-suggestions"),
   maxPrice: document.querySelector("#max-price"),
   sort: document.querySelector("#sort"),
+  statusFilter: document.querySelector("#status-filter"),
   itemFilters: document.querySelector("#item-filters"),
   clearItemFilters: document.querySelector("#clear-item-filters"),
   couponCount: document.querySelector("#coupon-count"),
@@ -40,7 +49,11 @@ const els = {
 };
 
 async function init() {
+  state.now = new Date();
   await loadCoupons();
+  await loadHistory();
+  state.productStatus = buildProductStatus(state.coupons, { now: state.now, history: state.history });
+  renderStatusFilter();
   renderItemFilters();
   updateFilterChipStates();
   bindEvents();
@@ -62,8 +75,29 @@ async function loadCoupons() {
   els.lastUpdated.textContent = `資料更新：${formatDateTime(state.data.lastUpdated)}`;
 }
 
+async function loadHistory() {
+  try {
+    const response = await fetch("./public/product-history.json", { cache: "no-store" });
+    if (!response.ok) {
+      state.history = null;
+      return;
+    }
+    state.history = await response.json();
+  } catch (error) {
+    // 歷史檔在 pipeline 上線前不存在屬正常情況，新登場狀態與徽章會優雅降級。
+    state.history = null;
+  }
+}
+
 function bindEvents() {
   [els.search, els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
+  els.search.addEventListener("input", renderSuggestions);
+  els.searchSuggestions.addEventListener("click", handleSuggestionClick);
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".search-wrap")) hideSuggestions();
+  });
+  els.statusFilter.addEventListener("click", handleStatusFilterClick);
+  els.itemFilters.addEventListener("click", handleItemFiltersClick);
   els.clearItemFilters.addEventListener("click", clearItemFilters);
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.viewTab)));
   els.buildPeople.addEventListener("click", buildPeopleForms);
@@ -72,28 +106,166 @@ function bindEvents() {
   els.peopleForms.addEventListener("change", handlePeopleFormsChange);
 }
 
-function renderItemFilters() {
-  const filters = calculatorCategories().flatMap((category) => [
-    { id: makeFilterId("broad", category.key), type: "broad", key: category.key, label: category.broadOptionLabel },
-    ...category.products.map((product) => ({ id: makeFilterId("exact", product.key), type: "exact", key: product.key, label: product.label }))
-  ]);
+function statusOptions() {
+  const options = [
+    { key: "all", label: "全部" },
+    { key: "ongoing", label: "進行中" },
+    { key: "ending_soon", label: "即將結束" }
+  ];
+  if (state.history?.baselineDate) options.push({ key: "new", label: "新登場" });
+  return options;
+}
 
-  els.itemFilters.innerHTML = filters
-    .map((option) => {
-      const count = countCouponsForItem(option);
-      if (count === 0) return "";
+function renderStatusFilter() {
+  els.statusFilter.innerHTML = statusOptions()
+    .map((option) => `
+      <button class="status-chip ${option.key === state.selectedStatus ? "active" : ""}" type="button" data-status="${escapeHtml(option.key)}">
+        ${escapeHtml(option.label)}
+      </button>
+    `)
+    .join("");
+}
+
+function handleStatusFilterClick(event) {
+  const button = event.target.closest("[data-status]");
+  if (!button || !els.statusFilter.contains(button)) return;
+  state.selectedStatus = button.dataset.status;
+  renderStatusFilter();
+  renderCoupons();
+}
+
+function renderItemFilters() {
+  els.itemFilters.innerHTML = calculatorCategories().map(renderFilterGroup).join("");
+}
+
+function renderFilterGroup(category) {
+  const broadId = makeFilterId("broad", category.key);
+  const broadCount = countCouponsForItem({ id: broadId });
+  if (broadCount === 0) return "";
+
+  const entries = category.products
+    .map((product) => ({
+      product,
+      status: productStatusFor(state.productStatus, product.key),
+      count: countCouponsForItem({ id: makeFilterId("exact", product.key) })
+    }))
+    .filter((entry) => entry.count > 0);
+
+  const active = entries.filter((entry) => !entry.status.stale);
+  const stale = entries.filter((entry) => entry.status.stale);
+  const expanded = active.length > 0;
+
+  const staleSection = stale.length
+    ? `
+      <div class="stale-group">
+        <button class="stale-toggle" type="button" data-stale-toggle="${escapeHtml(category.key)}" aria-expanded="false">已過季 (${stale.length})</button>
+        <div class="stale-body" data-stale-body="${escapeHtml(category.key)}" hidden>
+          ${stale.map(renderProductChip).join("")}
+        </div>
+      </div>
+    `
+    : "";
+
+  return `
+    <section class="filter-group" data-group="${escapeHtml(category.key)}">
+      <div class="filter-group-head">
+        <button class="filter-group-toggle" type="button" data-group-toggle="${escapeHtml(category.key)}" aria-expanded="${expanded}">${escapeHtml(category.label)}</button>
+        <button class="filter-chip" type="button" data-item-filter="${escapeHtml(broadId)}">
+          ${escapeHtml(category.broadOptionLabel)}
+          <span>${broadCount}</span>
+        </button>
+      </div>
+      <div class="filter-group-body" data-group-body="${escapeHtml(category.key)}" ${expanded ? "" : "hidden"}>
+        ${active.map(renderProductChip).join("")}
+        ${staleSection}
+      </div>
+    </section>
+  `;
+}
+
+function renderProductChip({ product, status, count }) {
+  const id = makeFilterId("exact", product.key);
+  const newBadge = status.isNew ? `<span class="chip-new-badge">新</span>` : "";
+  return `
+    <button class="filter-chip" type="button" data-item-filter="${escapeHtml(id)}">
+      ${escapeHtml(product.label)}${newBadge}
+      <span>${count}</span>
+    </button>
+  `;
+}
+
+function handleItemFiltersClick(event) {
+  const filterButton = event.target.closest("[data-item-filter]");
+  if (filterButton && els.itemFilters.contains(filterButton)) {
+    toggleItemFilter(filterButton.dataset.itemFilter);
+    return;
+  }
+
+  const groupToggle = event.target.closest("[data-group-toggle]");
+  if (groupToggle && els.itemFilters.contains(groupToggle)) {
+    toggleCollapsible(groupToggle, els.itemFilters.querySelector(`[data-group-body="${cssEscape(groupToggle.dataset.groupToggle)}"]`));
+    return;
+  }
+
+  const staleToggle = event.target.closest("[data-stale-toggle]");
+  if (staleToggle && els.itemFilters.contains(staleToggle)) {
+    toggleCollapsible(staleToggle, els.itemFilters.querySelector(`[data-stale-body="${cssEscape(staleToggle.dataset.staleToggle)}"]`));
+  }
+}
+
+function toggleCollapsible(toggleButton, body) {
+  if (!body) return;
+  const willExpand = body.hidden;
+  body.hidden = !willExpand;
+  toggleButton.setAttribute("aria-expanded", String(willExpand));
+}
+
+function cssEscape(value) {
+  return String(value).replace(/["\\]/g, "\\$&");
+}
+
+function renderSuggestions() {
+  const query = els.search.value.trim();
+  if (!query) {
+    hideSuggestions();
+    return;
+  }
+  const suggestions = buildSuggestions(query, state.coupons, { limit: 8 });
+  if (!suggestions.length) {
+    hideSuggestions();
+    return;
+  }
+  els.searchSuggestions.innerHTML = suggestions
+    .map((suggestion) => {
+      const value = suggestion.type === "product" ? suggestion.filterId : suggestion.code;
+      const tag = suggestion.type === "product" ? "品項" : "代碼";
       return `
-        <button class="filter-chip" type="button" data-item-filter="${escapeHtml(option.id)}">
-          ${escapeHtml(option.label)}
-          <span>${count}</span>
+        <button class="search-suggestion" type="button" data-suggestion-type="${suggestion.type}" data-suggestion-value="${escapeHtml(value)}">
+          <span class="suggestion-tag">${tag}</span>${escapeHtml(suggestion.label)}
         </button>
       `;
     })
     .join("");
+  els.searchSuggestions.hidden = false;
+}
 
-  els.itemFilters.querySelectorAll("[data-item-filter]").forEach((button) => {
-    button.addEventListener("click", () => toggleItemFilter(button.dataset.itemFilter));
-  });
+function hideSuggestions() {
+  els.searchSuggestions.hidden = true;
+}
+
+function handleSuggestionClick(event) {
+  const button = event.target.closest("[data-suggestion-type]");
+  if (!button) return;
+
+  if (button.dataset.suggestionType === "product") {
+    state.selectedItemFilters.add(button.dataset.suggestionValue);
+    els.search.value = "";
+    updateFilterChipStates();
+  } else {
+    els.search.value = button.dataset.suggestionValue;
+  }
+  hideSuggestions();
+  renderCoupons();
 }
 
 function toggleItemFilter(key) {
@@ -117,15 +289,16 @@ function updateFilterChipStates() {
 }
 
 function renderCoupons() {
-  const query = els.search.value.trim().toLowerCase();
+  const query = els.search.value.trim();
   const maxPrice = Number(els.maxPrice.value);
   const selectedKeys = [...state.selectedItemFilters];
 
   const filtered = state.coupons
     .filter((coupon) => {
-      const haystack = `${coupon.code} ${coupon.title} ${coupon.description} ${JSON.stringify(coupon.rawItems)}`.toLowerCase();
+      const lifecycle = getCouponLifecycle(coupon, { now: state.now, history: state.history });
       return (
-        (!query || haystack.includes(query)) &&
+        matchCoupon(coupon, query) &&
+        matchesStatus(lifecycle, state.selectedStatus) &&
         couponMatchesItemFilters(coupon, selectedKeys) &&
         (!els.maxPrice.value || Number(coupon.price) <= maxPrice)
       );
@@ -149,6 +322,12 @@ function renderCouponCard(coupon) {
     : "";
   const canDeliver = coupon.deliveryAvailable !== false;
   const delivery = `<span class="badge ${canDeliver ? "" : "warn"}">${canDeliver ? "可外送" : "不可外送"}</span>`;
+  const lifecycle = getCouponLifecycle(coupon, { now: state.now, history: state.history });
+  const lifecycleBadges = [
+    lifecycle.isNew ? `<span class="badge new">新登場</span>` : "",
+    lifecycle.isEndingSoon ? `<span class="badge warn">即將結束</span>` : "",
+    lifecycle.isExpired ? `<span class="badge stale">已過季</span>` : ""
+  ].join("");
 
   return `
     <article class="coupon-card">
@@ -163,6 +342,7 @@ function renderCouponCard(coupon) {
       <div>${renderItemDetails(coupon.displayItems ?? itemObjectToDetails(coupon.items))}</div>
       <div class="badge-row">
         <span class="badge">${isCouponCurrentlyAvailable(coupon) ? "目前可用" : "未在期限內"}</span>
+        ${lifecycleBadges}
         ${delivery}
         ${categories.map((item) => `<span class="badge">${escapeHtml(item)}</span>`).join("")}
         ${unknown}

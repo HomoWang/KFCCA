@@ -116,6 +116,55 @@ main {
   margin-bottom: 10px;
 }
 
+.search-wrap {
+  position: relative;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: grid;
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(32, 33, 36, 0.12);
+}
+
+.search-suggestions[hidden] {
+  display: none;
+}
+
+.search-suggestion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--ink);
+  border-radius: 0;
+  text-align: left;
+  font-weight: 600;
+  white-space: normal;
+}
+
+.search-suggestion:hover {
+  background: #eef1f5;
+}
+
+.suggestion-tag {
+  flex: none;
+  border-radius: 999px;
+  background: #edf2ff;
+  color: #31568f;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
 .filter-panel {
   display: flex;
   align-items: flex-start;
@@ -161,6 +210,101 @@ main {
 .filter-chip.active span {
   background: rgba(255, 255, 255, 0.22);
   color: #fff;
+}
+
+.chip-new-badge {
+  background: var(--red) !important;
+  color: #fff !important;
+  min-width: auto !important;
+  padding: 1px 6px !important;
+  font-size: 0.68rem !important;
+}
+
+.status-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.status-chip {
+  background: #eef1f5;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.status-chip.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.filter-groups {
+  display: grid;
+  gap: 10px;
+  flex: 1;
+}
+
+.filter-group {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.filter-group-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-group-toggle {
+  background: transparent;
+  color: var(--ink);
+  padding: 6px 4px;
+  font-weight: 800;
+}
+
+.filter-group-toggle::before {
+  content: "▾ ";
+}
+
+.filter-group-toggle[aria-expanded="false"]::before {
+  content: "▸ ";
+}
+
+.filter-group-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.filter-group-body[hidden] {
+  display: none;
+}
+
+.stale-group {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.stale-toggle {
+  background: transparent;
+  color: var(--muted);
+  border: 1px dashed var(--line);
+  font-weight: 700;
+}
+
+.stale-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.stale-body[hidden] {
+  display: none;
 }
 
 .ghost-button {
@@ -248,6 +392,16 @@ select {
 .badge.warn {
   background: #fff3d7;
   color: var(--warn);
+}
+
+.badge.new {
+  background: #ffe3e8;
+  color: var(--red);
+}
+
+.badge.stale {
+  background: #eef1f5;
+  color: var(--muted);
 }
 
 .empty-state {

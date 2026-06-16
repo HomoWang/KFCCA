@@ -22,7 +22,10 @@
 
       <section id="coupons-view" data-view-panel="coupons">
         <section class="toolbar" aria-label="優惠券篩選">
-          <input id="search" type="search" placeholder="肯德基 最新優惠碼 代碼 快速搜尋" />
+          <div class="search-wrap">
+            <input id="search" type="search" placeholder="肯德基 最新優惠碼 代碼 快速搜尋" autocomplete="off" />
+            <div id="search-suggestions" class="search-suggestions" hidden></div>
+          </div>
           <input id="max-price" type="number" min="0" placeholder="最高金額" />
           <select id="sort">
             <option value="endDateAsc">期限 近到遠</option>
@@ -32,8 +35,10 @@
           </select>
         </section>
 
+        <section class="status-filter" id="status-filter" aria-label="狀態篩選"></section>
+
         <section class="filter-panel" aria-label="品項篩選">
-          <div id="item-filters" class="filter-chips"></div>
+          <div id="item-filters" class="filter-groups"></div>
           <button id="clear-item-filters" class="ghost-button" type="button">清除篩選</button>
         </section>
 
