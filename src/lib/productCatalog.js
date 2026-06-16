@@ -88,16 +88,22 @@ export const productCategories = [
     ]
   },
   {
-    key: "side",
-    label: "配餐",
-    broadOptionLabel: "任一配餐",
-    hiddenInCalculator: true,
+    key: "meal",
+    label: "正餐",
+    broadOptionLabel: "任一正餐",
     products: [
-      { key: "rice", label: "雞汁風味飯", aliases: ["雞汁風味飯"] },
       { key: "paper_chicken", label: "紙包雞", aliases: ["紙包雞", "義式香草紙包雞"] },
+      { key: "rice", label: "雞汁風味飯", aliases: ["雞汁風味飯"] },
       { key: "omelet_flatbread", label: "總匯歐姆蛋燒餅", aliases: ["總匯歐姆蛋燒餅"] },
-      { key: "sauce", label: "醬料", aliases: ["糖醋醬", "南洋酸甜醬", "青花椒香麻沾醬", "醬料", "沾醬"] },
       { key: "combo", label: "套餐", aliases: ["套餐", "XL", "桶"] }
+    ]
+  },
+  {
+    key: "condiment",
+    label: "醬料",
+    broadOptionLabel: "任一醬料",
+    products: [
+      { key: "sauce", label: "醬料", aliases: ["糖醋醬", "南洋酸甜醬", "青花椒香麻沾醬", "醬料", "沾醬"] }
     ]
   }
 ];
@@ -147,7 +153,7 @@ export function categoryProducts(categoryKey) {
 }
 
 export function calculatorCategories() {
-  return productCategories.filter((category) => !category.hiddenInCalculator);
+  return productCategories;
 }
 
 export function catalogOptions() {

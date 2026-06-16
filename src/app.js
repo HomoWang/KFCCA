@@ -400,10 +400,21 @@ function renderPersonForm(person, index) {
   `;
 }
 
+// 只回傳「實際出現在現有優惠券」的分類/品項，讓需求下拉與卡片所見一致（WYSIWYG）。
+function appearingCategories() {
+  return calculatorCategories().filter((category) =>
+    category.products.some((product) => productStatusFor(state.productStatus, product.key).couponCount > 0)
+  );
+}
+
+function appearingProducts(categoryKey) {
+  return categoryProducts(categoryKey).filter((product) => productStatusFor(state.productStatus, product.key).couponCount > 0);
+}
+
 function renderRequirementRow(requirement = { type: "broad", category: "burger", quantity: 1 }) {
   const type = requirement.type ?? "broad";
   const category = requirement.category ?? productCategoryKey(requirement.productKey) ?? "burger";
-  const productKey = requirement.productKey ?? categoryProducts(category)[0]?.key ?? "";
+  const productKey = requirement.productKey ?? appearingProducts(category)[0]?.key ?? "";
 
   return `
     <div class="requirement-row" data-requirement-row>
@@ -412,7 +423,7 @@ function renderRequirementRow(requirement = { type: "broad", category: "burger",
         <option value="exact" ${type === "exact" ? "selected" : ""}>精準品項</option>
       </select>
       <select data-category aria-label="分類">
-        ${calculatorCategories().map((item) => `<option value="${item.key}" ${item.key === category ? "selected" : ""}>${item.label}</option>`).join("")}
+        ${appearingCategories().map((item) => `<option value="${item.key}" ${item.key === category ? "selected" : ""}>${item.label}</option>`).join("")}
       </select>
       <select data-product aria-label="品項">
         ${productOptionsHtml(type, category, productKey)}
@@ -427,7 +438,7 @@ function productOptionsHtml(type, category, selectedProductKey) {
   if (type === "broad") {
     return `<option value="${category}">${broadLabel(category)}</option>`;
   }
-  return categoryProducts(category)
+  return appearingProducts(category)
     .map((product) => `<option value="${product.key}" ${product.key === selectedProductKey ? "selected" : ""}>${product.label}</option>`)
     .join("");
 }
