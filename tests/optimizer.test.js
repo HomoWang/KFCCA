@@ -4,8 +4,9 @@ import test from "node:test";
 import { enrichCoupon } from "../src/lib/couponParser.js";
 import { findSimilarCoupons, optimizeCoupons } from "../src/lib/optimizer.js";
 
-const data = JSON.parse(fs.readFileSync(new URL("../public/coupon.json", import.meta.url), "utf8"));
-const realCoupon15867 = enrichCoupon(data.coupons.find((coupon) => coupon.code === "15867"));
+// 讀靜態 fixture 而非 live public/coupon.json，讓回歸測試不受每日抓取資料漂移影響。
+const fixture = JSON.parse(fs.readFileSync(new URL("./fixtures/sample-coupons.json", import.meta.url), "utf8"));
+const realCoupon15867 = enrichCoupon(fixture.coupons.find((coupon) => coupon.code === "15867"));
 
 function holidayBundleDemand(chickenNuggetsQuantity) {
   return {

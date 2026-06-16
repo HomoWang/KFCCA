@@ -1,0 +1,283 @@
+{
+  "note": "Static fixture for deterministic tests; do not auto-update.",
+  "coupons": [
+    {
+      "code": "15867",
+      "title": "15867-悠遊卡聖誕",
+      "description": "花生熔岩咔啦雞腿堡(辣)x1 + 咔啦雞腿堡(辣)x1 + 上校雞塊8塊x1 + 原味蛋撻x6 + 無糖綠茶(小)x2 + 糖醋醬x1",
+      "price": 398,
+      "rawItems": [
+        {
+          "name": "花生熔岩咔啦雞腿堡(辣)",
+          "quantity": 1
+        },
+        {
+          "name": "咔啦雞腿堡(辣)",
+          "quantity": 1
+        },
+        {
+          "name": "上校雞塊8塊",
+          "quantity": 1
+        },
+        {
+          "name": "原味蛋撻",
+          "quantity": 6
+        },
+        {
+          "name": "無糖綠茶(小)",
+          "quantity": 2
+        },
+        {
+          "name": "糖醋醬",
+          "quantity": 1
+        }
+      ],
+      "items": {
+        "peanut_zinger_burger": 1,
+        "zinger_burger": 1,
+        "chicken_nuggets": 8,
+        "egg_tart": 6,
+        "green_tea": 2,
+        "sauce": 1
+      },
+      "displayItems": [
+        {
+          "productKey": "peanut_zinger_burger",
+          "label": "花生熔岩雞腿堡",
+          "quantity": 1
+        },
+        {
+          "productKey": "zinger_burger",
+          "label": "卡啦雞腿堡",
+          "quantity": 1
+        },
+        {
+          "productKey": "chicken_nuggets",
+          "label": "雞塊",
+          "quantity": 8
+        },
+        {
+          "productKey": "egg_tart",
+          "label": "蛋塔",
+          "quantity": 6
+        },
+        {
+          "productKey": "green_tea",
+          "label": "綠茶",
+          "quantity": 2
+        },
+        {
+          "productKey": "sauce",
+          "label": "醬料",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2025-11-07",
+      "endDate": "2026-06-30",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/15867",
+      "verifiedAt": "2026-06-04T04:29:15+08:00"
+    },
+    {
+      "code": "16168",
+      "title": "16168-Sunny粉絲團超夏趴",
+      "description": "草苺起司冰淇淋大福x6 + 原味蛋撻x6",
+      "price": 388,
+      "rawItems": [
+        {
+          "name": "冰淇淋大福",
+          "quantity": 6
+        },
+        {
+          "name": "蛋塔",
+          "quantity": 6
+        }
+      ],
+      "items": {
+        "strawberry_cheese_mochi": 6,
+        "egg_tart": 6
+      },
+      "displayItems": [
+        {
+          "productKey": "strawberry_cheese_mochi",
+          "label": "草苺起司冰淇淋大福",
+          "quantity": 6
+        },
+        {
+          "productKey": "egg_tart",
+          "label": "蛋塔",
+          "quantity": 6
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2026-05-12",
+      "endDate": "2026-12-20",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/16168",
+      "verifiedAt": "2026-06-04T04:33:20+08:00"
+    },
+    {
+      "code": "26918",
+      "title": "26918-澱堂級饗宴A",
+      "description": "咔啦脆雞(辣)x1 + 20:00前供應雞汁風味飯x1 + 無糖綠茶(小)x1 + 響應環保不需湯匙x1",
+      "price": 85,
+      "rawItems": [
+        {
+          "name": "咔啦脆雞(辣)",
+          "quantity": 1
+        },
+        {
+          "name": "20:00前供應雞汁風味飯",
+          "quantity": 1
+        },
+        {
+          "name": "無糖綠茶(小)",
+          "quantity": 1
+        },
+        {
+          "name": "響應環保不需湯匙",
+          "quantity": 1
+        }
+      ],
+      "items": {
+        "fried_chicken_piece": 1,
+        "rice": 1,
+        "green_tea": 1
+      },
+      "displayItems": [
+        {
+          "productKey": "fried_chicken_piece",
+          "label": "炸雞",
+          "quantity": 1
+        },
+        {
+          "productKey": "rice",
+          "label": "雞汁風味飯",
+          "quantity": 1
+        },
+        {
+          "productKey": "green_tea",
+          "label": "綠茶",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2026-03-19",
+      "endDate": "2026-10-31",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/26918",
+      "verifiedAt": "2026-06-04T04:45:45+08:00"
+    },
+    {
+      "code": "40634",
+      "title": "40634-優惠券",
+      "description": "冰心蛋撻風味冰淇淋x2",
+      "price": 59,
+      "rawItems": [
+        {
+          "name": "冰心蛋塔冰淇淋",
+          "quantity": 2
+        }
+      ],
+      "items": {
+        "egg_tart_ice_cream": 2
+      },
+      "displayItems": [
+        {
+          "productKey": "egg_tart_ice_cream",
+          "label": "蛋塔風味冰淇淋",
+          "quantity": 2
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2025-10-01",
+      "endDate": "2026-12-31",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/40634",
+      "verifiedAt": "2026-06-04T04:47:34+08:00"
+    },
+    {
+      "code": "50527",
+      "title": "50527-六塊爽嗑桶",
+      "description": "爆脆無骨雞腿霸(不辣)x6 + 青花椒香麻沾醬(小)x1 + 百事可樂(中)x2",
+      "price": 311,
+      "rawItems": [
+        {
+          "name": "無骨雞腿",
+          "quantity": 6
+        },
+        {
+          "name": "南洋酸甜醬",
+          "quantity": 1
+        },
+        {
+          "name": "青花椒香麻沾醬(小)",
+          "quantity": 0
+        },
+        {
+          "name": "中飲",
+          "quantity": 2
+        }
+      ],
+      "items": {
+        "fried_chicken_piece": 6,
+        "sauce": 2,
+        "medium_drink": 2
+      },
+      "displayItems": [
+        {
+          "productKey": "fried_chicken_piece",
+          "label": "炸雞",
+          "quantity": 6
+        },
+        {
+          "productKey": "sauce",
+          "label": "醬料",
+          "quantity": 2
+        },
+        {
+          "productKey": "medium_drink",
+          "label": "中飲",
+          "quantity": 2
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2026-05-20",
+      "endDate": "2026-06-29",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/50527",
+      "verifiedAt": "2026-06-04T04:48:09+08:00"
+    }
+  ]
+}
