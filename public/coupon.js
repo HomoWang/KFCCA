@@ -1,5 +1,5 @@
 window.KFC_COUPON_DATA = {
-  "lastUpdated": "2026-07-01T03:30:28+08:00",
+  "lastUpdated": "2026-07-02T03:27:09+08:00",
   "source": {
     "candidateSources": [
       "kfc.izo.tw"
@@ -12,263 +12,35 @@ window.KFC_COUPON_DATA = {
     ]
   },
   "quality": {
-    "candidateCount": 1003,
-    "officialVerifiedCount": 1003,
-    "parsedPriceCount": 1002,
-    "parsedItemsCount": 1002,
-    "parseFailureCount": 304,
+    "candidateCount": 727,
+    "officialVerifiedCount": 727,
+    "parsedPriceCount": 727,
+    "parsedItemsCount": 727,
+    "parseFailureCount": 29,
     "firstFailures": [
       {
-        "code": "15532",
+        "code": "15945",
         "reason": "missing_dates"
       },
       {
-        "code": "15533",
+        "code": "25317",
         "reason": "missing_dates"
       },
       {
-        "code": "15619",
+        "code": "26444",
         "reason": "missing_dates"
       },
       {
-        "code": "15753",
+        "code": "26548",
         "reason": "missing_dates"
       },
       {
-        "code": "15776",
+        "code": "40431",
         "reason": "missing_dates"
       }
     ]
   },
   "coupons": [
-    {
-      "code": "15532",
-      "title": "125元 15532 57折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 125,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15532",
-      "verifiedAt": "2026-07-01T03:06:07+08:00"
-    },
-    {
-      "code": "15533",
-      "title": "299元 15533 56折",
-      "description": "炸雞x4 + 雞塊x4 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 4,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15533",
-      "verifiedAt": "2026-07-01T03:06:09+08:00"
-    },
-    {
-      "code": "15619",
-      "title": "499元 15619 56折",
-      "description": "炸雞x5 + 蛋塔x6 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1",
-      "price": 499,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15619",
-      "verifiedAt": "2026-07-01T03:06:13+08:00"
-    },
     {
       "code": "15730",
       "title": "15730-全球人壽炸雞",
@@ -321,7 +93,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15730",
-      "verifiedAt": "2026-07-01T03:06:16+08:00"
+      "verifiedAt": "2026-07-02T03:12:48+08:00"
     },
     {
       "code": "15731",
@@ -375,7 +147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15731",
-      "verifiedAt": "2026-07-01T03:06:19+08:00"
+      "verifiedAt": "2026-07-02T03:12:50+08:00"
     },
     {
       "code": "15732",
@@ -429,2131 +201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15732",
-      "verifiedAt": "2026-07-01T03:06:21+08:00"
-    },
-    {
-      "code": "15753",
-      "title": "389元 15753 67折",
-      "description": "炸雞x6 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 389,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15753",
-      "verifiedAt": "2026-07-01T03:06:21+08:00"
-    },
-    {
-      "code": "15776",
-      "title": "139元 15776 61折",
-      "description": "炸雞x2 + 蛋塔x1 + 中飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15776",
-      "verifiedAt": "2026-07-01T03:06:23+08:00"
-    },
-    {
-      "code": "15777",
-      "title": "99元 15777 63折",
-      "description": "炸雞x1 + 蛋塔x1 + 中飲x1",
-      "price": 99,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15777",
-      "verifiedAt": "2026-07-01T03:06:25+08:00"
-    },
-    {
-      "code": "15864",
-      "title": "399元 15864 58折",
-      "description": "炸雞x5 + 小薯x1 + 蛋塔x6",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "small_fries": 1,
-        "egg_tart": 6
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15864",
-      "verifiedAt": "2026-07-01T03:06:27+08:00"
-    },
-    {
-      "code": "15865",
-      "title": "139元 15865 74折",
-      "description": "卡啦雞腿堡x1 + 蝦塊x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15865",
-      "verifiedAt": "2026-07-01T03:06:29+08:00"
-    },
-    {
-      "code": "15866",
-      "title": "398元 15866 59折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 雞塊x8 + 蛋塔x6 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 8,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15866",
-      "verifiedAt": "2026-07-01T03:06:31+08:00"
-    },
-    {
-      "code": "15867",
-      "title": "398元 15867 59折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 雞塊x8 + 蛋塔x6 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 8,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15867",
-      "verifiedAt": "2026-07-01T03:06:33+08:00"
-    },
-    {
-      "code": "15868",
-      "title": "398元 15868 59折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 雞塊x8 + 蛋塔x6 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 8,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15868",
-      "verifiedAt": "2026-07-01T03:06:35+08:00"
-    },
-    {
-      "code": "15876",
-      "title": "375元 15876 62折",
-      "description": "炸雞x5 + 雞塊x4 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 375,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15876",
-      "verifiedAt": "2026-07-01T03:06:37+08:00"
-    },
-    {
-      "code": "15877",
-      "title": "139元 15877 74折",
-      "description": "卡啦雞腿堡x1 + 蝦塊x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15877",
-      "verifiedAt": "2026-07-01T03:06:39+08:00"
-    },
-    {
-      "code": "15923",
-      "title": "350元 15923 49折",
-      "description": "炸雞x5 + 蛋塔x6 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15923",
-      "verifiedAt": "2026-07-01T03:06:41+08:00"
-    },
-    {
-      "code": "15924",
-      "title": "388元 15924 57折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15924",
-      "verifiedAt": "2026-07-01T03:06:42+08:00"
-    },
-    {
-      "code": "15925",
-      "title": "388元 15925 50折",
-      "description": "炸雞x5 + 地瓜球x1 + 蛋塔x6 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "sweet_potato_ball": 1,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15925",
-      "verifiedAt": "2026-07-01T03:06:44+08:00"
-    },
-    {
-      "code": "15926",
-      "title": "88元 15926 55折",
-      "description": "青花椒炸雞x1 + 蛋塔x1 + 小飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15926",
-      "verifiedAt": "2026-07-01T03:06:45+08:00"
-    },
-    {
-      "code": "15927",
-      "title": "298元 15927 67折",
-      "description": "炸雞x2 + 花生熔岩雞腿堡x1 + 小薯x1 + 蛋塔x2 + 中飲x1",
-      "price": 298,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "peanut_zinger_burger": 1,
-        "small_fries": 1,
-        "egg_tart": 2,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15927",
-      "verifiedAt": "2026-07-01T03:06:47+08:00"
-    },
-    {
-      "code": "15928",
-      "title": "388元 15928 62折",
-      "description": "炸雞x5 + 雞塊x8 + 地瓜球x1 + 中薯x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "sweet_potato_ball": 1,
-        "medium_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15928",
-      "verifiedAt": "2026-07-01T03:06:49+08:00"
-    },
-    {
-      "code": "15929",
-      "title": "398元 15929 56折",
-      "description": "炸雞x5 + 蛋塔x6 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15929",
-      "verifiedAt": "2026-07-01T03:06:50+08:00"
-    },
-    {
-      "code": "15930",
-      "title": "388元 15930 62折",
-      "description": "炸雞x5 + 雞塊x8 + 地瓜球x1 + 中薯x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "sweet_potato_ball": 1,
-        "medium_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15930",
-      "verifiedAt": "2026-07-01T03:06:52+08:00"
-    },
-    {
-      "code": "15931",
-      "title": "398元 15931 58折",
-      "description": "炸雞x5 + 蛋塔x6 + 小飲x1",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15931",
-      "verifiedAt": "2026-07-01T03:06:54+08:00"
-    },
-    {
-      "code": "15932",
-      "title": "390元 15932 63折",
-      "description": "青花椒炸雞x5 + 蛋塔x4 + 小飲x1",
-      "price": 390,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "egg_tart": 4,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15932",
-      "verifiedAt": "2026-07-01T03:06:55+08:00"
-    },
-    {
-      "code": "15933",
-      "title": "350元 15933 65折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15933",
-      "verifiedAt": "2026-07-01T03:06:57+08:00"
-    },
-    {
-      "code": "15934",
-      "title": "398元 15934 59折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15934",
-      "verifiedAt": "2026-07-01T03:06:59+08:00"
-    },
-    {
-      "code": "15935",
-      "title": "498元 15935 61折",
-      "description": "青花椒炸雞x5 + 青花椒卡啦雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15935",
-      "verifiedAt": "2026-07-01T03:07:00+08:00"
-    },
-    {
-      "code": "15936",
-      "title": "188元 15936 65折",
-      "description": "炸雞x1 + 卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 188,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15936",
-      "verifiedAt": "2026-07-01T03:07:02+08:00"
-    },
-    {
-      "code": "15937",
-      "title": "389元 15937 64折",
-      "description": "青花椒炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 389,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15937",
-      "verifiedAt": "2026-07-01T03:07:04+08:00"
-    },
-    {
-      "code": "15938",
-      "title": "88元 15938 55折",
-      "description": "青花椒炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15938",
-      "verifiedAt": "2026-07-01T03:07:05+08:00"
-    },
-    {
-      "code": "15939",
-      "title": "498元 15939 61折",
-      "description": "青花椒炸雞x5 + 青花椒卡啦雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15939",
-      "verifiedAt": "2026-07-01T03:07:07+08:00"
-    },
-    {
-      "code": "15940",
-      "title": "135元 15940 60折",
-      "description": "炸雞x2 + 雞汁風味飯x1 + 小飲x1",
-      "price": 135,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15940",
-      "verifiedAt": "2026-07-01T03:07:08+08:00"
-    },
-    {
-      "code": "15941",
-      "title": "258元 15941 57折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15941",
-      "verifiedAt": "2026-07-01T03:07:10+08:00"
-    },
-    {
-      "code": "15942",
-      "title": "139元 15942 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15942",
-      "verifiedAt": "2026-07-01T03:07:11+08:00"
-    },
-    {
-      "code": "15943",
-      "title": "188元 15943 65折",
-      "description": "炸雞x1 + 卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 188,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15943",
-      "verifiedAt": "2026-07-01T03:07:13+08:00"
-    },
-    {
-      "code": "15944",
-      "title": "398元 15944 58折",
-      "description": "炸雞x5 + 蛋塔x6 + 小飲x1",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15944",
-      "verifiedAt": "2026-07-01T03:07:15+08:00"
+      "verifiedAt": "2026-07-02T03:12:52+08:00"
     },
     {
       "code": "15945",
@@ -2589,1197 +237,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15945",
-      "verifiedAt": "2026-07-01T03:07:17+08:00"
-    },
-    {
-      "code": "15947",
-      "title": "139元 15947 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15947",
-      "verifiedAt": "2026-07-01T03:07:19+08:00"
-    },
-    {
-      "code": "15948",
-      "title": "258元 15948 57折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15948",
-      "verifiedAt": "2026-07-01T03:07:21+08:00"
-    },
-    {
-      "code": "15957",
-      "title": "139元 15957 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15957",
-      "verifiedAt": "2026-07-01T03:07:24+08:00"
-    },
-    {
-      "code": "15959",
-      "title": "258元 15959 57折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15959",
-      "verifiedAt": "2026-07-01T03:07:26+08:00"
-    },
-    {
-      "code": "15960",
-      "title": "388元 15960 54折",
-      "description": "炸雞x5 + 蛋塔x6 + 中飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15960",
-      "verifiedAt": "2026-07-01T03:07:29+08:00"
-    },
-    {
-      "code": "15961",
-      "title": "88元 15961 59折",
-      "description": "炸雞x1 + 小薯x1 + 中飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "small_fries": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15961",
-      "verifiedAt": "2026-07-01T03:07:31+08:00"
-    },
-    {
-      "code": "15962",
-      "title": "89元 15962 55折",
-      "description": "炸雞x1 + 地瓜球x1 + 小飲x1",
-      "price": 89,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15962",
-      "verifiedAt": "2026-07-01T03:07:32+08:00"
-    },
-    {
-      "code": "15964",
-      "title": "149元 15964 66折",
-      "description": "雞塊x16 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 16
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 16,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 16
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15964",
-      "verifiedAt": "2026-07-01T03:07:35+08:00"
-    },
-    {
-      "code": "15966",
-      "title": "289元 15966 67折",
-      "description": "炸雞x5 + 中飲x2",
-      "price": 289,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15966",
-      "verifiedAt": "2026-07-01T03:07:37+08:00"
-    },
-    {
-      "code": "15967",
-      "title": "105元 15967 66折",
-      "description": "炸雞x1 + 脆雞堡x1 + 小飲x1",
-      "price": 105,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "crispy_chicken_burger": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15967",
-      "verifiedAt": "2026-07-01T03:07:38+08:00"
-    },
-    {
-      "code": "15975",
-      "title": "94元 15975 58折",
-      "description": "炸雞x1 + 地瓜球x1 + 小飲x1",
-      "price": 94,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15975",
-      "verifiedAt": "2026-07-01T03:07:40+08:00"
-    },
-    {
-      "code": "15976",
-      "title": "350元 15976 57折",
-      "description": "炸雞x5 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15976",
-      "verifiedAt": "2026-07-01T03:07:42+08:00"
-    },
-    {
-      "code": "15977",
-      "title": "100元 15977 56折",
-      "description": "雞塊x8 + 蛋塔x1 + 小飲x1",
-      "price": 100,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 8,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15977",
-      "verifiedAt": "2026-07-01T03:07:44+08:00"
-    },
-    {
-      "code": "15978",
-      "title": "94元 15978 58折",
-      "description": "炸雞x1 + 地瓜球x1 + 小飲x1",
-      "price": 94,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15978",
-      "verifiedAt": "2026-07-01T03:07:46+08:00"
-    },
-    {
-      "code": "15979",
-      "title": "99元 15979 63折",
-      "description": "炸雞x1 + 雞塊x4 + 中飲x1",
-      "price": 99,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "chicken_nuggets": 4,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15979",
-      "verifiedAt": "2026-07-01T03:07:48+08:00"
-    },
-    {
-      "code": "15983",
-      "title": "100元 15983 56折",
-      "description": "雞塊x8 + 蛋塔x1 + 小飲x1",
-      "price": 100,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 8,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15983",
-      "verifiedAt": "2026-07-01T03:07:50+08:00"
-    },
-    {
-      "code": "15995",
-      "title": "153元 15995 68折",
-      "description": "雞塊x16 + 小飲x1",
-      "price": 153,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 16
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 16,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 16
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15995",
-      "verifiedAt": "2026-07-01T03:07:51+08:00"
-    },
-    {
-      "code": "15996",
-      "title": "169元 15996 62折",
-      "description": "雞塊x16 + 蛋塔x1 + 小飲x1",
-      "price": 169,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 16
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 16,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 16
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15996",
-      "verifiedAt": "2026-07-01T03:07:53+08:00"
-    },
-    {
-      "code": "15997",
-      "title": "175元 15997 66折",
-      "description": "雞塊x16 + 小薯x1 + 小飲x1",
-      "price": 175,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 16
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 16,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 16
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15997",
-      "verifiedAt": "2026-07-01T03:07:55+08:00"
-    },
-    {
-      "code": "15998",
-      "title": "199元 15998 56折",
-      "description": "雞塊x16 + 蛋塔x2 + 小飲x2",
-      "price": 199,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 16
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 16,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 16
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15998",
-      "verifiedAt": "2026-07-01T03:07:57+08:00"
-    },
-    {
-      "code": "15999",
-      "title": "333元 15999 60折",
-      "description": "炸雞x4 + 雞塊x8 + 蛋塔x2 + 中飲x2",
-      "price": 333,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 4,
-        "chicken_nuggets": 8,
-        "egg_tart": 2,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/15999",
-      "verifiedAt": "2026-07-01T03:07:58+08:00"
+      "verifiedAt": "2026-07-02T03:12:52+08:00"
     },
     {
       "code": "16001",
@@ -3823,7 +281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16001",
-      "verifiedAt": "2026-07-01T03:08:01+08:00"
+      "verifiedAt": "2026-07-02T03:12:55+08:00"
     },
     {
       "code": "16002",
@@ -3881,7 +339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16002",
-      "verifiedAt": "2026-07-01T03:08:02+08:00"
+      "verifiedAt": "2026-07-02T03:12:57+08:00"
     },
     {
       "code": "16003",
@@ -3939,7 +397,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16003",
-      "verifiedAt": "2026-07-01T03:08:04+08:00"
+      "verifiedAt": "2026-07-02T03:12:58+08:00"
     },
     {
       "code": "16004",
@@ -3993,7 +451,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16004",
-      "verifiedAt": "2026-07-01T03:08:05+08:00"
+      "verifiedAt": "2026-07-02T03:12:59+08:00"
     },
     {
       "code": "16005",
@@ -4077,7 +535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16005",
-      "verifiedAt": "2026-07-01T03:08:07+08:00"
+      "verifiedAt": "2026-07-02T03:13:01+08:00"
     },
     {
       "code": "16006",
@@ -4121,7 +579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16006",
-      "verifiedAt": "2026-07-01T03:08:08+08:00"
+      "verifiedAt": "2026-07-02T03:13:02+08:00"
     },
     {
       "code": "16007",
@@ -4179,7 +637,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16007",
-      "verifiedAt": "2026-07-01T03:08:09+08:00"
+      "verifiedAt": "2026-07-02T03:13:03+08:00"
     },
     {
       "code": "16008",
@@ -4233,7 +691,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16008",
-      "verifiedAt": "2026-07-01T03:08:11+08:00"
+      "verifiedAt": "2026-07-02T03:13:04+08:00"
     },
     {
       "code": "16009",
@@ -4297,7 +755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16009",
-      "verifiedAt": "2026-07-01T03:08:12+08:00"
+      "verifiedAt": "2026-07-02T03:13:06+08:00"
     },
     {
       "code": "16010",
@@ -4361,7 +819,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16010",
-      "verifiedAt": "2026-07-01T03:08:13+08:00"
+      "verifiedAt": "2026-07-02T03:13:07+08:00"
     },
     {
       "code": "16011",
@@ -4415,7 +873,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16011",
-      "verifiedAt": "2026-07-01T03:08:15+08:00"
+      "verifiedAt": "2026-07-02T03:13:08+08:00"
     },
     {
       "code": "16012",
@@ -4493,7 +951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16012",
-      "verifiedAt": "2026-07-01T03:08:16+08:00"
+      "verifiedAt": "2026-07-02T03:13:09+08:00"
     },
     {
       "code": "16013",
@@ -4537,7 +995,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16013",
-      "verifiedAt": "2026-07-01T03:08:18+08:00"
+      "verifiedAt": "2026-07-02T03:13:11+08:00"
     },
     {
       "code": "16014",
@@ -4601,7 +1059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16014",
-      "verifiedAt": "2026-07-01T03:08:19+08:00"
+      "verifiedAt": "2026-07-02T03:13:12+08:00"
     },
     {
       "code": "16015",
@@ -4645,7 +1103,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16015",
-      "verifiedAt": "2026-07-01T03:08:20+08:00"
+      "verifiedAt": "2026-07-02T03:13:13+08:00"
     },
     {
       "code": "16016",
@@ -4709,7 +1167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16016",
-      "verifiedAt": "2026-07-01T03:08:22+08:00"
+      "verifiedAt": "2026-07-02T03:13:14+08:00"
     },
     {
       "code": "16017",
@@ -4767,7 +1225,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16017",
-      "verifiedAt": "2026-07-01T03:08:24+08:00"
+      "verifiedAt": "2026-07-02T03:13:16+08:00"
     },
     {
       "code": "16018",
@@ -4831,7 +1289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16018",
-      "verifiedAt": "2026-07-01T03:08:25+08:00"
+      "verifiedAt": "2026-07-02T03:13:17+08:00"
     },
     {
       "code": "16019",
@@ -4885,7 +1343,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16019",
-      "verifiedAt": "2026-07-01T03:08:26+08:00"
+      "verifiedAt": "2026-07-02T03:13:18+08:00"
     },
     {
       "code": "16020",
@@ -4943,7 +1401,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16020",
-      "verifiedAt": "2026-07-01T03:08:28+08:00"
+      "verifiedAt": "2026-07-02T03:13:19+08:00"
     },
     {
       "code": "16022",
@@ -4997,7 +1455,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16022",
-      "verifiedAt": "2026-07-01T03:08:29+08:00"
+      "verifiedAt": "2026-07-02T03:13:20+08:00"
     },
     {
       "code": "16023",
@@ -5065,7 +1523,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16023",
-      "verifiedAt": "2026-07-01T03:08:31+08:00"
+      "verifiedAt": "2026-07-02T03:13:21+08:00"
     },
     {
       "code": "16024",
@@ -5133,7 +1591,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16024",
-      "verifiedAt": "2026-07-01T03:08:32+08:00"
+      "verifiedAt": "2026-07-02T03:13:22+08:00"
     },
     {
       "code": "16025",
@@ -5187,7 +1645,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16025",
-      "verifiedAt": "2026-07-01T03:08:33+08:00"
+      "verifiedAt": "2026-07-02T03:13:23+08:00"
     },
     {
       "code": "16026",
@@ -5241,7 +1699,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16026",
-      "verifiedAt": "2026-07-01T03:08:35+08:00"
+      "verifiedAt": "2026-07-02T03:13:25+08:00"
     },
     {
       "code": "16027",
@@ -5295,7 +1753,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16027",
-      "verifiedAt": "2026-07-01T03:08:36+08:00"
+      "verifiedAt": "2026-07-02T03:13:26+08:00"
     },
     {
       "code": "16028",
@@ -5349,7 +1807,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16028",
-      "verifiedAt": "2026-07-01T03:08:37+08:00"
+      "verifiedAt": "2026-07-02T03:13:28+08:00"
     },
     {
       "code": "16029",
@@ -5407,7 +1865,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16029",
-      "verifiedAt": "2026-07-01T03:08:38+08:00"
+      "verifiedAt": "2026-07-02T03:13:30+08:00"
     },
     {
       "code": "16030",
@@ -5471,7 +1929,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16030",
-      "verifiedAt": "2026-07-01T03:08:40+08:00"
+      "verifiedAt": "2026-07-02T03:13:31+08:00"
     },
     {
       "code": "16031",
@@ -5535,7 +1993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16031",
-      "verifiedAt": "2026-07-01T03:08:41+08:00"
+      "verifiedAt": "2026-07-02T03:13:33+08:00"
     },
     {
       "code": "16032",
@@ -5599,7 +2057,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16032",
-      "verifiedAt": "2026-07-01T03:08:42+08:00"
+      "verifiedAt": "2026-07-02T03:13:35+08:00"
     },
     {
       "code": "16033",
@@ -5643,7 +2101,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16033",
-      "verifiedAt": "2026-07-01T03:08:44+08:00"
+      "verifiedAt": "2026-07-02T03:13:36+08:00"
     },
     {
       "code": "16034",
@@ -5707,7 +2165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16034",
-      "verifiedAt": "2026-07-01T03:08:45+08:00"
+      "verifiedAt": "2026-07-02T03:13:38+08:00"
     },
     {
       "code": "16035",
@@ -5761,7 +2219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16035",
-      "verifiedAt": "2026-07-01T03:08:47+08:00"
+      "verifiedAt": "2026-07-02T03:13:39+08:00"
     },
     {
       "code": "16036",
@@ -5865,7 +2323,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16036",
-      "verifiedAt": "2026-07-01T03:08:48+08:00"
+      "verifiedAt": "2026-07-02T03:13:40+08:00"
     },
     {
       "code": "16037",
@@ -5929,7 +2387,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16037",
-      "verifiedAt": "2026-07-01T03:08:50+08:00"
+      "verifiedAt": "2026-07-02T03:13:41+08:00"
     },
     {
       "code": "16038",
@@ -5997,7 +2455,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16038",
-      "verifiedAt": "2026-07-01T03:08:51+08:00"
+      "verifiedAt": "2026-07-02T03:13:42+08:00"
     },
     {
       "code": "16039",
@@ -6061,63 +2519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16039",
-      "verifiedAt": "2026-07-01T03:08:52+08:00"
-    },
-    {
-      "code": "16040",
-      "title": "88元 16040 62折",
-      "description": "地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16040",
-      "verifiedAt": "2026-07-01T03:08:53+08:00"
+      "verifiedAt": "2026-07-02T03:13:43+08:00"
     },
     {
       "code": "16041",
@@ -6171,7 +2573,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16041",
-      "verifiedAt": "2026-07-01T03:08:55+08:00"
+      "verifiedAt": "2026-07-02T03:13:45+08:00"
     },
     {
       "code": "16042",
@@ -6225,7 +2627,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16042",
-      "verifiedAt": "2026-07-01T03:08:57+08:00"
+      "verifiedAt": "2026-07-02T03:13:46+08:00"
     },
     {
       "code": "16043",
@@ -6279,7 +2681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16043",
-      "verifiedAt": "2026-07-01T03:08:58+08:00"
+      "verifiedAt": "2026-07-02T03:13:47+08:00"
     },
     {
       "code": "16044",
@@ -6337,7 +2739,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16044",
-      "verifiedAt": "2026-07-01T03:08:59+08:00"
+      "verifiedAt": "2026-07-02T03:13:48+08:00"
     },
     {
       "code": "16045",
@@ -6391,7 +2793,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16045",
-      "verifiedAt": "2026-07-01T03:09:01+08:00"
+      "verifiedAt": "2026-07-02T03:13:49+08:00"
     },
     {
       "code": "16046",
@@ -6449,7 +2851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16046",
-      "verifiedAt": "2026-07-01T03:09:02+08:00"
+      "verifiedAt": "2026-07-02T03:13:50+08:00"
     },
     {
       "code": "16047",
@@ -6503,7 +2905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16047",
-      "verifiedAt": "2026-07-01T03:09:04+08:00"
+      "verifiedAt": "2026-07-02T03:13:51+08:00"
     },
     {
       "code": "16048",
@@ -6567,7 +2969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16048",
-      "verifiedAt": "2026-07-01T03:09:05+08:00"
+      "verifiedAt": "2026-07-02T03:13:53+08:00"
     },
     {
       "code": "16049",
@@ -6651,7 +3053,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16049",
-      "verifiedAt": "2026-07-01T03:09:07+08:00"
+      "verifiedAt": "2026-07-02T03:13:54+08:00"
     },
     {
       "code": "16050",
@@ -6745,7 +3147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16050",
-      "verifiedAt": "2026-07-01T03:09:08+08:00"
+      "verifiedAt": "2026-07-02T03:13:55+08:00"
     },
     {
       "code": "16051",
@@ -6789,7 +3191,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16051",
-      "verifiedAt": "2026-07-01T03:09:09+08:00"
+      "verifiedAt": "2026-07-02T03:13:56+08:00"
     },
     {
       "code": "16052",
@@ -6843,7 +3245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16052",
-      "verifiedAt": "2026-07-01T03:09:11+08:00"
+      "verifiedAt": "2026-07-02T03:13:58+08:00"
     },
     {
       "code": "16054",
@@ -6917,7 +3319,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16054",
-      "verifiedAt": "2026-07-01T03:09:12+08:00"
+      "verifiedAt": "2026-07-02T03:13:59+08:00"
     },
     {
       "code": "16055",
@@ -6971,7 +3373,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16055",
-      "verifiedAt": "2026-07-01T03:09:13+08:00"
+      "verifiedAt": "2026-07-02T03:14:00+08:00"
     },
     {
       "code": "16056",
@@ -7015,7 +3417,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16056",
-      "verifiedAt": "2026-07-01T03:09:14+08:00"
+      "verifiedAt": "2026-07-02T03:14:01+08:00"
     },
     {
       "code": "16057",
@@ -7069,7 +3471,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16057",
-      "verifiedAt": "2026-07-01T03:09:16+08:00"
+      "verifiedAt": "2026-07-02T03:14:02+08:00"
     },
     {
       "code": "16058",
@@ -7133,7 +3535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16058",
-      "verifiedAt": "2026-07-01T03:09:17+08:00"
+      "verifiedAt": "2026-07-02T03:14:03+08:00"
     },
     {
       "code": "16059",
@@ -7187,7 +3589,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16059",
-      "verifiedAt": "2026-07-01T03:09:19+08:00"
+      "verifiedAt": "2026-07-02T03:14:04+08:00"
     },
     {
       "code": "16060",
@@ -7241,7 +3643,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16060",
-      "verifiedAt": "2026-07-01T03:09:20+08:00"
+      "verifiedAt": "2026-07-02T03:14:06+08:00"
     },
     {
       "code": "16061",
@@ -7295,7 +3697,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16061",
-      "verifiedAt": "2026-07-01T03:09:22+08:00"
+      "verifiedAt": "2026-07-02T03:14:07+08:00"
     },
     {
       "code": "16062",
@@ -7349,7 +3751,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16062",
-      "verifiedAt": "2026-07-01T03:09:23+08:00"
+      "verifiedAt": "2026-07-02T03:14:08+08:00"
     },
     {
       "code": "16063",
@@ -7413,7 +3815,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16063",
-      "verifiedAt": "2026-07-01T03:09:24+08:00"
+      "verifiedAt": "2026-07-02T03:14:09+08:00"
     },
     {
       "code": "16064",
@@ -7477,7 +3879,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16064",
-      "verifiedAt": "2026-07-01T03:09:25+08:00"
+      "verifiedAt": "2026-07-02T03:14:10+08:00"
     },
     {
       "code": "16065",
@@ -7541,7 +3943,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16065",
-      "verifiedAt": "2026-07-01T03:09:27+08:00"
+      "verifiedAt": "2026-07-02T03:14:11+08:00"
     },
     {
       "code": "16066",
@@ -7615,7 +4017,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16066",
-      "verifiedAt": "2026-07-01T03:09:28+08:00"
+      "verifiedAt": "2026-07-02T03:14:12+08:00"
     },
     {
       "code": "16067",
@@ -7679,7 +4081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16067",
-      "verifiedAt": "2026-07-01T03:09:29+08:00"
+      "verifiedAt": "2026-07-02T03:14:14+08:00"
     },
     {
       "code": "16068",
@@ -7737,7 +4139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16068",
-      "verifiedAt": "2026-07-01T03:09:30+08:00"
+      "verifiedAt": "2026-07-02T03:14:15+08:00"
     },
     {
       "code": "16069",
@@ -7791,7 +4193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16069",
-      "verifiedAt": "2026-07-01T03:09:32+08:00"
+      "verifiedAt": "2026-07-02T03:14:16+08:00"
     },
     {
       "code": "16070",
@@ -7849,7 +4251,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16070",
-      "verifiedAt": "2026-07-01T03:09:33+08:00"
+      "verifiedAt": "2026-07-02T03:14:17+08:00"
     },
     {
       "code": "16071",
@@ -7923,7 +4325,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16071",
-      "verifiedAt": "2026-07-01T03:09:35+08:00"
+      "verifiedAt": "2026-07-02T03:14:18+08:00"
     },
     {
       "code": "16072",
@@ -7987,7 +4389,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16072",
-      "verifiedAt": "2026-07-01T03:09:36+08:00"
+      "verifiedAt": "2026-07-02T03:14:20+08:00"
     },
     {
       "code": "16073",
@@ -8051,7 +4453,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16073",
-      "verifiedAt": "2026-07-01T03:09:37+08:00"
+      "verifiedAt": "2026-07-02T03:14:21+08:00"
     },
     {
       "code": "16074",
@@ -8105,7 +4507,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16074",
-      "verifiedAt": "2026-07-01T03:09:38+08:00"
+      "verifiedAt": "2026-07-02T03:14:22+08:00"
     },
     {
       "code": "16075",
@@ -8179,7 +4581,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16075",
-      "verifiedAt": "2026-07-01T03:09:40+08:00"
+      "verifiedAt": "2026-07-02T03:14:23+08:00"
     },
     {
       "code": "16076",
@@ -8233,7 +4635,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16076",
-      "verifiedAt": "2026-07-01T03:09:41+08:00"
+      "verifiedAt": "2026-07-02T03:14:24+08:00"
     },
     {
       "code": "16077",
@@ -8287,7 +4689,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16077",
-      "verifiedAt": "2026-07-01T03:09:42+08:00"
+      "verifiedAt": "2026-07-02T03:14:25+08:00"
     },
     {
       "code": "16078",
@@ -8345,7 +4747,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16078",
-      "verifiedAt": "2026-07-01T03:09:43+08:00"
+      "verifiedAt": "2026-07-02T03:14:26+08:00"
     },
     {
       "code": "16079",
@@ -8399,7 +4801,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16079",
-      "verifiedAt": "2026-07-01T03:09:44+08:00"
+      "verifiedAt": "2026-07-02T03:14:27+08:00"
     },
     {
       "code": "16080",
@@ -8457,7 +4859,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16080",
-      "verifiedAt": "2026-07-01T03:09:45+08:00"
+      "verifiedAt": "2026-07-02T03:14:28+08:00"
     },
     {
       "code": "16081",
@@ -8511,7 +4913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16081",
-      "verifiedAt": "2026-07-01T03:09:46+08:00"
+      "verifiedAt": "2026-07-02T03:14:29+08:00"
     },
     {
       "code": "16082",
@@ -8565,7 +4967,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16082",
-      "verifiedAt": "2026-07-01T03:09:47+08:00"
+      "verifiedAt": "2026-07-02T03:14:30+08:00"
     },
     {
       "code": "16083",
@@ -8609,7 +5011,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16083",
-      "verifiedAt": "2026-07-01T03:09:48+08:00"
+      "verifiedAt": "2026-07-02T03:14:31+08:00"
     },
     {
       "code": "16084",
@@ -8663,7 +5065,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16084",
-      "verifiedAt": "2026-07-01T03:09:50+08:00"
+      "verifiedAt": "2026-07-02T03:14:32+08:00"
     },
     {
       "code": "16085",
@@ -8737,7 +5139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16085",
-      "verifiedAt": "2026-07-01T03:09:51+08:00"
+      "verifiedAt": "2026-07-02T03:14:33+08:00"
     },
     {
       "code": "16086",
@@ -8781,7 +5183,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16086",
-      "verifiedAt": "2026-07-01T03:09:52+08:00"
+      "verifiedAt": "2026-07-02T03:14:34+08:00"
     },
     {
       "code": "16087",
@@ -8825,7 +5227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16087",
-      "verifiedAt": "2026-07-01T03:09:54+08:00"
+      "verifiedAt": "2026-07-02T03:14:36+08:00"
     },
     {
       "code": "16088",
@@ -8879,7 +5281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16088",
-      "verifiedAt": "2026-07-01T03:09:55+08:00"
+      "verifiedAt": "2026-07-02T03:14:37+08:00"
     },
     {
       "code": "16089",
@@ -8953,7 +5355,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16089",
-      "verifiedAt": "2026-07-01T03:09:57+08:00"
+      "verifiedAt": "2026-07-02T03:14:38+08:00"
     },
     {
       "code": "16090",
@@ -9011,7 +5413,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16090",
-      "verifiedAt": "2026-07-01T03:09:58+08:00"
+      "verifiedAt": "2026-07-02T03:14:39+08:00"
     },
     {
       "code": "16091",
@@ -9075,7 +5477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16091",
-      "verifiedAt": "2026-07-01T03:09:59+08:00"
+      "verifiedAt": "2026-07-02T03:14:40+08:00"
     },
     {
       "code": "16092",
@@ -9129,7 +5531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16092",
-      "verifiedAt": "2026-07-01T03:10:00+08:00"
+      "verifiedAt": "2026-07-02T03:14:41+08:00"
     },
     {
       "code": "16093",
@@ -9173,7 +5575,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16093",
-      "verifiedAt": "2026-07-01T03:10:02+08:00"
+      "verifiedAt": "2026-07-02T03:14:43+08:00"
     },
     {
       "code": "16094",
@@ -9247,7 +5649,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16094",
-      "verifiedAt": "2026-07-01T03:10:03+08:00"
+      "verifiedAt": "2026-07-02T03:14:44+08:00"
     },
     {
       "code": "16095",
@@ -9311,7 +5713,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16095",
-      "verifiedAt": "2026-07-01T03:10:04+08:00"
+      "verifiedAt": "2026-07-02T03:14:45+08:00"
     },
     {
       "code": "16096",
@@ -9375,7 +5777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16096",
-      "verifiedAt": "2026-07-01T03:10:05+08:00"
+      "verifiedAt": "2026-07-02T03:14:46+08:00"
     },
     {
       "code": "16097",
@@ -9439,7 +5841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16097",
-      "verifiedAt": "2026-07-01T03:10:07+08:00"
+      "verifiedAt": "2026-07-02T03:14:47+08:00"
     },
     {
       "code": "16098",
@@ -9493,7 +5895,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16098",
-      "verifiedAt": "2026-07-01T03:10:08+08:00"
+      "verifiedAt": "2026-07-02T03:14:48+08:00"
     },
     {
       "code": "16099",
@@ -9537,7 +5939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16099",
-      "verifiedAt": "2026-07-01T03:10:09+08:00"
+      "verifiedAt": "2026-07-02T03:14:50+08:00"
     },
     {
       "code": "16100",
@@ -9595,7 +5997,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16100",
-      "verifiedAt": "2026-07-01T03:10:11+08:00"
+      "verifiedAt": "2026-07-02T03:14:51+08:00"
     },
     {
       "code": "16101",
@@ -9669,7 +6071,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16101",
-      "verifiedAt": "2026-07-01T03:10:12+08:00"
+      "verifiedAt": "2026-07-02T03:14:52+08:00"
     },
     {
       "code": "16102",
@@ -9723,7 +6125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16102",
-      "verifiedAt": "2026-07-01T03:10:13+08:00"
+      "verifiedAt": "2026-07-02T03:14:53+08:00"
     },
     {
       "code": "16106",
@@ -9777,7 +6179,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16106",
-      "verifiedAt": "2026-07-01T03:10:14+08:00"
+      "verifiedAt": "2026-07-02T03:14:54+08:00"
     },
     {
       "code": "16107",
@@ -9821,7 +6223,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16107",
-      "verifiedAt": "2026-07-01T03:10:16+08:00"
+      "verifiedAt": "2026-07-02T03:14:56+08:00"
     },
     {
       "code": "16108",
@@ -9875,7 +6277,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16108",
-      "verifiedAt": "2026-07-01T03:10:17+08:00"
+      "verifiedAt": "2026-07-02T03:14:57+08:00"
     },
     {
       "code": "16109",
@@ -9939,7 +6341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16109",
-      "verifiedAt": "2026-07-01T03:10:18+08:00"
+      "verifiedAt": "2026-07-02T03:14:58+08:00"
     },
     {
       "code": "16110",
@@ -10003,7 +6405,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16110",
-      "verifiedAt": "2026-07-01T03:10:20+08:00"
+      "verifiedAt": "2026-07-02T03:14:59+08:00"
     },
     {
       "code": "16111",
@@ -10057,7 +6459,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16111",
-      "verifiedAt": "2026-07-01T03:10:21+08:00"
+      "verifiedAt": "2026-07-02T03:15:00+08:00"
     },
     {
       "code": "16112",
@@ -10131,7 +6533,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16112",
-      "verifiedAt": "2026-07-01T03:10:22+08:00"
+      "verifiedAt": "2026-07-02T03:15:02+08:00"
     },
     {
       "code": "16113",
@@ -10189,7 +6591,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16113",
-      "verifiedAt": "2026-07-01T03:10:23+08:00"
+      "verifiedAt": "2026-07-02T03:15:03+08:00"
     },
     {
       "code": "16116",
@@ -10277,7 +6679,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16116",
-      "verifiedAt": "2026-07-01T03:10:25+08:00"
+      "verifiedAt": "2026-07-02T03:15:04+08:00"
     },
     {
       "code": "16117",
@@ -10351,7 +6753,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16117",
-      "verifiedAt": "2026-07-01T03:10:26+08:00"
+      "verifiedAt": "2026-07-02T03:15:05+08:00"
     },
     {
       "code": "16118",
@@ -10405,7 +6807,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16118",
-      "verifiedAt": "2026-07-01T03:10:27+08:00"
+      "verifiedAt": "2026-07-02T03:15:06+08:00"
     },
     {
       "code": "16119",
@@ -10459,7 +6861,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16119",
-      "verifiedAt": "2026-07-01T03:10:29+08:00"
+      "verifiedAt": "2026-07-02T03:15:07+08:00"
     },
     {
       "code": "16120",
@@ -10513,7 +6915,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16120",
-      "verifiedAt": "2026-07-01T03:10:30+08:00"
+      "verifiedAt": "2026-07-02T03:15:09+08:00"
     },
     {
       "code": "16121",
@@ -10567,7 +6969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16121",
-      "verifiedAt": "2026-07-01T03:10:32+08:00"
+      "verifiedAt": "2026-07-02T03:15:10+08:00"
     },
     {
       "code": "16123",
@@ -10621,7 +7023,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16123",
-      "verifiedAt": "2026-07-01T03:10:33+08:00"
+      "verifiedAt": "2026-07-02T03:15:11+08:00"
     },
     {
       "code": "16124",
@@ -10679,7 +7081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16124",
-      "verifiedAt": "2026-07-01T03:10:34+08:00"
+      "verifiedAt": "2026-07-02T03:15:12+08:00"
     },
     {
       "code": "16125",
@@ -10723,7 +7125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16125",
-      "verifiedAt": "2026-07-01T03:10:35+08:00"
+      "verifiedAt": "2026-07-02T03:15:13+08:00"
     },
     {
       "code": "16126",
@@ -10767,7 +7169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16126",
-      "verifiedAt": "2026-07-01T03:10:37+08:00"
+      "verifiedAt": "2026-07-02T03:15:14+08:00"
     },
     {
       "code": "16127",
@@ -10825,7 +7227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16127",
-      "verifiedAt": "2026-07-01T03:10:38+08:00"
+      "verifiedAt": "2026-07-02T03:15:15+08:00"
     },
     {
       "code": "16128",
@@ -10883,7 +7285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16128",
-      "verifiedAt": "2026-07-01T03:10:39+08:00"
+      "verifiedAt": "2026-07-02T03:15:17+08:00"
     },
     {
       "code": "16129",
@@ -10927,7 +7329,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16129",
-      "verifiedAt": "2026-07-01T03:10:41+08:00"
+      "verifiedAt": "2026-07-02T03:15:18+08:00"
     },
     {
       "code": "16130",
@@ -10981,7 +7383,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16130",
-      "verifiedAt": "2026-07-01T03:10:42+08:00"
+      "verifiedAt": "2026-07-02T03:15:20+08:00"
     },
     {
       "code": "16131",
@@ -11075,7 +7477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16131",
-      "verifiedAt": "2026-07-01T03:10:43+08:00"
+      "verifiedAt": "2026-07-02T03:15:21+08:00"
     },
     {
       "code": "16132",
@@ -11133,7 +7535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16132",
-      "verifiedAt": "2026-07-01T03:10:45+08:00"
+      "verifiedAt": "2026-07-02T03:15:22+08:00"
     },
     {
       "code": "16133",
@@ -11142,17 +7544,17 @@ window.KFC_COUPON_DATA = {
       "price": 178,
       "rawItems": [
         {
-          "name": "咔啦雞腿堡(辣)",
+          "name": "卡啦雞腿堡",
           "quantity": 2
         },
         {
-          "name": "無糖綠茶(小)",
+          "name": "小飲",
           "quantity": 2
         }
       ],
       "items": {
         "zinger_burger": 2,
-        "green_tea": 2
+        "small_drink": 2
       },
       "displayItems": [
         {
@@ -11161,8 +7563,8 @@ window.KFC_COUPON_DATA = {
           "quantity": 2
         },
         {
-          "productKey": "green_tea",
-          "label": "綠茶",
+          "productKey": "small_drink",
+          "label": "小飲",
           "quantity": 2
         }
       ],
@@ -11176,8 +7578,8 @@ window.KFC_COUPON_DATA = {
       "sourceCandidates": [
         "kfc.izo.tw"
       ],
-      "sourceUrl": null,
-      "verifiedAt": "2026-07-01T03:10:46+08:00"
+      "sourceUrl": "https://kfc.izo.tw/coupons/16133",
+      "verifiedAt": "2026-07-02T03:15:24+08:00"
     },
     {
       "code": "16134",
@@ -11231,7 +7633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16134",
-      "verifiedAt": "2026-07-01T03:10:48+08:00"
+      "verifiedAt": "2026-07-02T03:15:25+08:00"
     },
     {
       "code": "16135",
@@ -11285,297 +7687,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16135",
-      "verifiedAt": "2026-07-01T03:10:50+08:00"
-    },
-    {
-      "code": "16136",
-      "title": "105元 16136 64折",
-      "description": "炸雞x1 + 地瓜球x1 + 小飲x1",
-      "price": 105,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16136",
-      "verifiedAt": "2026-07-01T03:10:50+08:00"
-    },
-    {
-      "code": "16137",
-      "title": "82元 16137 62折",
-      "description": "地瓜球x1 + 小薯x1 + 小飲x1",
-      "price": 82,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16137",
-      "verifiedAt": "2026-07-01T03:10:52+08:00"
-    },
-    {
-      "code": "16138",
-      "title": "111元 16138 61折",
-      "description": "地瓜球x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 111,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16138",
-      "verifiedAt": "2026-07-01T03:10:54+08:00"
-    },
-    {
-      "code": "16139",
-      "title": "120元 16139 62折",
-      "description": "地瓜球x1 + 蛋塔x2 + 中飲x1",
-      "price": 120,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "egg_tart": 2,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16139",
-      "verifiedAt": "2026-07-01T03:10:55+08:00"
-    },
-    {
-      "code": "16140",
-      "title": "88元 16140 63折",
-      "description": "地瓜球x1 + 雞塊x4 + 小飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "chicken_nuggets": 4,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16140",
-      "verifiedAt": "2026-07-01T03:10:57+08:00"
+      "verifiedAt": "2026-07-02T03:15:26+08:00"
     },
     {
       "code": "16141",
@@ -11659,7 +7771,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16141",
-      "verifiedAt": "2026-07-01T03:10:59+08:00"
+      "verifiedAt": "2026-07-02T03:15:27+08:00"
     },
     {
       "code": "16142",
@@ -11703,53 +7815,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16142",
-      "verifiedAt": "2026-07-01T03:11:01+08:00"
-    },
-    {
-      "code": "16143",
-      "title": "57元 16143 62折",
-      "description": "地瓜球x1 + 小飲x1",
-      "price": 57,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/16143",
-      "verifiedAt": "2026-07-01T03:11:01+08:00"
+      "verifiedAt": "2026-07-02T03:15:28+08:00"
     },
     {
       "code": "16144",
@@ -11831,7 +7897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16144",
-      "verifiedAt": "2026-07-01T03:11:04+08:00"
+      "verifiedAt": "2026-07-02T03:15:29+08:00"
     },
     {
       "code": "16145",
@@ -11899,7 +7965,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16145",
-      "verifiedAt": "2026-07-01T03:11:05+08:00"
+      "verifiedAt": "2026-07-02T03:15:30+08:00"
     },
     {
       "code": "16146",
@@ -11977,7 +8043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16146",
-      "verifiedAt": "2026-07-01T03:11:07+08:00"
+      "verifiedAt": "2026-07-02T03:15:32+08:00"
     },
     {
       "code": "16147",
@@ -12031,7 +8097,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16147",
-      "verifiedAt": "2026-07-01T03:11:08+08:00"
+      "verifiedAt": "2026-07-02T03:15:33+08:00"
     },
     {
       "code": "16148",
@@ -12089,7 +8155,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16148",
-      "verifiedAt": "2026-07-01T03:11:09+08:00"
+      "verifiedAt": "2026-07-02T03:15:34+08:00"
     },
     {
       "code": "16149",
@@ -12163,7 +8229,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16149",
-      "verifiedAt": "2026-07-01T03:11:11+08:00"
+      "verifiedAt": "2026-07-02T03:15:35+08:00"
     },
     {
       "code": "16150",
@@ -12217,7 +8283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16150",
-      "verifiedAt": "2026-07-01T03:11:12+08:00"
+      "verifiedAt": "2026-07-02T03:15:36+08:00"
     },
     {
       "code": "16151",
@@ -12281,7 +8347,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16151",
-      "verifiedAt": "2026-07-01T03:11:13+08:00"
+      "verifiedAt": "2026-07-02T03:15:37+08:00"
     },
     {
       "code": "16152",
@@ -12353,7 +8419,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16152",
-      "verifiedAt": "2026-07-01T03:11:15+08:00"
+      "verifiedAt": "2026-07-02T03:15:39+08:00"
     },
     {
       "code": "16153",
@@ -12407,7 +8473,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16153",
-      "verifiedAt": "2026-07-01T03:11:16+08:00"
+      "verifiedAt": "2026-07-02T03:15:40+08:00"
     },
     {
       "code": "16154",
@@ -12461,7 +8527,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16154",
-      "verifiedAt": "2026-07-01T03:11:17+08:00"
+      "verifiedAt": "2026-07-02T03:15:41+08:00"
     },
     {
       "code": "16155",
@@ -12529,7 +8595,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16155",
-      "verifiedAt": "2026-07-01T03:11:19+08:00"
+      "verifiedAt": "2026-07-02T03:15:42+08:00"
     },
     {
       "code": "16156",
@@ -12597,7 +8663,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16156",
-      "verifiedAt": "2026-07-01T03:11:20+08:00"
+      "verifiedAt": "2026-07-02T03:15:43+08:00"
     },
     {
       "code": "16157",
@@ -12651,7 +8717,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16157",
-      "verifiedAt": "2026-07-01T03:11:22+08:00"
+      "verifiedAt": "2026-07-02T03:15:44+08:00"
     },
     {
       "code": "16158",
@@ -12695,7 +8761,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16158",
-      "verifiedAt": "2026-07-01T03:11:25+08:00"
+      "verifiedAt": "2026-07-02T03:15:46+08:00"
     },
     {
       "code": "16159",
@@ -12773,7 +8839,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16159",
-      "verifiedAt": "2026-07-01T03:11:27+08:00"
+      "verifiedAt": "2026-07-02T03:15:47+08:00"
     },
     {
       "code": "16160",
@@ -12831,7 +8897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16160",
-      "verifiedAt": "2026-07-01T03:11:29+08:00"
+      "verifiedAt": "2026-07-02T03:15:48+08:00"
     },
     {
       "code": "16161",
@@ -12895,7 +8961,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16161",
-      "verifiedAt": "2026-07-01T03:11:31+08:00"
+      "verifiedAt": "2026-07-02T03:15:49+08:00"
     },
     {
       "code": "16162",
@@ -12969,7 +9035,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16162",
-      "verifiedAt": "2026-07-01T03:11:32+08:00"
+      "verifiedAt": "2026-07-02T03:15:50+08:00"
     },
     {
       "code": "16163",
@@ -13013,7 +9079,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16163",
-      "verifiedAt": "2026-07-01T03:11:34+08:00"
+      "verifiedAt": "2026-07-02T03:15:51+08:00"
     },
     {
       "code": "16164",
@@ -13067,7 +9133,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16164",
-      "verifiedAt": "2026-07-01T03:11:35+08:00"
+      "verifiedAt": "2026-07-02T03:15:52+08:00"
     },
     {
       "code": "16165",
@@ -13135,7 +9201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16165",
-      "verifiedAt": "2026-07-01T03:11:36+08:00"
+      "verifiedAt": "2026-07-02T03:15:54+08:00"
     },
     {
       "code": "16166",
@@ -13219,7 +9285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16166",
-      "verifiedAt": "2026-07-01T03:11:38+08:00"
+      "verifiedAt": "2026-07-02T03:15:55+08:00"
     },
     {
       "code": "16167",
@@ -13287,7 +9353,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16167",
-      "verifiedAt": "2026-07-01T03:11:40+08:00"
+      "verifiedAt": "2026-07-02T03:15:57+08:00"
     },
     {
       "code": "16168",
@@ -13331,7 +9397,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16168",
-      "verifiedAt": "2026-07-01T03:11:41+08:00"
+      "verifiedAt": "2026-07-02T03:15:58+08:00"
     },
     {
       "code": "16169",
@@ -13395,7 +9461,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16169",
-      "verifiedAt": "2026-07-01T03:11:43+08:00"
+      "verifiedAt": "2026-07-02T03:15:59+08:00"
     },
     {
       "code": "16170",
@@ -13479,7 +9545,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16170",
-      "verifiedAt": "2026-07-01T03:11:44+08:00"
+      "verifiedAt": "2026-07-02T03:16:00+08:00"
     },
     {
       "code": "16171",
@@ -13543,7 +9609,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16171",
-      "verifiedAt": "2026-07-01T03:11:46+08:00"
+      "verifiedAt": "2026-07-02T03:16:01+08:00"
     },
     {
       "code": "16172",
@@ -13587,7 +9653,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16172",
-      "verifiedAt": "2026-07-01T03:11:48+08:00"
+      "verifiedAt": "2026-07-02T03:16:02+08:00"
     },
     {
       "code": "16173",
@@ -13641,7 +9707,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16173",
-      "verifiedAt": "2026-07-01T03:11:49+08:00"
+      "verifiedAt": "2026-07-02T03:16:04+08:00"
     },
     {
       "code": "16174",
@@ -13699,7 +9765,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16174",
-      "verifiedAt": "2026-07-01T03:11:51+08:00"
+      "verifiedAt": "2026-07-02T03:16:05+08:00"
     },
     {
       "code": "16175",
@@ -13743,7 +9809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16175",
-      "verifiedAt": "2026-07-01T03:11:52+08:00"
+      "verifiedAt": "2026-07-02T03:16:06+08:00"
     },
     {
       "code": "16176",
@@ -13797,7 +9863,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16176",
-      "verifiedAt": "2026-07-01T03:11:53+08:00"
+      "verifiedAt": "2026-07-02T03:16:07+08:00"
     },
     {
       "code": "16177",
@@ -13851,7 +9917,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16177",
-      "verifiedAt": "2026-07-01T03:11:55+08:00"
+      "verifiedAt": "2026-07-02T03:16:08+08:00"
     },
     {
       "code": "16178",
@@ -13905,7 +9971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16178",
-      "verifiedAt": "2026-07-01T03:11:57+08:00"
+      "verifiedAt": "2026-07-02T03:16:09+08:00"
     },
     {
       "code": "16179",
@@ -13949,7 +10015,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16179",
-      "verifiedAt": "2026-07-01T03:11:58+08:00"
+      "verifiedAt": "2026-07-02T03:16:10+08:00"
     },
     {
       "code": "16180",
@@ -14003,7 +10069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16180",
-      "verifiedAt": "2026-07-01T03:11:59+08:00"
+      "verifiedAt": "2026-07-02T03:16:12+08:00"
     },
     {
       "code": "16181",
@@ -14057,7 +10123,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16181",
-      "verifiedAt": "2026-07-01T03:12:00+08:00"
+      "verifiedAt": "2026-07-02T03:16:13+08:00"
     },
     {
       "code": "16182",
@@ -14101,7 +10167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16182",
-      "verifiedAt": "2026-07-01T03:12:02+08:00"
+      "verifiedAt": "2026-07-02T03:16:14+08:00"
     },
     {
       "code": "16183",
@@ -14145,7 +10211,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16183",
-      "verifiedAt": "2026-07-01T03:12:03+08:00"
+      "verifiedAt": "2026-07-02T03:16:15+08:00"
     },
     {
       "code": "16184",
@@ -14209,7 +10275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16184",
-      "verifiedAt": "2026-07-01T03:12:04+08:00"
+      "verifiedAt": "2026-07-02T03:16:16+08:00"
     },
     {
       "code": "16185",
@@ -14267,7 +10333,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16185",
-      "verifiedAt": "2026-07-01T03:12:05+08:00"
+      "verifiedAt": "2026-07-02T03:16:18+08:00"
     },
     {
       "code": "16186",
@@ -14341,7 +10407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16186",
-      "verifiedAt": "2026-07-01T03:12:07+08:00"
+      "verifiedAt": "2026-07-02T03:16:19+08:00"
     },
     {
       "code": "16187",
@@ -14409,7 +10475,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16187",
-      "verifiedAt": "2026-07-01T03:12:08+08:00"
+      "verifiedAt": "2026-07-02T03:16:20+08:00"
     },
     {
       "code": "16188",
@@ -14473,7 +10539,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16188",
-      "verifiedAt": "2026-07-01T03:12:10+08:00"
+      "verifiedAt": "2026-07-02T03:16:21+08:00"
     },
     {
       "code": "16189",
@@ -14541,7 +10607,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16189",
-      "verifiedAt": "2026-07-01T03:12:11+08:00"
+      "verifiedAt": "2026-07-02T03:16:22+08:00"
     },
     {
       "code": "16190",
@@ -14605,7 +10671,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16190",
-      "verifiedAt": "2026-07-01T03:12:13+08:00"
+      "verifiedAt": "2026-07-02T03:16:23+08:00"
     },
     {
       "code": "16191",
@@ -14669,7 +10735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16191",
-      "verifiedAt": "2026-07-01T03:12:14+08:00"
+      "verifiedAt": "2026-07-02T03:16:24+08:00"
     },
     {
       "code": "16192",
@@ -14727,7 +10793,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16192",
-      "verifiedAt": "2026-07-01T03:12:15+08:00"
+      "verifiedAt": "2026-07-02T03:16:26+08:00"
     },
     {
       "code": "16193",
@@ -14785,7 +10851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16193",
-      "verifiedAt": "2026-07-01T03:12:16+08:00"
+      "verifiedAt": "2026-07-02T03:16:27+08:00"
     },
     {
       "code": "16194",
@@ -14839,7 +10905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16194",
-      "verifiedAt": "2026-07-01T03:12:18+08:00"
+      "verifiedAt": "2026-07-02T03:16:28+08:00"
     },
     {
       "code": "16195",
@@ -14893,7 +10959,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16195",
-      "verifiedAt": "2026-07-01T03:12:19+08:00"
+      "verifiedAt": "2026-07-02T03:16:29+08:00"
     },
     {
       "code": "16196",
@@ -14957,7 +11023,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16196",
-      "verifiedAt": "2026-07-01T03:12:20+08:00"
+      "verifiedAt": "2026-07-02T03:16:30+08:00"
     },
     {
       "code": "16197",
@@ -15021,7 +11087,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16197",
-      "verifiedAt": "2026-07-01T03:12:22+08:00"
+      "verifiedAt": "2026-07-02T03:16:31+08:00"
     },
     {
       "code": "16198",
@@ -15085,7 +11151,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16198",
-      "verifiedAt": "2026-07-01T03:12:23+08:00"
+      "verifiedAt": "2026-07-02T03:16:32+08:00"
     },
     {
       "code": "16199",
@@ -15139,7 +11205,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16199",
-      "verifiedAt": "2026-07-01T03:12:24+08:00"
+      "verifiedAt": "2026-07-02T03:16:34+08:00"
     },
     {
       "code": "16200",
@@ -15193,7 +11259,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16200",
-      "verifiedAt": "2026-07-01T03:12:26+08:00"
+      "verifiedAt": "2026-07-02T03:16:35+08:00"
     },
     {
       "code": "16201",
@@ -15251,7 +11317,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16201",
-      "verifiedAt": "2026-07-01T03:12:27+08:00"
+      "verifiedAt": "2026-07-02T03:16:36+08:00"
     },
     {
       "code": "16202",
@@ -15305,7 +11371,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16202",
-      "verifiedAt": "2026-07-01T03:12:28+08:00"
+      "verifiedAt": "2026-07-02T03:16:37+08:00"
     },
     {
       "code": "16203",
@@ -15369,7 +11435,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16203",
-      "verifiedAt": "2026-07-01T03:12:30+08:00"
+      "verifiedAt": "2026-07-02T03:16:38+08:00"
     },
     {
       "code": "16204",
@@ -15453,7 +11519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16204",
-      "verifiedAt": "2026-07-01T03:12:31+08:00"
+      "verifiedAt": "2026-07-02T03:16:39+08:00"
     },
     {
       "code": "16206",
@@ -15507,7 +11573,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16206",
-      "verifiedAt": "2026-07-01T03:12:32+08:00"
+      "verifiedAt": "2026-07-02T03:16:40+08:00"
     },
     {
       "code": "16207",
@@ -15575,7 +11641,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16207",
-      "verifiedAt": "2026-07-01T03:12:34+08:00"
+      "verifiedAt": "2026-07-02T03:16:42+08:00"
     },
     {
       "code": "16208",
@@ -15649,7 +11715,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16208",
-      "verifiedAt": "2026-07-01T03:12:35+08:00"
+      "verifiedAt": "2026-07-02T03:16:43+08:00"
     },
     {
       "code": "16209",
@@ -15703,7 +11769,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16209",
-      "verifiedAt": "2026-07-01T03:12:37+08:00"
+      "verifiedAt": "2026-07-02T03:16:44+08:00"
     },
     {
       "code": "16210",
@@ -15757,7 +11823,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16210",
-      "verifiedAt": "2026-07-01T03:12:38+08:00"
+      "verifiedAt": "2026-07-02T03:16:45+08:00"
     },
     {
       "code": "16211",
@@ -15831,7 +11897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16211",
-      "verifiedAt": "2026-07-01T03:12:39+08:00"
+      "verifiedAt": "2026-07-02T03:16:46+08:00"
     },
     {
       "code": "16212",
@@ -15885,7 +11951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16212",
-      "verifiedAt": "2026-07-01T03:12:40+08:00"
+      "verifiedAt": "2026-07-02T03:16:48+08:00"
     },
     {
       "code": "16213",
@@ -15939,7 +12005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16213",
-      "verifiedAt": "2026-07-01T03:12:42+08:00"
+      "verifiedAt": "2026-07-02T03:16:49+08:00"
     },
     {
       "code": "16214",
@@ -15993,7 +12059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16214",
-      "verifiedAt": "2026-07-01T03:12:43+08:00"
+      "verifiedAt": "2026-07-02T03:16:50+08:00"
     },
     {
       "code": "16215",
@@ -16047,7 +12113,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16215",
-      "verifiedAt": "2026-07-01T03:12:44+08:00"
+      "verifiedAt": "2026-07-02T03:16:51+08:00"
     },
     {
       "code": "16216",
@@ -16091,7 +12157,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16216",
-      "verifiedAt": "2026-07-01T03:12:46+08:00"
+      "verifiedAt": "2026-07-02T03:16:53+08:00"
     },
     {
       "code": "16217",
@@ -16135,7 +12201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16217",
-      "verifiedAt": "2026-07-01T03:12:47+08:00"
+      "verifiedAt": "2026-07-02T03:16:54+08:00"
     },
     {
       "code": "16218",
@@ -16179,7 +12245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16218",
-      "verifiedAt": "2026-07-01T03:12:49+08:00"
+      "verifiedAt": "2026-07-02T03:16:55+08:00"
     },
     {
       "code": "16219",
@@ -16223,7 +12289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16219",
-      "verifiedAt": "2026-07-01T03:12:51+08:00"
+      "verifiedAt": "2026-07-02T03:16:56+08:00"
     },
     {
       "code": "16220",
@@ -16257,7 +12323,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16220",
-      "verifiedAt": "2026-07-01T03:12:52+08:00"
+      "verifiedAt": "2026-07-02T03:16:57+08:00"
     },
     {
       "code": "16221",
@@ -16301,7 +12367,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16221",
-      "verifiedAt": "2026-07-01T03:12:53+08:00"
+      "verifiedAt": "2026-07-02T03:16:58+08:00"
     },
     {
       "code": "16222",
@@ -16345,7 +12411,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16222",
-      "verifiedAt": "2026-07-01T03:12:55+08:00"
+      "verifiedAt": "2026-07-02T03:16:59+08:00"
     },
     {
       "code": "16224",
@@ -16409,7 +12475,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16224",
-      "verifiedAt": "2026-07-01T03:12:56+08:00"
+      "verifiedAt": "2026-07-02T03:17:01+08:00"
     },
     {
       "code": "16225",
@@ -16483,7 +12549,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16225",
-      "verifiedAt": "2026-07-01T03:12:57+08:00"
+      "verifiedAt": "2026-07-02T03:17:02+08:00"
     },
     {
       "code": "16226",
@@ -16547,7 +12613,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16226",
-      "verifiedAt": "2026-07-01T03:12:59+08:00"
+      "verifiedAt": "2026-07-02T03:17:03+08:00"
     },
     {
       "code": "16227",
@@ -16625,7 +12691,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16227",
-      "verifiedAt": "2026-07-01T03:13:00+08:00"
+      "verifiedAt": "2026-07-02T03:17:04+08:00"
     },
     {
       "code": "16228",
@@ -16689,7 +12755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16228",
-      "verifiedAt": "2026-07-01T03:13:02+08:00"
+      "verifiedAt": "2026-07-02T03:17:05+08:00"
     },
     {
       "code": "16229",
@@ -16747,7 +12813,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16229",
-      "verifiedAt": "2026-07-01T03:13:03+08:00"
+      "verifiedAt": "2026-07-02T03:17:06+08:00"
     },
     {
       "code": "16230",
@@ -16811,7 +12877,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16230",
-      "verifiedAt": "2026-07-01T03:13:04+08:00"
+      "verifiedAt": "2026-07-02T03:17:07+08:00"
     },
     {
       "code": "16231",
@@ -16869,7 +12935,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16231",
-      "verifiedAt": "2026-07-01T03:13:06+08:00"
+      "verifiedAt": "2026-07-02T03:17:09+08:00"
     },
     {
       "code": "16232",
@@ -16927,7 +12993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16232",
-      "verifiedAt": "2026-07-01T03:13:07+08:00"
+      "verifiedAt": "2026-07-02T03:17:10+08:00"
     },
     {
       "code": "16234",
@@ -16985,7 +13051,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16234",
-      "verifiedAt": "2026-07-01T03:13:08+08:00"
+      "verifiedAt": "2026-07-02T03:17:11+08:00"
     },
     {
       "code": "16235",
@@ -17049,7 +13115,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16235",
-      "verifiedAt": "2026-07-01T03:13:10+08:00"
+      "verifiedAt": "2026-07-02T03:17:12+08:00"
     },
     {
       "code": "16236",
@@ -17103,7 +13169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16236",
-      "verifiedAt": "2026-07-01T03:13:11+08:00"
+      "verifiedAt": "2026-07-02T03:17:14+08:00"
     },
     {
       "code": "16237",
@@ -17161,7 +13227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16237",
-      "verifiedAt": "2026-07-01T03:13:12+08:00"
+      "verifiedAt": "2026-07-02T03:17:15+08:00"
     },
     {
       "code": "16238",
@@ -17219,7 +13285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16238",
-      "verifiedAt": "2026-07-01T03:13:14+08:00"
+      "verifiedAt": "2026-07-02T03:17:16+08:00"
     },
     {
       "code": "16239",
@@ -17273,7 +13339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16239",
-      "verifiedAt": "2026-07-01T03:13:15+08:00"
+      "verifiedAt": "2026-07-02T03:17:17+08:00"
     },
     {
       "code": "16240",
@@ -17327,7 +13393,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16240",
-      "verifiedAt": "2026-07-01T03:13:16+08:00"
+      "verifiedAt": "2026-07-02T03:17:18+08:00"
     },
     {
       "code": "16241",
@@ -17381,7 +13447,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16241",
-      "verifiedAt": "2026-07-01T03:13:17+08:00"
+      "verifiedAt": "2026-07-02T03:17:19+08:00"
     },
     {
       "code": "16242",
@@ -17425,7 +13491,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16242",
-      "verifiedAt": "2026-07-01T03:13:18+08:00"
+      "verifiedAt": "2026-07-02T03:17:20+08:00"
     },
     {
       "code": "16243",
@@ -17483,7 +13549,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16243",
-      "verifiedAt": "2026-07-01T03:13:20+08:00"
+      "verifiedAt": "2026-07-02T03:17:21+08:00"
     },
     {
       "code": "16244",
@@ -17537,7 +13603,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16244",
-      "verifiedAt": "2026-07-01T03:13:21+08:00"
+      "verifiedAt": "2026-07-02T03:17:22+08:00"
     },
     {
       "code": "16245",
@@ -17591,7 +13657,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16245",
-      "verifiedAt": "2026-07-01T03:13:22+08:00"
+      "verifiedAt": "2026-07-02T03:17:23+08:00"
     },
     {
       "code": "16246",
@@ -17655,7 +13721,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16246",
-      "verifiedAt": "2026-07-01T03:13:23+08:00"
+      "verifiedAt": "2026-07-02T03:17:24+08:00"
     },
     {
       "code": "16247",
@@ -17709,7 +13775,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16247",
-      "verifiedAt": "2026-07-01T03:13:24+08:00"
+      "verifiedAt": "2026-07-02T03:17:25+08:00"
     },
     {
       "code": "16248",
@@ -17787,7 +13853,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16248",
-      "verifiedAt": "2026-07-01T03:13:25+08:00"
+      "verifiedAt": "2026-07-02T03:17:26+08:00"
     },
     {
       "code": "16249",
@@ -17845,7 +13911,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16249",
-      "verifiedAt": "2026-07-01T03:13:27+08:00"
+      "verifiedAt": "2026-07-02T03:17:28+08:00"
     },
     {
       "code": "16250",
@@ -17903,7 +13969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16250",
-      "verifiedAt": "2026-07-01T03:13:28+08:00"
+      "verifiedAt": "2026-07-02T03:17:30+08:00"
     },
     {
       "code": "16251",
@@ -17947,7 +14013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16251",
-      "verifiedAt": "2026-07-01T03:13:30+08:00"
+      "verifiedAt": "2026-07-02T03:17:31+08:00"
     },
     {
       "code": "16252",
@@ -18001,7 +14067,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16252",
-      "verifiedAt": "2026-07-01T03:13:31+08:00"
+      "verifiedAt": "2026-07-02T03:17:33+08:00"
     },
     {
       "code": "16253",
@@ -18055,7 +14121,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16253",
-      "verifiedAt": "2026-07-01T03:13:33+08:00"
+      "verifiedAt": "2026-07-02T03:17:34+08:00"
     },
     {
       "code": "16254",
@@ -18099,7 +14165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16254",
-      "verifiedAt": "2026-07-01T03:13:34+08:00"
+      "verifiedAt": "2026-07-02T03:17:36+08:00"
     },
     {
       "code": "16255",
@@ -18153,7 +14219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16255",
-      "verifiedAt": "2026-07-01T03:13:35+08:00"
+      "verifiedAt": "2026-07-02T03:17:38+08:00"
     },
     {
       "code": "16256",
@@ -18207,7 +14273,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16256",
-      "verifiedAt": "2026-07-01T03:13:37+08:00"
+      "verifiedAt": "2026-07-02T03:17:39+08:00"
     },
     {
       "code": "16257",
@@ -18275,7 +14341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16257",
-      "verifiedAt": "2026-07-01T03:13:38+08:00"
+      "verifiedAt": "2026-07-02T03:17:40+08:00"
     },
     {
       "code": "16258",
@@ -18319,7 +14385,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16258",
-      "verifiedAt": "2026-07-01T03:13:39+08:00"
+      "verifiedAt": "2026-07-02T03:17:41+08:00"
     },
     {
       "code": "16259",
@@ -18383,7 +14449,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16259",
-      "verifiedAt": "2026-07-01T03:13:40+08:00"
+      "verifiedAt": "2026-07-02T03:17:42+08:00"
     },
     {
       "code": "16260",
@@ -18437,7 +14503,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16260",
-      "verifiedAt": "2026-07-01T03:13:42+08:00"
+      "verifiedAt": "2026-07-02T03:17:44+08:00"
     },
     {
       "code": "16261",
@@ -18491,7 +14557,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16261",
-      "verifiedAt": "2026-07-01T03:13:44+08:00"
+      "verifiedAt": "2026-07-02T03:17:45+08:00"
     },
     {
       "code": "16262",
@@ -18545,7 +14611,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16262",
-      "verifiedAt": "2026-07-01T03:13:45+08:00"
+      "verifiedAt": "2026-07-02T03:17:46+08:00"
     },
     {
       "code": "16263",
@@ -18609,7 +14675,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16263",
-      "verifiedAt": "2026-07-01T03:13:46+08:00"
+      "verifiedAt": "2026-07-02T03:17:48+08:00"
     },
     {
       "code": "16264",
@@ -18667,7 +14733,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16264",
-      "verifiedAt": "2026-07-01T03:13:47+08:00"
+      "verifiedAt": "2026-07-02T03:17:49+08:00"
     },
     {
       "code": "16265",
@@ -18721,7 +14787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16265",
-      "verifiedAt": "2026-07-01T03:13:49+08:00"
+      "verifiedAt": "2026-07-02T03:17:50+08:00"
     },
     {
       "code": "16266",
@@ -18765,7 +14831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16266",
-      "verifiedAt": "2026-07-01T03:13:50+08:00"
+      "verifiedAt": "2026-07-02T03:17:51+08:00"
     },
     {
       "code": "16267",
@@ -18819,7 +14885,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16267",
-      "verifiedAt": "2026-07-01T03:13:52+08:00"
+      "verifiedAt": "2026-07-02T03:17:52+08:00"
     },
     {
       "code": "16268",
@@ -18873,7 +14939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16268",
-      "verifiedAt": "2026-07-01T03:13:53+08:00"
+      "verifiedAt": "2026-07-02T03:17:53+08:00"
     },
     {
       "code": "16269",
@@ -18941,7 +15007,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16269",
-      "verifiedAt": "2026-07-01T03:13:54+08:00"
+      "verifiedAt": "2026-07-02T03:17:54+08:00"
     },
     {
       "code": "16270",
@@ -18985,7 +15051,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16270",
-      "verifiedAt": "2026-07-01T03:13:56+08:00"
+      "verifiedAt": "2026-07-02T03:17:56+08:00"
     },
     {
       "code": "16271",
@@ -19039,7 +15105,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16271",
-      "verifiedAt": "2026-07-01T03:13:57+08:00"
+      "verifiedAt": "2026-07-02T03:17:57+08:00"
     },
     {
       "code": "16272",
@@ -19093,7 +15159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16272",
-      "verifiedAt": "2026-07-01T03:13:58+08:00"
+      "verifiedAt": "2026-07-02T03:17:58+08:00"
     },
     {
       "code": "16273",
@@ -19151,7 +15217,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16273",
-      "verifiedAt": "2026-07-01T03:13:59+08:00"
+      "verifiedAt": "2026-07-02T03:17:59+08:00"
     },
     {
       "code": "16274",
@@ -19209,7 +15275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16274",
-      "verifiedAt": "2026-07-01T03:14:01+08:00"
+      "verifiedAt": "2026-07-02T03:18:00+08:00"
     },
     {
       "code": "16275",
@@ -19277,7 +15343,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16275",
-      "verifiedAt": "2026-07-01T03:14:02+08:00"
+      "verifiedAt": "2026-07-02T03:18:02+08:00"
     },
     {
       "code": "16276",
@@ -19341,7 +15407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16276",
-      "verifiedAt": "2026-07-01T03:14:03+08:00"
+      "verifiedAt": "2026-07-02T03:18:03+08:00"
     },
     {
       "code": "16277",
@@ -19405,7 +15471,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16277",
-      "verifiedAt": "2026-07-01T03:14:05+08:00"
+      "verifiedAt": "2026-07-02T03:18:04+08:00"
     },
     {
       "code": "16278",
@@ -19453,7 +15519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16278",
-      "verifiedAt": "2026-07-01T03:14:06+08:00"
+      "verifiedAt": "2026-07-02T03:18:05+08:00"
     },
     {
       "code": "16279",
@@ -19511,7 +15577,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16279",
-      "verifiedAt": "2026-07-01T03:14:08+08:00"
+      "verifiedAt": "2026-07-02T03:18:06+08:00"
     },
     {
       "code": "16280",
@@ -19569,7 +15635,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16280",
-      "verifiedAt": "2026-07-01T03:14:09+08:00"
+      "verifiedAt": "2026-07-02T03:18:07+08:00"
     },
     {
       "code": "16281",
@@ -19623,7 +15689,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16281",
-      "verifiedAt": "2026-07-01T03:14:11+08:00"
+      "verifiedAt": "2026-07-02T03:18:09+08:00"
     },
     {
       "code": "16282",
@@ -19677,7 +15743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16282",
-      "verifiedAt": "2026-07-01T03:14:12+08:00"
+      "verifiedAt": "2026-07-02T03:18:10+08:00"
     },
     {
       "code": "16283",
@@ -19721,7 +15787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16283",
-      "verifiedAt": "2026-07-01T03:14:13+08:00"
+      "verifiedAt": "2026-07-02T03:18:11+08:00"
     },
     {
       "code": "16284",
@@ -19775,7 +15841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16284",
-      "verifiedAt": "2026-07-01T03:14:14+08:00"
+      "verifiedAt": "2026-07-02T03:18:12+08:00"
     },
     {
       "code": "16285",
@@ -19829,7 +15895,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16285",
-      "verifiedAt": "2026-07-01T03:14:15+08:00"
+      "verifiedAt": "2026-07-02T03:18:13+08:00"
     },
     {
       "code": "16286",
@@ -19873,7 +15939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16286",
-      "verifiedAt": "2026-07-01T03:14:17+08:00"
+      "verifiedAt": "2026-07-02T03:18:14+08:00"
     },
     {
       "code": "16287",
@@ -19927,7 +15993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16287",
-      "verifiedAt": "2026-07-01T03:14:18+08:00"
+      "verifiedAt": "2026-07-02T03:18:16+08:00"
     },
     {
       "code": "16288",
@@ -19981,7 +16047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16288",
-      "verifiedAt": "2026-07-01T03:14:19+08:00"
+      "verifiedAt": "2026-07-02T03:18:16+08:00"
     },
     {
       "code": "16289",
@@ -20035,7 +16101,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16289",
-      "verifiedAt": "2026-07-01T03:14:20+08:00"
+      "verifiedAt": "2026-07-02T03:18:17+08:00"
     },
     {
       "code": "16290",
@@ -20093,7 +16159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16290",
-      "verifiedAt": "2026-07-01T03:14:21+08:00"
+      "verifiedAt": "2026-07-02T03:18:18+08:00"
     },
     {
       "code": "16291",
@@ -20137,7 +16203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16291",
-      "verifiedAt": "2026-07-01T03:14:22+08:00"
+      "verifiedAt": "2026-07-02T03:18:19+08:00"
     },
     {
       "code": "16292",
@@ -20191,7 +16257,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16292",
-      "verifiedAt": "2026-07-01T03:14:24+08:00"
+      "verifiedAt": "2026-07-02T03:18:21+08:00"
     },
     {
       "code": "16293",
@@ -20255,7 +16321,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16293",
-      "verifiedAt": "2026-07-01T03:14:25+08:00"
+      "verifiedAt": "2026-07-02T03:18:22+08:00"
     },
     {
       "code": "16294",
@@ -20313,7 +16379,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16294",
-      "verifiedAt": "2026-07-01T03:14:26+08:00"
+      "verifiedAt": "2026-07-02T03:18:23+08:00"
     },
     {
       "code": "16295",
@@ -20367,7 +16433,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16295",
-      "verifiedAt": "2026-07-01T03:14:27+08:00"
+      "verifiedAt": "2026-07-02T03:18:24+08:00"
     },
     {
       "code": "16296",
@@ -20445,7 +16511,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16296",
-      "verifiedAt": "2026-07-01T03:14:29+08:00"
+      "verifiedAt": "2026-07-02T03:18:25+08:00"
     },
     {
       "code": "16297",
@@ -20509,7 +16575,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16297",
-      "verifiedAt": "2026-07-01T03:14:30+08:00"
+      "verifiedAt": "2026-07-02T03:18:26+08:00"
     },
     {
       "code": "16298",
@@ -20567,7 +16633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16298",
-      "verifiedAt": "2026-07-01T03:14:31+08:00"
+      "verifiedAt": "2026-07-02T03:18:27+08:00"
     },
     {
       "code": "16299",
@@ -20615,7 +16681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16299",
-      "verifiedAt": "2026-07-01T03:14:32+08:00"
+      "verifiedAt": "2026-07-02T03:18:29+08:00"
     },
     {
       "code": "16300",
@@ -20663,7 +16729,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16300",
-      "verifiedAt": "2026-07-01T03:14:34+08:00"
+      "verifiedAt": "2026-07-02T03:18:30+08:00"
     },
     {
       "code": "16301",
@@ -20711,7 +16777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16301",
-      "verifiedAt": "2026-07-01T03:14:35+08:00"
+      "verifiedAt": "2026-07-02T03:18:31+08:00"
     },
     {
       "code": "16302",
@@ -20759,7 +16825,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16302",
-      "verifiedAt": "2026-07-01T03:14:36+08:00"
+      "verifiedAt": "2026-07-02T03:18:32+08:00"
     },
     {
       "code": "16303",
@@ -20817,7 +16883,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16303",
-      "verifiedAt": "2026-07-01T03:14:38+08:00"
+      "verifiedAt": "2026-07-02T03:18:33+08:00"
     },
     {
       "code": "16304",
@@ -20875,7 +16941,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16304",
-      "verifiedAt": "2026-07-01T03:14:39+08:00"
+      "verifiedAt": "2026-07-02T03:18:34+08:00"
     },
     {
       "code": "16305",
@@ -20933,7 +16999,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16305",
-      "verifiedAt": "2026-07-01T03:14:41+08:00"
+      "verifiedAt": "2026-07-02T03:18:36+08:00"
     },
     {
       "code": "16306",
@@ -20981,7 +17047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16306",
-      "verifiedAt": "2026-07-01T03:14:42+08:00"
+      "verifiedAt": "2026-07-02T03:18:37+08:00"
     },
     {
       "code": "16307",
@@ -21029,7 +17095,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16307",
-      "verifiedAt": "2026-07-01T03:14:43+08:00"
+      "verifiedAt": "2026-07-02T03:18:38+08:00"
     },
     {
       "code": "16311",
@@ -21083,7 +17149,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16311",
-      "verifiedAt": "2026-07-01T03:14:44+08:00"
+      "verifiedAt": "2026-07-02T03:18:39+08:00"
     },
     {
       "code": "16312",
@@ -21137,7 +17203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16312",
-      "verifiedAt": "2026-07-01T03:14:46+08:00"
+      "verifiedAt": "2026-07-02T03:18:40+08:00"
     },
     {
       "code": "16313",
@@ -21195,7 +17261,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16313",
-      "verifiedAt": "2026-07-01T03:14:47+08:00"
+      "verifiedAt": "2026-07-02T03:18:41+08:00"
     },
     {
       "code": "16314",
@@ -21249,7 +17315,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16314",
-      "verifiedAt": "2026-07-01T03:14:48+08:00"
+      "verifiedAt": "2026-07-02T03:18:42+08:00"
     },
     {
       "code": "16315",
@@ -21307,7 +17373,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16315",
-      "verifiedAt": "2026-07-01T03:14:50+08:00"
+      "verifiedAt": "2026-07-02T03:18:44+08:00"
     },
     {
       "code": "16316",
@@ -21361,7 +17427,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16316",
-      "verifiedAt": "2026-07-01T03:14:51+08:00"
+      "verifiedAt": "2026-07-02T03:18:45+08:00"
     },
     {
       "code": "16317",
@@ -21429,7 +17495,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16317",
-      "verifiedAt": "2026-07-01T03:14:52+08:00"
+      "verifiedAt": "2026-07-02T03:18:46+08:00"
     },
     {
       "code": "16318",
@@ -21513,7 +17579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16318",
-      "verifiedAt": "2026-07-01T03:14:54+08:00"
+      "verifiedAt": "2026-07-02T03:18:47+08:00"
     },
     {
       "code": "16319",
@@ -21567,7 +17633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16319",
-      "verifiedAt": "2026-07-01T03:14:55+08:00"
+      "verifiedAt": "2026-07-02T03:18:48+08:00"
     },
     {
       "code": "16320",
@@ -21665,7 +17731,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16320",
-      "verifiedAt": "2026-07-01T03:14:56+08:00"
+      "verifiedAt": "2026-07-02T03:18:49+08:00"
     },
     {
       "code": "16321",
@@ -21719,7 +17785,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16321",
-      "verifiedAt": "2026-07-01T03:14:58+08:00"
+      "verifiedAt": "2026-07-02T03:18:50+08:00"
     },
     {
       "code": "16322",
@@ -21777,7 +17843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16322",
-      "verifiedAt": "2026-07-01T03:14:59+08:00"
+      "verifiedAt": "2026-07-02T03:18:52+08:00"
     },
     {
       "code": "16323",
@@ -21831,7 +17897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16323",
-      "verifiedAt": "2026-07-01T03:15:01+08:00"
+      "verifiedAt": "2026-07-02T03:18:53+08:00"
     },
     {
       "code": "16324",
@@ -21875,7 +17941,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16324",
-      "verifiedAt": "2026-07-01T03:15:02+08:00"
+      "verifiedAt": "2026-07-02T03:18:54+08:00"
     },
     {
       "code": "16325",
@@ -21923,7 +17989,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16325",
-      "verifiedAt": "2026-07-01T03:15:03+08:00"
+      "verifiedAt": "2026-07-02T03:18:55+08:00"
     },
     {
       "code": "16326",
@@ -21971,7 +18037,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16326",
-      "verifiedAt": "2026-07-01T03:15:04+08:00"
+      "verifiedAt": "2026-07-02T03:18:56+08:00"
     },
     {
       "code": "16327",
@@ -22019,7 +18085,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16327",
-      "verifiedAt": "2026-07-01T03:15:06+08:00"
+      "verifiedAt": "2026-07-02T03:18:58+08:00"
     },
     {
       "code": "16328",
@@ -22073,7 +18139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16328",
-      "verifiedAt": "2026-07-01T03:15:07+08:00"
+      "verifiedAt": "2026-07-02T03:18:59+08:00"
     },
     {
       "code": "16329",
@@ -22127,7 +18193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16329",
-      "verifiedAt": "2026-07-01T03:15:08+08:00"
+      "verifiedAt": "2026-07-02T03:19:00+08:00"
     },
     {
       "code": "16340",
@@ -22181,7 +18247,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16340",
-      "verifiedAt": "2026-07-01T03:15:09+08:00"
+      "verifiedAt": "2026-07-02T03:19:01+08:00"
     },
     {
       "code": "16341",
@@ -22239,7 +18305,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16341",
-      "verifiedAt": "2026-07-01T03:15:11+08:00"
+      "verifiedAt": "2026-07-02T03:19:02+08:00"
     },
     {
       "code": "16342",
@@ -22303,7 +18369,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16342",
-      "verifiedAt": "2026-07-01T03:15:12+08:00"
+      "verifiedAt": "2026-07-02T03:19:03+08:00"
     },
     {
       "code": "16343",
@@ -22347,12 +18413,12 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16343",
-      "verifiedAt": "2026-07-01T03:15:13+08:00"
+      "verifiedAt": "2026-07-02T03:19:05+08:00"
     },
     {
       "code": "25317",
-      "title": "25317-家樂福食雞",
-      "description": "咔啦脆雞(辣)x5 + 香酥脆薯(中)x1 + 2入原味蛋撻超極酥x1 + 無糖綠茶(小)x2",
+      "title": "368元 25317 64折",
+      "description": "炸雞x5 + 中薯x1 + 蛋塔x2 + 小飲x2",
       "price": 368,
       "rawItems": [
         {
@@ -22401,17 +18467,19 @@ window.KFC_COUPON_DATA = {
         }
       ],
       "unknownItems": [],
-      "startDate": "2025-07-07",
+      "startDate": null,
       "endDate": "2026-07-01",
       "available": true,
-      "deliveryAvailable": true,
-      "parseStatus": "ok",
-      "parseIssues": [],
+      "deliveryAvailable": false,
+      "parseStatus": "missing_dates",
+      "parseIssues": [
+        "missing_dates"
+      ],
       "sourceCandidates": [
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/25317",
-      "verifiedAt": "2026-07-01T03:15:15+08:00"
+      "verifiedAt": "2026-07-02T03:19:05+08:00"
     },
     {
       "code": "26301",
@@ -22465,195 +18533,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26301",
-      "verifiedAt": "2026-07-01T03:15:17+08:00"
-    },
-    {
-      "code": "26303",
-      "title": "499元 26303 63折",
-      "description": "炸雞x5 + 雞塊x8 + 蛋塔x6 + 瓶裝可樂x1",
-      "price": 499,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "瓶裝可樂",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "egg_tart": 6,
-        "pepsi": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "pepsi",
-          "label": "百事可樂",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26303",
-      "verifiedAt": "2026-07-01T03:15:17+08:00"
-    },
-    {
-      "code": "26304",
-      "title": "159元 26304 68折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x2 + 蘋果汁x1",
-      "price": 159,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "蘋果汁",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 2,
-        "apple_juice": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "apple_juice",
-          "label": "蘋果汁",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26304",
-      "verifiedAt": "2026-07-01T03:15:18+08:00"
-    },
-    {
-      "code": "26305",
-      "title": "168元 26305 62折",
-      "description": "炸雞x2 + 蛋塔x1 + 小薯x1 + 中飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26305",
-      "verifiedAt": "2026-07-01T03:15:20+08:00"
+      "verifiedAt": "2026-07-02T03:19:07+08:00"
     },
     {
       "code": "26306",
@@ -22717,7 +18597,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26306",
-      "verifiedAt": "2026-07-01T03:15:25+08:00"
+      "verifiedAt": "2026-07-02T03:19:08+08:00"
     },
     {
       "code": "26307",
@@ -22801,7 +18681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26307",
-      "verifiedAt": "2026-07-01T03:15:26+08:00"
+      "verifiedAt": "2026-07-02T03:19:10+08:00"
     },
     {
       "code": "26308",
@@ -22855,7 +18735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26308",
-      "verifiedAt": "2026-07-01T03:15:28+08:00"
+      "verifiedAt": "2026-07-02T03:19:11+08:00"
     },
     {
       "code": "26309",
@@ -22929,7 +18809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26309",
-      "verifiedAt": "2026-07-01T03:15:30+08:00"
+      "verifiedAt": "2026-07-02T03:19:12+08:00"
     },
     {
       "code": "26310",
@@ -22993,7 +18873,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26310",
-      "verifiedAt": "2026-07-01T03:15:32+08:00"
+      "verifiedAt": "2026-07-02T03:19:13+08:00"
     },
     {
       "code": "26311",
@@ -23037,7 +18917,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26311",
-      "verifiedAt": "2026-07-01T03:15:33+08:00"
+      "verifiedAt": "2026-07-02T03:19:14+08:00"
     },
     {
       "code": "26312",
@@ -23101,7 +18981,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26312",
-      "verifiedAt": "2026-07-01T03:15:34+08:00"
+      "verifiedAt": "2026-07-02T03:19:15+08:00"
     },
     {
       "code": "26313",
@@ -23155,7 +19035,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26313",
-      "verifiedAt": "2026-07-01T03:15:36+08:00"
+      "verifiedAt": "2026-07-02T03:19:17+08:00"
     },
     {
       "code": "26314",
@@ -23229,7 +19109,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26314",
-      "verifiedAt": "2026-07-01T03:15:37+08:00"
+      "verifiedAt": "2026-07-02T03:19:18+08:00"
     },
     {
       "code": "26318",
@@ -23273,7 +19153,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26318",
-      "verifiedAt": "2026-07-01T03:15:39+08:00"
+      "verifiedAt": "2026-07-02T03:19:19+08:00"
     },
     {
       "code": "26319",
@@ -23327,7 +19207,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26319",
-      "verifiedAt": "2026-07-01T03:15:40+08:00"
+      "verifiedAt": "2026-07-02T03:19:21+08:00"
     },
     {
       "code": "26320",
@@ -23401,129 +19281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26320",
-      "verifiedAt": "2026-07-01T03:15:42+08:00"
-    },
-    {
-      "code": "26321",
-      "title": "158元 26321 60折",
-      "description": "炸雞x2 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 158,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26321",
-      "verifiedAt": "2026-07-01T03:15:42+08:00"
-    },
-    {
-      "code": "26322",
-      "title": "139元 26322 74折",
-      "description": "卡啦雞腿堡x1 + 蝦塊x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26322",
-      "verifiedAt": "2026-07-01T03:15:44+08:00"
+      "verifiedAt": "2026-07-02T03:19:22+08:00"
     },
     {
       "code": "26324",
@@ -23567,7 +19325,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26324",
-      "verifiedAt": "2026-07-01T03:15:46+08:00"
+      "verifiedAt": "2026-07-02T03:19:23+08:00"
     },
     {
       "code": "26326",
@@ -23611,7 +19369,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26326",
-      "verifiedAt": "2026-07-01T03:15:48+08:00"
+      "verifiedAt": "2026-07-02T03:19:24+08:00"
     },
     {
       "code": "26327",
@@ -23655,7 +19413,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26327",
-      "verifiedAt": "2026-07-01T03:15:49+08:00"
+      "verifiedAt": "2026-07-02T03:19:25+08:00"
     },
     {
       "code": "26328",
@@ -23719,7 +19477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26328",
-      "verifiedAt": "2026-07-01T03:15:51+08:00"
+      "verifiedAt": "2026-07-02T03:19:26+08:00"
     },
     {
       "code": "26329",
@@ -23793,7 +19551,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26329",
-      "verifiedAt": "2026-07-01T03:15:52+08:00"
+      "verifiedAt": "2026-07-02T03:19:27+08:00"
     },
     {
       "code": "26330",
@@ -23867,1211 +19625,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26330",
-      "verifiedAt": "2026-07-01T03:15:53+08:00"
-    },
-    {
-      "code": "26331",
-      "title": "398元 26331 58折",
-      "description": "炸雞x5 + 蛋塔x6 + 小飲x1",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26331",
-      "verifiedAt": "2026-07-01T03:15:54+08:00"
-    },
-    {
-      "code": "26337",
-      "title": "139元 26337 58折",
-      "description": "青花椒炸雞x2 + 蛋塔x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26337",
-      "verifiedAt": "2026-07-01T03:15:55+08:00"
-    },
-    {
-      "code": "26338",
-      "title": "139元 26338 64折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26338",
-      "verifiedAt": "2026-07-01T03:15:57+08:00"
-    },
-    {
-      "code": "26339",
-      "title": "139元 26339 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26339",
-      "verifiedAt": "2026-07-01T03:15:59+08:00"
-    },
-    {
-      "code": "26340",
-      "title": "159元 26340 64折",
-      "description": "炸雞x1 + 卡啦雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 159,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26340",
-      "verifiedAt": "2026-07-01T03:16:00+08:00"
-    },
-    {
-      "code": "26341",
-      "title": "288元 26341 67折",
-      "description": "炸雞x5 + 中飲x2",
-      "price": 288,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26341",
-      "verifiedAt": "2026-07-01T03:16:02+08:00"
-    },
-    {
-      "code": "26342",
-      "title": "109元 26342 62折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 109,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26342",
-      "verifiedAt": "2026-07-01T03:16:03+08:00"
-    },
-    {
-      "code": "26343",
-      "title": "389元 26343 64折",
-      "description": "青花椒炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 389,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26343",
-      "verifiedAt": "2026-07-01T03:16:05+08:00"
-    },
-    {
-      "code": "26344",
-      "title": "258元 26344 57折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26344",
-      "verifiedAt": "2026-07-01T03:16:07+08:00"
-    },
-    {
-      "code": "26347",
-      "title": "288元 26347 56折",
-      "description": "雞塊x20 + 蛋塔x4 + 中飲x2",
-      "price": 288,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 20
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 20,
-        "egg_tart": 4,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 20
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26347",
-      "verifiedAt": "2026-07-01T03:16:08+08:00"
-    },
-    {
-      "code": "26348",
-      "title": "388元 26348 66折",
-      "description": "青花椒炸雞x2 + 炸雞x3 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26348",
-      "verifiedAt": "2026-07-01T03:16:10+08:00"
-    },
-    {
-      "code": "26349",
-      "title": "135元 26349 60折",
-      "description": "炸雞x2 + 雞汁風味飯x1 + 小飲x1",
-      "price": 135,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26349",
-      "verifiedAt": "2026-07-01T03:16:11+08:00"
-    },
-    {
-      "code": "26350",
-      "title": "150元 26350 72折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 150,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26350",
-      "verifiedAt": "2026-07-01T03:16:13+08:00"
-    },
-    {
-      "code": "26351",
-      "title": "389元 26351 64折",
-      "description": "青花椒炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 389,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26351",
-      "verifiedAt": "2026-07-01T03:16:15+08:00"
-    },
-    {
-      "code": "26352",
-      "title": "258元 26352 55折",
-      "description": "炸雞x2 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26352",
-      "verifiedAt": "2026-07-01T03:16:17+08:00"
-    },
-    {
-      "code": "26355",
-      "title": "388元 26355 66折",
-      "description": "青花椒炸雞x2 + 炸雞x3 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26355",
-      "verifiedAt": "2026-07-01T03:16:18+08:00"
-    },
-    {
-      "code": "26373",
-      "title": "178元 26373 64折",
-      "description": "無骨雞腿x1 + 卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 178,
-      "rawItems": [
-        {
-          "name": "無骨雞腿",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26373",
-      "verifiedAt": "2026-07-01T03:16:20+08:00"
-    },
-    {
-      "code": "26374",
-      "title": "160元 26374 61折",
-      "description": "紙包雞x1 + 蛋塔x2 + 小飲x1",
-      "price": 160,
-      "rawItems": [
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "paper_chicken": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26374",
-      "verifiedAt": "2026-07-01T03:16:21+08:00"
-    },
-    {
-      "code": "26375",
-      "title": "288元 26375 65折",
-      "description": "炸雞x5 + 蛋塔x1 + 中飲x1",
-      "price": 288,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26375",
-      "verifiedAt": "2026-07-01T03:16:23+08:00"
+      "verifiedAt": "2026-07-02T03:19:29+08:00"
     },
     {
       "code": "26376",
@@ -25115,7 +19669,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26376",
-      "verifiedAt": "2026-07-01T03:16:26+08:00"
+      "verifiedAt": "2026-07-02T03:19:30+08:00"
     },
     {
       "code": "26377",
@@ -25169,7 +19723,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26377",
-      "verifiedAt": "2026-07-01T03:16:27+08:00"
+      "verifiedAt": "2026-07-02T03:19:31+08:00"
     },
     {
       "code": "26378",
@@ -25213,221 +19767,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26378",
-      "verifiedAt": "2026-07-01T03:16:28+08:00"
-    },
-    {
-      "code": "26391",
-      "title": "299元 26391 49折",
-      "description": "炸雞x4 + 蛋塔x6 + 小飲x1",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 4,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26391",
-      "verifiedAt": "2026-07-01T03:16:29+08:00"
-    },
-    {
-      "code": "26398",
-      "title": "399元 26398 58折",
-      "description": "炸雞x6 + 蛋塔x4 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 4,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26398",
-      "verifiedAt": "2026-07-01T03:16:30+08:00"
-    },
-    {
-      "code": "26399",
-      "title": "169元 26399 66折",
-      "description": "卡啦雞腿堡x2 + 小飲x2",
-      "price": 169,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "zinger_burger": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26399",
-      "verifiedAt": "2026-07-01T03:16:32+08:00"
-    },
-    {
-      "code": "26400",
-      "title": "149元 26400 57折",
-      "description": "紙包雞x1 + 蛋塔x2 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "paper_chicken": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26400",
-      "verifiedAt": "2026-07-01T03:16:33+08:00"
+      "verifiedAt": "2026-07-02T03:19:32+08:00"
     },
     {
       "code": "26401",
@@ -25436,22 +19776,22 @@ window.KFC_COUPON_DATA = {
       "price": 288,
       "rawItems": [
         {
-          "name": "咔啦脆雞(辣)",
+          "name": "炸雞",
           "quantity": 5
         },
         {
-          "name": "原味蛋撻",
+          "name": "蛋塔",
           "quantity": 1
         },
         {
-          "name": "無糖綠茶(中)",
+          "name": "中飲",
           "quantity": 1
         }
       ],
       "items": {
         "fried_chicken_piece": 5,
         "egg_tart": 1,
-        "green_tea": 1
+        "medium_drink": 1
       },
       "displayItems": [
         {
@@ -25465,8 +19805,8 @@ window.KFC_COUPON_DATA = {
           "quantity": 1
         },
         {
-          "productKey": "green_tea",
-          "label": "綠茶",
+          "productKey": "medium_drink",
+          "label": "中飲",
           "quantity": 1
         }
       ],
@@ -25480,8 +19820,8 @@ window.KFC_COUPON_DATA = {
       "sourceCandidates": [
         "kfc.izo.tw"
       ],
-      "sourceUrl": null,
-      "verifiedAt": "2026-07-01T03:16:36+08:00"
+      "sourceUrl": "https://kfc.izo.tw/coupons/26401",
+      "verifiedAt": "2026-07-02T03:19:33+08:00"
     },
     {
       "code": "26402",
@@ -25575,1507 +19915,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26402",
-      "verifiedAt": "2026-07-01T03:16:38+08:00"
-    },
-    {
-      "code": "26403",
-      "title": "111元 26403 61折",
-      "description": "地瓜球x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 111,
-      "rawItems": [
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26403",
-      "verifiedAt": "2026-07-01T03:16:38+08:00"
-    },
-    {
-      "code": "26423",
-      "title": "399元 26423 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26423",
-      "verifiedAt": "2026-07-01T03:16:39+08:00"
-    },
-    {
-      "code": "26424",
-      "title": "137元 26424 63折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 137,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26424",
-      "verifiedAt": "2026-07-01T03:16:41+08:00"
-    },
-    {
-      "code": "26425",
-      "title": "115元 26425 57折",
-      "description": "炸雞x1 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 115,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26425",
-      "verifiedAt": "2026-07-01T03:16:43+08:00"
-    },
-    {
-      "code": "26426",
-      "title": "399元 26426 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26426",
-      "verifiedAt": "2026-07-01T03:16:44+08:00"
-    },
-    {
-      "code": "26427",
-      "title": "388元 26427 57折",
-      "description": "青花椒炸雞x4 + 雞塊x8 + 地瓜球x1 + 中薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 4,
-        "chicken_nuggets": 8,
-        "sweet_potato_ball": 1,
-        "medium_fries": 1,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26427",
-      "verifiedAt": "2026-07-01T03:16:46+08:00"
-    },
-    {
-      "code": "26428",
-      "title": "130元 26428 58折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 130,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26428",
-      "verifiedAt": "2026-07-01T03:16:48+08:00"
-    },
-    {
-      "code": "26429",
-      "title": "399元 26429 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26429",
-      "verifiedAt": "2026-07-01T03:16:49+08:00"
-    },
-    {
-      "code": "26430",
-      "title": "137元 26430 63折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 137,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26430",
-      "verifiedAt": "2026-07-01T03:16:51+08:00"
-    },
-    {
-      "code": "26431",
-      "title": "115元 26431 57折",
-      "description": "炸雞x1 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 115,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26431",
-      "verifiedAt": "2026-07-01T03:16:53+08:00"
-    },
-    {
-      "code": "26432",
-      "title": "399元 26432 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26432",
-      "verifiedAt": "2026-07-01T03:16:54+08:00"
-    },
-    {
-      "code": "26433",
-      "title": "177元 26433 71折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 177,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26433",
-      "verifiedAt": "2026-07-01T03:16:56+08:00"
-    },
-    {
-      "code": "26434",
-      "title": "139元 26434 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26434",
-      "verifiedAt": "2026-07-01T03:16:57+08:00"
-    },
-    {
-      "code": "26435",
-      "title": "399元 26435 57折",
-      "description": "炸雞x6 + 地瓜球x1 + 蛋塔x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "sweet_potato_ball": 1,
-        "egg_tart": 3,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26435",
-      "verifiedAt": "2026-07-01T03:16:59+08:00"
-    },
-    {
-      "code": "26436",
-      "title": "238元 26436 58折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞塊x8 + 蛋塔x2 + 小飲x2",
-      "price": 238,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "chicken_nuggets": 8,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26436",
-      "verifiedAt": "2026-07-01T03:17:01+08:00"
-    },
-    {
-      "code": "26437",
-      "title": "137元 26437 63折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 137,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26437",
-      "verifiedAt": "2026-07-01T03:17:02+08:00"
-    },
-    {
-      "code": "26438",
-      "title": "399元 26438 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26438",
-      "verifiedAt": "2026-07-01T03:17:04+08:00"
-    },
-    {
-      "code": "26439",
-      "title": "137元 26439 63折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 137,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26439",
-      "verifiedAt": "2026-07-01T03:17:05+08:00"
-    },
-    {
-      "code": "26440",
-      "title": "115元 26440 57折",
-      "description": "炸雞x1 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 115,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26440",
-      "verifiedAt": "2026-07-01T03:17:07+08:00"
-    },
-    {
-      "code": "26441",
-      "title": "399元 26441 59折",
-      "description": "炸雞x6 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26441",
-      "verifiedAt": "2026-07-01T03:17:09+08:00"
-    },
-    {
-      "code": "26442",
-      "title": "179元 26442 63折",
-      "description": "卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x1",
-      "price": 179,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26442",
-      "verifiedAt": "2026-07-01T03:17:11+08:00"
-    },
-    {
-      "code": "26443",
-      "title": "299元 26443 49折",
-      "description": "炸雞x4 + 蛋塔x6 + 小飲x1",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 4,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26443",
-      "verifiedAt": "2026-07-01T03:17:13+08:00"
+      "verifiedAt": "2026-07-02T03:19:34+08:00"
     },
     {
       "code": "26444",
@@ -27131,881 +19971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26444",
-      "verifiedAt": "2026-07-01T03:17:14+08:00"
-    },
-    {
-      "code": "26445",
-      "title": "139元 26445 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26445",
-      "verifiedAt": "2026-07-01T03:17:16+08:00"
-    },
-    {
-      "code": "26446",
-      "title": "282元 26446 56折",
-      "description": "花生熔岩雞腿堡x1 + 小薯x1 + 蛋塔x6 + 中飲x1",
-      "price": 282,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26446",
-      "verifiedAt": "2026-07-01T03:17:17+08:00"
-    },
-    {
-      "code": "26447",
-      "title": "368元 26447 60折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 蛋塔x2 + 小飲x2",
-      "price": 368,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26447",
-      "verifiedAt": "2026-07-01T03:17:19+08:00"
-    },
-    {
-      "code": "26448",
-      "title": "130元 26448 58折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 130,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26448",
-      "verifiedAt": "2026-07-01T03:17:21+08:00"
-    },
-    {
-      "code": "26449",
-      "title": "139元 26449 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26449",
-      "verifiedAt": "2026-07-01T03:17:22+08:00"
-    },
-    {
-      "code": "26450",
-      "title": "111元 26450 56折",
-      "description": "炸雞x1 + 蛋塔x1 + 小薯x1 + 中飲x1",
-      "price": 111,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26450",
-      "verifiedAt": "2026-07-01T03:17:24+08:00"
-    },
-    {
-      "code": "26451",
-      "title": "238元 26451 56折",
-      "description": "脆雞堡x1 + 小薯x1 + 蛋塔x6 + 小飲x1",
-      "price": 238,
-      "rawItems": [
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "crispy_chicken_burger": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26451",
-      "verifiedAt": "2026-07-01T03:17:26+08:00"
-    },
-    {
-      "code": "26452",
-      "title": "65元 26452 60折",
-      "description": "花生起司蛋堡x1 + 薯餅x1 + 小飲x1",
-      "price": 65,
-      "rawItems": [
-        {
-          "name": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "name": "薯餅",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_cheese_egg_burger": 1,
-        "hash_brown": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_cheese_egg_burger",
-          "label": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "hash_brown",
-          "label": "薯餅",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26452",
-      "verifiedAt": "2026-07-01T03:17:27+08:00"
-    },
-    {
-      "code": "26453",
-      "title": "75元 26453 58折",
-      "description": "脆雞堡x1 + 薯餅x1 + 小飲x1",
-      "price": 75,
-      "rawItems": [
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "薯餅",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "crispy_chicken_burger": 1,
-        "hash_brown": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "hash_brown",
-          "label": "薯餅",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26453",
-      "verifiedAt": "2026-07-01T03:17:29+08:00"
-    },
-    {
-      "code": "26454",
-      "title": "85元 26454 73折",
-      "description": "花生起司蛋堡x1 + 紅藜燕麥脆雞粥x1 + 小飲x1",
-      "price": 85,
-      "rawItems": [
-        {
-          "name": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "name": "紅藜燕麥脆雞粥",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_cheese_egg_burger": 1,
-        "fried_chicken_piece": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_cheese_egg_burger",
-          "label": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26454",
-      "verifiedAt": "2026-07-01T03:17:30+08:00"
-    },
-    {
-      "code": "26455",
-      "title": "69元 26455 63折",
-      "description": "花生起司蛋堡x1 + 薯餅x1 + 小飲x1",
-      "price": 69,
-      "rawItems": [
-        {
-          "name": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "name": "薯餅",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_cheese_egg_burger": 1,
-        "hash_brown": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_cheese_egg_burger",
-          "label": "花生起司蛋堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "hash_brown",
-          "label": "薯餅",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26455",
-      "verifiedAt": "2026-07-01T03:17:32+08:00"
-    },
-    {
-      "code": "26456",
-      "title": "69元 26456 70折",
-      "description": "花生脆雞堡x1 + 小飲x1",
-      "price": 69,
-      "rawItems": [
-        {
-          "name": "花生脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26456",
-      "verifiedAt": "2026-07-01T03:17:34+08:00"
-    },
-    {
-      "code": "26457",
-      "title": "89元 26457 55折",
-      "description": "紅藜燕麥脆雞粥x1 + 薯餅x2 + 小飲x1",
-      "price": 89,
-      "rawItems": [
-        {
-          "name": "紅藜燕麥脆雞粥",
-          "quantity": 1
-        },
-        {
-          "name": "薯餅",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "hash_brown": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "hash_brown",
-          "label": "薯餅",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26457",
-      "verifiedAt": "2026-07-01T03:17:36+08:00"
-    },
-    {
-      "code": "26458",
-      "title": "75元 26458 82折",
-      "description": "脆雞燒餅x1 + 小飲x1",
-      "price": 75,
-      "rawItems": [
-        {
-          "name": "脆雞燒餅",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26458",
-      "verifiedAt": "2026-07-01T03:17:38+08:00"
-    },
-    {
-      "code": "26459",
-      "title": "69元 26459 81折",
-      "description": "總匯歐姆蛋燒餅x1 + 小飲x1",
-      "price": 69,
-      "rawItems": [
-        {
-          "name": "總匯歐姆蛋燒餅",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "omelet_flatbread": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "omelet_flatbread",
-          "label": "總匯歐姆蛋燒餅",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26459",
-      "verifiedAt": "2026-07-01T03:17:39+08:00"
+      "verifiedAt": "2026-07-02T03:19:35+08:00"
     },
     {
       "code": "26461",
@@ -28083,7 +20049,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26461",
-      "verifiedAt": "2026-07-01T03:17:42+08:00"
+      "verifiedAt": "2026-07-02T03:19:37+08:00"
     },
     {
       "code": "26462",
@@ -28151,1639 +20117,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26462",
-      "verifiedAt": "2026-07-01T03:17:43+08:00"
-    },
-    {
-      "code": "26469",
-      "title": "388元 26469 62折",
-      "description": "炸雞x5 + 雞塊x8 + 地瓜球x1 + 中薯x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "sweet_potato_ball": 1,
-        "medium_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26469",
-      "verifiedAt": "2026-07-01T03:17:43+08:00"
-    },
-    {
-      "code": "26470",
-      "title": "137元 26470 63折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 137,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26470",
-      "verifiedAt": "2026-07-01T03:17:45+08:00"
-    },
-    {
-      "code": "26471",
-      "title": "143元 26471 61折",
-      "description": "卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 143,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26471",
-      "verifiedAt": "2026-07-01T03:17:46+08:00"
-    },
-    {
-      "code": "26472",
-      "title": "155元 26472 57折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 155,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26472",
-      "verifiedAt": "2026-07-01T03:17:48+08:00"
-    },
-    {
-      "code": "26473",
-      "title": "498元 26473 63折",
-      "description": "青花椒炸雞x2 + 炸雞x3 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 蛋塔x2 + 中飲x2",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "egg_tart": 2,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26473",
-      "verifiedAt": "2026-07-01T03:17:50+08:00"
-    },
-    {
-      "code": "26474",
-      "title": "350元 26474 58折",
-      "description": "花生熔岩雞腿堡x1 + 青花椒卡啦雞腿堡x1 + 蛋塔x6 + 中飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26474",
-      "verifiedAt": "2026-07-01T03:17:51+08:00"
-    },
-    {
-      "code": "26475",
-      "title": "399元 26475 65折",
-      "description": "炸雞x6 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26475",
-      "verifiedAt": "2026-07-01T03:17:53+08:00"
-    },
-    {
-      "code": "26476",
-      "title": "155元 26476 57折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 155,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26476",
-      "verifiedAt": "2026-07-01T03:17:54+08:00"
-    },
-    {
-      "code": "26477",
-      "title": "398元 26477 59折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26477",
-      "verifiedAt": "2026-07-01T03:17:56+08:00"
-    },
-    {
-      "code": "26478",
-      "title": "169元 26478 66折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 169,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26478",
-      "verifiedAt": "2026-07-01T03:17:57+08:00"
-    },
-    {
-      "code": "26479",
-      "title": "169元 26479 64折",
-      "description": "炸雞x2 + 雞塊x4 + 小薯x1 + 小飲x1",
-      "price": 169,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26479",
-      "verifiedAt": "2026-07-01T03:17:59+08:00"
-    },
-    {
-      "code": "26480",
-      "title": "499元 26480 53折",
-      "description": "炸雞x5 + 蛋塔x12",
-      "price": 499,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 12
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 12
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 12
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26480",
-      "verifiedAt": "2026-07-01T03:18:01+08:00"
-    },
-    {
-      "code": "26481",
-      "title": "159元 26481 65折",
-      "description": "炸雞x2 + 大薯x1 + 小飲x1",
-      "price": 159,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "large_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26481",
-      "verifiedAt": "2026-07-01T03:18:03+08:00"
-    },
-    {
-      "code": "26482",
-      "title": "199元 26482 65折",
-      "description": "青花椒炸雞x1 + 青花椒卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 199,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26482",
-      "verifiedAt": "2026-07-01T03:18:04+08:00"
-    },
-    {
-      "code": "26483",
-      "title": "489元 26483 61折",
-      "description": "青花椒炸雞x3 + 炸雞x2 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 蛋塔x2 + 中飲x2",
-      "price": 489,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "egg_tart": 2,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26483",
-      "verifiedAt": "2026-07-01T03:18:06+08:00"
-    },
-    {
-      "code": "26484",
-      "title": "399元 26484 53折",
-      "description": "炸雞x5 + 蛋塔x6 + 地瓜球x1 + 中飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26484",
-      "verifiedAt": "2026-07-01T03:18:07+08:00"
-    },
-    {
-      "code": "26485",
-      "title": "350元 26485 66折",
-      "description": "花生熔岩雞腿堡x1 + 青花椒卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "sichuan_zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26485",
-      "verifiedAt": "2026-07-01T03:18:09+08:00"
-    },
-    {
-      "code": "26486",
-      "title": "350元 26486 55折",
-      "description": "雞塊x20 + 蛋塔x6 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 20
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 20,
-        "egg_tart": 6,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 20
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26486",
-      "verifiedAt": "2026-07-01T03:18:11+08:00"
-    },
-    {
-      "code": "26487",
-      "title": "149元 26487 55折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26487",
-      "verifiedAt": "2026-07-01T03:18:13+08:00"
-    },
-    {
-      "code": "26488",
-      "title": "155元 26488 72折",
-      "description": "青花椒卡啦雞腿堡x1 + 青花椒炸雞x1 + 小飲x1",
-      "price": 155,
-      "rawItems": [
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_zinger_burger": 1,
-        "sichuan_fried_chicken": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26488",
-      "verifiedAt": "2026-07-01T03:18:14+08:00"
-    },
-    {
-      "code": "26489",
-      "title": "268元 26489 64折",
-      "description": "炸雞x5 + 小飲x2",
-      "price": 268,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26489",
-      "verifiedAt": "2026-07-01T03:18:16+08:00"
-    },
-    {
-      "code": "26490",
-      "title": "288元 26490 65折",
-      "description": "卡啦雞腿堡x1 + 炸雞x2 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 小飲x2",
-      "price": 288,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26490",
-      "verifiedAt": "2026-07-01T03:18:17+08:00"
-    },
-    {
-      "code": "26493",
-      "title": "120元 26493 53折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 120,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26493",
-      "verifiedAt": "2026-07-01T03:18:19+08:00"
-    },
-    {
-      "code": "26494",
-      "title": "99元 26494 48折",
-      "description": "炸雞x1 + 蛋塔x2 + 中飲x1",
-      "price": 99,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 2,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26494",
-      "verifiedAt": "2026-07-01T03:18:21+08:00"
+      "verifiedAt": "2026-07-02T03:19:38+08:00"
     },
     {
       "code": "26495",
@@ -29841,7 +20175,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26495",
-      "verifiedAt": "2026-07-01T03:18:24+08:00"
+      "verifiedAt": "2026-07-02T03:19:39+08:00"
     },
     {
       "code": "26496",
@@ -29899,7 +20233,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26496",
-      "verifiedAt": "2026-07-01T03:18:25+08:00"
+      "verifiedAt": "2026-07-02T03:19:40+08:00"
     },
     {
       "code": "26497",
@@ -29953,7 +20287,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26497",
-      "verifiedAt": "2026-07-01T03:18:26+08:00"
+      "verifiedAt": "2026-07-02T03:19:41+08:00"
     },
     {
       "code": "26498",
@@ -29997,7 +20331,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26498",
-      "verifiedAt": "2026-07-01T03:18:28+08:00"
+      "verifiedAt": "2026-07-02T03:19:43+08:00"
     },
     {
       "code": "26499",
@@ -30041,7 +20375,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26499",
-      "verifiedAt": "2026-07-01T03:18:29+08:00"
+      "verifiedAt": "2026-07-02T03:19:44+08:00"
     },
     {
       "code": "26500",
@@ -30095,7 +20429,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26500",
-      "verifiedAt": "2026-07-01T03:18:30+08:00"
+      "verifiedAt": "2026-07-02T03:19:45+08:00"
     },
     {
       "code": "26501",
@@ -30169,7 +20503,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26501",
-      "verifiedAt": "2026-07-01T03:18:32+08:00"
+      "verifiedAt": "2026-07-02T03:19:46+08:00"
     },
     {
       "code": "26502",
@@ -30223,7 +20557,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26502",
-      "verifiedAt": "2026-07-01T03:18:33+08:00"
+      "verifiedAt": "2026-07-02T03:19:47+08:00"
     },
     {
       "code": "26503",
@@ -30297,7 +20631,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26503",
-      "verifiedAt": "2026-07-01T03:18:34+08:00"
+      "verifiedAt": "2026-07-02T03:19:49+08:00"
     },
     {
       "code": "26504",
@@ -30351,7 +20685,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26504",
-      "verifiedAt": "2026-07-01T03:18:35+08:00"
+      "verifiedAt": "2026-07-02T03:19:50+08:00"
     },
     {
       "code": "26505",
@@ -30425,7 +20759,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26505",
-      "verifiedAt": "2026-07-01T03:18:37+08:00"
+      "verifiedAt": "2026-07-02T03:19:51+08:00"
     },
     {
       "code": "26506",
@@ -30483,7 +20817,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26506",
-      "verifiedAt": "2026-07-01T03:18:38+08:00"
+      "verifiedAt": "2026-07-02T03:19:52+08:00"
     },
     {
       "code": "26507",
@@ -30537,7 +20871,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26507",
-      "verifiedAt": "2026-07-01T03:18:40+08:00"
+      "verifiedAt": "2026-07-02T03:19:53+08:00"
     },
     {
       "code": "26508",
@@ -30615,2067 +20949,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26508",
-      "verifiedAt": "2026-07-01T03:18:41+08:00"
-    },
-    {
-      "code": "26509",
-      "title": "398元 26509 59折",
-      "description": "青花椒炸雞x2 + 炸雞x3 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26509",
-      "verifiedAt": "2026-07-01T03:18:42+08:00"
-    },
-    {
-      "code": "26510",
-      "title": "135元 26510 59折",
-      "description": "脆雞堡x1 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 135,
-      "rawItems": [
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "crispy_chicken_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26510",
-      "verifiedAt": "2026-07-01T03:18:43+08:00"
-    },
-    {
-      "code": "26511",
-      "title": "100元 26511 56折",
-      "description": "雞塊x8 + 蛋塔x1 + 小飲x1",
-      "price": 100,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 8,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26511",
-      "verifiedAt": "2026-07-01T03:18:45+08:00"
-    },
-    {
-      "code": "26512",
-      "title": "111元 26512 51折",
-      "description": "青花椒炸雞x1 + 地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 111,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26512",
-      "verifiedAt": "2026-07-01T03:18:46+08:00"
-    },
-    {
-      "code": "26513",
-      "title": "69元 26513 51折",
-      "description": "蛋塔x2 + 中飲x1",
-      "price": 69,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "egg_tart": 2,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26513",
-      "verifiedAt": "2026-07-01T03:18:48+08:00"
-    },
-    {
-      "code": "26514",
-      "title": "198元 26514 55折",
-      "description": "脆雞堡x1 + 炸雞x2 + 蛋塔x2 + 小飲x2",
-      "price": 198,
-      "rawItems": [
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "crispy_chicken_burger": 1,
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26514",
-      "verifiedAt": "2026-07-01T03:18:50+08:00"
-    },
-    {
-      "code": "26515",
-      "title": "199元 26515 59折",
-      "description": "炸雞x1 + 青花椒炸雞x1 + 蝦塊x1 + 蛋塔x2 + 小飲x1",
-      "price": 199,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sichuan_fried_chicken": 1,
-        "chicken_nuggets": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26515",
-      "verifiedAt": "2026-07-01T03:18:52+08:00"
-    },
-    {
-      "code": "26516",
-      "title": "145元 26516 61折",
-      "description": "卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 145,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26516",
-      "verifiedAt": "2026-07-01T03:18:53+08:00"
-    },
-    {
-      "code": "26517",
-      "title": "358元 26517 54折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 358,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26517",
-      "verifiedAt": "2026-07-01T03:18:55+08:00"
-    },
-    {
-      "code": "26518",
-      "title": "350元 26518 63折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26518",
-      "verifiedAt": "2026-07-01T03:18:57+08:00"
-    },
-    {
-      "code": "26519",
-      "title": "398元 26519 55折",
-      "description": "炸雞x6 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26519",
-      "verifiedAt": "2026-07-01T03:18:58+08:00"
-    },
-    {
-      "code": "26520",
-      "title": "208元 26520 56折",
-      "description": "蛋塔x6 + 中飲x2",
-      "price": 208,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26520",
-      "verifiedAt": "2026-07-01T03:19:00+08:00"
-    },
-    {
-      "code": "26521",
-      "title": "79元 26521 56折",
-      "description": "蝦塊x1 + 蛋塔x1 + 小飲x1",
-      "price": 79,
-      "rawItems": [
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26521",
-      "verifiedAt": "2026-07-01T03:19:01+08:00"
-    },
-    {
-      "code": "26522",
-      "title": "145元 26522 61折",
-      "description": "卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 145,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26522",
-      "verifiedAt": "2026-07-01T03:19:03+08:00"
-    },
-    {
-      "code": "26526",
-      "title": "208元 26526 56折",
-      "description": "蛋塔x6 + 中飲x2",
-      "price": 208,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26526",
-      "verifiedAt": "2026-07-01T03:19:05+08:00"
-    },
-    {
-      "code": "26527",
-      "title": "368元 26527 56折",
-      "description": "青花椒炸雞x5 + 蛋塔x4 + 小飲x2",
-      "price": 368,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "egg_tart": 4,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26527",
-      "verifiedAt": "2026-07-01T03:19:06+08:00"
-    },
-    {
-      "code": "26528",
-      "title": "358元 26528 54折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 358,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26528",
-      "verifiedAt": "2026-07-01T03:19:08+08:00"
-    },
-    {
-      "code": "26529",
-      "title": "145元 26529 64折",
-      "description": "卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 145,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26529",
-      "verifiedAt": "2026-07-01T03:19:09+08:00"
-    },
-    {
-      "code": "26530",
-      "title": "100元 26530 52折",
-      "description": "炸雞x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 100,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26530",
-      "verifiedAt": "2026-07-01T03:19:11+08:00"
-    },
-    {
-      "code": "26531",
-      "title": "139元 26531 60折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 小飲x1",
-      "price": 139,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26531",
-      "verifiedAt": "2026-07-01T03:19:12+08:00"
-    },
-    {
-      "code": "26532",
-      "title": "399元 26532 56折",
-      "description": "青花椒炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26532",
-      "verifiedAt": "2026-07-01T03:19:14+08:00"
-    },
-    {
-      "code": "26533",
-      "title": "350元 26533 66折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 中飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26533",
-      "verifiedAt": "2026-07-01T03:19:15+08:00"
-    },
-    {
-      "code": "26534",
-      "title": "498元 26534 66折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 小飲x2",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26534",
-      "verifiedAt": "2026-07-01T03:19:17+08:00"
-    },
-    {
-      "code": "26535",
-      "title": "528元 26535 52折",
-      "description": "炸雞x6 + 蛋塔x12",
-      "price": 528,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 12
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "egg_tart": 12
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 12
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26535",
-      "verifiedAt": "2026-07-01T03:19:19+08:00"
-    },
-    {
-      "code": "26536",
-      "title": "88元 26536 56折",
-      "description": "炸雞x1 + 蛋塔x1 + 中飲x1",
-      "price": 88,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26536",
-      "verifiedAt": "2026-07-01T03:19:20+08:00"
-    },
-    {
-      "code": "26537",
-      "title": "168元 26537 61折",
-      "description": "炸雞x2 + 雞塊x4 + 蛋塔x1 + 中飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26537",
-      "verifiedAt": "2026-07-01T03:19:23+08:00"
-    },
-    {
-      "code": "26538",
-      "title": "159元 26538 55折",
-      "description": "青花椒炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 159,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26538",
-      "verifiedAt": "2026-07-01T03:19:26+08:00"
-    },
-    {
-      "code": "26539",
-      "title": "149元 26539 71折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26539",
-      "verifiedAt": "2026-07-01T03:19:28+08:00"
-    },
-    {
-      "code": "26540",
-      "title": "129元 26540 59折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 129,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26540",
-      "verifiedAt": "2026-07-01T03:19:30+08:00"
-    },
-    {
-      "code": "26541",
-      "title": "149元 26541 71折",
-      "description": "炸雞x1 + 青花椒卡啦雞腿堡x1 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sichuan_zinger_burger": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26541",
-      "verifiedAt": "2026-07-01T03:19:33+08:00"
-    },
-    {
-      "code": "26542",
-      "title": "149元 26542 66折",
-      "description": "紐奧良烤雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "new_orleans_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26542",
-      "verifiedAt": "2026-07-01T03:19:34+08:00"
+      "verifiedAt": "2026-07-02T03:19:54+08:00"
     },
     {
       "code": "26543",
@@ -32739,7 +21013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26543",
-      "verifiedAt": "2026-07-01T03:19:38+08:00"
+      "verifiedAt": "2026-07-02T03:19:56+08:00"
     },
     {
       "code": "26548",
@@ -32795,129 +21069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26548",
-      "verifiedAt": "2026-07-01T03:19:38+08:00"
-    },
-    {
-      "code": "26549",
-      "title": "120元 26549 53折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 120,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26549",
-      "verifiedAt": "2026-07-01T03:19:40+08:00"
-    },
-    {
-      "code": "26550",
-      "title": "399元 26550 52折",
-      "description": "炸雞x5 + 蛋塔x6 + 地瓜球x1 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26550",
-      "verifiedAt": "2026-07-01T03:19:41+08:00"
+      "verifiedAt": "2026-07-02T03:19:56+08:00"
     },
     {
       "code": "26551",
@@ -32961,7 +21113,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26551",
-      "verifiedAt": "2026-07-01T03:19:44+08:00"
+      "verifiedAt": "2026-07-02T03:19:58+08:00"
     },
     {
       "code": "26552",
@@ -33025,7 +21177,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26552",
-      "verifiedAt": "2026-07-01T03:19:46+08:00"
+      "verifiedAt": "2026-07-02T03:19:59+08:00"
     },
     {
       "code": "26553",
@@ -33079,7 +21231,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26553",
-      "verifiedAt": "2026-07-01T03:19:47+08:00"
+      "verifiedAt": "2026-07-02T03:20:00+08:00"
     },
     {
       "code": "26554",
@@ -33123,1675 +21275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26554",
-      "verifiedAt": "2026-07-01T03:19:49+08:00"
-    },
-    {
-      "code": "26559",
-      "title": "399元 26559 55折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 蛋塔x4 + 中飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "egg_tart": 4,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26559",
-      "verifiedAt": "2026-07-01T03:19:49+08:00"
-    },
-    {
-      "code": "26560",
-      "title": "399元 26560 52折",
-      "description": "炸雞x5 + 蛋塔x6 + 地瓜球x1 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26560",
-      "verifiedAt": "2026-07-01T03:19:51+08:00"
-    },
-    {
-      "code": "26561",
-      "title": "168元 26561 65折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26561",
-      "verifiedAt": "2026-07-01T03:19:53+08:00"
-    },
-    {
-      "code": "26562",
-      "title": "155元 26562 57折",
-      "description": "炸雞x2 + 蛋塔x1 + 小薯x1 + 中飲x1",
-      "price": 155,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26562",
-      "verifiedAt": "2026-07-01T03:19:55+08:00"
-    },
-    {
-      "code": "26563",
-      "title": "388元 26563 62折",
-      "description": "炸雞x5 + 雞塊x8 + 地瓜球x1 + 中薯x1 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "sweet_potato_ball": 1,
-        "medium_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26563",
-      "verifiedAt": "2026-07-01T03:19:56+08:00"
-    },
-    {
-      "code": "26564",
-      "title": "498元 26564 63折",
-      "description": "青花椒炸雞x2 + 炸雞x3 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 蛋塔x2 + 中飲x2",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "egg_tart": 2,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26564",
-      "verifiedAt": "2026-07-01T03:19:58+08:00"
-    },
-    {
-      "code": "26565",
-      "title": "350元 26565 63折",
-      "description": "花生熔岩雞腿堡x1 + 青花椒卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "sichuan_zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26565",
-      "verifiedAt": "2026-07-01T03:20:00+08:00"
-    },
-    {
-      "code": "26566",
-      "title": "399元 26566 52折",
-      "description": "炸雞x5 + 蛋塔x6 + 地瓜球x1 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26566",
-      "verifiedAt": "2026-07-01T03:20:01+08:00"
-    },
-    {
-      "code": "26567",
-      "title": "398元 26567 68折",
-      "description": "炸雞x5 + 雞塊x8 + 大薯x1 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "large_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26567",
-      "verifiedAt": "2026-07-01T03:20:03+08:00"
-    },
-    {
-      "code": "26568",
-      "title": "858元 26568 58折",
-      "description": "炸雞x10 + 蛋塔x12 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 瓶裝可樂x1",
-      "price": 858,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 10
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 12
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "瓶裝可樂",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 10,
-        "egg_tart": 13,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "pepsi": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 10
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 13
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "pepsi",
-          "label": "百事可樂",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26568",
-      "verifiedAt": "2026-07-01T03:20:04+08:00"
-    },
-    {
-      "code": "26569",
-      "title": "599元 26569 58折",
-      "description": "青花椒炸雞x6 + 青花椒卡啦雞腿堡x2 + 蛋塔x6 + 小飲x2",
-      "price": 599,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 6,
-        "sichuan_zinger_burger": 2,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26569",
-      "verifiedAt": "2026-07-01T03:20:06+08:00"
-    },
-    {
-      "code": "26570",
-      "title": "168元 26570 65折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26570",
-      "verifiedAt": "2026-07-01T03:20:07+08:00"
-    },
-    {
-      "code": "26571",
-      "title": "399元 26571 52折",
-      "description": "炸雞x5 + 蛋塔x6 + 地瓜球x1 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26571",
-      "verifiedAt": "2026-07-01T03:20:09+08:00"
-    },
-    {
-      "code": "26572",
-      "title": "238元 26572 56折",
-      "description": "脆雞堡x1 + 小薯x1 + 蛋塔x6 + 小飲x1",
-      "price": 238,
-      "rawItems": [
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "crispy_chicken_burger": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26572",
-      "verifiedAt": "2026-07-01T03:20:10+08:00"
-    },
-    {
-      "code": "26573",
-      "title": "258元 26573 57折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26573",
-      "verifiedAt": "2026-07-01T03:20:12+08:00"
-    },
-    {
-      "code": "26574",
-      "title": "258元 26574 58折",
-      "description": "青花椒炸雞x1 + 小薯x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26574",
-      "verifiedAt": "2026-07-01T03:20:14+08:00"
-    },
-    {
-      "code": "26575",
-      "title": "268元 26575 57折",
-      "description": "卡啦雞腿堡x1 + 小薯x1 + 蛋塔x6 + 中飲x1",
-      "price": 268,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26575",
-      "verifiedAt": "2026-07-01T03:20:15+08:00"
-    },
-    {
-      "code": "26576",
-      "title": "269元 26576 56折",
-      "description": "青花椒炸雞x2 + 蛋塔x6 + 小飲x1",
-      "price": 269,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26576",
-      "verifiedAt": "2026-07-01T03:20:17+08:00"
-    },
-    {
-      "code": "26577",
-      "title": "268元 26577 56折",
-      "description": "炸雞x1 + 青花椒炸雞x1 + 蛋塔x6 + 小飲x1",
-      "price": 268,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sichuan_fried_chicken": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26577",
-      "verifiedAt": "2026-07-01T03:20:18+08:00"
-    },
-    {
-      "code": "26578",
-      "title": "388元 26578 58折",
-      "description": "蛋塔x12 + 中飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 12
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "egg_tart": 12,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 12
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26578",
-      "verifiedAt": "2026-07-01T03:20:20+08:00"
-    },
-    {
-      "code": "26579",
-      "title": "350元 26579 58折",
-      "description": "雞塊x20 + 小薯x1 + 蛋塔x6 + 小飲x1",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 20
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 20,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 20
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26579",
-      "verifiedAt": "2026-07-01T03:20:22+08:00"
-    },
-    {
-      "code": "26580",
-      "title": "299元 26580 58折",
-      "description": "冰淇淋大福x4 + 蛋塔x6",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "冰淇淋大福",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "items": {
-        "strawberry_cheese_mochi": 4,
-        "egg_tart": 6
-      },
-      "displayItems": [
-        {
-          "productKey": "strawberry_cheese_mochi",
-          "label": "草苺起司冰淇淋大福",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26580",
-      "verifiedAt": "2026-07-01T03:20:24+08:00"
-    },
-    {
-      "code": "26581",
-      "title": "498元 26581 57折",
-      "description": "炸雞x6 + 雞塊x4 + 小薯x1 + 蛋塔x6 + 小飲x2",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 6
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 6,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26581",
-      "verifiedAt": "2026-07-01T03:20:25+08:00"
-    },
-    {
-      "code": "26582",
-      "title": "258元 26582 58折",
-      "description": "青花椒炸雞x1 + 小薯x1 + 蛋塔x6 + 小飲x1",
-      "price": 258,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "small_fries": 1,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26582",
-      "verifiedAt": "2026-07-01T03:20:27+08:00"
-    },
-    {
-      "code": "26583",
-      "title": "399元 26583 55折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x6 + 小飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26583",
-      "verifiedAt": "2026-07-01T03:20:29+08:00"
+      "verifiedAt": "2026-07-02T03:20:02+08:00"
     },
     {
       "code": "26584",
@@ -34855,7 +21339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26584",
-      "verifiedAt": "2026-07-01T03:20:32+08:00"
+      "verifiedAt": "2026-07-02T03:20:03+08:00"
     },
     {
       "code": "26585",
@@ -34919,7 +21403,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26585",
-      "verifiedAt": "2026-07-01T03:20:33+08:00"
+      "verifiedAt": "2026-07-02T03:20:04+08:00"
     },
     {
       "code": "26586",
@@ -34983,7 +21467,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26586",
-      "verifiedAt": "2026-07-01T03:20:35+08:00"
+      "verifiedAt": "2026-07-02T03:20:05+08:00"
     },
     {
       "code": "26587",
@@ -35047,7 +21531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26587",
-      "verifiedAt": "2026-07-01T03:20:36+08:00"
+      "verifiedAt": "2026-07-02T03:20:06+08:00"
     },
     {
       "code": "26588",
@@ -35101,7 +21585,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26588",
-      "verifiedAt": "2026-07-01T03:20:38+08:00"
+      "verifiedAt": "2026-07-02T03:20:07+08:00"
     },
     {
       "code": "26589",
@@ -35155,7 +21639,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26589",
-      "verifiedAt": "2026-07-01T03:20:39+08:00"
+      "verifiedAt": "2026-07-02T03:20:09+08:00"
     },
     {
       "code": "26590",
@@ -35219,7 +21703,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26590",
-      "verifiedAt": "2026-07-01T03:20:40+08:00"
+      "verifiedAt": "2026-07-02T03:20:10+08:00"
     },
     {
       "code": "26591",
@@ -35293,645 +21777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26591",
-      "verifiedAt": "2026-07-01T03:20:42+08:00"
-    },
-    {
-      "code": "26592",
-      "title": "666元 26592 71折",
-      "description": "青花椒炸雞x4 + 炸雞x4 + 雞塊x8 + 蛋塔x2 + 地瓜球x1 + 小薯x1 + 瓶裝可樂x1",
-      "price": 666,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "瓶裝可樂",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 4,
-        "fried_chicken_piece": 4,
-        "chicken_nuggets": 8,
-        "egg_tart": 2,
-        "sweet_potato_ball": 1,
-        "small_fries": 1,
-        "pepsi": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "pepsi",
-          "label": "百事可樂",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26592",
-      "verifiedAt": "2026-07-01T03:20:42+08:00"
-    },
-    {
-      "code": "26593",
-      "title": "120元 26593 55折",
-      "description": "雞塊x8 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 120,
-      "rawItems": [
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "chicken_nuggets": 8,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26593",
-      "verifiedAt": "2026-07-01T03:20:44+08:00"
-    },
-    {
-      "code": "26594",
-      "title": "399元 26594 55折",
-      "description": "炸雞x5 + 蛋塔x6 + 雞塊x4 + 小飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "chicken_nuggets": 4,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26594",
-      "verifiedAt": "2026-07-01T03:20:45+08:00"
-    },
-    {
-      "code": "26595",
-      "title": "199元 26595 55折",
-      "description": "炸雞x2 + 脆雞堡x1 + 蛋塔x2 + 小飲x2",
-      "price": 199,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "crispy_chicken_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "crispy_chicken_burger",
-          "label": "脆雞堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26595",
-      "verifiedAt": "2026-07-01T03:20:47+08:00"
-    },
-    {
-      "code": "26596",
-      "title": "299元 26596 60折",
-      "description": "炸雞x2 + 青花椒卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26596",
-      "verifiedAt": "2026-07-01T03:20:48+08:00"
-    },
-    {
-      "code": "26597",
-      "title": "299元 26597 69折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 花生熔岩雞腿堡x1 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "peanut_zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26597",
-      "verifiedAt": "2026-07-01T03:20:50+08:00"
-    },
-    {
-      "code": "26598",
-      "title": "168元 26598 65折",
-      "description": "花生熔岩雞腿堡x1 + 蛋塔x2 + 小飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26598",
-      "verifiedAt": "2026-07-01T03:20:52+08:00"
-    },
-    {
-      "code": "26599",
-      "title": "79元 26599 52折",
-      "description": "炸雞x1 + 蛋塔x1 + 小飲x1",
-      "price": 79,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26599",
-      "verifiedAt": "2026-07-01T03:20:53+08:00"
-    },
-    {
-      "code": "26600",
-      "title": "399元 26600 55折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x6 + 小飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26600",
-      "verifiedAt": "2026-07-01T03:20:55+08:00"
+      "verifiedAt": "2026-07-02T03:20:11+08:00"
     },
     {
       "code": "26604",
@@ -35995,7 +21841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26604",
-      "verifiedAt": "2026-07-01T03:20:57+08:00"
+      "verifiedAt": "2026-07-02T03:20:12+08:00"
     },
     {
       "code": "26605",
@@ -36079,7 +21925,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26605",
-      "verifiedAt": "2026-07-01T03:20:59+08:00"
+      "verifiedAt": "2026-07-02T03:20:13+08:00"
     },
     {
       "code": "26606",
@@ -36143,7 +21989,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26606",
-      "verifiedAt": "2026-07-01T03:21:00+08:00"
+      "verifiedAt": "2026-07-02T03:20:14+08:00"
     },
     {
       "code": "26607",
@@ -36207,7 +22053,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26607",
-      "verifiedAt": "2026-07-01T03:21:02+08:00"
+      "verifiedAt": "2026-07-02T03:20:16+08:00"
     },
     {
       "code": "26608",
@@ -36291,7 +22137,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26608",
-      "verifiedAt": "2026-07-01T03:21:03+08:00"
+      "verifiedAt": "2026-07-02T03:20:17+08:00"
     },
     {
       "code": "26609",
@@ -36355,7 +22201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26609",
-      "verifiedAt": "2026-07-01T03:21:04+08:00"
+      "verifiedAt": "2026-07-02T03:20:18+08:00"
     },
     {
       "code": "26610",
@@ -36419,7 +22265,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26610",
-      "verifiedAt": "2026-07-01T03:21:06+08:00"
+      "verifiedAt": "2026-07-02T03:20:19+08:00"
     },
     {
       "code": "26611",
@@ -36473,7 +22319,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26611",
-      "verifiedAt": "2026-07-01T03:21:07+08:00"
+      "verifiedAt": "2026-07-02T03:20:20+08:00"
     },
     {
       "code": "26612",
@@ -36537,7 +22383,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26612",
-      "verifiedAt": "2026-07-01T03:21:08+08:00"
+      "verifiedAt": "2026-07-02T03:20:21+08:00"
     },
     {
       "code": "26613",
@@ -36601,7 +22447,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26613",
-      "verifiedAt": "2026-07-01T03:21:10+08:00"
+      "verifiedAt": "2026-07-02T03:20:23+08:00"
     },
     {
       "code": "26614",
@@ -36665,7 +22511,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26614",
-      "verifiedAt": "2026-07-01T03:21:11+08:00"
+      "verifiedAt": "2026-07-02T03:20:24+08:00"
     },
     {
       "code": "26615",
@@ -36719,7 +22565,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26615",
-      "verifiedAt": "2026-07-01T03:21:12+08:00"
+      "verifiedAt": "2026-07-02T03:20:25+08:00"
     },
     {
       "code": "26616",
@@ -36783,7 +22629,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26616",
-      "verifiedAt": "2026-07-01T03:21:14+08:00"
+      "verifiedAt": "2026-07-02T03:20:26+08:00"
     },
     {
       "code": "26618",
@@ -36847,7 +22693,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26618",
-      "verifiedAt": "2026-07-01T03:21:15+08:00"
+      "verifiedAt": "2026-07-02T03:20:27+08:00"
     },
     {
       "code": "26619",
@@ -36901,7 +22747,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26619",
-      "verifiedAt": "2026-07-01T03:21:16+08:00"
+      "verifiedAt": "2026-07-02T03:20:28+08:00"
     },
     {
       "code": "26620",
@@ -36965,7 +22811,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26620",
-      "verifiedAt": "2026-07-01T03:21:18+08:00"
+      "verifiedAt": "2026-07-02T03:20:29+08:00"
     },
     {
       "code": "26621",
@@ -37019,7 +22865,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26621",
-      "verifiedAt": "2026-07-01T03:21:19+08:00"
+      "verifiedAt": "2026-07-02T03:20:31+08:00"
     },
     {
       "code": "26622",
@@ -37103,7 +22949,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26622",
-      "verifiedAt": "2026-07-01T03:21:20+08:00"
+      "verifiedAt": "2026-07-02T03:20:32+08:00"
     },
     {
       "code": "26625",
@@ -37167,7 +23013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26625",
-      "verifiedAt": "2026-07-01T03:21:21+08:00"
+      "verifiedAt": "2026-07-02T03:20:33+08:00"
     },
     {
       "code": "26626",
@@ -37221,53 +23067,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26626",
-      "verifiedAt": "2026-07-01T03:21:23+08:00"
-    },
-    {
-      "code": "26631",
-      "title": "440元 26631 60折",
-      "description": "冰淇淋大福x8 + 蛋塔x6",
-      "price": 440,
-      "rawItems": [
-        {
-          "name": "冰淇淋大福",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "items": {
-        "strawberry_cheese_mochi": 8,
-        "egg_tart": 6
-      },
-      "displayItems": [
-        {
-          "productKey": "strawberry_cheese_mochi",
-          "label": "草苺起司冰淇淋大福",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26631",
-      "verifiedAt": "2026-07-01T03:21:23+08:00"
+      "verifiedAt": "2026-07-02T03:20:34+08:00"
     },
     {
       "code": "26632",
@@ -37321,7 +23121,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26632",
-      "verifiedAt": "2026-07-01T03:21:26+08:00"
+      "verifiedAt": "2026-07-02T03:20:35+08:00"
     },
     {
       "code": "26633",
@@ -37385,7 +23185,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26633",
-      "verifiedAt": "2026-07-01T03:21:27+08:00"
+      "verifiedAt": "2026-07-02T03:20:36+08:00"
     },
     {
       "code": "26634",
@@ -37453,7 +23253,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26634",
-      "verifiedAt": "2026-07-01T03:21:29+08:00"
+      "verifiedAt": "2026-07-02T03:20:38+08:00"
     },
     {
       "code": "26635",
@@ -37527,7 +23327,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26635",
-      "verifiedAt": "2026-07-01T03:21:30+08:00"
+      "verifiedAt": "2026-07-02T03:20:39+08:00"
     },
     {
       "code": "26636",
@@ -37591,7 +23391,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26636",
-      "verifiedAt": "2026-07-01T03:21:31+08:00"
+      "verifiedAt": "2026-07-02T03:20:40+08:00"
     },
     {
       "code": "26637",
@@ -37665,7 +23465,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26637",
-      "verifiedAt": "2026-07-01T03:21:32+08:00"
+      "verifiedAt": "2026-07-02T03:20:41+08:00"
     },
     {
       "code": "26638",
@@ -37739,7 +23539,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26638",
-      "verifiedAt": "2026-07-01T03:21:34+08:00"
+      "verifiedAt": "2026-07-02T03:20:42+08:00"
     },
     {
       "code": "26639",
@@ -37793,7 +23593,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26639",
-      "verifiedAt": "2026-07-01T03:21:35+08:00"
+      "verifiedAt": "2026-07-02T03:20:43+08:00"
     },
     {
       "code": "26640",
@@ -37857,7 +23657,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26640",
-      "verifiedAt": "2026-07-01T03:21:37+08:00"
+      "verifiedAt": "2026-07-02T03:20:44+08:00"
     },
     {
       "code": "26641",
@@ -37921,7 +23721,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26641",
-      "verifiedAt": "2026-07-01T03:21:38+08:00"
+      "verifiedAt": "2026-07-02T03:20:46+08:00"
     },
     {
       "code": "26651",
@@ -37965,63 +23765,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26651",
-      "verifiedAt": "2026-07-01T03:21:39+08:00"
-    },
-    {
-      "code": "26652",
-      "title": "199元 26652 72折",
-      "description": "炸雞x2 + 卡啦雞腿堡x1 + 中飲x1",
-      "price": 199,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "zinger_burger": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26652",
-      "verifiedAt": "2026-07-01T03:21:40+08:00"
+      "verifiedAt": "2026-07-02T03:20:47+08:00"
     },
     {
       "code": "26653",
@@ -38105,235 +23849,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26653",
-      "verifiedAt": "2026-07-01T03:21:43+08:00"
-    },
-    {
-      "code": "26654",
-      "title": "229元 26654 57折",
-      "description": "炸雞x2 + 雞塊x8 + 蛋塔x2 + 小飲x2",
-      "price": 229,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 8,
-        "egg_tart": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26654",
-      "verifiedAt": "2026-07-01T03:21:43+08:00"
-    },
-    {
-      "code": "26655",
-      "title": "350元 26655 66折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x2 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 2,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26655",
-      "verifiedAt": "2026-07-01T03:21:45+08:00"
-    },
-    {
-      "code": "26656",
-      "title": "399元 26656 55折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x6 + 小飲x1",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 6,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26656",
-      "verifiedAt": "2026-07-01T03:21:46+08:00"
+      "verifiedAt": "2026-07-02T03:20:48+08:00"
     },
     {
       "code": "26657",
@@ -38397,943 +23913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26657",
-      "verifiedAt": "2026-07-01T03:21:49+08:00"
-    },
-    {
-      "code": "26658",
-      "title": "398元 26658 59折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 398,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26658",
-      "verifiedAt": "2026-07-01T03:21:49+08:00"
-    },
-    {
-      "code": "26659",
-      "title": "350元 26659 66折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x2 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 2,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26659",
-      "verifiedAt": "2026-07-01T03:21:50+08:00"
-    },
-    {
-      "code": "26660",
-      "title": "159元 26660 70折",
-      "description": "雙層卡啦雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 159,
-      "rawItems": [
-        {
-          "name": "雙層卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26660",
-      "verifiedAt": "2026-07-01T03:21:52+08:00"
-    },
-    {
-      "code": "26661",
-      "title": "350元 26661 59折",
-      "description": "花生熔岩雞腿堡x1 + 炸雞x2 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26661",
-      "verifiedAt": "2026-07-01T03:21:54+08:00"
-    },
-    {
-      "code": "26662",
-      "title": "125元 26662 69折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 中飲x1",
-      "price": 125,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26662",
-      "verifiedAt": "2026-07-01T03:21:55+08:00"
-    },
-    {
-      "code": "26663",
-      "title": "458元 26663 56折",
-      "description": "炸雞x5 + 蛋塔x6 + 冰淇淋大福x2 + 小飲x2",
-      "price": 458,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "冰淇淋大福",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "strawberry_cheese_mochi": 2,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "strawberry_cheese_mochi",
-          "label": "草苺起司冰淇淋大福",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26663",
-      "verifiedAt": "2026-07-01T03:21:57+08:00"
-    },
-    {
-      "code": "26664",
-      "title": "135元 26664 62折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 135,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26664",
-      "verifiedAt": "2026-07-01T03:21:58+08:00"
-    },
-    {
-      "code": "26665",
-      "title": "399元 26665 56折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 蛋塔x4 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "egg_tart": 4,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26665",
-      "verifiedAt": "2026-07-01T03:22:00+08:00"
-    },
-    {
-      "code": "26666",
-      "title": "350元 26666 66折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x2 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 2,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26666",
-      "verifiedAt": "2026-07-01T03:22:01+08:00"
-    },
-    {
-      "code": "26667",
-      "title": "149元 26667 55折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26667",
-      "verifiedAt": "2026-07-01T03:22:03+08:00"
-    },
-    {
-      "code": "26668",
-      "title": "350元 26668 66折",
-      "description": "花生熔岩雞腿堡x1 + 卡啦雞腿堡x1 + 地瓜球x1 + 蛋塔x2 + 雞塊x4 + 小薯x1 + 小飲x2",
-      "price": 350,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 2,
-        "chicken_nuggets": 4,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26668",
-      "verifiedAt": "2026-07-01T03:22:05+08:00"
-    },
-    {
-      "code": "26669",
-      "title": "399元 26669 52折",
-      "description": "炸雞x5 + 蛋塔x6 + 中薯x1 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "medium_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_fries",
-          "label": "中薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26669",
-      "verifiedAt": "2026-07-01T03:22:07+08:00"
-    },
-    {
-      "code": "26670",
-      "title": "79元 26670 57折",
-      "description": "蛋塔x2 + 蘋果汁x1",
-      "price": 79,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "蘋果汁",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "egg_tart": 2,
-        "apple_juice": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "apple_juice",
-          "label": "蘋果汁",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26670",
-      "verifiedAt": "2026-07-01T03:22:08+08:00"
+      "verifiedAt": "2026-07-02T03:20:49+08:00"
     },
     {
       "code": "26671",
@@ -39377,7 +23957,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26671",
-      "verifiedAt": "2026-07-01T03:22:11+08:00"
+      "verifiedAt": "2026-07-02T03:20:50+08:00"
     },
     {
       "code": "26672",
@@ -39431,7 +24011,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26672",
-      "verifiedAt": "2026-07-01T03:22:12+08:00"
+      "verifiedAt": "2026-07-02T03:20:51+08:00"
     },
     {
       "code": "26673",
@@ -39485,7 +24065,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26673",
-      "verifiedAt": "2026-07-01T03:22:13+08:00"
+      "verifiedAt": "2026-07-02T03:20:52+08:00"
     },
     {
       "code": "26674",
@@ -39539,7 +24119,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26674",
-      "verifiedAt": "2026-07-01T03:22:14+08:00"
+      "verifiedAt": "2026-07-02T03:20:54+08:00"
     },
     {
       "code": "26675",
@@ -39593,7 +24173,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26675",
-      "verifiedAt": "2026-07-01T03:22:16+08:00"
+      "verifiedAt": "2026-07-02T03:20:55+08:00"
     },
     {
       "code": "26676",
@@ -39657,7 +24237,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26676",
-      "verifiedAt": "2026-07-01T03:22:17+08:00"
+      "verifiedAt": "2026-07-02T03:20:56+08:00"
     },
     {
       "code": "26677",
@@ -39721,7 +24301,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26677",
-      "verifiedAt": "2026-07-01T03:22:19+08:00"
+      "verifiedAt": "2026-07-02T03:20:57+08:00"
     },
     {
       "code": "26678",
@@ -39785,7 +24365,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26678",
-      "verifiedAt": "2026-07-01T03:22:20+08:00"
+      "verifiedAt": "2026-07-02T03:20:58+08:00"
     },
     {
       "code": "26679",
@@ -39849,7 +24429,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26679",
-      "verifiedAt": "2026-07-01T03:22:21+08:00"
+      "verifiedAt": "2026-07-02T03:20:59+08:00"
     },
     {
       "code": "26680",
@@ -39923,7 +24503,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26680",
-      "verifiedAt": "2026-07-01T03:22:22+08:00"
+      "verifiedAt": "2026-07-02T03:21:01+08:00"
     },
     {
       "code": "26681",
@@ -39997,7 +24577,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26681",
-      "verifiedAt": "2026-07-01T03:22:24+08:00"
+      "verifiedAt": "2026-07-02T03:21:02+08:00"
     },
     {
       "code": "26682",
@@ -40071,7 +24651,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26682",
-      "verifiedAt": "2026-07-01T03:22:26+08:00"
+      "verifiedAt": "2026-07-02T03:21:04+08:00"
     },
     {
       "code": "26683",
@@ -40155,7 +24735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26683",
-      "verifiedAt": "2026-07-01T03:22:27+08:00"
+      "verifiedAt": "2026-07-02T03:21:05+08:00"
     },
     {
       "code": "26684",
@@ -40229,7 +24809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26684",
-      "verifiedAt": "2026-07-01T03:22:28+08:00"
+      "verifiedAt": "2026-07-02T03:21:06+08:00"
     },
     {
       "code": "26685",
@@ -40313,7 +24893,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26685",
-      "verifiedAt": "2026-07-01T03:22:30+08:00"
+      "verifiedAt": "2026-07-02T03:21:07+08:00"
     },
     {
       "code": "26686",
@@ -40377,7 +24957,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26686",
-      "verifiedAt": "2026-07-01T03:22:31+08:00"
+      "verifiedAt": "2026-07-02T03:21:09+08:00"
     },
     {
       "code": "26687",
@@ -40451,7 +25031,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26687",
-      "verifiedAt": "2026-07-01T03:22:32+08:00"
+      "verifiedAt": "2026-07-02T03:21:10+08:00"
     },
     {
       "code": "26688",
@@ -40505,7 +25085,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26688",
-      "verifiedAt": "2026-07-01T03:22:34+08:00"
+      "verifiedAt": "2026-07-02T03:21:11+08:00"
     },
     {
       "code": "26689",
@@ -40559,7 +25139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26689",
-      "verifiedAt": "2026-07-01T03:22:35+08:00"
+      "verifiedAt": "2026-07-02T03:21:12+08:00"
     },
     {
       "code": "26690",
@@ -40623,163 +25203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26690",
-      "verifiedAt": "2026-07-01T03:22:36+08:00"
-    },
-    {
-      "code": "26691",
-      "title": "388元 26691 68折",
-      "description": "花生熔岩雞腿堡x1 + 雙層卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雙層卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26691",
-      "verifiedAt": "2026-07-01T03:22:37+08:00"
-    },
-    {
-      "code": "26692",
-      "title": "777元 26692 56折",
-      "description": "炸雞x5 + 青花椒炸雞x5 + 蛋塔x12 + 瓶裝可樂x1",
-      "price": 777,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 12
-        },
-        {
-          "name": "瓶裝可樂",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "sichuan_fried_chicken": 5,
-        "egg_tart": 12,
-        "pepsi": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 12
-        },
-        {
-          "productKey": "pepsi",
-          "label": "百事可樂",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26692",
-      "verifiedAt": "2026-07-01T03:22:38+08:00"
+      "verifiedAt": "2026-07-02T03:21:13+08:00"
     },
     {
       "code": "26693",
@@ -40833,7 +25257,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26693",
-      "verifiedAt": "2026-07-01T03:22:41+08:00"
+      "verifiedAt": "2026-07-02T03:21:14+08:00"
     },
     {
       "code": "26694",
@@ -40901,7 +25325,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26694",
-      "verifiedAt": "2026-07-01T03:22:42+08:00"
+      "verifiedAt": "2026-07-02T03:21:15+08:00"
     },
     {
       "code": "26695",
@@ -40955,7 +25379,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26695",
-      "verifiedAt": "2026-07-01T03:22:44+08:00"
+      "verifiedAt": "2026-07-02T03:21:17+08:00"
     },
     {
       "code": "26696",
@@ -41009,7 +25433,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26696",
-      "verifiedAt": "2026-07-01T03:22:45+08:00"
+      "verifiedAt": "2026-07-02T03:21:18+08:00"
     },
     {
       "code": "26697",
@@ -41063,243 +25487,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26697",
-      "verifiedAt": "2026-07-01T03:22:46+08:00"
-    },
-    {
-      "code": "26698",
-      "title": "133元 26698 61折",
-      "description": "紐奧良烤雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 133,
-      "rawItems": [
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "new_orleans_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26698",
-      "verifiedAt": "2026-07-01T03:22:46+08:00"
-    },
-    {
-      "code": "26699",
-      "title": "388元 26699 59折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 388,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26699",
-      "verifiedAt": "2026-07-01T03:22:48+08:00"
-    },
-    {
-      "code": "26700",
-      "title": "368元 26700 66折",
-      "description": "雙層卡啦雞腿堡x1 + 紐奧良烤雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 368,
-      "rawItems": [
-        {
-          "name": "雙層卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "new_orleans_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26700",
-      "verifiedAt": "2026-07-01T03:22:50+08:00"
+      "verifiedAt": "2026-07-02T03:21:19+08:00"
     },
     {
       "code": "26701",
@@ -41377,7 +25565,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26701",
-      "verifiedAt": "2026-07-01T03:22:52+08:00"
+      "verifiedAt": "2026-07-02T03:21:20+08:00"
     },
     {
       "code": "26702",
@@ -41441,7 +25629,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26702",
-      "verifiedAt": "2026-07-01T03:22:53+08:00"
+      "verifiedAt": "2026-07-02T03:21:21+08:00"
     },
     {
       "code": "26703",
@@ -41505,7 +25693,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26703",
-      "verifiedAt": "2026-07-01T03:22:55+08:00"
+      "verifiedAt": "2026-07-02T03:21:22+08:00"
     },
     {
       "code": "26704",
@@ -41579,753 +25767,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26704",
-      "verifiedAt": "2026-07-01T03:22:56+08:00"
-    },
-    {
-      "code": "26705",
-      "title": "149元 26705 55折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26705",
-      "verifiedAt": "2026-07-01T03:22:56+08:00"
-    },
-    {
-      "code": "26706",
-      "title": "299元 26706 63折",
-      "description": "花生熔岩雞腿堡x1 + 炸雞x2 + 蛋塔x2 + 小薯x1 + 小飲x2",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "peanut_zinger_burger": 1,
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26706",
-      "verifiedAt": "2026-07-01T03:22:58+08:00"
-    },
-    {
-      "code": "26707",
-      "title": "439元 26707 61折",
-      "description": "炸雞x5 + 雞塊x8 + 蛋塔x2 + 地瓜球x1 + 小薯x1 + 小飲x2",
-      "price": 439,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 8,
-        "egg_tart": 2,
-        "sweet_potato_ball": 1,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26707",
-      "verifiedAt": "2026-07-01T03:22:59+08:00"
-    },
-    {
-      "code": "26708",
-      "title": "133元 26708 61折",
-      "description": "紐奧良烤雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 133,
-      "rawItems": [
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "new_orleans_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26708",
-      "verifiedAt": "2026-07-01T03:23:01+08:00"
-    },
-    {
-      "code": "26709",
-      "title": "499元 26709 57折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 雞塊x8 + 蛋塔x6 + 中飲x1",
-      "price": 499,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "雞塊",
-          "quantity": 8
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "chicken_nuggets": 8,
-        "egg_tart": 6,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 8
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26709",
-      "verifiedAt": "2026-07-01T03:23:03+08:00"
-    },
-    {
-      "code": "26710",
-      "title": "135元 26710 62折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小薯x1 + 小飲x1",
-      "price": 135,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26710",
-      "verifiedAt": "2026-07-01T03:23:04+08:00"
-    },
-    {
-      "code": "26711",
-      "title": "168元 26711 62折",
-      "description": "炸雞x2 + 雞塊x4 + 蛋塔x1 + 小飲x1",
-      "price": 168,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26711",
-      "verifiedAt": "2026-07-01T03:23:06+08:00"
-    },
-    {
-      "code": "26712",
-      "title": "399元 26712 55折",
-      "description": "炸雞x5 + 蛋塔x6 + 中飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26712",
-      "verifiedAt": "2026-07-01T03:23:08+08:00"
-    },
-    {
-      "code": "26713",
-      "title": "149元 26713 55折",
-      "description": "炸雞x2 + 蛋塔x2 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26713",
-      "verifiedAt": "2026-07-01T03:23:10+08:00"
-    },
-    {
-      "code": "26714",
-      "title": "145元 26714 71折",
-      "description": "炸雞x1 + 紐奧良烤雞腿堡x1 + 中飲x1",
-      "price": 145,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "new_orleans_burger": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26714",
-      "verifiedAt": "2026-07-01T03:23:11+08:00"
-    },
-    {
-      "code": "26715",
-      "title": "498元 26715 55折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 蛋塔x6 + 地瓜球x1 + 小薯x1 + 小飲x2",
-      "price": 498,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "egg_tart": 6,
-        "sweet_potato_ball": 1,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26715",
-      "verifiedAt": "2026-07-01T03:23:13+08:00"
+      "verifiedAt": "2026-07-02T03:21:23+08:00"
     },
     {
       "code": "26716",
@@ -42403,83 +25845,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26716",
-      "verifiedAt": "2026-07-01T03:23:16+08:00"
-    },
-    {
-      "code": "26717",
-      "title": "155元 26717 55折",
-      "description": "青花椒炸雞x1 + 炸雞x1 + 雞汁風味飯x1 + 蛋塔x1 + 小飲x1",
-      "price": 155,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 1,
-        "fried_chicken_piece": 1,
-        "rice": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26717",
-      "verifiedAt": "2026-07-01T03:23:16+08:00"
+      "verifiedAt": "2026-07-02T03:21:25+08:00"
     },
     {
       "code": "26718",
@@ -42543,7 +25909,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26718",
-      "verifiedAt": "2026-07-01T03:23:18+08:00"
+      "verifiedAt": "2026-07-02T03:21:26+08:00"
     },
     {
       "code": "26719",
@@ -42627,7 +25993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26719",
-      "verifiedAt": "2026-07-01T03:23:20+08:00"
+      "verifiedAt": "2026-07-02T03:21:27+08:00"
     },
     {
       "code": "26720",
@@ -42705,7 +26071,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26720",
-      "verifiedAt": "2026-07-01T03:23:21+08:00"
+      "verifiedAt": "2026-07-02T03:21:28+08:00"
     },
     {
       "code": "26721",
@@ -42759,7 +26125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26721",
-      "verifiedAt": "2026-07-01T03:23:23+08:00"
+      "verifiedAt": "2026-07-02T03:21:30+08:00"
     },
     {
       "code": "26722",
@@ -42843,7 +26209,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26722",
-      "verifiedAt": "2026-07-01T03:23:24+08:00"
+      "verifiedAt": "2026-07-02T03:21:32+08:00"
     },
     {
       "code": "26723",
@@ -42931,7 +26297,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26723",
-      "verifiedAt": "2026-07-01T03:23:27+08:00"
+      "verifiedAt": "2026-07-02T03:21:33+08:00"
     },
     {
       "code": "26724",
@@ -42985,7 +26351,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26724",
-      "verifiedAt": "2026-07-01T03:23:29+08:00"
+      "verifiedAt": "2026-07-02T03:21:35+08:00"
     },
     {
       "code": "26725",
@@ -43069,7 +26435,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26725",
-      "verifiedAt": "2026-07-01T03:23:30+08:00"
+      "verifiedAt": "2026-07-02T03:21:36+08:00"
     },
     {
       "code": "26726",
@@ -43123,7 +26489,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26726",
-      "verifiedAt": "2026-07-01T03:23:32+08:00"
+      "verifiedAt": "2026-07-02T03:21:38+08:00"
     },
     {
       "code": "26727",
@@ -43177,7 +26543,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26727",
-      "verifiedAt": "2026-07-01T03:23:34+08:00"
+      "verifiedAt": "2026-07-02T03:21:39+08:00"
     },
     {
       "code": "26728",
@@ -43231,7 +26597,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26728",
-      "verifiedAt": "2026-07-01T03:23:36+08:00"
+      "verifiedAt": "2026-07-02T03:21:41+08:00"
     },
     {
       "code": "26729",
@@ -43285,7 +26651,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26729",
-      "verifiedAt": "2026-07-01T03:23:38+08:00"
+      "verifiedAt": "2026-07-02T03:21:42+08:00"
     },
     {
       "code": "26730",
@@ -43339,7 +26705,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26730",
-      "verifiedAt": "2026-07-01T03:23:40+08:00"
+      "verifiedAt": "2026-07-02T03:21:43+08:00"
     },
     {
       "code": "26731",
@@ -43393,7 +26759,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26731",
-      "verifiedAt": "2026-07-01T03:23:41+08:00"
+      "verifiedAt": "2026-07-02T03:21:44+08:00"
     },
     {
       "code": "26732",
@@ -43457,7 +26823,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26732",
-      "verifiedAt": "2026-07-01T03:23:42+08:00"
+      "verifiedAt": "2026-07-02T03:21:45+08:00"
     },
     {
       "code": "26733",
@@ -43551,7 +26917,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26733",
-      "verifiedAt": "2026-07-01T03:23:44+08:00"
+      "verifiedAt": "2026-07-02T03:21:47+08:00"
     },
     {
       "code": "26734",
@@ -43629,7 +26995,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26734",
-      "verifiedAt": "2026-07-01T03:23:45+08:00"
+      "verifiedAt": "2026-07-02T03:21:48+08:00"
     },
     {
       "code": "26735",
@@ -43717,465 +27083,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26735",
-      "verifiedAt": "2026-07-01T03:23:46+08:00"
-    },
-    {
-      "code": "26736",
-      "title": "138元 26736 62折",
-      "description": "紐奧良烤雞腿堡x1 + 蛋塔x1 + 小薯x1 + 中飲x1",
-      "price": 138,
-      "rawItems": [
-        {
-          "name": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "new_orleans_burger": 1,
-        "egg_tart": 1,
-        "small_fries": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "new_orleans_burger",
-          "label": "紐奧良烤雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26736",
-      "verifiedAt": "2026-07-01T03:23:47+08:00"
-    },
-    {
-      "code": "26737",
-      "title": "138元 26737 57折",
-      "description": "青花椒炸雞x2 + 蛋塔x1 + 中飲x1",
-      "price": 138,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 2,
-        "egg_tart": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26737",
-      "verifiedAt": "2026-07-01T03:23:48+08:00"
-    },
-    {
-      "code": "26738",
-      "title": "99元 26738 53折",
-      "description": "冰淇淋大福x1 + 蛋塔x2 + 小飲x1",
-      "price": 99,
-      "rawItems": [
-        {
-          "name": "冰淇淋大福",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "strawberry_cheese_mochi": 1,
-        "egg_tart": 2,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "strawberry_cheese_mochi",
-          "label": "草苺起司冰淇淋大福",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26738",
-      "verifiedAt": "2026-07-01T03:23:50+08:00"
-    },
-    {
-      "code": "26739",
-      "title": "208元 26739 56折",
-      "description": "蛋塔x6 + 蘋果汁x2",
-      "price": 208,
-      "rawItems": [
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "蘋果汁",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "egg_tart": 6,
-        "apple_juice": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "apple_juice",
-          "label": "蘋果汁",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26739",
-      "verifiedAt": "2026-07-01T03:23:52+08:00"
-    },
-    {
-      "code": "26740",
-      "title": "145元 26740 74折",
-      "description": "卡啦雞腿堡x1 + 大薯x1 + 小飲x1",
-      "price": 145,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "large_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26740",
-      "verifiedAt": "2026-07-01T03:23:54+08:00"
-    },
-    {
-      "code": "26741",
-      "title": "333元 26741 65折",
-      "description": "青花椒炸雞x3 + 炸雞x3 + 小飲x2",
-      "price": 333,
-      "rawItems": [
-        {
-          "name": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_fried_chicken": 3,
-        "fried_chicken_piece": 3,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26741",
-      "verifiedAt": "2026-07-01T03:23:55+08:00"
-    },
-    {
-      "code": "26742",
-      "title": "288元 26742 71折",
-      "description": "青花椒卡啦雞腿堡x1 + 花生熔岩雞腿堡x1 + 蛋塔x2 + 中飲x2",
-      "price": 288,
-      "rawItems": [
-        {
-          "name": "青花椒卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "sichuan_zinger_burger": 1,
-        "peanut_zinger_burger": 1,
-        "egg_tart": 2,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "sichuan_zinger_burger",
-          "label": "青花椒雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "peanut_zinger_burger",
-          "label": "花生熔岩雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26742",
-      "verifiedAt": "2026-07-01T03:23:57+08:00"
-    },
-    {
-      "code": "26743",
-      "title": "149元 26743 67折",
-      "description": "炸雞x2 + 雞塊x4 + 小飲x1",
-      "price": 149,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26743",
-      "verifiedAt": "2026-07-01T03:23:59+08:00"
+      "verifiedAt": "2026-07-02T03:21:49+08:00"
     },
     {
       "code": "26744",
@@ -44239,7 +27147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26744",
-      "verifiedAt": "2026-07-01T03:24:02+08:00"
+      "verifiedAt": "2026-07-02T03:21:50+08:00"
     },
     {
       "code": "26745",
@@ -44293,7 +27201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26745",
-      "verifiedAt": "2026-07-01T03:24:03+08:00"
+      "verifiedAt": "2026-07-02T03:21:52+08:00"
     },
     {
       "code": "26746",
@@ -44347,7 +27255,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26746",
-      "verifiedAt": "2026-07-01T03:24:04+08:00"
+      "verifiedAt": "2026-07-02T03:21:53+08:00"
     },
     {
       "code": "26747",
@@ -44401,119 +27309,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26747",
-      "verifiedAt": "2026-07-01T03:24:05+08:00"
-    },
-    {
-      "code": "26748",
-      "title": "110元 26748 62折",
-      "description": "卡啦雞腿堡x1 + 蛋塔x1 + 小飲x1",
-      "price": 110,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26748",
-      "verifiedAt": "2026-07-01T03:24:06+08:00"
-    },
-    {
-      "code": "26749",
-      "title": "399元 26749 55折",
-      "description": "炸雞x5 + 蛋塔x6 + 中飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26749",
-      "verifiedAt": "2026-07-01T03:24:07+08:00"
+      "verifiedAt": "2026-07-02T03:21:54+08:00"
     },
     {
       "code": "26750",
@@ -44587,7 +27383,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26750",
-      "verifiedAt": "2026-07-01T03:24:10+08:00"
+      "verifiedAt": "2026-07-02T03:21:55+08:00"
     },
     {
       "code": "26751",
@@ -44661,7 +27457,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26751",
-      "verifiedAt": "2026-07-01T03:24:11+08:00"
+      "verifiedAt": "2026-07-02T03:21:56+08:00"
     },
     {
       "code": "26752",
@@ -44755,7 +27551,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26752",
-      "verifiedAt": "2026-07-01T03:24:13+08:00"
+      "verifiedAt": "2026-07-02T03:21:57+08:00"
     },
     {
       "code": "26753",
@@ -44809,381 +27605,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26753",
-      "verifiedAt": "2026-07-01T03:24:14+08:00"
-    },
-    {
-      "code": "26754",
-      "title": "77元 26754 71折",
-      "description": "炸雞x1 + 中飲x1",
-      "price": 77,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "中飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "medium_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26754",
-      "verifiedAt": "2026-07-01T03:24:15+08:00"
-    },
-    {
-      "code": "26755",
-      "title": "177元 26755 62折",
-      "description": "卡啦雞腿堡x1 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x1",
-      "price": 177,
-      "rawItems": [
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "zinger_burger": 1,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26755",
-      "verifiedAt": "2026-07-01T03:24:16+08:00"
-    },
-    {
-      "code": "26756",
-      "title": "377元 26756 57折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 377,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26756",
-      "verifiedAt": "2026-07-01T03:24:18+08:00"
-    },
-    {
-      "code": "26757",
-      "title": "677元 26757 59折",
-      "description": "炸雞x3 + 青花椒炸雞x4 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 蛋塔x6 + 中飲x2",
-      "price": 677,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 3
-        },
-        {
-          "name": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "中飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 3,
-        "sichuan_fried_chicken": 4,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "egg_tart": 6,
-        "medium_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 3
-        },
-        {
-          "productKey": "sichuan_fried_chicken",
-          "label": "青花椒炸雞",
-          "quantity": 4
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "medium_drink",
-          "label": "中飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26757",
-      "verifiedAt": "2026-07-01T03:24:19+08:00"
-    },
-    {
-      "code": "26758",
-      "title": "111元 26758 52折",
-      "description": "炸雞x1 + 地瓜球x1 + 蛋塔x1 + 小飲x1",
-      "price": 111,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 1,
-        "sweet_potato_ball": 1,
-        "egg_tart": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26758",
-      "verifiedAt": "2026-07-01T03:24:21+08:00"
+      "verifiedAt": "2026-07-02T03:21:58+08:00"
     },
     {
       "code": "26760",
@@ -45247,7 +27669,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26760",
-      "verifiedAt": "2026-07-01T03:24:24+08:00"
+      "verifiedAt": "2026-07-02T03:22:00+08:00"
     },
     {
       "code": "26761",
@@ -45305,7 +27727,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26761",
-      "verifiedAt": "2026-07-01T03:24:25+08:00"
+      "verifiedAt": "2026-07-02T03:22:01+08:00"
     },
     {
       "code": "26762",
@@ -45389,7 +27811,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26762",
-      "verifiedAt": "2026-07-01T03:24:27+08:00"
+      "verifiedAt": "2026-07-02T03:22:02+08:00"
     },
     {
       "code": "26763",
@@ -45473,7 +27895,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26763",
-      "verifiedAt": "2026-07-01T03:24:28+08:00"
+      "verifiedAt": "2026-07-02T03:22:03+08:00"
     },
     {
       "code": "26764",
@@ -45527,7 +27949,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26764",
-      "verifiedAt": "2026-07-01T03:24:29+08:00"
+      "verifiedAt": "2026-07-02T03:22:04+08:00"
     },
     {
       "code": "26765",
@@ -45591,7 +28013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26765",
-      "verifiedAt": "2026-07-01T03:24:30+08:00"
+      "verifiedAt": "2026-07-02T03:22:05+08:00"
     },
     {
       "code": "26766",
@@ -45655,7 +28077,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26766",
-      "verifiedAt": "2026-07-01T03:24:32+08:00"
+      "verifiedAt": "2026-07-02T03:22:07+08:00"
     },
     {
       "code": "26767",
@@ -45709,7 +28131,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26767",
-      "verifiedAt": "2026-07-01T03:24:33+08:00"
+      "verifiedAt": "2026-07-02T03:22:08+08:00"
     },
     {
       "code": "26768",
@@ -45797,7 +28219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26768",
-      "verifiedAt": "2026-07-01T03:24:34+08:00"
+      "verifiedAt": "2026-07-02T03:22:09+08:00"
     },
     {
       "code": "26769",
@@ -45871,7 +28293,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26769",
-      "verifiedAt": "2026-07-01T03:24:35+08:00"
+      "verifiedAt": "2026-07-02T03:22:10+08:00"
     },
     {
       "code": "26770",
@@ -45925,7 +28347,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26770",
-      "verifiedAt": "2026-07-01T03:24:37+08:00"
+      "verifiedAt": "2026-07-02T03:22:11+08:00"
     },
     {
       "code": "26771",
@@ -45989,7 +28411,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26771",
-      "verifiedAt": "2026-07-01T03:24:38+08:00"
+      "verifiedAt": "2026-07-02T03:22:12+08:00"
     },
     {
       "code": "26772",
@@ -46047,7 +28469,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26772",
-      "verifiedAt": "2026-07-01T03:24:40+08:00"
+      "verifiedAt": "2026-07-02T03:22:13+08:00"
     },
     {
       "code": "26773",
@@ -46101,7 +28523,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26773",
-      "verifiedAt": "2026-07-01T03:24:41+08:00"
+      "verifiedAt": "2026-07-02T03:22:15+08:00"
     },
     {
       "code": "26774",
@@ -46165,7 +28587,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26774",
-      "verifiedAt": "2026-07-01T03:24:43+08:00"
+      "verifiedAt": "2026-07-02T03:22:16+08:00"
     },
     {
       "code": "26775",
@@ -46229,7 +28651,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26775",
-      "verifiedAt": "2026-07-01T03:24:44+08:00"
+      "verifiedAt": "2026-07-02T03:22:17+08:00"
     },
     {
       "code": "26776",
@@ -46287,7 +28709,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26776",
-      "verifiedAt": "2026-07-01T03:24:46+08:00"
+      "verifiedAt": "2026-07-02T03:22:18+08:00"
     },
     {
       "code": "26777",
@@ -46365,93 +28787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26777",
-      "verifiedAt": "2026-07-01T03:24:47+08:00"
-    },
-    {
-      "code": "26778",
-      "title": "299元 26778 60折",
-      "description": "紙包雞x1 + 炸雞x2 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 小飲x2",
-      "price": 299,
-      "rawItems": [
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "炸雞",
-          "quantity": 2
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "paper_chicken": 1,
-        "fried_chicken_piece": 2,
-        "chicken_nuggets": 4,
-        "egg_tart": 1,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 2
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26778",
-      "verifiedAt": "2026-07-01T03:24:47+08:00"
+      "verifiedAt": "2026-07-02T03:22:19+08:00"
     },
     {
       "code": "26779",
@@ -46509,7 +28845,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26779",
-      "verifiedAt": "2026-07-01T03:24:50+08:00"
+      "verifiedAt": "2026-07-02T03:22:20+08:00"
     },
     {
       "code": "26780",
@@ -46583,7 +28919,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26780",
-      "verifiedAt": "2026-07-01T03:24:51+08:00"
+      "verifiedAt": "2026-07-02T03:22:22+08:00"
     },
     {
       "code": "26781",
@@ -46637,7 +28973,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26781",
-      "verifiedAt": "2026-07-01T03:24:52+08:00"
+      "verifiedAt": "2026-07-02T03:22:23+08:00"
     },
     {
       "code": "26782",
@@ -46681,7 +29017,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26782",
-      "verifiedAt": "2026-07-01T03:24:53+08:00"
+      "verifiedAt": "2026-07-02T03:22:24+08:00"
     },
     {
       "code": "26783",
@@ -46739,7 +29075,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26783",
-      "verifiedAt": "2026-07-01T03:24:55+08:00"
+      "verifiedAt": "2026-07-02T03:22:25+08:00"
     },
     {
       "code": "26784",
@@ -46797,7 +29133,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26784",
-      "verifiedAt": "2026-07-01T03:24:56+08:00"
+      "verifiedAt": "2026-07-02T03:22:26+08:00"
     },
     {
       "code": "26785",
@@ -46865,7 +29201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26785",
-      "verifiedAt": "2026-07-01T03:24:57+08:00"
+      "verifiedAt": "2026-07-02T03:22:27+08:00"
     },
     {
       "code": "26786",
@@ -46933,7 +29269,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26786",
-      "verifiedAt": "2026-07-01T03:24:58+08:00"
+      "verifiedAt": "2026-07-02T03:22:29+08:00"
     },
     {
       "code": "26787",
@@ -46997,143 +29333,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26787",
-      "verifiedAt": "2026-07-01T03:25:00+08:00"
-    },
-    {
-      "code": "26788",
-      "title": "195元 26788 67折",
-      "description": "紙包雞x1 + 卡啦雞腿堡x1 + 小飲x2",
-      "price": 195,
-      "rawItems": [
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "paper_chicken": 1,
-        "zinger_burger": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26788",
-      "verifiedAt": "2026-07-01T03:25:00+08:00"
-    },
-    {
-      "code": "26789",
-      "title": "385元 26789 62折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x1",
-      "price": 385,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 1
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 1
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 1
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26789",
-      "verifiedAt": "2026-07-01T03:25:02+08:00"
+      "verifiedAt": "2026-07-02T03:22:30+08:00"
     },
     {
       "code": "26790",
@@ -47197,7 +29397,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26790",
-      "verifiedAt": "2026-07-01T03:25:04+08:00"
+      "verifiedAt": "2026-07-02T03:22:31+08:00"
     },
     {
       "code": "26791",
@@ -47251,7 +29451,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26791",
-      "verifiedAt": "2026-07-01T03:25:05+08:00"
+      "verifiedAt": "2026-07-02T03:22:32+08:00"
     },
     {
       "code": "26792",
@@ -47305,7 +29505,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26792",
-      "verifiedAt": "2026-07-01T03:25:07+08:00"
+      "verifiedAt": "2026-07-02T03:22:33+08:00"
     },
     {
       "code": "26793",
@@ -47379,7 +29579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26793",
-      "verifiedAt": "2026-07-01T03:25:08+08:00"
+      "verifiedAt": "2026-07-02T03:22:34+08:00"
     },
     {
       "code": "26794",
@@ -47447,7 +29647,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26794",
-      "verifiedAt": "2026-07-01T03:25:09+08:00"
+      "verifiedAt": "2026-07-02T03:22:36+08:00"
     },
     {
       "code": "26795",
@@ -47515,7 +29715,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26795",
-      "verifiedAt": "2026-07-01T03:25:10+08:00"
+      "verifiedAt": "2026-07-02T03:22:37+08:00"
     },
     {
       "code": "26796",
@@ -47573,7 +29773,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26796",
-      "verifiedAt": "2026-07-01T03:25:12+08:00"
+      "verifiedAt": "2026-07-02T03:22:38+08:00"
     },
     {
       "code": "26797",
@@ -47621,7 +29821,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26797",
-      "verifiedAt": "2026-07-01T03:25:13+08:00"
+      "verifiedAt": "2026-07-02T03:22:39+08:00"
     },
     {
       "code": "26798",
@@ -47679,7 +29879,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26798",
-      "verifiedAt": "2026-07-01T03:25:14+08:00"
+      "verifiedAt": "2026-07-02T03:22:41+08:00"
     },
     {
       "code": "26799",
@@ -47727,7 +29927,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26799",
-      "verifiedAt": "2026-07-01T03:25:16+08:00"
+      "verifiedAt": "2026-07-02T03:22:42+08:00"
     },
     {
       "code": "26800",
@@ -47775,7 +29975,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26800",
-      "verifiedAt": "2026-07-01T03:25:17+08:00"
+      "verifiedAt": "2026-07-02T03:22:43+08:00"
     },
     {
       "code": "26801",
@@ -47843,7 +30043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26801",
-      "verifiedAt": "2026-07-01T03:25:19+08:00"
+      "verifiedAt": "2026-07-02T03:22:44+08:00"
     },
     {
       "code": "26802",
@@ -47911,7 +30111,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26802",
-      "verifiedAt": "2026-07-01T03:25:20+08:00"
+      "verifiedAt": "2026-07-02T03:22:45+08:00"
     },
     {
       "code": "26803",
@@ -47969,7 +30169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26803",
-      "verifiedAt": "2026-07-01T03:25:21+08:00"
+      "verifiedAt": "2026-07-02T03:22:47+08:00"
     },
     {
       "code": "26804",
@@ -48033,7 +30233,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26804",
-      "verifiedAt": "2026-07-01T03:25:22+08:00"
+      "verifiedAt": "2026-07-02T03:22:48+08:00"
     },
     {
       "code": "26805",
@@ -48091,7 +30291,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26805",
-      "verifiedAt": "2026-07-01T03:25:24+08:00"
+      "verifiedAt": "2026-07-02T03:22:49+08:00"
     },
     {
       "code": "26806",
@@ -48149,7 +30349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26806",
-      "verifiedAt": "2026-07-01T03:25:26+08:00"
+      "verifiedAt": "2026-07-02T03:22:51+08:00"
     },
     {
       "code": "26807",
@@ -48207,7 +30407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26807",
-      "verifiedAt": "2026-07-01T03:25:27+08:00"
+      "verifiedAt": "2026-07-02T03:22:52+08:00"
     },
     {
       "code": "26808",
@@ -48275,7 +30475,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26808",
-      "verifiedAt": "2026-07-01T03:25:29+08:00"
+      "verifiedAt": "2026-07-02T03:22:53+08:00"
     },
     {
       "code": "26809",
@@ -48339,7 +30539,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26809",
-      "verifiedAt": "2026-07-01T03:25:30+08:00"
+      "verifiedAt": "2026-07-02T03:22:55+08:00"
     },
     {
       "code": "26810",
@@ -48393,7 +30593,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26810",
-      "verifiedAt": "2026-07-01T03:25:31+08:00"
+      "verifiedAt": "2026-07-02T03:22:56+08:00"
     },
     {
       "code": "26811",
@@ -48451,7 +30651,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26811",
-      "verifiedAt": "2026-07-01T03:25:33+08:00"
+      "verifiedAt": "2026-07-02T03:22:57+08:00"
     },
     {
       "code": "26812",
@@ -48515,7 +30715,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26812",
-      "verifiedAt": "2026-07-01T03:25:34+08:00"
+      "verifiedAt": "2026-07-02T03:22:58+08:00"
     },
     {
       "code": "26813",
@@ -48609,7 +30809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26813",
-      "verifiedAt": "2026-07-01T03:25:36+08:00"
+      "verifiedAt": "2026-07-02T03:22:59+08:00"
     },
     {
       "code": "26814",
@@ -48663,7 +30863,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26814",
-      "verifiedAt": "2026-07-01T03:25:37+08:00"
+      "verifiedAt": "2026-07-02T03:23:01+08:00"
     },
     {
       "code": "26815",
@@ -48721,7 +30921,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26815",
-      "verifiedAt": "2026-07-01T03:25:39+08:00"
+      "verifiedAt": "2026-07-02T03:23:02+08:00"
     },
     {
       "code": "26816",
@@ -48779,7 +30979,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26816",
-      "verifiedAt": "2026-07-01T03:25:40+08:00"
+      "verifiedAt": "2026-07-02T03:23:05+08:00"
     },
     {
       "code": "26817",
@@ -48843,7 +31043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26817",
-      "verifiedAt": "2026-07-01T03:25:41+08:00"
+      "verifiedAt": "2026-07-02T03:23:06+08:00"
     },
     {
       "code": "26818",
@@ -48911,7 +31111,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26818",
-      "verifiedAt": "2026-07-01T03:25:42+08:00"
+      "verifiedAt": "2026-07-02T03:23:07+08:00"
     },
     {
       "code": "26819",
@@ -48969,7 +31169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26819",
-      "verifiedAt": "2026-07-01T03:25:44+08:00"
+      "verifiedAt": "2026-07-02T03:23:08+08:00"
     },
     {
       "code": "26820",
@@ -49027,7 +31227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26820",
-      "verifiedAt": "2026-07-01T03:25:45+08:00"
+      "verifiedAt": "2026-07-02T03:23:10+08:00"
     },
     {
       "code": "26821",
@@ -49111,7 +31311,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26821",
-      "verifiedAt": "2026-07-01T03:25:46+08:00"
+      "verifiedAt": "2026-07-02T03:23:11+08:00"
     },
     {
       "code": "26822",
@@ -49165,7 +31365,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26822",
-      "verifiedAt": "2026-07-01T03:25:48+08:00"
+      "verifiedAt": "2026-07-02T03:23:12+08:00"
     },
     {
       "code": "26823",
@@ -49239,7 +31439,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26823",
-      "verifiedAt": "2026-07-01T03:25:49+08:00"
+      "verifiedAt": "2026-07-02T03:23:13+08:00"
     },
     {
       "code": "26824",
@@ -49297,7 +31497,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26824",
-      "verifiedAt": "2026-07-01T03:25:50+08:00"
+      "verifiedAt": "2026-07-02T03:23:15+08:00"
     },
     {
       "code": "26825",
@@ -49355,7 +31555,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26825",
-      "verifiedAt": "2026-07-01T03:25:52+08:00"
+      "verifiedAt": "2026-07-02T03:23:16+08:00"
     },
     {
       "code": "26826",
@@ -49419,7 +31619,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26826",
-      "verifiedAt": "2026-07-01T03:25:53+08:00"
+      "verifiedAt": "2026-07-02T03:23:17+08:00"
     },
     {
       "code": "26827",
@@ -49477,7 +31677,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26827",
-      "verifiedAt": "2026-07-01T03:25:55+08:00"
+      "verifiedAt": "2026-07-02T03:23:18+08:00"
     },
     {
       "code": "26828",
@@ -49531,7 +31731,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26828",
-      "verifiedAt": "2026-07-01T03:25:56+08:00"
+      "verifiedAt": "2026-07-02T03:23:19+08:00"
     },
     {
       "code": "26829",
@@ -49589,7 +31789,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26829",
-      "verifiedAt": "2026-07-01T03:25:57+08:00"
+      "verifiedAt": "2026-07-02T03:23:20+08:00"
     },
     {
       "code": "26830",
@@ -49663,7 +31863,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26830",
-      "verifiedAt": "2026-07-01T03:25:58+08:00"
+      "verifiedAt": "2026-07-02T03:23:21+08:00"
     },
     {
       "code": "26831",
@@ -49721,7 +31921,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26831",
-      "verifiedAt": "2026-07-01T03:26:00+08:00"
+      "verifiedAt": "2026-07-02T03:23:23+08:00"
     },
     {
       "code": "26832",
@@ -49765,7 +31965,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26832",
-      "verifiedAt": "2026-07-01T03:26:01+08:00"
+      "verifiedAt": "2026-07-02T03:23:24+08:00"
     },
     {
       "code": "26833",
@@ -49809,7 +32009,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26833",
-      "verifiedAt": "2026-07-01T03:26:03+08:00"
+      "verifiedAt": "2026-07-02T03:23:25+08:00"
     },
     {
       "code": "26834",
@@ -49853,7 +32053,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26834",
-      "verifiedAt": "2026-07-01T03:26:04+08:00"
+      "verifiedAt": "2026-07-02T03:23:26+08:00"
     },
     {
       "code": "26835",
@@ -49907,7 +32107,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26835",
-      "verifiedAt": "2026-07-01T03:26:05+08:00"
+      "verifiedAt": "2026-07-02T03:23:28+08:00"
     },
     {
       "code": "26836",
@@ -49965,7 +32165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26836",
-      "verifiedAt": "2026-07-01T03:26:07+08:00"
+      "verifiedAt": "2026-07-02T03:23:29+08:00"
     },
     {
       "code": "26837",
@@ -50033,7 +32233,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26837",
-      "verifiedAt": "2026-07-01T03:26:08+08:00"
+      "verifiedAt": "2026-07-02T03:23:30+08:00"
     },
     {
       "code": "26838",
@@ -50087,87 +32287,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26838",
-      "verifiedAt": "2026-07-01T03:26:09+08:00"
-    },
-    {
-      "code": "26839",
-      "title": "405元 26839 62折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 小薯x1 + 蛋塔x2 + 小飲x2",
-      "price": 405,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "小薯",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "small_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "small_fries",
-          "label": "小薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26839",
-      "verifiedAt": "2026-07-01T03:26:10+08:00"
+      "verifiedAt": "2026-07-02T03:23:31+08:00"
     },
     {
       "code": "26840",
@@ -50211,153 +32331,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26840",
-      "verifiedAt": "2026-07-01T03:26:12+08:00"
-    },
-    {
-      "code": "26841",
-      "title": "399元 26841 59折",
-      "description": "炸雞x5 + 雞塊x4 + 蛋塔x1 + 地瓜球x1 + 蛋塔x2 + 小飲x2",
-      "price": 399,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "雞塊",
-          "quantity": 4
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 2
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "chicken_nuggets": 4,
-        "egg_tart": 3,
-        "sweet_potato_ball": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 4
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 3
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26841",
-      "verifiedAt": "2026-07-01T03:26:13+08:00"
-    },
-    {
-      "code": "26842",
-      "title": "419元 26842 62折",
-      "description": "紙包雞x1 + 卡啦雞腿堡x2 + 蛋塔x6 + 小飲x2",
-      "price": 419,
-      "rawItems": [
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "卡啦雞腿堡",
-          "quantity": 2
-        },
-        {
-          "name": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "paper_chicken": 1,
-        "zinger_burger": 2,
-        "egg_tart": 6,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "zinger_burger",
-          "label": "卡啦雞腿堡",
-          "quantity": 2
-        },
-        {
-          "productKey": "egg_tart",
-          "label": "蛋塔",
-          "quantity": 6
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26842",
-      "verifiedAt": "2026-07-01T03:26:15+08:00"
+      "verifiedAt": "2026-07-02T03:23:32+08:00"
     },
     {
       "code": "26843",
@@ -50401,7 +32375,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26843",
-      "verifiedAt": "2026-07-01T03:26:17+08:00"
+      "verifiedAt": "2026-07-02T03:23:33+08:00"
     },
     {
       "code": "26844",
@@ -50449,7 +32423,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26844",
-      "verifiedAt": "2026-07-01T03:26:19+08:00"
+      "verifiedAt": "2026-07-02T03:23:35+08:00"
     },
     {
       "code": "26845",
@@ -50503,7 +32477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26845",
-      "verifiedAt": "2026-07-01T03:26:20+08:00"
+      "verifiedAt": "2026-07-02T03:23:36+08:00"
     },
     {
       "code": "26846",
@@ -50557,7 +32531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26846",
-      "verifiedAt": "2026-07-01T03:26:22+08:00"
+      "verifiedAt": "2026-07-02T03:23:37+08:00"
     },
     {
       "code": "26847",
@@ -50591,7 +32565,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26847",
-      "verifiedAt": "2026-07-01T03:26:23+08:00"
+      "verifiedAt": "2026-07-02T03:23:38+08:00"
     },
     {
       "code": "26848",
@@ -50625,7 +32599,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26848",
-      "verifiedAt": "2026-07-01T03:26:25+08:00"
+      "verifiedAt": "2026-07-02T03:23:39+08:00"
     },
     {
       "code": "26849",
@@ -50659,7 +32633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26849",
-      "verifiedAt": "2026-07-01T03:26:26+08:00"
+      "verifiedAt": "2026-07-02T03:23:40+08:00"
     },
     {
       "code": "26850",
@@ -50713,7 +32687,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26850",
-      "verifiedAt": "2026-07-01T03:26:27+08:00"
+      "verifiedAt": "2026-07-02T03:23:41+08:00"
     },
     {
       "code": "26851",
@@ -50767,7 +32741,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26851",
-      "verifiedAt": "2026-07-01T03:26:29+08:00"
+      "verifiedAt": "2026-07-02T03:23:43+08:00"
     },
     {
       "code": "26852",
@@ -50825,7 +32799,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26852",
-      "verifiedAt": "2026-07-01T03:26:30+08:00"
+      "verifiedAt": "2026-07-02T03:23:44+08:00"
     },
     {
       "code": "26853",
@@ -50879,7 +32853,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26853",
-      "verifiedAt": "2026-07-01T03:26:32+08:00"
+      "verifiedAt": "2026-07-02T03:23:45+08:00"
     },
     {
       "code": "26854",
@@ -50923,7 +32897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26854",
-      "verifiedAt": "2026-07-01T03:26:33+08:00"
+      "verifiedAt": "2026-07-02T03:23:46+08:00"
     },
     {
       "code": "26855",
@@ -50997,7 +32971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26855",
-      "verifiedAt": "2026-07-01T03:26:34+08:00"
+      "verifiedAt": "2026-07-02T03:23:47+08:00"
     },
     {
       "code": "26856",
@@ -51081,7 +33055,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26856",
-      "verifiedAt": "2026-07-01T03:26:35+08:00"
+      "verifiedAt": "2026-07-02T03:23:48+08:00"
     },
     {
       "code": "26857",
@@ -51135,7 +33109,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26857",
-      "verifiedAt": "2026-07-01T03:26:37+08:00"
+      "verifiedAt": "2026-07-02T03:23:49+08:00"
     },
     {
       "code": "26858",
@@ -51189,7 +33163,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26858",
-      "verifiedAt": "2026-07-01T03:26:38+08:00"
+      "verifiedAt": "2026-07-02T03:23:51+08:00"
     },
     {
       "code": "26859",
@@ -51243,7 +33217,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26859",
-      "verifiedAt": "2026-07-01T03:26:39+08:00"
+      "verifiedAt": "2026-07-02T03:23:52+08:00"
     },
     {
       "code": "26860",
@@ -51291,7 +33265,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26860",
-      "verifiedAt": "2026-07-01T03:26:41+08:00"
+      "verifiedAt": "2026-07-02T03:23:53+08:00"
     },
     {
       "code": "26861",
@@ -51355,7 +33329,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26861",
-      "verifiedAt": "2026-07-01T03:26:42+08:00"
+      "verifiedAt": "2026-07-02T03:23:54+08:00"
     },
     {
       "code": "26862",
@@ -51389,7 +33363,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26862",
-      "verifiedAt": "2026-07-01T03:26:43+08:00"
+      "verifiedAt": "2026-07-02T03:23:55+08:00"
     },
     {
       "code": "26863",
@@ -51473,7 +33447,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26863",
-      "verifiedAt": "2026-07-01T03:26:45+08:00"
+      "verifiedAt": "2026-07-02T03:23:56+08:00"
     },
     {
       "code": "26864",
@@ -51555,7 +33529,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26864",
-      "verifiedAt": "2026-07-01T03:26:46+08:00"
+      "verifiedAt": "2026-07-02T03:23:58+08:00"
     },
     {
       "code": "26865",
@@ -51619,7 +33593,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26865",
-      "verifiedAt": "2026-07-01T03:26:48+08:00"
+      "verifiedAt": "2026-07-02T03:23:59+08:00"
     },
     {
       "code": "26866",
@@ -51673,7 +33647,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26866",
-      "verifiedAt": "2026-07-01T03:26:49+08:00"
+      "verifiedAt": "2026-07-02T03:24:00+08:00"
     },
     {
       "code": "26867",
@@ -51717,7 +33691,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26867",
-      "verifiedAt": "2026-07-01T03:26:50+08:00"
+      "verifiedAt": "2026-07-02T03:24:01+08:00"
     },
     {
       "code": "26868",
@@ -51761,7 +33735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26868",
-      "verifiedAt": "2026-07-01T03:26:52+08:00"
+      "verifiedAt": "2026-07-02T03:24:02+08:00"
     },
     {
       "code": "26869",
@@ -51825,7 +33799,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26869",
-      "verifiedAt": "2026-07-01T03:26:53+08:00"
+      "verifiedAt": "2026-07-02T03:24:03+08:00"
     },
     {
       "code": "26870",
@@ -51879,7 +33853,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26870",
-      "verifiedAt": "2026-07-01T03:26:54+08:00"
+      "verifiedAt": "2026-07-02T03:24:05+08:00"
     },
     {
       "code": "26871",
@@ -51923,7 +33897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26871",
-      "verifiedAt": "2026-07-01T03:26:56+08:00"
+      "verifiedAt": "2026-07-02T03:24:06+08:00"
     },
     {
       "code": "26872",
@@ -51977,7 +33951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26872",
-      "verifiedAt": "2026-07-01T03:26:57+08:00"
+      "verifiedAt": "2026-07-02T03:24:07+08:00"
     },
     {
       "code": "26873",
@@ -52031,7 +34005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26873",
-      "verifiedAt": "2026-07-01T03:26:58+08:00"
+      "verifiedAt": "2026-07-02T03:24:08+08:00"
     },
     {
       "code": "26874",
@@ -52075,7 +34049,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26874",
-      "verifiedAt": "2026-07-01T03:27:00+08:00"
+      "verifiedAt": "2026-07-02T03:24:09+08:00"
     },
     {
       "code": "26875",
@@ -52119,7 +34093,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26875",
-      "verifiedAt": "2026-07-01T03:27:01+08:00"
+      "verifiedAt": "2026-07-02T03:24:10+08:00"
     },
     {
       "code": "26876",
@@ -52183,7 +34157,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26876",
-      "verifiedAt": "2026-07-01T03:27:02+08:00"
+      "verifiedAt": "2026-07-02T03:24:11+08:00"
     },
     {
       "code": "26877",
@@ -52247,7 +34221,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26877",
-      "verifiedAt": "2026-07-01T03:27:03+08:00"
+      "verifiedAt": "2026-07-02T03:24:13+08:00"
     },
     {
       "code": "26878",
@@ -52311,7 +34285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26878",
-      "verifiedAt": "2026-07-01T03:27:05+08:00"
+      "verifiedAt": "2026-07-02T03:24:14+08:00"
     },
     {
       "code": "26879",
@@ -52375,7 +34349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26879",
-      "verifiedAt": "2026-07-01T03:27:06+08:00"
+      "verifiedAt": "2026-07-02T03:24:15+08:00"
     },
     {
       "code": "26880",
@@ -52449,7 +34423,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26880",
-      "verifiedAt": "2026-07-01T03:27:07+08:00"
+      "verifiedAt": "2026-07-02T03:24:16+08:00"
     },
     {
       "code": "26881",
@@ -52493,7 +34467,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26881",
-      "verifiedAt": "2026-07-01T03:27:09+08:00"
+      "verifiedAt": "2026-07-02T03:24:17+08:00"
     },
     {
       "code": "26882",
@@ -52547,7 +34521,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26882",
-      "verifiedAt": "2026-07-01T03:27:10+08:00"
+      "verifiedAt": "2026-07-02T03:24:18+08:00"
     },
     {
       "code": "26883",
@@ -52601,7 +34575,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26883",
-      "verifiedAt": "2026-07-01T03:27:12+08:00"
+      "verifiedAt": "2026-07-02T03:24:19+08:00"
     },
     {
       "code": "26884",
@@ -52655,7 +34629,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26884",
-      "verifiedAt": "2026-07-01T03:27:13+08:00"
+      "verifiedAt": "2026-07-02T03:24:21+08:00"
     },
     {
       "code": "26885",
@@ -52709,7 +34683,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26885",
-      "verifiedAt": "2026-07-01T03:27:14+08:00"
+      "verifiedAt": "2026-07-02T03:24:22+08:00"
     },
     {
       "code": "26886",
@@ -52773,7 +34747,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26886",
-      "verifiedAt": "2026-07-01T03:27:15+08:00"
+      "verifiedAt": "2026-07-02T03:24:23+08:00"
     },
     {
       "code": "26887",
@@ -52817,7 +34791,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26887",
-      "verifiedAt": "2026-07-01T03:27:17+08:00"
+      "verifiedAt": "2026-07-02T03:24:24+08:00"
     },
     {
       "code": "26888",
@@ -52851,7 +34825,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26888",
-      "verifiedAt": "2026-07-01T03:27:18+08:00"
+      "verifiedAt": "2026-07-02T03:24:25+08:00"
     },
     {
       "code": "26889",
@@ -52895,7 +34869,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26889",
-      "verifiedAt": "2026-07-01T03:27:19+08:00"
+      "verifiedAt": "2026-07-02T03:24:26+08:00"
     },
     {
       "code": "26890",
@@ -52953,7 +34927,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26890",
-      "verifiedAt": "2026-07-01T03:27:21+08:00"
+      "verifiedAt": "2026-07-02T03:24:28+08:00"
     },
     {
       "code": "26891",
@@ -53027,7 +35001,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26891",
-      "verifiedAt": "2026-07-01T03:27:22+08:00"
+      "verifiedAt": "2026-07-02T03:24:29+08:00"
     },
     {
       "code": "26892",
@@ -53111,7 +35085,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26892",
-      "verifiedAt": "2026-07-01T03:27:23+08:00"
+      "verifiedAt": "2026-07-02T03:24:30+08:00"
     },
     {
       "code": "26893",
@@ -53185,7 +35159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26893",
-      "verifiedAt": "2026-07-01T03:27:25+08:00"
+      "verifiedAt": "2026-07-02T03:24:31+08:00"
     },
     {
       "code": "26894",
@@ -53229,7 +35203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26894",
-      "verifiedAt": "2026-07-01T03:27:27+08:00"
+      "verifiedAt": "2026-07-02T03:24:32+08:00"
     },
     {
       "code": "26895",
@@ -53307,7 +35281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26895",
-      "verifiedAt": "2026-07-01T03:27:30+08:00"
+      "verifiedAt": "2026-07-02T03:24:33+08:00"
     },
     {
       "code": "26896",
@@ -53375,7 +35349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26896",
-      "verifiedAt": "2026-07-01T03:27:32+08:00"
+      "verifiedAt": "2026-07-02T03:24:34+08:00"
     },
     {
       "code": "26897",
@@ -53429,7 +35403,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26897",
-      "verifiedAt": "2026-07-01T03:27:34+08:00"
+      "verifiedAt": "2026-07-02T03:24:36+08:00"
     },
     {
       "code": "26898",
@@ -53483,7 +35457,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26898",
-      "verifiedAt": "2026-07-01T03:27:35+08:00"
+      "verifiedAt": "2026-07-02T03:24:37+08:00"
     },
     {
       "code": "26899",
@@ -53577,7 +35551,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26899",
-      "verifiedAt": "2026-07-01T03:27:36+08:00"
+      "verifiedAt": "2026-07-02T03:24:38+08:00"
     },
     {
       "code": "26900",
@@ -53645,7 +35619,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26900",
-      "verifiedAt": "2026-07-01T03:27:38+08:00"
+      "verifiedAt": "2026-07-02T03:24:39+08:00"
     },
     {
       "code": "26901",
@@ -53699,7 +35673,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26901",
-      "verifiedAt": "2026-07-01T03:27:40+08:00"
+      "verifiedAt": "2026-07-02T03:24:40+08:00"
     },
     {
       "code": "26902",
@@ -53753,7 +35727,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26902",
-      "verifiedAt": "2026-07-01T03:27:41+08:00"
+      "verifiedAt": "2026-07-02T03:24:41+08:00"
     },
     {
       "code": "26903",
@@ -53807,7 +35781,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26903",
-      "verifiedAt": "2026-07-01T03:27:42+08:00"
+      "verifiedAt": "2026-07-02T03:24:43+08:00"
     },
     {
       "code": "26904",
@@ -53861,7 +35835,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26904",
-      "verifiedAt": "2026-07-01T03:27:44+08:00"
+      "verifiedAt": "2026-07-02T03:24:44+08:00"
     },
     {
       "code": "26905",
@@ -53915,7 +35889,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26905",
-      "verifiedAt": "2026-07-01T03:27:45+08:00"
+      "verifiedAt": "2026-07-02T03:24:45+08:00"
     },
     {
       "code": "26906",
@@ -53949,7 +35923,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26906",
-      "verifiedAt": "2026-07-01T03:27:47+08:00"
+      "verifiedAt": "2026-07-02T03:24:46+08:00"
     },
     {
       "code": "26907",
@@ -53997,7 +35971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26907",
-      "verifiedAt": "2026-07-01T03:27:48+08:00"
+      "verifiedAt": "2026-07-02T03:24:47+08:00"
     },
     {
       "code": "26908",
@@ -54031,7 +36005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26908",
-      "verifiedAt": "2026-07-01T03:27:49+08:00"
+      "verifiedAt": "2026-07-02T03:24:48+08:00"
     },
     {
       "code": "26909",
@@ -54085,7 +36059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26909",
-      "verifiedAt": "2026-07-01T03:27:51+08:00"
+      "verifiedAt": "2026-07-02T03:24:49+08:00"
     },
     {
       "code": "26910",
@@ -54119,7 +36093,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26910",
-      "verifiedAt": "2026-07-01T03:27:53+08:00"
+      "verifiedAt": "2026-07-02T03:24:51+08:00"
     },
     {
       "code": "26911",
@@ -54153,7 +36127,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26911",
-      "verifiedAt": "2026-07-01T03:27:54+08:00"
+      "verifiedAt": "2026-07-02T03:24:52+08:00"
     },
     {
       "code": "26912",
@@ -54217,7 +36191,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26912",
-      "verifiedAt": "2026-07-01T03:27:55+08:00"
+      "verifiedAt": "2026-07-02T03:24:53+08:00"
     },
     {
       "code": "26913",
@@ -54271,7 +36245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26913",
-      "verifiedAt": "2026-07-01T03:27:57+08:00"
+      "verifiedAt": "2026-07-02T03:24:54+08:00"
     },
     {
       "code": "26914",
@@ -54315,7 +36289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26914",
-      "verifiedAt": "2026-07-01T03:27:58+08:00"
+      "verifiedAt": "2026-07-02T03:24:55+08:00"
     },
     {
       "code": "26918",
@@ -54373,7 +36347,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26918",
-      "verifiedAt": "2026-07-01T03:27:59+08:00"
+      "verifiedAt": "2026-07-02T03:24:56+08:00"
     },
     {
       "code": "26919",
@@ -54441,7 +36415,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26919",
-      "verifiedAt": "2026-07-01T03:28:00+08:00"
+      "verifiedAt": "2026-07-02T03:24:58+08:00"
     },
     {
       "code": "26920",
@@ -54519,7 +36493,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26920",
-      "verifiedAt": "2026-07-01T03:28:02+08:00"
+      "verifiedAt": "2026-07-02T03:24:59+08:00"
     },
     {
       "code": "26921",
@@ -54627,7 +36601,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26921",
-      "verifiedAt": "2026-07-01T03:28:03+08:00"
+      "verifiedAt": "2026-07-02T03:25:00+08:00"
     },
     {
       "code": "26922",
@@ -54685,7 +36659,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26922",
-      "verifiedAt": "2026-07-01T03:28:05+08:00"
+      "verifiedAt": "2026-07-02T03:25:01+08:00"
     },
     {
       "code": "26923",
@@ -54729,7 +36703,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26923",
-      "verifiedAt": "2026-07-01T03:28:07+08:00"
+      "verifiedAt": "2026-07-02T03:25:02+08:00"
     },
     {
       "code": "26924",
@@ -54793,7 +36767,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26924",
-      "verifiedAt": "2026-07-01T03:28:08+08:00"
+      "verifiedAt": "2026-07-02T03:25:03+08:00"
     },
     {
       "code": "26925",
@@ -54871,7 +36845,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26925",
-      "verifiedAt": "2026-07-01T03:28:09+08:00"
+      "verifiedAt": "2026-07-02T03:25:04+08:00"
     },
     {
       "code": "26926",
@@ -54935,7 +36909,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26926",
-      "verifiedAt": "2026-07-01T03:28:10+08:00"
+      "verifiedAt": "2026-07-02T03:25:06+08:00"
     },
     {
       "code": "26927",
@@ -54989,7 +36963,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26927",
-      "verifiedAt": "2026-07-01T03:28:12+08:00"
+      "verifiedAt": "2026-07-02T03:25:07+08:00"
     },
     {
       "code": "26928",
@@ -55063,7 +37037,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26928",
-      "verifiedAt": "2026-07-01T03:28:13+08:00"
+      "verifiedAt": "2026-07-02T03:25:08+08:00"
     },
     {
       "code": "26930",
@@ -55107,7 +37081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26930",
-      "verifiedAt": "2026-07-01T03:28:14+08:00"
+      "verifiedAt": "2026-07-02T03:25:09+08:00"
     },
     {
       "code": "26933",
@@ -55161,7 +37135,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26933",
-      "verifiedAt": "2026-07-01T03:28:16+08:00"
+      "verifiedAt": "2026-07-02T03:25:11+08:00"
     },
     {
       "code": "26934",
@@ -55215,7 +37189,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26934",
-      "verifiedAt": "2026-07-01T03:28:17+08:00"
+      "verifiedAt": "2026-07-02T03:25:12+08:00"
     },
     {
       "code": "26935",
@@ -55269,113 +37243,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26935",
-      "verifiedAt": "2026-07-01T03:28:18+08:00"
-    },
-    {
-      "code": "26936",
-      "title": "568元 26936 67折",
-      "description": "炸雞x5 + 紙包雞x1 + 雞汁風味飯x1 + 蝦塊x1 + 鱈魚圈x1 + 地瓜球x1 + 大薯x1 + 小飲x2",
-      "price": 568,
-      "rawItems": [
-        {
-          "name": "炸雞",
-          "quantity": 5
-        },
-        {
-          "name": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "name": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "name": "蝦塊",
-          "quantity": 1
-        },
-        {
-          "name": "鱈魚圈",
-          "quantity": 1
-        },
-        {
-          "name": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "name": "大薯",
-          "quantity": 1
-        },
-        {
-          "name": "小飲",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "fried_chicken_piece": 5,
-        "paper_chicken": 1,
-        "rice": 1,
-        "chicken_nuggets": 1,
-        "cod_ring": 1,
-        "sweet_potato_ball": 1,
-        "large_fries": 1,
-        "small_drink": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "fried_chicken_piece",
-          "label": "炸雞",
-          "quantity": 5
-        },
-        {
-          "productKey": "paper_chicken",
-          "label": "紙包雞",
-          "quantity": 1
-        },
-        {
-          "productKey": "rice",
-          "label": "雞汁風味飯",
-          "quantity": 1
-        },
-        {
-          "productKey": "chicken_nuggets",
-          "label": "雞塊",
-          "quantity": 1
-        },
-        {
-          "productKey": "cod_ring",
-          "label": "鱈魚圈圈",
-          "quantity": 1
-        },
-        {
-          "productKey": "sweet_potato_ball",
-          "label": "地瓜球",
-          "quantity": 1
-        },
-        {
-          "productKey": "large_fries",
-          "label": "大薯",
-          "quantity": 1
-        },
-        {
-          "productKey": "small_drink",
-          "label": "小飲",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/26936",
-      "verifiedAt": "2026-07-01T03:28:19+08:00"
+      "verifiedAt": "2026-07-02T03:25:13+08:00"
     },
     {
       "code": "26937",
@@ -55483,7 +37351,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26937",
-      "verifiedAt": "2026-07-01T03:28:21+08:00"
+      "verifiedAt": "2026-07-02T03:25:14+08:00"
     },
     {
       "code": "26938",
@@ -55537,7 +37405,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26938",
-      "verifiedAt": "2026-07-01T03:28:23+08:00"
+      "verifiedAt": "2026-07-02T03:25:16+08:00"
     },
     {
       "code": "26939",
@@ -55591,7 +37459,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26939",
-      "verifiedAt": "2026-07-01T03:28:24+08:00"
+      "verifiedAt": "2026-07-02T03:25:17+08:00"
     },
     {
       "code": "26940",
@@ -55649,7 +37517,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26940",
-      "verifiedAt": "2026-07-01T03:28:25+08:00"
+      "verifiedAt": "2026-07-02T03:25:18+08:00"
     },
     {
       "code": "26941",
@@ -55743,7 +37611,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26941",
-      "verifiedAt": "2026-07-01T03:28:27+08:00"
+      "verifiedAt": "2026-07-02T03:25:19+08:00"
     },
     {
       "code": "26942",
@@ -55817,7 +37685,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26942",
-      "verifiedAt": "2026-07-01T03:28:28+08:00"
+      "verifiedAt": "2026-07-02T03:25:20+08:00"
     },
     {
       "code": "26943",
@@ -55881,7 +37749,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26943",
-      "verifiedAt": "2026-07-01T03:28:29+08:00"
+      "verifiedAt": "2026-07-02T03:25:21+08:00"
     },
     {
       "code": "26944",
@@ -55975,7 +37843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26944",
-      "verifiedAt": "2026-07-01T03:28:30+08:00"
+      "verifiedAt": "2026-07-02T03:25:22+08:00"
     },
     {
       "code": "26945",
@@ -56029,7 +37897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26945",
-      "verifiedAt": "2026-07-01T03:28:32+08:00"
+      "verifiedAt": "2026-07-02T03:25:24+08:00"
     },
     {
       "code": "26946",
@@ -56083,7 +37951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26946",
-      "verifiedAt": "2026-07-01T03:28:33+08:00"
+      "verifiedAt": "2026-07-02T03:25:25+08:00"
     },
     {
       "code": "26947",
@@ -56137,7 +38005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26947",
-      "verifiedAt": "2026-07-01T03:28:34+08:00"
+      "verifiedAt": "2026-07-02T03:25:26+08:00"
     },
     {
       "code": "26948",
@@ -56211,7 +38079,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26948",
-      "verifiedAt": "2026-07-01T03:28:35+08:00"
+      "verifiedAt": "2026-07-02T03:25:27+08:00"
     },
     {
       "code": "26949",
@@ -56255,7 +38123,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26949",
-      "verifiedAt": "2026-07-01T03:28:37+08:00"
+      "verifiedAt": "2026-07-02T03:25:28+08:00"
     },
     {
       "code": "26950",
@@ -56333,7 +38201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26950",
-      "verifiedAt": "2026-07-01T03:28:39+08:00"
+      "verifiedAt": "2026-07-02T03:25:30+08:00"
     },
     {
       "code": "26951",
@@ -56427,7 +38295,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26951",
-      "verifiedAt": "2026-07-01T03:28:40+08:00"
+      "verifiedAt": "2026-07-02T03:25:31+08:00"
     },
     {
       "code": "26952",
@@ -56471,7 +38339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26952",
-      "verifiedAt": "2026-07-01T03:28:41+08:00"
+      "verifiedAt": "2026-07-02T03:25:34+08:00"
     },
     {
       "code": "26953",
@@ -56515,7 +38383,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26953",
-      "verifiedAt": "2026-07-01T03:28:42+08:00"
+      "verifiedAt": "2026-07-02T03:25:36+08:00"
     },
     {
       "code": "26954",
@@ -56569,7 +38437,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26954",
-      "verifiedAt": "2026-07-01T03:28:44+08:00"
+      "verifiedAt": "2026-07-02T03:25:37+08:00"
     },
     {
       "code": "26955",
@@ -56657,7 +38525,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26955",
-      "verifiedAt": "2026-07-01T03:28:45+08:00"
+      "verifiedAt": "2026-07-02T03:25:39+08:00"
     },
     {
       "code": "26956",
@@ -56711,7 +38579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26956",
-      "verifiedAt": "2026-07-01T03:28:46+08:00"
+      "verifiedAt": "2026-07-02T03:25:40+08:00"
     },
     {
       "code": "26957",
@@ -56765,7 +38633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26957",
-      "verifiedAt": "2026-07-01T03:28:48+08:00"
+      "verifiedAt": "2026-07-02T03:25:42+08:00"
     },
     {
       "code": "26958",
@@ -56819,7 +38687,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26958",
-      "verifiedAt": "2026-07-01T03:28:49+08:00"
+      "verifiedAt": "2026-07-02T03:25:43+08:00"
     },
     {
       "code": "26959",
@@ -56887,7 +38755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26959",
-      "verifiedAt": "2026-07-01T03:28:51+08:00"
+      "verifiedAt": "2026-07-02T03:25:44+08:00"
     },
     {
       "code": "26960",
@@ -56941,7 +38809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26960",
-      "verifiedAt": "2026-07-01T03:28:52+08:00"
+      "verifiedAt": "2026-07-02T03:25:45+08:00"
     },
     {
       "code": "26961",
@@ -57029,7 +38897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26961",
-      "verifiedAt": "2026-07-01T03:28:53+08:00"
+      "verifiedAt": "2026-07-02T03:25:46+08:00"
     },
     {
       "code": "26962",
@@ -57073,7 +38941,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26962",
-      "verifiedAt": "2026-07-01T03:28:54+08:00"
+      "verifiedAt": "2026-07-02T03:25:47+08:00"
     },
     {
       "code": "26963",
@@ -57137,7 +39005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26963",
-      "verifiedAt": "2026-07-01T03:28:56+08:00"
+      "verifiedAt": "2026-07-02T03:25:48+08:00"
     },
     {
       "code": "26964",
@@ -57201,7 +39069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26964",
-      "verifiedAt": "2026-07-01T03:28:57+08:00"
+      "verifiedAt": "2026-07-02T03:25:50+08:00"
     },
     {
       "code": "26965",
@@ -57259,7 +39127,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26965",
-      "verifiedAt": "2026-07-01T03:28:58+08:00"
+      "verifiedAt": "2026-07-02T03:25:51+08:00"
     },
     {
       "code": "26966",
@@ -57347,7 +39215,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26966",
-      "verifiedAt": "2026-07-01T03:28:59+08:00"
+      "verifiedAt": "2026-07-02T03:25:52+08:00"
     },
     {
       "code": "26967",
@@ -57391,7 +39259,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26967",
-      "verifiedAt": "2026-07-01T03:29:01+08:00"
+      "verifiedAt": "2026-07-02T03:25:53+08:00"
     },
     {
       "code": "26968",
@@ -57435,7 +39303,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26968",
-      "verifiedAt": "2026-07-01T03:29:02+08:00"
+      "verifiedAt": "2026-07-02T03:25:54+08:00"
     },
     {
       "code": "26969",
@@ -57509,7 +39377,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26969",
-      "verifiedAt": "2026-07-01T03:29:04+08:00"
+      "verifiedAt": "2026-07-02T03:25:55+08:00"
     },
     {
       "code": "26970",
@@ -57563,7 +39431,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26970",
-      "verifiedAt": "2026-07-01T03:29:05+08:00"
+      "verifiedAt": "2026-07-02T03:25:56+08:00"
     },
     {
       "code": "26971",
@@ -57627,7 +39495,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26971",
-      "verifiedAt": "2026-07-01T03:29:06+08:00"
+      "verifiedAt": "2026-07-02T03:25:58+08:00"
     },
     {
       "code": "26972",
@@ -57681,7 +39549,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26972",
-      "verifiedAt": "2026-07-01T03:29:08+08:00"
+      "verifiedAt": "2026-07-02T03:25:59+08:00"
     },
     {
       "code": "26973",
@@ -57735,7 +39603,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26973",
-      "verifiedAt": "2026-07-01T03:29:09+08:00"
+      "verifiedAt": "2026-07-02T03:26:00+08:00"
     },
     {
       "code": "26974",
@@ -57799,7 +39667,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26974",
-      "verifiedAt": "2026-07-01T03:29:11+08:00"
+      "verifiedAt": "2026-07-02T03:26:01+08:00"
     },
     {
       "code": "26975",
@@ -57843,7 +39711,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26975",
-      "verifiedAt": "2026-07-01T03:29:12+08:00"
+      "verifiedAt": "2026-07-02T03:26:02+08:00"
     },
     {
       "code": "26976",
@@ -57897,7 +39765,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26976",
-      "verifiedAt": "2026-07-01T03:29:13+08:00"
+      "verifiedAt": "2026-07-02T03:26:04+08:00"
     },
     {
       "code": "26977",
@@ -57975,7 +39843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26977",
-      "verifiedAt": "2026-07-01T03:29:14+08:00"
+      "verifiedAt": "2026-07-02T03:26:05+08:00"
     },
     {
       "code": "26978",
@@ -58039,7 +39907,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26978",
-      "verifiedAt": "2026-07-01T03:29:16+08:00"
+      "verifiedAt": "2026-07-02T03:26:06+08:00"
     },
     {
       "code": "26979",
@@ -58103,7 +39971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26979",
-      "verifiedAt": "2026-07-01T03:29:17+08:00"
+      "verifiedAt": "2026-07-02T03:26:07+08:00"
     },
     {
       "code": "26980",
@@ -58147,7 +40015,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26980",
-      "verifiedAt": "2026-07-01T03:29:18+08:00"
+      "verifiedAt": "2026-07-02T03:26:08+08:00"
     },
     {
       "code": "26982",
@@ -58201,7 +40069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26982",
-      "verifiedAt": "2026-07-01T03:29:20+08:00"
+      "verifiedAt": "2026-07-02T03:26:10+08:00"
     },
     {
       "code": "26983",
@@ -58245,7 +40113,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26983",
-      "verifiedAt": "2026-07-01T03:29:21+08:00"
+      "verifiedAt": "2026-07-02T03:26:11+08:00"
     },
     {
       "code": "26984",
@@ -58303,7 +40171,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26984",
-      "verifiedAt": "2026-07-01T03:29:22+08:00"
+      "verifiedAt": "2026-07-02T03:26:12+08:00"
     },
     {
       "code": "26985",
@@ -58357,7 +40225,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26985",
-      "verifiedAt": "2026-07-01T03:29:23+08:00"
+      "verifiedAt": "2026-07-02T03:26:13+08:00"
     },
     {
       "code": "26986",
@@ -58421,7 +40289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26986",
-      "verifiedAt": "2026-07-01T03:29:25+08:00"
+      "verifiedAt": "2026-07-02T03:26:14+08:00"
     },
     {
       "code": "26987",
@@ -58485,7 +40353,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26987",
-      "verifiedAt": "2026-07-01T03:29:26+08:00"
+      "verifiedAt": "2026-07-02T03:26:15+08:00"
     },
     {
       "code": "26988",
@@ -58539,7 +40407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26988",
-      "verifiedAt": "2026-07-01T03:29:28+08:00"
+      "verifiedAt": "2026-07-02T03:26:17+08:00"
     },
     {
       "code": "26989",
@@ -58593,7 +40461,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26989",
-      "verifiedAt": "2026-07-01T03:29:29+08:00"
+      "verifiedAt": "2026-07-02T03:26:18+08:00"
     },
     {
       "code": "26990",
@@ -58657,7 +40525,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26990",
-      "verifiedAt": "2026-07-01T03:29:30+08:00"
+      "verifiedAt": "2026-07-02T03:26:19+08:00"
     },
     {
       "code": "26991",
@@ -58721,7 +40589,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26991",
-      "verifiedAt": "2026-07-01T03:29:32+08:00"
+      "verifiedAt": "2026-07-02T03:26:20+08:00"
     },
     {
       "code": "26992",
@@ -58805,7 +40673,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26992",
-      "verifiedAt": "2026-07-01T03:29:33+08:00"
+      "verifiedAt": "2026-07-02T03:26:21+08:00"
     },
     {
       "code": "26993",
@@ -58849,7 +40717,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26993",
-      "verifiedAt": "2026-07-01T03:29:34+08:00"
+      "verifiedAt": "2026-07-02T03:26:22+08:00"
     },
     {
       "code": "26994",
@@ -58903,7 +40771,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26994",
-      "verifiedAt": "2026-07-01T03:29:36+08:00"
+      "verifiedAt": "2026-07-02T03:26:23+08:00"
     },
     {
       "code": "26995",
@@ -58957,7 +40825,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26995",
-      "verifiedAt": "2026-07-01T03:29:38+08:00"
+      "verifiedAt": "2026-07-02T03:26:25+08:00"
     },
     {
       "code": "26996",
@@ -59011,7 +40879,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26996",
-      "verifiedAt": "2026-07-01T03:29:39+08:00"
+      "verifiedAt": "2026-07-02T03:26:26+08:00"
     },
     {
       "code": "26997",
@@ -59109,7 +40977,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26997",
-      "verifiedAt": "2026-07-01T03:29:40+08:00"
+      "verifiedAt": "2026-07-02T03:26:27+08:00"
     },
     {
       "code": "26998",
@@ -59173,7 +41041,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26998",
-      "verifiedAt": "2026-07-01T03:29:41+08:00"
+      "verifiedAt": "2026-07-02T03:26:28+08:00"
     },
     {
       "code": "26999",
@@ -59237,7 +41105,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26999",
-      "verifiedAt": "2026-07-01T03:29:43+08:00"
+      "verifiedAt": "2026-07-02T03:26:30+08:00"
     },
     {
       "code": "40431",
@@ -59283,7 +41151,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40431",
-      "verifiedAt": "2026-07-01T03:29:43+08:00"
+      "verifiedAt": "2026-07-02T03:26:30+08:00"
     },
     {
       "code": "40432",
@@ -59349,7 +41217,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40432",
-      "verifiedAt": "2026-07-01T03:29:44+08:00"
+      "verifiedAt": "2026-07-02T03:26:31+08:00"
     },
     {
       "code": "40442",
@@ -59415,7 +41283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40442",
-      "verifiedAt": "2026-07-01T03:29:45+08:00"
+      "verifiedAt": "2026-07-02T03:26:31+08:00"
     },
     {
       "code": "40443",
@@ -59481,7 +41349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40443",
-      "verifiedAt": "2026-07-01T03:29:46+08:00"
+      "verifiedAt": "2026-07-02T03:26:32+08:00"
     },
     {
       "code": "40445",
@@ -59547,7 +41415,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40445",
-      "verifiedAt": "2026-07-01T03:29:46+08:00"
+      "verifiedAt": "2026-07-02T03:26:33+08:00"
     },
     {
       "code": "40449",
@@ -59623,7 +41491,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40449",
-      "verifiedAt": "2026-07-01T03:29:47+08:00"
+      "verifiedAt": "2026-07-02T03:26:34+08:00"
     },
     {
       "code": "40451",
@@ -59669,7 +41537,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40451",
-      "verifiedAt": "2026-07-01T03:29:48+08:00"
+      "verifiedAt": "2026-07-02T03:26:34+08:00"
     },
     {
       "code": "40483",
@@ -59745,7 +41613,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40483",
-      "verifiedAt": "2026-07-01T03:29:49+08:00"
+      "verifiedAt": "2026-07-02T03:26:35+08:00"
     },
     {
       "code": "40508",
@@ -59811,7 +41679,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40508",
-      "verifiedAt": "2026-07-01T03:29:50+08:00"
+      "verifiedAt": "2026-07-02T03:26:36+08:00"
     },
     {
       "code": "40509",
@@ -59877,7 +41745,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40509",
-      "verifiedAt": "2026-07-01T03:29:51+08:00"
+      "verifiedAt": "2026-07-02T03:26:36+08:00"
     },
     {
       "code": "40553",
@@ -59933,7 +41801,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40553",
-      "verifiedAt": "2026-07-01T03:29:52+08:00"
+      "verifiedAt": "2026-07-02T03:26:37+08:00"
     },
     {
       "code": "40558",
@@ -59989,7 +41857,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40558",
-      "verifiedAt": "2026-07-01T03:29:53+08:00"
+      "verifiedAt": "2026-07-02T03:26:38+08:00"
     },
     {
       "code": "40573",
@@ -60045,7 +41913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40573",
-      "verifiedAt": "2026-07-01T03:29:54+08:00"
+      "verifiedAt": "2026-07-02T03:26:39+08:00"
     },
     {
       "code": "40574",
@@ -60111,7 +41979,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40574",
-      "verifiedAt": "2026-07-01T03:29:54+08:00"
+      "verifiedAt": "2026-07-02T03:26:39+08:00"
     },
     {
       "code": "40576",
@@ -60167,48 +42035,12 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40576",
-      "verifiedAt": "2026-07-01T03:29:55+08:00"
-    },
-    {
-      "code": "40634",
-      "title": "59元 40634 50折",
-      "description": "冰心蛋塔冰淇淋x2",
-      "price": 59,
-      "rawItems": [
-        {
-          "name": "冰心蛋塔冰淇淋",
-          "quantity": 2
-        }
-      ],
-      "items": {
-        "egg_tart_ice_cream": 2
-      },
-      "displayItems": [
-        {
-          "productKey": "egg_tart_ice_cream",
-          "label": "蛋塔風味冰淇淋",
-          "quantity": 2
-        }
-      ],
-      "unknownItems": [],
-      "startDate": null,
-      "endDate": "2026-06-30",
-      "available": true,
-      "deliveryAvailable": false,
-      "parseStatus": "missing_dates",
-      "parseIssues": [
-        "missing_dates"
-      ],
-      "sourceCandidates": [
-        "kfc.izo.tw"
-      ],
-      "sourceUrl": "https://kfc.izo.tw/coupons/40634",
-      "verifiedAt": "2026-07-01T03:29:56+08:00"
+      "verifiedAt": "2026-07-02T03:26:40+08:00"
     },
     {
       "code": "40701",
-      "title": "40701-優惠券",
-      "description": "雙色轉轉QQ球x2",
+      "title": "59元 40701 50折",
+      "description": "地瓜球x2",
       "price": 59,
       "rawItems": [
         {
@@ -60227,17 +42059,19 @@ window.KFC_COUPON_DATA = {
         }
       ],
       "unknownItems": [],
-      "startDate": "2026-04-23",
+      "startDate": null,
       "endDate": "2026-07-01",
       "available": true,
-      "deliveryAvailable": true,
-      "parseStatus": "ok",
-      "parseIssues": [],
+      "deliveryAvailable": false,
+      "parseStatus": "missing_dates",
+      "parseIssues": [
+        "missing_dates"
+      ],
       "sourceCandidates": [
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40701",
-      "verifiedAt": "2026-07-01T03:29:59+08:00"
+      "verifiedAt": "2026-07-02T03:26:41+08:00"
     },
     {
       "code": "50374",
@@ -60313,7 +42147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50374",
-      "verifiedAt": "2026-07-01T03:29:59+08:00"
+      "verifiedAt": "2026-07-02T03:26:42+08:00"
     },
     {
       "code": "50389",
@@ -60387,7 +42221,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50389",
-      "verifiedAt": "2026-07-01T03:30:01+08:00"
+      "verifiedAt": "2026-07-02T03:26:44+08:00"
     },
     {
       "code": "50467",
@@ -60451,7 +42285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50467",
-      "verifiedAt": "2026-07-01T03:30:02+08:00"
+      "verifiedAt": "2026-07-02T03:26:45+08:00"
     },
     {
       "code": "50468",
@@ -60517,7 +42351,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50468",
-      "verifiedAt": "2026-07-01T03:30:03+08:00"
+      "verifiedAt": "2026-07-02T03:26:45+08:00"
     },
     {
       "code": "50469",
@@ -60573,7 +42407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50469",
-      "verifiedAt": "2026-07-01T03:30:04+08:00"
+      "verifiedAt": "2026-07-02T03:26:46+08:00"
     },
     {
       "code": "50470",
@@ -60639,7 +42473,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50470",
-      "verifiedAt": "2026-07-01T03:30:04+08:00"
+      "verifiedAt": "2026-07-02T03:26:47+08:00"
     },
     {
       "code": "50471",
@@ -60713,7 +42547,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50471",
-      "verifiedAt": "2026-07-01T03:30:06+08:00"
+      "verifiedAt": "2026-07-02T03:26:48+08:00"
     },
     {
       "code": "50472",
@@ -60799,7 +42633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50472",
-      "verifiedAt": "2026-07-01T03:30:07+08:00"
+      "verifiedAt": "2026-07-02T03:26:48+08:00"
     },
     {
       "code": "50473",
@@ -60839,7 +42673,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50473",
-      "verifiedAt": "2026-07-01T03:30:07+08:00"
+      "verifiedAt": "2026-07-02T03:26:49+08:00"
     },
     {
       "code": "50484",
@@ -60873,7 +42707,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50484",
-      "verifiedAt": "2026-07-01T03:30:09+08:00"
+      "verifiedAt": "2026-07-02T03:26:51+08:00"
     },
     {
       "code": "50496",
@@ -60911,7 +42745,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50496",
-      "verifiedAt": "2026-07-01T03:30:11+08:00"
+      "verifiedAt": "2026-07-02T03:26:52+08:00"
     },
     {
       "code": "50508",
@@ -60985,7 +42819,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50508",
-      "verifiedAt": "2026-07-01T03:30:12+08:00"
+      "verifiedAt": "2026-07-02T03:26:53+08:00"
     },
     {
       "code": "50509",
@@ -61059,7 +42893,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50509",
-      "verifiedAt": "2026-07-01T03:30:13+08:00"
+      "verifiedAt": "2026-07-02T03:26:54+08:00"
     },
     {
       "code": "50510",
@@ -61133,7 +42967,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50510",
-      "verifiedAt": "2026-07-01T03:30:14+08:00"
+      "verifiedAt": "2026-07-02T03:26:56+08:00"
     },
     {
       "code": "50511",
@@ -61187,7 +43021,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50511",
-      "verifiedAt": "2026-07-01T03:30:16+08:00"
+      "verifiedAt": "2026-07-02T03:26:58+08:00"
     },
     {
       "code": "50512",
@@ -61241,7 +43075,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50512",
-      "verifiedAt": "2026-07-01T03:30:18+08:00"
+      "verifiedAt": "2026-07-02T03:26:59+08:00"
     },
     {
       "code": "50513",
@@ -61295,7 +43129,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50513",
-      "verifiedAt": "2026-07-01T03:30:19+08:00"
+      "verifiedAt": "2026-07-02T03:27:00+08:00"
     },
     {
       "code": "50514",
@@ -61359,7 +43193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50514",
-      "verifiedAt": "2026-07-01T03:30:20+08:00"
+      "verifiedAt": "2026-07-02T03:27:01+08:00"
     },
     {
       "code": "50515",
@@ -61433,7 +43267,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50515",
-      "verifiedAt": "2026-07-01T03:30:22+08:00"
+      "verifiedAt": "2026-07-02T03:27:03+08:00"
     },
     {
       "code": "50516",
@@ -61487,7 +43321,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50516",
-      "verifiedAt": "2026-07-01T03:30:23+08:00"
+      "verifiedAt": "2026-07-02T03:27:04+08:00"
     },
     {
       "code": "50528",
@@ -61543,7 +43377,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50528",
-      "verifiedAt": "2026-07-01T03:30:23+08:00"
+      "verifiedAt": "2026-07-02T03:27:04+08:00"
     },
     {
       "code": "50529",
@@ -61589,32 +43423,96 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50529",
-      "verifiedAt": "2026-07-01T03:30:25+08:00"
+      "verifiedAt": "2026-07-02T03:27:05+08:00"
     },
     {
       "code": "50531",
-      "title": "50531-甜辣無骨澎湃桶 (是拉差醬)",
-      "description": "50531-甜辣無骨澎湃桶 (是拉差醬)",
-      "price": 0,
-      "rawItems": [],
-      "items": {},
-      "displayItems": [],
-      "unknownItems": [],
+      "title": "333元 50531 100折",
+      "description": "是拉差無骨霸6塊x1 + 蛋塔x6",
+      "price": 333,
+      "rawItems": [
+        {
+          "name": "是拉差無骨霸6塊",
+          "quantity": 1
+        },
+        {
+          "name": "蛋塔",
+          "quantity": 6
+        }
+      ],
+      "items": {
+        "egg_tart": 6
+      },
+      "displayItems": [
+        {
+          "productKey": "egg_tart",
+          "label": "蛋塔",
+          "quantity": 6
+        }
+      ],
+      "unknownItems": [
+        {
+          "name": "是拉差無骨霸6塊",
+          "quantity": 1
+        }
+      ],
       "startDate": null,
-      "endDate": null,
+      "endDate": "2026-12-31",
       "available": true,
       "deliveryAvailable": false,
-      "parseStatus": "zero_price",
+      "parseStatus": "missing_dates",
       "parseIssues": [
-        "zero_price",
-        "missing_items",
         "missing_dates"
       ],
       "sourceCandidates": [
         "kfc.izo.tw"
       ],
-      "sourceUrl": null,
-      "verifiedAt": "2026-07-01T03:30:26+08:00"
+      "sourceUrl": "https://kfc.izo.tw/coupons/50531",
+      "verifiedAt": "2026-07-02T03:27:07+08:00"
+    },
+    {
+      "code": "50535",
+      "title": "50535 - 經典霸氣桶",
+      "description": "咔啦脆雞(辣)x8 + 青花椒香麻沾醬(小)x1",
+      "price": 345,
+      "rawItems": [
+        {
+          "name": "咔啦脆雞(辣)",
+          "quantity": 8
+        },
+        {
+          "name": "青花椒香麻沾醬(小)",
+          "quantity": 1
+        }
+      ],
+      "items": {
+        "fried_chicken_piece": 8,
+        "sauce": 1
+      },
+      "displayItems": [
+        {
+          "productKey": "fried_chicken_piece",
+          "label": "炸雞",
+          "quantity": 8
+        },
+        {
+          "productKey": "sauce",
+          "label": "醬料",
+          "quantity": 1
+        }
+      ],
+      "unknownItems": [],
+      "startDate": "2026-06-24",
+      "endDate": "2026-07-06",
+      "available": true,
+      "deliveryAvailable": true,
+      "parseStatus": "ok",
+      "parseIssues": [],
+      "sourceCandidates": [
+        "kfc.izo.tw"
+      ],
+      "sourceUrl": "https://kfc.izo.tw/coupons/50535",
+      "verifiedAt": "2026-07-02T03:27:09+08:00"
     }
   ]
 };
