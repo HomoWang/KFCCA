@@ -1,5 +1,5 @@
 window.KFC_COUPON_DATA = {
-  "lastUpdated": "2026-07-03T03:06:10+08:00",
+  "lastUpdated": "2026-07-04T02:54:50+08:00",
   "source": {
     "candidateSources": [
       "kfc.izo.tw"
@@ -93,7 +93,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15730",
-      "verifiedAt": "2026-07-03T02:49:09+08:00"
+      "verifiedAt": "2026-07-04T02:39:57+08:00"
     },
     {
       "code": "15731",
@@ -147,7 +147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15731",
-      "verifiedAt": "2026-07-03T02:49:12+08:00"
+      "verifiedAt": "2026-07-04T02:39:59+08:00"
     },
     {
       "code": "15732",
@@ -201,7 +201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15732",
-      "verifiedAt": "2026-07-03T02:49:15+08:00"
+      "verifiedAt": "2026-07-04T02:40:01+08:00"
     },
     {
       "code": "15945",
@@ -237,7 +237,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/15945",
-      "verifiedAt": "2026-07-03T02:49:15+08:00"
+      "verifiedAt": "2026-07-04T02:40:01+08:00"
     },
     {
       "code": "16001",
@@ -281,7 +281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16001",
-      "verifiedAt": "2026-07-03T02:49:20+08:00"
+      "verifiedAt": "2026-07-04T02:40:05+08:00"
     },
     {
       "code": "16002",
@@ -339,7 +339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16002",
-      "verifiedAt": "2026-07-03T02:49:22+08:00"
+      "verifiedAt": "2026-07-04T02:40:06+08:00"
     },
     {
       "code": "16003",
@@ -397,7 +397,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16003",
-      "verifiedAt": "2026-07-03T02:49:23+08:00"
+      "verifiedAt": "2026-07-04T02:40:08+08:00"
     },
     {
       "code": "16004",
@@ -451,7 +451,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16004",
-      "verifiedAt": "2026-07-03T02:49:24+08:00"
+      "verifiedAt": "2026-07-04T02:40:10+08:00"
     },
     {
       "code": "16005",
@@ -535,7 +535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16005",
-      "verifiedAt": "2026-07-03T02:49:27+08:00"
+      "verifiedAt": "2026-07-04T02:40:12+08:00"
     },
     {
       "code": "16006",
@@ -579,7 +579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16006",
-      "verifiedAt": "2026-07-03T02:49:29+08:00"
+      "verifiedAt": "2026-07-04T02:40:13+08:00"
     },
     {
       "code": "16007",
@@ -637,7 +637,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16007",
-      "verifiedAt": "2026-07-03T02:49:30+08:00"
+      "verifiedAt": "2026-07-04T02:40:14+08:00"
     },
     {
       "code": "16008",
@@ -691,7 +691,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16008",
-      "verifiedAt": "2026-07-03T02:49:31+08:00"
+      "verifiedAt": "2026-07-04T02:40:16+08:00"
     },
     {
       "code": "16009",
@@ -755,7 +755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16009",
-      "verifiedAt": "2026-07-03T02:49:33+08:00"
+      "verifiedAt": "2026-07-04T02:40:18+08:00"
     },
     {
       "code": "16010",
@@ -819,7 +819,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16010",
-      "verifiedAt": "2026-07-03T02:49:35+08:00"
+      "verifiedAt": "2026-07-04T02:40:19+08:00"
     },
     {
       "code": "16011",
@@ -873,7 +873,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16011",
-      "verifiedAt": "2026-07-03T02:49:36+08:00"
+      "verifiedAt": "2026-07-04T02:40:21+08:00"
     },
     {
       "code": "16012",
@@ -951,7 +951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16012",
-      "verifiedAt": "2026-07-03T02:49:38+08:00"
+      "verifiedAt": "2026-07-04T02:40:23+08:00"
     },
     {
       "code": "16013",
@@ -995,7 +995,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16013",
-      "verifiedAt": "2026-07-03T02:49:39+08:00"
+      "verifiedAt": "2026-07-04T02:40:24+08:00"
     },
     {
       "code": "16014",
@@ -1059,7 +1059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16014",
-      "verifiedAt": "2026-07-03T02:49:41+08:00"
+      "verifiedAt": "2026-07-04T02:40:27+08:00"
     },
     {
       "code": "16015",
@@ -1103,7 +1103,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16015",
-      "verifiedAt": "2026-07-03T02:49:42+08:00"
+      "verifiedAt": "2026-07-04T02:40:29+08:00"
     },
     {
       "code": "16016",
@@ -1167,7 +1167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16016",
-      "verifiedAt": "2026-07-03T02:49:44+08:00"
+      "verifiedAt": "2026-07-04T02:40:30+08:00"
     },
     {
       "code": "16017",
@@ -1225,7 +1225,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16017",
-      "verifiedAt": "2026-07-03T02:49:45+08:00"
+      "verifiedAt": "2026-07-04T02:40:32+08:00"
     },
     {
       "code": "16018",
@@ -1289,7 +1289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16018",
-      "verifiedAt": "2026-07-03T02:49:47+08:00"
+      "verifiedAt": "2026-07-04T02:40:33+08:00"
     },
     {
       "code": "16019",
@@ -1343,7 +1343,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16019",
-      "verifiedAt": "2026-07-03T02:49:48+08:00"
+      "verifiedAt": "2026-07-04T02:40:35+08:00"
     },
     {
       "code": "16020",
@@ -1401,7 +1401,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16020",
-      "verifiedAt": "2026-07-03T02:49:50+08:00"
+      "verifiedAt": "2026-07-04T02:40:36+08:00"
     },
     {
       "code": "16022",
@@ -1455,7 +1455,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16022",
-      "verifiedAt": "2026-07-03T02:49:51+08:00"
+      "verifiedAt": "2026-07-04T02:40:38+08:00"
     },
     {
       "code": "16023",
@@ -1523,7 +1523,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16023",
-      "verifiedAt": "2026-07-03T02:49:52+08:00"
+      "verifiedAt": "2026-07-04T02:40:39+08:00"
     },
     {
       "code": "16024",
@@ -1591,7 +1591,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16024",
-      "verifiedAt": "2026-07-03T02:49:53+08:00"
+      "verifiedAt": "2026-07-04T02:40:40+08:00"
     },
     {
       "code": "16025",
@@ -1645,7 +1645,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16025",
-      "verifiedAt": "2026-07-03T02:49:54+08:00"
+      "verifiedAt": "2026-07-04T02:40:42+08:00"
     },
     {
       "code": "16026",
@@ -1699,7 +1699,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16026",
-      "verifiedAt": "2026-07-03T02:49:56+08:00"
+      "verifiedAt": "2026-07-04T02:40:43+08:00"
     },
     {
       "code": "16027",
@@ -1753,7 +1753,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16027",
-      "verifiedAt": "2026-07-03T02:49:57+08:00"
+      "verifiedAt": "2026-07-04T02:40:44+08:00"
     },
     {
       "code": "16028",
@@ -1807,7 +1807,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16028",
-      "verifiedAt": "2026-07-03T02:49:59+08:00"
+      "verifiedAt": "2026-07-04T02:40:46+08:00"
     },
     {
       "code": "16029",
@@ -1865,7 +1865,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16029",
-      "verifiedAt": "2026-07-03T02:50:02+08:00"
+      "verifiedAt": "2026-07-04T02:40:47+08:00"
     },
     {
       "code": "16030",
@@ -1929,7 +1929,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16030",
-      "verifiedAt": "2026-07-03T02:50:05+08:00"
+      "verifiedAt": "2026-07-04T02:40:48+08:00"
     },
     {
       "code": "16031",
@@ -1993,7 +1993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16031",
-      "verifiedAt": "2026-07-03T02:50:07+08:00"
+      "verifiedAt": "2026-07-04T02:40:50+08:00"
     },
     {
       "code": "16032",
@@ -2057,7 +2057,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16032",
-      "verifiedAt": "2026-07-03T02:50:09+08:00"
+      "verifiedAt": "2026-07-04T02:40:51+08:00"
     },
     {
       "code": "16033",
@@ -2101,7 +2101,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16033",
-      "verifiedAt": "2026-07-03T02:50:11+08:00"
+      "verifiedAt": "2026-07-04T02:40:53+08:00"
     },
     {
       "code": "16034",
@@ -2165,7 +2165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16034",
-      "verifiedAt": "2026-07-03T02:50:12+08:00"
+      "verifiedAt": "2026-07-04T02:40:54+08:00"
     },
     {
       "code": "16035",
@@ -2219,7 +2219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16035",
-      "verifiedAt": "2026-07-03T02:50:14+08:00"
+      "verifiedAt": "2026-07-04T02:40:56+08:00"
     },
     {
       "code": "16036",
@@ -2323,7 +2323,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16036",
-      "verifiedAt": "2026-07-03T02:50:15+08:00"
+      "verifiedAt": "2026-07-04T02:40:57+08:00"
     },
     {
       "code": "16037",
@@ -2387,7 +2387,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16037",
-      "verifiedAt": "2026-07-03T02:50:17+08:00"
+      "verifiedAt": "2026-07-04T02:40:58+08:00"
     },
     {
       "code": "16038",
@@ -2455,7 +2455,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16038",
-      "verifiedAt": "2026-07-03T02:50:18+08:00"
+      "verifiedAt": "2026-07-04T02:41:00+08:00"
     },
     {
       "code": "16039",
@@ -2519,7 +2519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16039",
-      "verifiedAt": "2026-07-03T02:50:20+08:00"
+      "verifiedAt": "2026-07-04T02:41:01+08:00"
     },
     {
       "code": "16041",
@@ -2573,7 +2573,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16041",
-      "verifiedAt": "2026-07-03T02:50:22+08:00"
+      "verifiedAt": "2026-07-04T02:41:03+08:00"
     },
     {
       "code": "16042",
@@ -2627,7 +2627,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16042",
-      "verifiedAt": "2026-07-03T02:50:23+08:00"
+      "verifiedAt": "2026-07-04T02:41:04+08:00"
     },
     {
       "code": "16043",
@@ -2681,7 +2681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16043",
-      "verifiedAt": "2026-07-03T02:50:25+08:00"
+      "verifiedAt": "2026-07-04T02:41:05+08:00"
     },
     {
       "code": "16044",
@@ -2739,7 +2739,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16044",
-      "verifiedAt": "2026-07-03T02:50:26+08:00"
+      "verifiedAt": "2026-07-04T02:41:06+08:00"
     },
     {
       "code": "16045",
@@ -2793,7 +2793,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16045",
-      "verifiedAt": "2026-07-03T02:50:27+08:00"
+      "verifiedAt": "2026-07-04T02:41:08+08:00"
     },
     {
       "code": "16046",
@@ -2851,7 +2851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16046",
-      "verifiedAt": "2026-07-03T02:50:29+08:00"
+      "verifiedAt": "2026-07-04T02:41:09+08:00"
     },
     {
       "code": "16047",
@@ -2905,7 +2905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16047",
-      "verifiedAt": "2026-07-03T02:50:30+08:00"
+      "verifiedAt": "2026-07-04T02:41:10+08:00"
     },
     {
       "code": "16048",
@@ -2969,7 +2969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16048",
-      "verifiedAt": "2026-07-03T02:50:32+08:00"
+      "verifiedAt": "2026-07-04T02:41:11+08:00"
     },
     {
       "code": "16049",
@@ -3053,7 +3053,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16049",
-      "verifiedAt": "2026-07-03T02:50:33+08:00"
+      "verifiedAt": "2026-07-04T02:41:12+08:00"
     },
     {
       "code": "16050",
@@ -3147,7 +3147,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16050",
-      "verifiedAt": "2026-07-03T02:50:35+08:00"
+      "verifiedAt": "2026-07-04T02:41:14+08:00"
     },
     {
       "code": "16051",
@@ -3191,7 +3191,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16051",
-      "verifiedAt": "2026-07-03T02:50:36+08:00"
+      "verifiedAt": "2026-07-04T02:41:15+08:00"
     },
     {
       "code": "16052",
@@ -3245,7 +3245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16052",
-      "verifiedAt": "2026-07-03T02:50:37+08:00"
+      "verifiedAt": "2026-07-04T02:41:16+08:00"
     },
     {
       "code": "16054",
@@ -3319,7 +3319,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16054",
-      "verifiedAt": "2026-07-03T02:50:39+08:00"
+      "verifiedAt": "2026-07-04T02:41:17+08:00"
     },
     {
       "code": "16055",
@@ -3373,7 +3373,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16055",
-      "verifiedAt": "2026-07-03T02:50:40+08:00"
+      "verifiedAt": "2026-07-04T02:41:19+08:00"
     },
     {
       "code": "16056",
@@ -3417,7 +3417,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16056",
-      "verifiedAt": "2026-07-03T02:50:41+08:00"
+      "verifiedAt": "2026-07-04T02:41:20+08:00"
     },
     {
       "code": "16057",
@@ -3471,7 +3471,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16057",
-      "verifiedAt": "2026-07-03T02:50:42+08:00"
+      "verifiedAt": "2026-07-04T02:41:21+08:00"
     },
     {
       "code": "16058",
@@ -3535,7 +3535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16058",
-      "verifiedAt": "2026-07-03T02:50:44+08:00"
+      "verifiedAt": "2026-07-04T02:41:23+08:00"
     },
     {
       "code": "16059",
@@ -3589,7 +3589,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16059",
-      "verifiedAt": "2026-07-03T02:50:45+08:00"
+      "verifiedAt": "2026-07-04T02:41:24+08:00"
     },
     {
       "code": "16060",
@@ -3643,7 +3643,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16060",
-      "verifiedAt": "2026-07-03T02:50:47+08:00"
+      "verifiedAt": "2026-07-04T02:41:26+08:00"
     },
     {
       "code": "16061",
@@ -3697,7 +3697,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16061",
-      "verifiedAt": "2026-07-03T02:50:48+08:00"
+      "verifiedAt": "2026-07-04T02:41:27+08:00"
     },
     {
       "code": "16062",
@@ -3751,7 +3751,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16062",
-      "verifiedAt": "2026-07-03T02:50:49+08:00"
+      "verifiedAt": "2026-07-04T02:41:28+08:00"
     },
     {
       "code": "16063",
@@ -3815,7 +3815,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16063",
-      "verifiedAt": "2026-07-03T02:50:50+08:00"
+      "verifiedAt": "2026-07-04T02:41:29+08:00"
     },
     {
       "code": "16064",
@@ -3879,7 +3879,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16064",
-      "verifiedAt": "2026-07-03T02:50:52+08:00"
+      "verifiedAt": "2026-07-04T02:41:31+08:00"
     },
     {
       "code": "16065",
@@ -3943,7 +3943,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16065",
-      "verifiedAt": "2026-07-03T02:50:53+08:00"
+      "verifiedAt": "2026-07-04T02:41:32+08:00"
     },
     {
       "code": "16066",
@@ -4017,7 +4017,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16066",
-      "verifiedAt": "2026-07-03T02:50:54+08:00"
+      "verifiedAt": "2026-07-04T02:41:33+08:00"
     },
     {
       "code": "16067",
@@ -4081,7 +4081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16067",
-      "verifiedAt": "2026-07-03T02:50:56+08:00"
+      "verifiedAt": "2026-07-04T02:41:35+08:00"
     },
     {
       "code": "16068",
@@ -4139,7 +4139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16068",
-      "verifiedAt": "2026-07-03T02:50:57+08:00"
+      "verifiedAt": "2026-07-04T02:41:36+08:00"
     },
     {
       "code": "16069",
@@ -4193,7 +4193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16069",
-      "verifiedAt": "2026-07-03T02:50:59+08:00"
+      "verifiedAt": "2026-07-04T02:41:37+08:00"
     },
     {
       "code": "16070",
@@ -4251,7 +4251,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16070",
-      "verifiedAt": "2026-07-03T02:51:00+08:00"
+      "verifiedAt": "2026-07-04T02:41:38+08:00"
     },
     {
       "code": "16071",
@@ -4325,7 +4325,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16071",
-      "verifiedAt": "2026-07-03T02:51:02+08:00"
+      "verifiedAt": "2026-07-04T02:41:40+08:00"
     },
     {
       "code": "16072",
@@ -4389,7 +4389,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16072",
-      "verifiedAt": "2026-07-03T02:51:03+08:00"
+      "verifiedAt": "2026-07-04T02:41:41+08:00"
     },
     {
       "code": "16073",
@@ -4453,7 +4453,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16073",
-      "verifiedAt": "2026-07-03T02:51:04+08:00"
+      "verifiedAt": "2026-07-04T02:41:43+08:00"
     },
     {
       "code": "16074",
@@ -4507,7 +4507,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16074",
-      "verifiedAt": "2026-07-03T02:51:05+08:00"
+      "verifiedAt": "2026-07-04T02:41:44+08:00"
     },
     {
       "code": "16075",
@@ -4581,7 +4581,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16075",
-      "verifiedAt": "2026-07-03T02:51:07+08:00"
+      "verifiedAt": "2026-07-04T02:41:45+08:00"
     },
     {
       "code": "16076",
@@ -4635,7 +4635,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16076",
-      "verifiedAt": "2026-07-03T02:51:08+08:00"
+      "verifiedAt": "2026-07-04T02:41:46+08:00"
     },
     {
       "code": "16077",
@@ -4689,7 +4689,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16077",
-      "verifiedAt": "2026-07-03T02:51:09+08:00"
+      "verifiedAt": "2026-07-04T02:41:47+08:00"
     },
     {
       "code": "16078",
@@ -4747,7 +4747,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16078",
-      "verifiedAt": "2026-07-03T02:51:10+08:00"
+      "verifiedAt": "2026-07-04T02:41:48+08:00"
     },
     {
       "code": "16079",
@@ -4801,7 +4801,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16079",
-      "verifiedAt": "2026-07-03T02:51:11+08:00"
+      "verifiedAt": "2026-07-04T02:41:50+08:00"
     },
     {
       "code": "16080",
@@ -4859,7 +4859,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16080",
-      "verifiedAt": "2026-07-03T02:51:12+08:00"
+      "verifiedAt": "2026-07-04T02:41:51+08:00"
     },
     {
       "code": "16081",
@@ -4913,7 +4913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16081",
-      "verifiedAt": "2026-07-03T02:51:13+08:00"
+      "verifiedAt": "2026-07-04T02:41:52+08:00"
     },
     {
       "code": "16082",
@@ -4967,7 +4967,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16082",
-      "verifiedAt": "2026-07-03T02:51:14+08:00"
+      "verifiedAt": "2026-07-04T02:41:54+08:00"
     },
     {
       "code": "16083",
@@ -5011,7 +5011,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16083",
-      "verifiedAt": "2026-07-03T02:51:15+08:00"
+      "verifiedAt": "2026-07-04T02:41:55+08:00"
     },
     {
       "code": "16084",
@@ -5065,7 +5065,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16084",
-      "verifiedAt": "2026-07-03T02:51:17+08:00"
+      "verifiedAt": "2026-07-04T02:41:57+08:00"
     },
     {
       "code": "16085",
@@ -5139,7 +5139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16085",
-      "verifiedAt": "2026-07-03T02:51:18+08:00"
+      "verifiedAt": "2026-07-04T02:41:58+08:00"
     },
     {
       "code": "16086",
@@ -5183,7 +5183,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16086",
-      "verifiedAt": "2026-07-03T02:51:20+08:00"
+      "verifiedAt": "2026-07-04T02:41:59+08:00"
     },
     {
       "code": "16087",
@@ -5227,7 +5227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16087",
-      "verifiedAt": "2026-07-03T02:51:21+08:00"
+      "verifiedAt": "2026-07-04T02:42:00+08:00"
     },
     {
       "code": "16088",
@@ -5281,7 +5281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16088",
-      "verifiedAt": "2026-07-03T02:51:22+08:00"
+      "verifiedAt": "2026-07-04T02:42:02+08:00"
     },
     {
       "code": "16089",
@@ -5355,7 +5355,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16089",
-      "verifiedAt": "2026-07-03T02:51:23+08:00"
+      "verifiedAt": "2026-07-04T02:42:03+08:00"
     },
     {
       "code": "16090",
@@ -5413,7 +5413,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16090",
-      "verifiedAt": "2026-07-03T02:51:25+08:00"
+      "verifiedAt": "2026-07-04T02:42:04+08:00"
     },
     {
       "code": "16091",
@@ -5477,7 +5477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16091",
-      "verifiedAt": "2026-07-03T02:51:26+08:00"
+      "verifiedAt": "2026-07-04T02:42:05+08:00"
     },
     {
       "code": "16092",
@@ -5531,7 +5531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16092",
-      "verifiedAt": "2026-07-03T02:51:27+08:00"
+      "verifiedAt": "2026-07-04T02:42:07+08:00"
     },
     {
       "code": "16093",
@@ -5575,7 +5575,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16093",
-      "verifiedAt": "2026-07-03T02:51:29+08:00"
+      "verifiedAt": "2026-07-04T02:42:08+08:00"
     },
     {
       "code": "16094",
@@ -5649,7 +5649,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16094",
-      "verifiedAt": "2026-07-03T02:51:30+08:00"
+      "verifiedAt": "2026-07-04T02:42:09+08:00"
     },
     {
       "code": "16095",
@@ -5713,7 +5713,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16095",
-      "verifiedAt": "2026-07-03T02:51:31+08:00"
+      "verifiedAt": "2026-07-04T02:42:10+08:00"
     },
     {
       "code": "16096",
@@ -5777,7 +5777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16096",
-      "verifiedAt": "2026-07-03T02:51:33+08:00"
+      "verifiedAt": "2026-07-04T02:42:12+08:00"
     },
     {
       "code": "16097",
@@ -5841,7 +5841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16097",
-      "verifiedAt": "2026-07-03T02:51:34+08:00"
+      "verifiedAt": "2026-07-04T02:42:13+08:00"
     },
     {
       "code": "16098",
@@ -5895,7 +5895,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16098",
-      "verifiedAt": "2026-07-03T02:51:35+08:00"
+      "verifiedAt": "2026-07-04T02:42:14+08:00"
     },
     {
       "code": "16099",
@@ -5939,7 +5939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16099",
-      "verifiedAt": "2026-07-03T02:51:36+08:00"
+      "verifiedAt": "2026-07-04T02:42:16+08:00"
     },
     {
       "code": "16100",
@@ -5997,7 +5997,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16100",
-      "verifiedAt": "2026-07-03T02:51:38+08:00"
+      "verifiedAt": "2026-07-04T02:42:17+08:00"
     },
     {
       "code": "16101",
@@ -6071,7 +6071,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16101",
-      "verifiedAt": "2026-07-03T02:51:39+08:00"
+      "verifiedAt": "2026-07-04T02:42:18+08:00"
     },
     {
       "code": "16102",
@@ -6125,7 +6125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16102",
-      "verifiedAt": "2026-07-03T02:51:40+08:00"
+      "verifiedAt": "2026-07-04T02:42:19+08:00"
     },
     {
       "code": "16106",
@@ -6179,7 +6179,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16106",
-      "verifiedAt": "2026-07-03T02:51:42+08:00"
+      "verifiedAt": "2026-07-04T02:42:21+08:00"
     },
     {
       "code": "16107",
@@ -6223,7 +6223,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16107",
-      "verifiedAt": "2026-07-03T02:51:43+08:00"
+      "verifiedAt": "2026-07-04T02:42:23+08:00"
     },
     {
       "code": "16108",
@@ -6277,7 +6277,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16108",
-      "verifiedAt": "2026-07-03T02:51:44+08:00"
+      "verifiedAt": "2026-07-04T02:42:25+08:00"
     },
     {
       "code": "16109",
@@ -6341,7 +6341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16109",
-      "verifiedAt": "2026-07-03T02:51:45+08:00"
+      "verifiedAt": "2026-07-04T02:42:26+08:00"
     },
     {
       "code": "16110",
@@ -6405,7 +6405,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16110",
-      "verifiedAt": "2026-07-03T02:51:47+08:00"
+      "verifiedAt": "2026-07-04T02:42:28+08:00"
     },
     {
       "code": "16111",
@@ -6459,7 +6459,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16111",
-      "verifiedAt": "2026-07-03T02:51:48+08:00"
+      "verifiedAt": "2026-07-04T02:42:29+08:00"
     },
     {
       "code": "16112",
@@ -6533,7 +6533,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16112",
-      "verifiedAt": "2026-07-03T02:51:50+08:00"
+      "verifiedAt": "2026-07-04T02:42:30+08:00"
     },
     {
       "code": "16113",
@@ -6591,7 +6591,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16113",
-      "verifiedAt": "2026-07-03T02:51:51+08:00"
+      "verifiedAt": "2026-07-04T02:42:32+08:00"
     },
     {
       "code": "16116",
@@ -6679,7 +6679,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16116",
-      "verifiedAt": "2026-07-03T02:51:53+08:00"
+      "verifiedAt": "2026-07-04T02:42:33+08:00"
     },
     {
       "code": "16117",
@@ -6753,7 +6753,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16117",
-      "verifiedAt": "2026-07-03T02:51:54+08:00"
+      "verifiedAt": "2026-07-04T02:42:34+08:00"
     },
     {
       "code": "16118",
@@ -6807,7 +6807,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16118",
-      "verifiedAt": "2026-07-03T02:51:55+08:00"
+      "verifiedAt": "2026-07-04T02:42:36+08:00"
     },
     {
       "code": "16119",
@@ -6861,7 +6861,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16119",
-      "verifiedAt": "2026-07-03T02:51:57+08:00"
+      "verifiedAt": "2026-07-04T02:42:37+08:00"
     },
     {
       "code": "16120",
@@ -6915,7 +6915,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16120",
-      "verifiedAt": "2026-07-03T02:51:58+08:00"
+      "verifiedAt": "2026-07-04T02:42:38+08:00"
     },
     {
       "code": "16121",
@@ -6969,7 +6969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16121",
-      "verifiedAt": "2026-07-03T02:52:00+08:00"
+      "verifiedAt": "2026-07-04T02:42:39+08:00"
     },
     {
       "code": "16123",
@@ -7023,7 +7023,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16123",
-      "verifiedAt": "2026-07-03T02:52:01+08:00"
+      "verifiedAt": "2026-07-04T02:42:41+08:00"
     },
     {
       "code": "16124",
@@ -7081,7 +7081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16124",
-      "verifiedAt": "2026-07-03T02:52:03+08:00"
+      "verifiedAt": "2026-07-04T02:42:42+08:00"
     },
     {
       "code": "16125",
@@ -7125,7 +7125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16125",
-      "verifiedAt": "2026-07-03T02:52:04+08:00"
+      "verifiedAt": "2026-07-04T02:42:43+08:00"
     },
     {
       "code": "16126",
@@ -7169,7 +7169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16126",
-      "verifiedAt": "2026-07-03T02:52:05+08:00"
+      "verifiedAt": "2026-07-04T02:42:45+08:00"
     },
     {
       "code": "16127",
@@ -7227,7 +7227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16127",
-      "verifiedAt": "2026-07-03T02:52:06+08:00"
+      "verifiedAt": "2026-07-04T02:42:46+08:00"
     },
     {
       "code": "16128",
@@ -7285,7 +7285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16128",
-      "verifiedAt": "2026-07-03T02:52:08+08:00"
+      "verifiedAt": "2026-07-04T02:42:47+08:00"
     },
     {
       "code": "16129",
@@ -7329,7 +7329,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16129",
-      "verifiedAt": "2026-07-03T02:52:09+08:00"
+      "verifiedAt": "2026-07-04T02:42:48+08:00"
     },
     {
       "code": "16130",
@@ -7383,7 +7383,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16130",
-      "verifiedAt": "2026-07-03T02:52:10+08:00"
+      "verifiedAt": "2026-07-04T02:42:50+08:00"
     },
     {
       "code": "16131",
@@ -7477,7 +7477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16131",
-      "verifiedAt": "2026-07-03T02:52:12+08:00"
+      "verifiedAt": "2026-07-04T02:42:51+08:00"
     },
     {
       "code": "16132",
@@ -7535,7 +7535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16132",
-      "verifiedAt": "2026-07-03T02:52:13+08:00"
+      "verifiedAt": "2026-07-04T02:42:52+08:00"
     },
     {
       "code": "16133",
@@ -7579,7 +7579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16133",
-      "verifiedAt": "2026-07-03T02:52:14+08:00"
+      "verifiedAt": "2026-07-04T02:42:53+08:00"
     },
     {
       "code": "16134",
@@ -7633,7 +7633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16134",
-      "verifiedAt": "2026-07-03T02:52:16+08:00"
+      "verifiedAt": "2026-07-04T02:42:54+08:00"
     },
     {
       "code": "16135",
@@ -7687,7 +7687,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16135",
-      "verifiedAt": "2026-07-03T02:52:17+08:00"
+      "verifiedAt": "2026-07-04T02:42:56+08:00"
     },
     {
       "code": "16141",
@@ -7771,7 +7771,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16141",
-      "verifiedAt": "2026-07-03T02:52:19+08:00"
+      "verifiedAt": "2026-07-04T02:42:58+08:00"
     },
     {
       "code": "16142",
@@ -7815,7 +7815,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16142",
-      "verifiedAt": "2026-07-03T02:52:20+08:00"
+      "verifiedAt": "2026-07-04T02:43:00+08:00"
     },
     {
       "code": "16144",
@@ -7897,7 +7897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16144",
-      "verifiedAt": "2026-07-03T02:52:21+08:00"
+      "verifiedAt": "2026-07-04T02:43:01+08:00"
     },
     {
       "code": "16145",
@@ -7965,7 +7965,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16145",
-      "verifiedAt": "2026-07-03T02:52:23+08:00"
+      "verifiedAt": "2026-07-04T02:43:02+08:00"
     },
     {
       "code": "16146",
@@ -8043,7 +8043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16146",
-      "verifiedAt": "2026-07-03T02:52:24+08:00"
+      "verifiedAt": "2026-07-04T02:43:03+08:00"
     },
     {
       "code": "16147",
@@ -8097,7 +8097,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16147",
-      "verifiedAt": "2026-07-03T02:52:26+08:00"
+      "verifiedAt": "2026-07-04T02:43:05+08:00"
     },
     {
       "code": "16148",
@@ -8155,7 +8155,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16148",
-      "verifiedAt": "2026-07-03T02:52:27+08:00"
+      "verifiedAt": "2026-07-04T02:43:06+08:00"
     },
     {
       "code": "16149",
@@ -8229,7 +8229,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16149",
-      "verifiedAt": "2026-07-03T02:52:28+08:00"
+      "verifiedAt": "2026-07-04T02:43:08+08:00"
     },
     {
       "code": "16150",
@@ -8283,7 +8283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16150",
-      "verifiedAt": "2026-07-03T02:52:30+08:00"
+      "verifiedAt": "2026-07-04T02:43:09+08:00"
     },
     {
       "code": "16151",
@@ -8347,7 +8347,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16151",
-      "verifiedAt": "2026-07-03T02:52:31+08:00"
+      "verifiedAt": "2026-07-04T02:43:10+08:00"
     },
     {
       "code": "16152",
@@ -8419,7 +8419,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16152",
-      "verifiedAt": "2026-07-03T02:52:32+08:00"
+      "verifiedAt": "2026-07-04T02:43:12+08:00"
     },
     {
       "code": "16153",
@@ -8473,7 +8473,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16153",
-      "verifiedAt": "2026-07-03T02:52:34+08:00"
+      "verifiedAt": "2026-07-04T02:43:13+08:00"
     },
     {
       "code": "16154",
@@ -8527,7 +8527,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16154",
-      "verifiedAt": "2026-07-03T02:52:35+08:00"
+      "verifiedAt": "2026-07-04T02:43:14+08:00"
     },
     {
       "code": "16155",
@@ -8595,7 +8595,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16155",
-      "verifiedAt": "2026-07-03T02:52:36+08:00"
+      "verifiedAt": "2026-07-04T02:43:16+08:00"
     },
     {
       "code": "16156",
@@ -8663,7 +8663,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16156",
-      "verifiedAt": "2026-07-03T02:52:38+08:00"
+      "verifiedAt": "2026-07-04T02:43:17+08:00"
     },
     {
       "code": "16157",
@@ -8717,7 +8717,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16157",
-      "verifiedAt": "2026-07-03T02:52:39+08:00"
+      "verifiedAt": "2026-07-04T02:43:18+08:00"
     },
     {
       "code": "16158",
@@ -8761,7 +8761,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16158",
-      "verifiedAt": "2026-07-03T02:52:40+08:00"
+      "verifiedAt": "2026-07-04T02:43:19+08:00"
     },
     {
       "code": "16159",
@@ -8839,7 +8839,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16159",
-      "verifiedAt": "2026-07-03T02:52:42+08:00"
+      "verifiedAt": "2026-07-04T02:43:20+08:00"
     },
     {
       "code": "16160",
@@ -8897,7 +8897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16160",
-      "verifiedAt": "2026-07-03T02:52:43+08:00"
+      "verifiedAt": "2026-07-04T02:43:22+08:00"
     },
     {
       "code": "16161",
@@ -8961,7 +8961,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16161",
-      "verifiedAt": "2026-07-03T02:52:45+08:00"
+      "verifiedAt": "2026-07-04T02:43:23+08:00"
     },
     {
       "code": "16162",
@@ -9035,7 +9035,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16162",
-      "verifiedAt": "2026-07-03T02:52:46+08:00"
+      "verifiedAt": "2026-07-04T02:43:25+08:00"
     },
     {
       "code": "16163",
@@ -9079,7 +9079,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16163",
-      "verifiedAt": "2026-07-03T02:52:47+08:00"
+      "verifiedAt": "2026-07-04T02:43:26+08:00"
     },
     {
       "code": "16164",
@@ -9133,7 +9133,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16164",
-      "verifiedAt": "2026-07-03T02:52:49+08:00"
+      "verifiedAt": "2026-07-04T02:43:27+08:00"
     },
     {
       "code": "16165",
@@ -9201,7 +9201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16165",
-      "verifiedAt": "2026-07-03T02:52:50+08:00"
+      "verifiedAt": "2026-07-04T02:43:29+08:00"
     },
     {
       "code": "16166",
@@ -9285,7 +9285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16166",
-      "verifiedAt": "2026-07-03T02:52:51+08:00"
+      "verifiedAt": "2026-07-04T02:43:30+08:00"
     },
     {
       "code": "16167",
@@ -9353,7 +9353,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16167",
-      "verifiedAt": "2026-07-03T02:52:52+08:00"
+      "verifiedAt": "2026-07-04T02:43:31+08:00"
     },
     {
       "code": "16168",
@@ -9397,7 +9397,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16168",
-      "verifiedAt": "2026-07-03T02:52:54+08:00"
+      "verifiedAt": "2026-07-04T02:43:32+08:00"
     },
     {
       "code": "16169",
@@ -9461,7 +9461,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16169",
-      "verifiedAt": "2026-07-03T02:52:55+08:00"
+      "verifiedAt": "2026-07-04T02:43:34+08:00"
     },
     {
       "code": "16170",
@@ -9545,7 +9545,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16170",
-      "verifiedAt": "2026-07-03T02:52:56+08:00"
+      "verifiedAt": "2026-07-04T02:43:35+08:00"
     },
     {
       "code": "16171",
@@ -9609,7 +9609,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16171",
-      "verifiedAt": "2026-07-03T02:52:58+08:00"
+      "verifiedAt": "2026-07-04T02:43:36+08:00"
     },
     {
       "code": "16172",
@@ -9653,7 +9653,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16172",
-      "verifiedAt": "2026-07-03T02:53:00+08:00"
+      "verifiedAt": "2026-07-04T02:43:38+08:00"
     },
     {
       "code": "16173",
@@ -9707,7 +9707,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16173",
-      "verifiedAt": "2026-07-03T02:53:01+08:00"
+      "verifiedAt": "2026-07-04T02:43:39+08:00"
     },
     {
       "code": "16174",
@@ -9765,7 +9765,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16174",
-      "verifiedAt": "2026-07-03T02:53:02+08:00"
+      "verifiedAt": "2026-07-04T02:43:40+08:00"
     },
     {
       "code": "16175",
@@ -9809,7 +9809,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16175",
-      "verifiedAt": "2026-07-03T02:53:03+08:00"
+      "verifiedAt": "2026-07-04T02:43:41+08:00"
     },
     {
       "code": "16176",
@@ -9863,7 +9863,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16176",
-      "verifiedAt": "2026-07-03T02:53:05+08:00"
+      "verifiedAt": "2026-07-04T02:43:42+08:00"
     },
     {
       "code": "16177",
@@ -9917,7 +9917,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16177",
-      "verifiedAt": "2026-07-03T02:53:06+08:00"
+      "verifiedAt": "2026-07-04T02:43:44+08:00"
     },
     {
       "code": "16178",
@@ -9971,7 +9971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16178",
-      "verifiedAt": "2026-07-03T02:53:07+08:00"
+      "verifiedAt": "2026-07-04T02:43:45+08:00"
     },
     {
       "code": "16179",
@@ -10015,7 +10015,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16179",
-      "verifiedAt": "2026-07-03T02:53:08+08:00"
+      "verifiedAt": "2026-07-04T02:43:46+08:00"
     },
     {
       "code": "16180",
@@ -10069,7 +10069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16180",
-      "verifiedAt": "2026-07-03T02:53:10+08:00"
+      "verifiedAt": "2026-07-04T02:43:47+08:00"
     },
     {
       "code": "16181",
@@ -10123,7 +10123,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16181",
-      "verifiedAt": "2026-07-03T02:53:11+08:00"
+      "verifiedAt": "2026-07-04T02:43:48+08:00"
     },
     {
       "code": "16182",
@@ -10167,7 +10167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16182",
-      "verifiedAt": "2026-07-03T02:53:13+08:00"
+      "verifiedAt": "2026-07-04T02:43:49+08:00"
     },
     {
       "code": "16183",
@@ -10211,7 +10211,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16183",
-      "verifiedAt": "2026-07-03T02:53:14+08:00"
+      "verifiedAt": "2026-07-04T02:43:51+08:00"
     },
     {
       "code": "16184",
@@ -10275,7 +10275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16184",
-      "verifiedAt": "2026-07-03T02:53:16+08:00"
+      "verifiedAt": "2026-07-04T02:43:52+08:00"
     },
     {
       "code": "16185",
@@ -10333,7 +10333,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16185",
-      "verifiedAt": "2026-07-03T02:53:17+08:00"
+      "verifiedAt": "2026-07-04T02:43:53+08:00"
     },
     {
       "code": "16186",
@@ -10407,7 +10407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16186",
-      "verifiedAt": "2026-07-03T02:53:18+08:00"
+      "verifiedAt": "2026-07-04T02:43:54+08:00"
     },
     {
       "code": "16187",
@@ -10475,7 +10475,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16187",
-      "verifiedAt": "2026-07-03T02:53:19+08:00"
+      "verifiedAt": "2026-07-04T02:43:56+08:00"
     },
     {
       "code": "16188",
@@ -10539,7 +10539,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16188",
-      "verifiedAt": "2026-07-03T02:53:21+08:00"
+      "verifiedAt": "2026-07-04T02:43:57+08:00"
     },
     {
       "code": "16189",
@@ -10607,7 +10607,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16189",
-      "verifiedAt": "2026-07-03T02:53:22+08:00"
+      "verifiedAt": "2026-07-04T02:43:58+08:00"
     },
     {
       "code": "16190",
@@ -10671,7 +10671,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16190",
-      "verifiedAt": "2026-07-03T02:53:23+08:00"
+      "verifiedAt": "2026-07-04T02:43:59+08:00"
     },
     {
       "code": "16191",
@@ -10735,7 +10735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16191",
-      "verifiedAt": "2026-07-03T02:53:24+08:00"
+      "verifiedAt": "2026-07-04T02:44:01+08:00"
     },
     {
       "code": "16192",
@@ -10793,7 +10793,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16192",
-      "verifiedAt": "2026-07-03T02:53:26+08:00"
+      "verifiedAt": "2026-07-04T02:44:02+08:00"
     },
     {
       "code": "16193",
@@ -10851,7 +10851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16193",
-      "verifiedAt": "2026-07-03T02:53:27+08:00"
+      "verifiedAt": "2026-07-04T02:44:04+08:00"
     },
     {
       "code": "16194",
@@ -10905,7 +10905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16194",
-      "verifiedAt": "2026-07-03T02:53:28+08:00"
+      "verifiedAt": "2026-07-04T02:44:05+08:00"
     },
     {
       "code": "16195",
@@ -10959,7 +10959,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16195",
-      "verifiedAt": "2026-07-03T02:53:30+08:00"
+      "verifiedAt": "2026-07-04T02:44:07+08:00"
     },
     {
       "code": "16196",
@@ -11023,7 +11023,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16196",
-      "verifiedAt": "2026-07-03T02:53:31+08:00"
+      "verifiedAt": "2026-07-04T02:44:08+08:00"
     },
     {
       "code": "16197",
@@ -11087,7 +11087,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16197",
-      "verifiedAt": "2026-07-03T02:53:33+08:00"
+      "verifiedAt": "2026-07-04T02:44:09+08:00"
     },
     {
       "code": "16198",
@@ -11151,7 +11151,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16198",
-      "verifiedAt": "2026-07-03T02:53:34+08:00"
+      "verifiedAt": "2026-07-04T02:44:10+08:00"
     },
     {
       "code": "16199",
@@ -11205,7 +11205,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16199",
-      "verifiedAt": "2026-07-03T02:53:35+08:00"
+      "verifiedAt": "2026-07-04T02:44:11+08:00"
     },
     {
       "code": "16200",
@@ -11259,7 +11259,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16200",
-      "verifiedAt": "2026-07-03T02:53:37+08:00"
+      "verifiedAt": "2026-07-04T02:44:12+08:00"
     },
     {
       "code": "16201",
@@ -11317,7 +11317,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16201",
-      "verifiedAt": "2026-07-03T02:53:38+08:00"
+      "verifiedAt": "2026-07-04T02:44:13+08:00"
     },
     {
       "code": "16202",
@@ -11371,7 +11371,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16202",
-      "verifiedAt": "2026-07-03T02:53:39+08:00"
+      "verifiedAt": "2026-07-04T02:44:15+08:00"
     },
     {
       "code": "16203",
@@ -11435,7 +11435,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16203",
-      "verifiedAt": "2026-07-03T02:53:41+08:00"
+      "verifiedAt": "2026-07-04T02:44:16+08:00"
     },
     {
       "code": "16204",
@@ -11519,7 +11519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16204",
-      "verifiedAt": "2026-07-03T02:53:42+08:00"
+      "verifiedAt": "2026-07-04T02:44:17+08:00"
     },
     {
       "code": "16206",
@@ -11573,7 +11573,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16206",
-      "verifiedAt": "2026-07-03T02:53:43+08:00"
+      "verifiedAt": "2026-07-04T02:44:18+08:00"
     },
     {
       "code": "16207",
@@ -11641,7 +11641,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16207",
-      "verifiedAt": "2026-07-03T02:53:44+08:00"
+      "verifiedAt": "2026-07-04T02:44:19+08:00"
     },
     {
       "code": "16208",
@@ -11715,7 +11715,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16208",
-      "verifiedAt": "2026-07-03T02:53:46+08:00"
+      "verifiedAt": "2026-07-04T02:44:21+08:00"
     },
     {
       "code": "16209",
@@ -11769,7 +11769,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16209",
-      "verifiedAt": "2026-07-03T02:53:47+08:00"
+      "verifiedAt": "2026-07-04T02:44:22+08:00"
     },
     {
       "code": "16210",
@@ -11823,7 +11823,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16210",
-      "verifiedAt": "2026-07-03T02:53:48+08:00"
+      "verifiedAt": "2026-07-04T02:44:23+08:00"
     },
     {
       "code": "16211",
@@ -11897,7 +11897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16211",
-      "verifiedAt": "2026-07-03T02:53:50+08:00"
+      "verifiedAt": "2026-07-04T02:44:24+08:00"
     },
     {
       "code": "16212",
@@ -11951,7 +11951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16212",
-      "verifiedAt": "2026-07-03T02:53:51+08:00"
+      "verifiedAt": "2026-07-04T02:44:25+08:00"
     },
     {
       "code": "16213",
@@ -12005,7 +12005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16213",
-      "verifiedAt": "2026-07-03T02:53:52+08:00"
+      "verifiedAt": "2026-07-04T02:44:27+08:00"
     },
     {
       "code": "16214",
@@ -12059,7 +12059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16214",
-      "verifiedAt": "2026-07-03T02:53:54+08:00"
+      "verifiedAt": "2026-07-04T02:44:28+08:00"
     },
     {
       "code": "16215",
@@ -12113,7 +12113,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16215",
-      "verifiedAt": "2026-07-03T02:53:55+08:00"
+      "verifiedAt": "2026-07-04T02:44:29+08:00"
     },
     {
       "code": "16216",
@@ -12157,7 +12157,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16216",
-      "verifiedAt": "2026-07-03T02:53:56+08:00"
+      "verifiedAt": "2026-07-04T02:44:30+08:00"
     },
     {
       "code": "16217",
@@ -12201,7 +12201,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16217",
-      "verifiedAt": "2026-07-03T02:53:57+08:00"
+      "verifiedAt": "2026-07-04T02:44:31+08:00"
     },
     {
       "code": "16218",
@@ -12245,7 +12245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16218",
-      "verifiedAt": "2026-07-03T02:53:59+08:00"
+      "verifiedAt": "2026-07-04T02:44:32+08:00"
     },
     {
       "code": "16219",
@@ -12289,7 +12289,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16219",
-      "verifiedAt": "2026-07-03T02:54:00+08:00"
+      "verifiedAt": "2026-07-04T02:44:33+08:00"
     },
     {
       "code": "16220",
@@ -12323,7 +12323,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16220",
-      "verifiedAt": "2026-07-03T02:54:02+08:00"
+      "verifiedAt": "2026-07-04T02:44:35+08:00"
     },
     {
       "code": "16221",
@@ -12367,7 +12367,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16221",
-      "verifiedAt": "2026-07-03T02:54:05+08:00"
+      "verifiedAt": "2026-07-04T02:44:36+08:00"
     },
     {
       "code": "16222",
@@ -12411,7 +12411,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16222",
-      "verifiedAt": "2026-07-03T02:54:08+08:00"
+      "verifiedAt": "2026-07-04T02:44:37+08:00"
     },
     {
       "code": "16224",
@@ -12475,7 +12475,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16224",
-      "verifiedAt": "2026-07-03T02:54:10+08:00"
+      "verifiedAt": "2026-07-04T02:44:38+08:00"
     },
     {
       "code": "16225",
@@ -12549,7 +12549,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16225",
-      "verifiedAt": "2026-07-03T02:54:12+08:00"
+      "verifiedAt": "2026-07-04T02:44:39+08:00"
     },
     {
       "code": "16226",
@@ -12613,7 +12613,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16226",
-      "verifiedAt": "2026-07-03T02:54:14+08:00"
+      "verifiedAt": "2026-07-04T02:44:40+08:00"
     },
     {
       "code": "16227",
@@ -12691,7 +12691,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16227",
-      "verifiedAt": "2026-07-03T02:54:16+08:00"
+      "verifiedAt": "2026-07-04T02:44:42+08:00"
     },
     {
       "code": "16228",
@@ -12755,7 +12755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16228",
-      "verifiedAt": "2026-07-03T02:54:18+08:00"
+      "verifiedAt": "2026-07-04T02:44:43+08:00"
     },
     {
       "code": "16229",
@@ -12813,7 +12813,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16229",
-      "verifiedAt": "2026-07-03T02:54:19+08:00"
+      "verifiedAt": "2026-07-04T02:44:44+08:00"
     },
     {
       "code": "16230",
@@ -12877,7 +12877,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16230",
-      "verifiedAt": "2026-07-03T02:54:21+08:00"
+      "verifiedAt": "2026-07-04T02:44:45+08:00"
     },
     {
       "code": "16231",
@@ -12935,7 +12935,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16231",
-      "verifiedAt": "2026-07-03T02:54:23+08:00"
+      "verifiedAt": "2026-07-04T02:44:46+08:00"
     },
     {
       "code": "16232",
@@ -12993,7 +12993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16232",
-      "verifiedAt": "2026-07-03T02:54:24+08:00"
+      "verifiedAt": "2026-07-04T02:44:47+08:00"
     },
     {
       "code": "16234",
@@ -13051,7 +13051,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16234",
-      "verifiedAt": "2026-07-03T02:54:25+08:00"
+      "verifiedAt": "2026-07-04T02:44:49+08:00"
     },
     {
       "code": "16235",
@@ -13115,7 +13115,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16235",
-      "verifiedAt": "2026-07-03T02:54:27+08:00"
+      "verifiedAt": "2026-07-04T02:44:50+08:00"
     },
     {
       "code": "16236",
@@ -13169,7 +13169,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16236",
-      "verifiedAt": "2026-07-03T02:54:28+08:00"
+      "verifiedAt": "2026-07-04T02:44:51+08:00"
     },
     {
       "code": "16237",
@@ -13227,7 +13227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16237",
-      "verifiedAt": "2026-07-03T02:54:29+08:00"
+      "verifiedAt": "2026-07-04T02:44:52+08:00"
     },
     {
       "code": "16238",
@@ -13285,7 +13285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16238",
-      "verifiedAt": "2026-07-03T02:54:31+08:00"
+      "verifiedAt": "2026-07-04T02:44:53+08:00"
     },
     {
       "code": "16239",
@@ -13339,7 +13339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16239",
-      "verifiedAt": "2026-07-03T02:54:32+08:00"
+      "verifiedAt": "2026-07-04T02:44:54+08:00"
     },
     {
       "code": "16240",
@@ -13393,7 +13393,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16240",
-      "verifiedAt": "2026-07-03T02:54:33+08:00"
+      "verifiedAt": "2026-07-04T02:44:55+08:00"
     },
     {
       "code": "16241",
@@ -13447,7 +13447,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16241",
-      "verifiedAt": "2026-07-03T02:54:34+08:00"
+      "verifiedAt": "2026-07-04T02:44:56+08:00"
     },
     {
       "code": "16242",
@@ -13491,7 +13491,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16242",
-      "verifiedAt": "2026-07-03T02:54:36+08:00"
+      "verifiedAt": "2026-07-04T02:44:57+08:00"
     },
     {
       "code": "16243",
@@ -13549,7 +13549,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16243",
-      "verifiedAt": "2026-07-03T02:54:37+08:00"
+      "verifiedAt": "2026-07-04T02:44:58+08:00"
     },
     {
       "code": "16244",
@@ -13603,7 +13603,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16244",
-      "verifiedAt": "2026-07-03T02:54:38+08:00"
+      "verifiedAt": "2026-07-04T02:44:59+08:00"
     },
     {
       "code": "16245",
@@ -13657,7 +13657,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16245",
-      "verifiedAt": "2026-07-03T02:54:39+08:00"
+      "verifiedAt": "2026-07-04T02:45:00+08:00"
     },
     {
       "code": "16246",
@@ -13721,7 +13721,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16246",
-      "verifiedAt": "2026-07-03T02:54:41+08:00"
+      "verifiedAt": "2026-07-04T02:45:02+08:00"
     },
     {
       "code": "16247",
@@ -13775,7 +13775,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16247",
-      "verifiedAt": "2026-07-03T02:54:42+08:00"
+      "verifiedAt": "2026-07-04T02:45:03+08:00"
     },
     {
       "code": "16248",
@@ -13853,7 +13853,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16248",
-      "verifiedAt": "2026-07-03T02:54:43+08:00"
+      "verifiedAt": "2026-07-04T02:45:04+08:00"
     },
     {
       "code": "16249",
@@ -13911,7 +13911,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16249",
-      "verifiedAt": "2026-07-03T02:54:45+08:00"
+      "verifiedAt": "2026-07-04T02:45:05+08:00"
     },
     {
       "code": "16250",
@@ -13969,7 +13969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16250",
-      "verifiedAt": "2026-07-03T02:54:46+08:00"
+      "verifiedAt": "2026-07-04T02:45:06+08:00"
     },
     {
       "code": "16251",
@@ -14013,7 +14013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16251",
-      "verifiedAt": "2026-07-03T02:54:48+08:00"
+      "verifiedAt": "2026-07-04T02:45:08+08:00"
     },
     {
       "code": "16252",
@@ -14067,7 +14067,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16252",
-      "verifiedAt": "2026-07-03T02:54:49+08:00"
+      "verifiedAt": "2026-07-04T02:45:09+08:00"
     },
     {
       "code": "16253",
@@ -14121,7 +14121,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16253",
-      "verifiedAt": "2026-07-03T02:54:50+08:00"
+      "verifiedAt": "2026-07-04T02:45:10+08:00"
     },
     {
       "code": "16254",
@@ -14165,7 +14165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16254",
-      "verifiedAt": "2026-07-03T02:54:51+08:00"
+      "verifiedAt": "2026-07-04T02:45:12+08:00"
     },
     {
       "code": "16255",
@@ -14219,7 +14219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16255",
-      "verifiedAt": "2026-07-03T02:54:53+08:00"
+      "verifiedAt": "2026-07-04T02:45:13+08:00"
     },
     {
       "code": "16256",
@@ -14273,7 +14273,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16256",
-      "verifiedAt": "2026-07-03T02:54:54+08:00"
+      "verifiedAt": "2026-07-04T02:45:14+08:00"
     },
     {
       "code": "16257",
@@ -14341,7 +14341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16257",
-      "verifiedAt": "2026-07-03T02:54:55+08:00"
+      "verifiedAt": "2026-07-04T02:45:15+08:00"
     },
     {
       "code": "16258",
@@ -14385,7 +14385,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16258",
-      "verifiedAt": "2026-07-03T02:54:56+08:00"
+      "verifiedAt": "2026-07-04T02:45:16+08:00"
     },
     {
       "code": "16259",
@@ -14449,7 +14449,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16259",
-      "verifiedAt": "2026-07-03T02:54:58+08:00"
+      "verifiedAt": "2026-07-04T02:45:17+08:00"
     },
     {
       "code": "16260",
@@ -14503,7 +14503,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16260",
-      "verifiedAt": "2026-07-03T02:54:59+08:00"
+      "verifiedAt": "2026-07-04T02:45:18+08:00"
     },
     {
       "code": "16261",
@@ -14557,7 +14557,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16261",
-      "verifiedAt": "2026-07-03T02:55:00+08:00"
+      "verifiedAt": "2026-07-04T02:45:19+08:00"
     },
     {
       "code": "16262",
@@ -14611,7 +14611,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16262",
-      "verifiedAt": "2026-07-03T02:55:02+08:00"
+      "verifiedAt": "2026-07-04T02:45:20+08:00"
     },
     {
       "code": "16263",
@@ -14675,7 +14675,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16263",
-      "verifiedAt": "2026-07-03T02:55:03+08:00"
+      "verifiedAt": "2026-07-04T02:45:21+08:00"
     },
     {
       "code": "16264",
@@ -14733,7 +14733,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16264",
-      "verifiedAt": "2026-07-03T02:55:04+08:00"
+      "verifiedAt": "2026-07-04T02:45:23+08:00"
     },
     {
       "code": "16265",
@@ -14787,7 +14787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16265",
-      "verifiedAt": "2026-07-03T02:55:05+08:00"
+      "verifiedAt": "2026-07-04T02:45:24+08:00"
     },
     {
       "code": "16266",
@@ -14831,7 +14831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16266",
-      "verifiedAt": "2026-07-03T02:55:07+08:00"
+      "verifiedAt": "2026-07-04T02:45:26+08:00"
     },
     {
       "code": "16267",
@@ -14885,7 +14885,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16267",
-      "verifiedAt": "2026-07-03T02:55:08+08:00"
+      "verifiedAt": "2026-07-04T02:45:27+08:00"
     },
     {
       "code": "16268",
@@ -14939,7 +14939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16268",
-      "verifiedAt": "2026-07-03T02:55:09+08:00"
+      "verifiedAt": "2026-07-04T02:45:28+08:00"
     },
     {
       "code": "16269",
@@ -15007,7 +15007,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16269",
-      "verifiedAt": "2026-07-03T02:55:11+08:00"
+      "verifiedAt": "2026-07-04T02:45:30+08:00"
     },
     {
       "code": "16270",
@@ -15051,7 +15051,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16270",
-      "verifiedAt": "2026-07-03T02:55:12+08:00"
+      "verifiedAt": "2026-07-04T02:45:31+08:00"
     },
     {
       "code": "16271",
@@ -15105,7 +15105,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16271",
-      "verifiedAt": "2026-07-03T02:55:14+08:00"
+      "verifiedAt": "2026-07-04T02:45:32+08:00"
     },
     {
       "code": "16272",
@@ -15159,7 +15159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16272",
-      "verifiedAt": "2026-07-03T02:55:15+08:00"
+      "verifiedAt": "2026-07-04T02:45:33+08:00"
     },
     {
       "code": "16273",
@@ -15217,7 +15217,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16273",
-      "verifiedAt": "2026-07-03T02:55:16+08:00"
+      "verifiedAt": "2026-07-04T02:45:34+08:00"
     },
     {
       "code": "16274",
@@ -15275,7 +15275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16274",
-      "verifiedAt": "2026-07-03T02:55:18+08:00"
+      "verifiedAt": "2026-07-04T02:45:36+08:00"
     },
     {
       "code": "16275",
@@ -15343,7 +15343,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16275",
-      "verifiedAt": "2026-07-03T02:55:19+08:00"
+      "verifiedAt": "2026-07-04T02:45:37+08:00"
     },
     {
       "code": "16276",
@@ -15407,7 +15407,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16276",
-      "verifiedAt": "2026-07-03T02:55:20+08:00"
+      "verifiedAt": "2026-07-04T02:45:38+08:00"
     },
     {
       "code": "16277",
@@ -15471,7 +15471,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16277",
-      "verifiedAt": "2026-07-03T02:55:21+08:00"
+      "verifiedAt": "2026-07-04T02:45:40+08:00"
     },
     {
       "code": "16278",
@@ -15519,7 +15519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16278",
-      "verifiedAt": "2026-07-03T02:55:23+08:00"
+      "verifiedAt": "2026-07-04T02:45:41+08:00"
     },
     {
       "code": "16279",
@@ -15577,7 +15577,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16279",
-      "verifiedAt": "2026-07-03T02:55:24+08:00"
+      "verifiedAt": "2026-07-04T02:45:42+08:00"
     },
     {
       "code": "16280",
@@ -15635,7 +15635,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16280",
-      "verifiedAt": "2026-07-03T02:55:25+08:00"
+      "verifiedAt": "2026-07-04T02:45:44+08:00"
     },
     {
       "code": "16281",
@@ -15689,7 +15689,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16281",
-      "verifiedAt": "2026-07-03T02:55:26+08:00"
+      "verifiedAt": "2026-07-04T02:45:45+08:00"
     },
     {
       "code": "16282",
@@ -15743,7 +15743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16282",
-      "verifiedAt": "2026-07-03T02:55:28+08:00"
+      "verifiedAt": "2026-07-04T02:45:46+08:00"
     },
     {
       "code": "16283",
@@ -15787,7 +15787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16283",
-      "verifiedAt": "2026-07-03T02:55:29+08:00"
+      "verifiedAt": "2026-07-04T02:45:48+08:00"
     },
     {
       "code": "16284",
@@ -15841,7 +15841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16284",
-      "verifiedAt": "2026-07-03T02:55:30+08:00"
+      "verifiedAt": "2026-07-04T02:45:49+08:00"
     },
     {
       "code": "16285",
@@ -15895,7 +15895,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16285",
-      "verifiedAt": "2026-07-03T02:55:32+08:00"
+      "verifiedAt": "2026-07-04T02:45:50+08:00"
     },
     {
       "code": "16286",
@@ -15939,7 +15939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16286",
-      "verifiedAt": "2026-07-03T02:55:33+08:00"
+      "verifiedAt": "2026-07-04T02:45:51+08:00"
     },
     {
       "code": "16287",
@@ -15993,7 +15993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16287",
-      "verifiedAt": "2026-07-03T02:55:34+08:00"
+      "verifiedAt": "2026-07-04T02:45:51+08:00"
     },
     {
       "code": "16288",
@@ -16047,7 +16047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16288",
-      "verifiedAt": "2026-07-03T02:55:35+08:00"
+      "verifiedAt": "2026-07-04T02:45:52+08:00"
     },
     {
       "code": "16289",
@@ -16101,7 +16101,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16289",
-      "verifiedAt": "2026-07-03T02:55:36+08:00"
+      "verifiedAt": "2026-07-04T02:45:53+08:00"
     },
     {
       "code": "16290",
@@ -16159,7 +16159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16290",
-      "verifiedAt": "2026-07-03T02:55:37+08:00"
+      "verifiedAt": "2026-07-04T02:45:54+08:00"
     },
     {
       "code": "16291",
@@ -16203,7 +16203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16291",
-      "verifiedAt": "2026-07-03T02:55:38+08:00"
+      "verifiedAt": "2026-07-04T02:45:56+08:00"
     },
     {
       "code": "16292",
@@ -16257,7 +16257,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16292",
-      "verifiedAt": "2026-07-03T02:55:40+08:00"
+      "verifiedAt": "2026-07-04T02:45:57+08:00"
     },
     {
       "code": "16293",
@@ -16321,7 +16321,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16293",
-      "verifiedAt": "2026-07-03T02:55:41+08:00"
+      "verifiedAt": "2026-07-04T02:45:58+08:00"
     },
     {
       "code": "16294",
@@ -16379,7 +16379,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16294",
-      "verifiedAt": "2026-07-03T02:55:43+08:00"
+      "verifiedAt": "2026-07-04T02:45:59+08:00"
     },
     {
       "code": "16295",
@@ -16433,7 +16433,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16295",
-      "verifiedAt": "2026-07-03T02:55:44+08:00"
+      "verifiedAt": "2026-07-04T02:46:00+08:00"
     },
     {
       "code": "16296",
@@ -16511,7 +16511,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16296",
-      "verifiedAt": "2026-07-03T02:55:45+08:00"
+      "verifiedAt": "2026-07-04T02:46:01+08:00"
     },
     {
       "code": "16297",
@@ -16575,7 +16575,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16297",
-      "verifiedAt": "2026-07-03T02:55:47+08:00"
+      "verifiedAt": "2026-07-04T02:46:02+08:00"
     },
     {
       "code": "16298",
@@ -16633,7 +16633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16298",
-      "verifiedAt": "2026-07-03T02:55:48+08:00"
+      "verifiedAt": "2026-07-04T02:46:03+08:00"
     },
     {
       "code": "16299",
@@ -16681,7 +16681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16299",
-      "verifiedAt": "2026-07-03T02:55:50+08:00"
+      "verifiedAt": "2026-07-04T02:46:05+08:00"
     },
     {
       "code": "16300",
@@ -16729,7 +16729,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16300",
-      "verifiedAt": "2026-07-03T02:55:51+08:00"
+      "verifiedAt": "2026-07-04T02:46:07+08:00"
     },
     {
       "code": "16301",
@@ -16777,7 +16777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16301",
-      "verifiedAt": "2026-07-03T02:55:52+08:00"
+      "verifiedAt": "2026-07-04T02:46:09+08:00"
     },
     {
       "code": "16302",
@@ -16825,7 +16825,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16302",
-      "verifiedAt": "2026-07-03T02:55:53+08:00"
+      "verifiedAt": "2026-07-04T02:46:10+08:00"
     },
     {
       "code": "16303",
@@ -16883,7 +16883,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16303",
-      "verifiedAt": "2026-07-03T02:55:55+08:00"
+      "verifiedAt": "2026-07-04T02:46:11+08:00"
     },
     {
       "code": "16304",
@@ -16941,7 +16941,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16304",
-      "verifiedAt": "2026-07-03T02:55:56+08:00"
+      "verifiedAt": "2026-07-04T02:46:12+08:00"
     },
     {
       "code": "16305",
@@ -16999,7 +16999,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16305",
-      "verifiedAt": "2026-07-03T02:55:57+08:00"
+      "verifiedAt": "2026-07-04T02:46:13+08:00"
     },
     {
       "code": "16306",
@@ -17047,7 +17047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16306",
-      "verifiedAt": "2026-07-03T02:55:58+08:00"
+      "verifiedAt": "2026-07-04T02:46:15+08:00"
     },
     {
       "code": "16307",
@@ -17095,7 +17095,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16307",
-      "verifiedAt": "2026-07-03T02:56:00+08:00"
+      "verifiedAt": "2026-07-04T02:46:16+08:00"
     },
     {
       "code": "16311",
@@ -17149,7 +17149,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16311",
-      "verifiedAt": "2026-07-03T02:56:01+08:00"
+      "verifiedAt": "2026-07-04T02:46:17+08:00"
     },
     {
       "code": "16312",
@@ -17203,7 +17203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16312",
-      "verifiedAt": "2026-07-03T02:56:02+08:00"
+      "verifiedAt": "2026-07-04T02:46:19+08:00"
     },
     {
       "code": "16313",
@@ -17261,7 +17261,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16313",
-      "verifiedAt": "2026-07-03T02:56:03+08:00"
+      "verifiedAt": "2026-07-04T02:46:20+08:00"
     },
     {
       "code": "16314",
@@ -17315,7 +17315,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16314",
-      "verifiedAt": "2026-07-03T02:56:05+08:00"
+      "verifiedAt": "2026-07-04T02:46:21+08:00"
     },
     {
       "code": "16315",
@@ -17373,7 +17373,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16315",
-      "verifiedAt": "2026-07-03T02:56:07+08:00"
+      "verifiedAt": "2026-07-04T02:46:22+08:00"
     },
     {
       "code": "16316",
@@ -17427,7 +17427,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16316",
-      "verifiedAt": "2026-07-03T02:56:08+08:00"
+      "verifiedAt": "2026-07-04T02:46:23+08:00"
     },
     {
       "code": "16317",
@@ -17495,7 +17495,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16317",
-      "verifiedAt": "2026-07-03T02:56:09+08:00"
+      "verifiedAt": "2026-07-04T02:46:25+08:00"
     },
     {
       "code": "16318",
@@ -17579,7 +17579,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16318",
-      "verifiedAt": "2026-07-03T02:56:10+08:00"
+      "verifiedAt": "2026-07-04T02:46:26+08:00"
     },
     {
       "code": "16319",
@@ -17633,7 +17633,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16319",
-      "verifiedAt": "2026-07-03T02:56:12+08:00"
+      "verifiedAt": "2026-07-04T02:46:27+08:00"
     },
     {
       "code": "16320",
@@ -17731,7 +17731,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16320",
-      "verifiedAt": "2026-07-03T02:56:13+08:00"
+      "verifiedAt": "2026-07-04T02:46:28+08:00"
     },
     {
       "code": "16321",
@@ -17785,7 +17785,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16321",
-      "verifiedAt": "2026-07-03T02:56:15+08:00"
+      "verifiedAt": "2026-07-04T02:46:29+08:00"
     },
     {
       "code": "16322",
@@ -17843,7 +17843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16322",
-      "verifiedAt": "2026-07-03T02:56:18+08:00"
+      "verifiedAt": "2026-07-04T02:46:30+08:00"
     },
     {
       "code": "16323",
@@ -17897,7 +17897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16323",
-      "verifiedAt": "2026-07-03T02:56:19+08:00"
+      "verifiedAt": "2026-07-04T02:46:32+08:00"
     },
     {
       "code": "16324",
@@ -17941,7 +17941,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16324",
-      "verifiedAt": "2026-07-03T02:56:20+08:00"
+      "verifiedAt": "2026-07-04T02:46:33+08:00"
     },
     {
       "code": "16325",
@@ -17989,7 +17989,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16325",
-      "verifiedAt": "2026-07-03T02:56:21+08:00"
+      "verifiedAt": "2026-07-04T02:46:34+08:00"
     },
     {
       "code": "16326",
@@ -18037,7 +18037,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16326",
-      "verifiedAt": "2026-07-03T02:56:23+08:00"
+      "verifiedAt": "2026-07-04T02:46:35+08:00"
     },
     {
       "code": "16327",
@@ -18085,7 +18085,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16327",
-      "verifiedAt": "2026-07-03T02:56:24+08:00"
+      "verifiedAt": "2026-07-04T02:46:37+08:00"
     },
     {
       "code": "16328",
@@ -18139,7 +18139,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16328",
-      "verifiedAt": "2026-07-03T02:56:25+08:00"
+      "verifiedAt": "2026-07-04T02:46:38+08:00"
     },
     {
       "code": "16329",
@@ -18193,7 +18193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16329",
-      "verifiedAt": "2026-07-03T02:56:28+08:00"
+      "verifiedAt": "2026-07-04T02:46:39+08:00"
     },
     {
       "code": "16340",
@@ -18247,7 +18247,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16340",
-      "verifiedAt": "2026-07-03T02:56:29+08:00"
+      "verifiedAt": "2026-07-04T02:46:40+08:00"
     },
     {
       "code": "16341",
@@ -18305,7 +18305,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16341",
-      "verifiedAt": "2026-07-03T02:56:30+08:00"
+      "verifiedAt": "2026-07-04T02:46:42+08:00"
     },
     {
       "code": "16342",
@@ -18369,7 +18369,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16342",
-      "verifiedAt": "2026-07-03T02:56:31+08:00"
+      "verifiedAt": "2026-07-04T02:46:43+08:00"
     },
     {
       "code": "16343",
@@ -18413,7 +18413,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/16343",
-      "verifiedAt": "2026-07-03T02:56:32+08:00"
+      "verifiedAt": "2026-07-04T02:46:44+08:00"
     },
     {
       "code": "26301",
@@ -18467,7 +18467,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26301",
-      "verifiedAt": "2026-07-03T02:56:34+08:00"
+      "verifiedAt": "2026-07-04T02:46:45+08:00"
     },
     {
       "code": "26306",
@@ -18531,7 +18531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26306",
-      "verifiedAt": "2026-07-03T02:56:35+08:00"
+      "verifiedAt": "2026-07-04T02:46:46+08:00"
     },
     {
       "code": "26307",
@@ -18615,7 +18615,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26307",
-      "verifiedAt": "2026-07-03T02:56:36+08:00"
+      "verifiedAt": "2026-07-04T02:46:47+08:00"
     },
     {
       "code": "26308",
@@ -18669,7 +18669,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26308",
-      "verifiedAt": "2026-07-03T02:56:38+08:00"
+      "verifiedAt": "2026-07-04T02:46:49+08:00"
     },
     {
       "code": "26309",
@@ -18743,7 +18743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26309",
-      "verifiedAt": "2026-07-03T02:56:39+08:00"
+      "verifiedAt": "2026-07-04T02:46:50+08:00"
     },
     {
       "code": "26310",
@@ -18807,7 +18807,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26310",
-      "verifiedAt": "2026-07-03T02:56:40+08:00"
+      "verifiedAt": "2026-07-04T02:46:51+08:00"
     },
     {
       "code": "26311",
@@ -18851,7 +18851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26311",
-      "verifiedAt": "2026-07-03T02:56:41+08:00"
+      "verifiedAt": "2026-07-04T02:46:52+08:00"
     },
     {
       "code": "26312",
@@ -18915,7 +18915,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26312",
-      "verifiedAt": "2026-07-03T02:56:43+08:00"
+      "verifiedAt": "2026-07-04T02:46:53+08:00"
     },
     {
       "code": "26313",
@@ -18969,7 +18969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26313",
-      "verifiedAt": "2026-07-03T02:56:45+08:00"
+      "verifiedAt": "2026-07-04T02:46:55+08:00"
     },
     {
       "code": "26314",
@@ -19043,7 +19043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26314",
-      "verifiedAt": "2026-07-03T02:56:46+08:00"
+      "verifiedAt": "2026-07-04T02:46:56+08:00"
     },
     {
       "code": "26318",
@@ -19087,7 +19087,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26318",
-      "verifiedAt": "2026-07-03T02:56:48+08:00"
+      "verifiedAt": "2026-07-04T02:46:59+08:00"
     },
     {
       "code": "26319",
@@ -19141,7 +19141,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26319",
-      "verifiedAt": "2026-07-03T02:56:49+08:00"
+      "verifiedAt": "2026-07-04T02:47:00+08:00"
     },
     {
       "code": "26320",
@@ -19215,7 +19215,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26320",
-      "verifiedAt": "2026-07-03T02:56:51+08:00"
+      "verifiedAt": "2026-07-04T02:47:02+08:00"
     },
     {
       "code": "26324",
@@ -19259,7 +19259,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26324",
-      "verifiedAt": "2026-07-03T02:56:52+08:00"
+      "verifiedAt": "2026-07-04T02:47:03+08:00"
     },
     {
       "code": "26326",
@@ -19303,7 +19303,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26326",
-      "verifiedAt": "2026-07-03T02:56:53+08:00"
+      "verifiedAt": "2026-07-04T02:47:04+08:00"
     },
     {
       "code": "26327",
@@ -19347,7 +19347,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26327",
-      "verifiedAt": "2026-07-03T02:56:55+08:00"
+      "verifiedAt": "2026-07-04T02:47:06+08:00"
     },
     {
       "code": "26328",
@@ -19411,7 +19411,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26328",
-      "verifiedAt": "2026-07-03T02:56:56+08:00"
+      "verifiedAt": "2026-07-04T02:47:07+08:00"
     },
     {
       "code": "26329",
@@ -19485,7 +19485,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26329",
-      "verifiedAt": "2026-07-03T02:56:57+08:00"
+      "verifiedAt": "2026-07-04T02:47:08+08:00"
     },
     {
       "code": "26330",
@@ -19559,7 +19559,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26330",
-      "verifiedAt": "2026-07-03T02:56:58+08:00"
+      "verifiedAt": "2026-07-04T02:47:09+08:00"
     },
     {
       "code": "26376",
@@ -19603,7 +19603,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26376",
-      "verifiedAt": "2026-07-03T02:57:00+08:00"
+      "verifiedAt": "2026-07-04T02:47:11+08:00"
     },
     {
       "code": "26377",
@@ -19657,7 +19657,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26377",
-      "verifiedAt": "2026-07-03T02:57:01+08:00"
+      "verifiedAt": "2026-07-04T02:47:12+08:00"
     },
     {
       "code": "26378",
@@ -19701,7 +19701,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26378",
-      "verifiedAt": "2026-07-03T02:57:02+08:00"
+      "verifiedAt": "2026-07-04T02:47:13+08:00"
     },
     {
       "code": "26401",
@@ -19755,7 +19755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26401",
-      "verifiedAt": "2026-07-03T02:57:03+08:00"
+      "verifiedAt": "2026-07-04T02:47:14+08:00"
     },
     {
       "code": "26402",
@@ -19849,7 +19849,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26402",
-      "verifiedAt": "2026-07-03T02:57:06+08:00"
+      "verifiedAt": "2026-07-04T02:47:16+08:00"
     },
     {
       "code": "26444",
@@ -19905,7 +19905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26444",
-      "verifiedAt": "2026-07-03T02:57:06+08:00"
+      "verifiedAt": "2026-07-04T02:47:16+08:00"
     },
     {
       "code": "26461",
@@ -19983,7 +19983,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26461",
-      "verifiedAt": "2026-07-03T02:57:08+08:00"
+      "verifiedAt": "2026-07-04T02:47:18+08:00"
     },
     {
       "code": "26462",
@@ -20051,7 +20051,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26462",
-      "verifiedAt": "2026-07-03T02:57:10+08:00"
+      "verifiedAt": "2026-07-04T02:47:19+08:00"
     },
     {
       "code": "26495",
@@ -20109,7 +20109,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26495",
-      "verifiedAt": "2026-07-03T02:57:11+08:00"
+      "verifiedAt": "2026-07-04T02:47:20+08:00"
     },
     {
       "code": "26496",
@@ -20167,7 +20167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26496",
-      "verifiedAt": "2026-07-03T02:57:13+08:00"
+      "verifiedAt": "2026-07-04T02:47:22+08:00"
     },
     {
       "code": "26497",
@@ -20221,7 +20221,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26497",
-      "verifiedAt": "2026-07-03T02:57:14+08:00"
+      "verifiedAt": "2026-07-04T02:47:23+08:00"
     },
     {
       "code": "26498",
@@ -20265,7 +20265,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26498",
-      "verifiedAt": "2026-07-03T02:57:15+08:00"
+      "verifiedAt": "2026-07-04T02:47:24+08:00"
     },
     {
       "code": "26499",
@@ -20309,7 +20309,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26499",
-      "verifiedAt": "2026-07-03T02:57:16+08:00"
+      "verifiedAt": "2026-07-04T02:47:26+08:00"
     },
     {
       "code": "26500",
@@ -20363,7 +20363,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26500",
-      "verifiedAt": "2026-07-03T02:57:18+08:00"
+      "verifiedAt": "2026-07-04T02:47:27+08:00"
     },
     {
       "code": "26501",
@@ -20437,7 +20437,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26501",
-      "verifiedAt": "2026-07-03T02:57:19+08:00"
+      "verifiedAt": "2026-07-04T02:47:29+08:00"
     },
     {
       "code": "26502",
@@ -20491,7 +20491,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26502",
-      "verifiedAt": "2026-07-03T02:57:21+08:00"
+      "verifiedAt": "2026-07-04T02:47:30+08:00"
     },
     {
       "code": "26503",
@@ -20565,7 +20565,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26503",
-      "verifiedAt": "2026-07-03T02:57:23+08:00"
+      "verifiedAt": "2026-07-04T02:47:31+08:00"
     },
     {
       "code": "26504",
@@ -20619,7 +20619,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26504",
-      "verifiedAt": "2026-07-03T02:57:24+08:00"
+      "verifiedAt": "2026-07-04T02:47:32+08:00"
     },
     {
       "code": "26505",
@@ -20693,7 +20693,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26505",
-      "verifiedAt": "2026-07-03T02:57:25+08:00"
+      "verifiedAt": "2026-07-04T02:47:33+08:00"
     },
     {
       "code": "26506",
@@ -20751,7 +20751,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26506",
-      "verifiedAt": "2026-07-03T02:57:26+08:00"
+      "verifiedAt": "2026-07-04T02:47:35+08:00"
     },
     {
       "code": "26507",
@@ -20805,7 +20805,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26507",
-      "verifiedAt": "2026-07-03T02:57:28+08:00"
+      "verifiedAt": "2026-07-04T02:47:36+08:00"
     },
     {
       "code": "26508",
@@ -20883,7 +20883,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26508",
-      "verifiedAt": "2026-07-03T02:57:29+08:00"
+      "verifiedAt": "2026-07-04T02:47:37+08:00"
     },
     {
       "code": "26543",
@@ -20947,7 +20947,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26543",
-      "verifiedAt": "2026-07-03T02:57:30+08:00"
+      "verifiedAt": "2026-07-04T02:47:39+08:00"
     },
     {
       "code": "26548",
@@ -21003,7 +21003,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26548",
-      "verifiedAt": "2026-07-03T02:57:31+08:00"
+      "verifiedAt": "2026-07-04T02:47:39+08:00"
     },
     {
       "code": "26551",
@@ -21047,7 +21047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26551",
-      "verifiedAt": "2026-07-03T02:57:33+08:00"
+      "verifiedAt": "2026-07-04T02:47:41+08:00"
     },
     {
       "code": "26552",
@@ -21111,7 +21111,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26552",
-      "verifiedAt": "2026-07-03T02:57:35+08:00"
+      "verifiedAt": "2026-07-04T02:47:43+08:00"
     },
     {
       "code": "26553",
@@ -21165,7 +21165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26553",
-      "verifiedAt": "2026-07-03T02:57:36+08:00"
+      "verifiedAt": "2026-07-04T02:47:44+08:00"
     },
     {
       "code": "26554",
@@ -21209,7 +21209,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26554",
-      "verifiedAt": "2026-07-03T02:57:38+08:00"
+      "verifiedAt": "2026-07-04T02:47:45+08:00"
     },
     {
       "code": "26584",
@@ -21273,7 +21273,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26584",
-      "verifiedAt": "2026-07-03T02:57:39+08:00"
+      "verifiedAt": "2026-07-04T02:47:46+08:00"
     },
     {
       "code": "26585",
@@ -21337,7 +21337,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26585",
-      "verifiedAt": "2026-07-03T02:57:40+08:00"
+      "verifiedAt": "2026-07-04T02:47:47+08:00"
     },
     {
       "code": "26586",
@@ -21401,7 +21401,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26586",
-      "verifiedAt": "2026-07-03T02:57:41+08:00"
+      "verifiedAt": "2026-07-04T02:47:49+08:00"
     },
     {
       "code": "26587",
@@ -21465,7 +21465,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26587",
-      "verifiedAt": "2026-07-03T02:57:43+08:00"
+      "verifiedAt": "2026-07-04T02:47:50+08:00"
     },
     {
       "code": "26588",
@@ -21519,7 +21519,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26588",
-      "verifiedAt": "2026-07-03T02:57:44+08:00"
+      "verifiedAt": "2026-07-04T02:47:51+08:00"
     },
     {
       "code": "26589",
@@ -21573,7 +21573,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26589",
-      "verifiedAt": "2026-07-03T02:57:45+08:00"
+      "verifiedAt": "2026-07-04T02:47:52+08:00"
     },
     {
       "code": "26590",
@@ -21637,7 +21637,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26590",
-      "verifiedAt": "2026-07-03T02:57:46+08:00"
+      "verifiedAt": "2026-07-04T02:47:53+08:00"
     },
     {
       "code": "26591",
@@ -21711,7 +21711,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26591",
-      "verifiedAt": "2026-07-03T02:57:48+08:00"
+      "verifiedAt": "2026-07-04T02:47:55+08:00"
     },
     {
       "code": "26604",
@@ -21775,7 +21775,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26604",
-      "verifiedAt": "2026-07-03T02:57:49+08:00"
+      "verifiedAt": "2026-07-04T02:47:57+08:00"
     },
     {
       "code": "26605",
@@ -21859,7 +21859,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26605",
-      "verifiedAt": "2026-07-03T02:57:50+08:00"
+      "verifiedAt": "2026-07-04T02:47:58+08:00"
     },
     {
       "code": "26606",
@@ -21923,7 +21923,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26606",
-      "verifiedAt": "2026-07-03T02:57:52+08:00"
+      "verifiedAt": "2026-07-04T02:47:59+08:00"
     },
     {
       "code": "26607",
@@ -21987,7 +21987,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26607",
-      "verifiedAt": "2026-07-03T02:57:53+08:00"
+      "verifiedAt": "2026-07-04T02:48:00+08:00"
     },
     {
       "code": "26608",
@@ -22071,7 +22071,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26608",
-      "verifiedAt": "2026-07-03T02:58:00+08:00"
+      "verifiedAt": "2026-07-04T02:48:02+08:00"
     },
     {
       "code": "26609",
@@ -22135,7 +22135,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26609",
-      "verifiedAt": "2026-07-03T02:58:01+08:00"
+      "verifiedAt": "2026-07-04T02:48:03+08:00"
     },
     {
       "code": "26610",
@@ -22199,7 +22199,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26610",
-      "verifiedAt": "2026-07-03T02:58:04+08:00"
+      "verifiedAt": "2026-07-04T02:48:04+08:00"
     },
     {
       "code": "26611",
@@ -22253,7 +22253,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26611",
-      "verifiedAt": "2026-07-03T02:58:07+08:00"
+      "verifiedAt": "2026-07-04T02:48:05+08:00"
     },
     {
       "code": "26612",
@@ -22317,7 +22317,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26612",
-      "verifiedAt": "2026-07-03T02:58:09+08:00"
+      "verifiedAt": "2026-07-04T02:48:06+08:00"
     },
     {
       "code": "26613",
@@ -22381,7 +22381,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26613",
-      "verifiedAt": "2026-07-03T02:58:11+08:00"
+      "verifiedAt": "2026-07-04T02:48:08+08:00"
     },
     {
       "code": "26614",
@@ -22445,7 +22445,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26614",
-      "verifiedAt": "2026-07-03T02:58:14+08:00"
+      "verifiedAt": "2026-07-04T02:48:09+08:00"
     },
     {
       "code": "26615",
@@ -22499,7 +22499,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26615",
-      "verifiedAt": "2026-07-03T02:58:17+08:00"
+      "verifiedAt": "2026-07-04T02:48:10+08:00"
     },
     {
       "code": "26616",
@@ -22563,7 +22563,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26616",
-      "verifiedAt": "2026-07-03T02:58:19+08:00"
+      "verifiedAt": "2026-07-04T02:48:12+08:00"
     },
     {
       "code": "26618",
@@ -22627,7 +22627,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26618",
-      "verifiedAt": "2026-07-03T02:58:21+08:00"
+      "verifiedAt": "2026-07-04T02:48:13+08:00"
     },
     {
       "code": "26619",
@@ -22681,7 +22681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26619",
-      "verifiedAt": "2026-07-03T02:58:22+08:00"
+      "verifiedAt": "2026-07-04T02:48:14+08:00"
     },
     {
       "code": "26620",
@@ -22745,7 +22745,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26620",
-      "verifiedAt": "2026-07-03T02:58:24+08:00"
+      "verifiedAt": "2026-07-04T02:48:15+08:00"
     },
     {
       "code": "26621",
@@ -22799,7 +22799,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26621",
-      "verifiedAt": "2026-07-03T02:58:26+08:00"
+      "verifiedAt": "2026-07-04T02:48:16+08:00"
     },
     {
       "code": "26622",
@@ -22883,7 +22883,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26622",
-      "verifiedAt": "2026-07-03T02:58:27+08:00"
+      "verifiedAt": "2026-07-04T02:48:17+08:00"
     },
     {
       "code": "26625",
@@ -22947,7 +22947,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26625",
-      "verifiedAt": "2026-07-03T02:58:28+08:00"
+      "verifiedAt": "2026-07-04T02:48:19+08:00"
     },
     {
       "code": "26626",
@@ -23001,7 +23001,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26626",
-      "verifiedAt": "2026-07-03T02:58:30+08:00"
+      "verifiedAt": "2026-07-04T02:48:20+08:00"
     },
     {
       "code": "26632",
@@ -23055,7 +23055,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26632",
-      "verifiedAt": "2026-07-03T02:58:31+08:00"
+      "verifiedAt": "2026-07-04T02:48:21+08:00"
     },
     {
       "code": "26633",
@@ -23119,7 +23119,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26633",
-      "verifiedAt": "2026-07-03T02:58:32+08:00"
+      "verifiedAt": "2026-07-04T02:48:22+08:00"
     },
     {
       "code": "26634",
@@ -23187,7 +23187,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26634",
-      "verifiedAt": "2026-07-03T02:58:34+08:00"
+      "verifiedAt": "2026-07-04T02:48:23+08:00"
     },
     {
       "code": "26635",
@@ -23261,7 +23261,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26635",
-      "verifiedAt": "2026-07-03T02:58:35+08:00"
+      "verifiedAt": "2026-07-04T02:48:24+08:00"
     },
     {
       "code": "26636",
@@ -23325,7 +23325,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26636",
-      "verifiedAt": "2026-07-03T02:58:37+08:00"
+      "verifiedAt": "2026-07-04T02:48:26+08:00"
     },
     {
       "code": "26637",
@@ -23399,7 +23399,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26637",
-      "verifiedAt": "2026-07-03T02:58:38+08:00"
+      "verifiedAt": "2026-07-04T02:48:27+08:00"
     },
     {
       "code": "26638",
@@ -23473,7 +23473,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26638",
-      "verifiedAt": "2026-07-03T02:58:40+08:00"
+      "verifiedAt": "2026-07-04T02:48:28+08:00"
     },
     {
       "code": "26639",
@@ -23527,7 +23527,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26639",
-      "verifiedAt": "2026-07-03T02:58:42+08:00"
+      "verifiedAt": "2026-07-04T02:48:29+08:00"
     },
     {
       "code": "26640",
@@ -23591,7 +23591,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26640",
-      "verifiedAt": "2026-07-03T02:58:43+08:00"
+      "verifiedAt": "2026-07-04T02:48:30+08:00"
     },
     {
       "code": "26641",
@@ -23655,7 +23655,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26641",
-      "verifiedAt": "2026-07-03T02:58:44+08:00"
+      "verifiedAt": "2026-07-04T02:48:32+08:00"
     },
     {
       "code": "26651",
@@ -23699,7 +23699,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26651",
-      "verifiedAt": "2026-07-03T02:58:46+08:00"
+      "verifiedAt": "2026-07-04T02:48:33+08:00"
     },
     {
       "code": "26653",
@@ -23783,7 +23783,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26653",
-      "verifiedAt": "2026-07-03T02:58:47+08:00"
+      "verifiedAt": "2026-07-04T02:48:34+08:00"
     },
     {
       "code": "26657",
@@ -23847,7 +23847,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26657",
-      "verifiedAt": "2026-07-03T02:58:48+08:00"
+      "verifiedAt": "2026-07-04T02:48:35+08:00"
     },
     {
       "code": "26671",
@@ -23891,7 +23891,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26671",
-      "verifiedAt": "2026-07-03T02:58:50+08:00"
+      "verifiedAt": "2026-07-04T02:48:36+08:00"
     },
     {
       "code": "26672",
@@ -23945,7 +23945,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26672",
-      "verifiedAt": "2026-07-03T02:58:51+08:00"
+      "verifiedAt": "2026-07-04T02:48:38+08:00"
     },
     {
       "code": "26673",
@@ -23999,7 +23999,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26673",
-      "verifiedAt": "2026-07-03T02:58:53+08:00"
+      "verifiedAt": "2026-07-04T02:48:39+08:00"
     },
     {
       "code": "26674",
@@ -24053,7 +24053,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26674",
-      "verifiedAt": "2026-07-03T02:58:54+08:00"
+      "verifiedAt": "2026-07-04T02:48:40+08:00"
     },
     {
       "code": "26675",
@@ -24107,7 +24107,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26675",
-      "verifiedAt": "2026-07-03T02:58:55+08:00"
+      "verifiedAt": "2026-07-04T02:48:41+08:00"
     },
     {
       "code": "26676",
@@ -24171,7 +24171,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26676",
-      "verifiedAt": "2026-07-03T02:58:56+08:00"
+      "verifiedAt": "2026-07-04T02:48:42+08:00"
     },
     {
       "code": "26677",
@@ -24235,7 +24235,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26677",
-      "verifiedAt": "2026-07-03T02:58:58+08:00"
+      "verifiedAt": "2026-07-04T02:48:44+08:00"
     },
     {
       "code": "26678",
@@ -24299,7 +24299,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26678",
-      "verifiedAt": "2026-07-03T02:58:59+08:00"
+      "verifiedAt": "2026-07-04T02:48:45+08:00"
     },
     {
       "code": "26679",
@@ -24363,7 +24363,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26679",
-      "verifiedAt": "2026-07-03T02:59:00+08:00"
+      "verifiedAt": "2026-07-04T02:48:46+08:00"
     },
     {
       "code": "26680",
@@ -24437,7 +24437,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26680",
-      "verifiedAt": "2026-07-03T02:59:01+08:00"
+      "verifiedAt": "2026-07-04T02:48:47+08:00"
     },
     {
       "code": "26681",
@@ -24511,7 +24511,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26681",
-      "verifiedAt": "2026-07-03T02:59:03+08:00"
+      "verifiedAt": "2026-07-04T02:48:48+08:00"
     },
     {
       "code": "26682",
@@ -24585,7 +24585,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26682",
-      "verifiedAt": "2026-07-03T02:59:04+08:00"
+      "verifiedAt": "2026-07-04T02:48:49+08:00"
     },
     {
       "code": "26683",
@@ -24669,7 +24669,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26683",
-      "verifiedAt": "2026-07-03T02:59:05+08:00"
+      "verifiedAt": "2026-07-04T02:48:51+08:00"
     },
     {
       "code": "26684",
@@ -24743,7 +24743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26684",
-      "verifiedAt": "2026-07-03T02:59:07+08:00"
+      "verifiedAt": "2026-07-04T02:48:52+08:00"
     },
     {
       "code": "26685",
@@ -24827,7 +24827,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26685",
-      "verifiedAt": "2026-07-03T02:59:09+08:00"
+      "verifiedAt": "2026-07-04T02:48:53+08:00"
     },
     {
       "code": "26686",
@@ -24891,7 +24891,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26686",
-      "verifiedAt": "2026-07-03T02:59:10+08:00"
+      "verifiedAt": "2026-07-04T02:48:54+08:00"
     },
     {
       "code": "26687",
@@ -24965,7 +24965,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26687",
-      "verifiedAt": "2026-07-03T02:59:11+08:00"
+      "verifiedAt": "2026-07-04T02:48:55+08:00"
     },
     {
       "code": "26688",
@@ -25019,7 +25019,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26688",
-      "verifiedAt": "2026-07-03T02:59:12+08:00"
+      "verifiedAt": "2026-07-04T02:48:56+08:00"
     },
     {
       "code": "26689",
@@ -25073,7 +25073,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26689",
-      "verifiedAt": "2026-07-03T02:59:14+08:00"
+      "verifiedAt": "2026-07-04T02:48:57+08:00"
     },
     {
       "code": "26690",
@@ -25137,7 +25137,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26690",
-      "verifiedAt": "2026-07-03T02:59:15+08:00"
+      "verifiedAt": "2026-07-04T02:48:58+08:00"
     },
     {
       "code": "26693",
@@ -25191,7 +25191,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26693",
-      "verifiedAt": "2026-07-03T02:59:16+08:00"
+      "verifiedAt": "2026-07-04T02:48:59+08:00"
     },
     {
       "code": "26694",
@@ -25259,7 +25259,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26694",
-      "verifiedAt": "2026-07-03T02:59:17+08:00"
+      "verifiedAt": "2026-07-04T02:49:00+08:00"
     },
     {
       "code": "26695",
@@ -25313,7 +25313,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26695",
-      "verifiedAt": "2026-07-03T02:59:19+08:00"
+      "verifiedAt": "2026-07-04T02:49:02+08:00"
     },
     {
       "code": "26696",
@@ -25367,7 +25367,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26696",
-      "verifiedAt": "2026-07-03T02:59:20+08:00"
+      "verifiedAt": "2026-07-04T02:49:03+08:00"
     },
     {
       "code": "26697",
@@ -25421,7 +25421,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26697",
-      "verifiedAt": "2026-07-03T02:59:21+08:00"
+      "verifiedAt": "2026-07-04T02:49:04+08:00"
     },
     {
       "code": "26701",
@@ -25499,7 +25499,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26701",
-      "verifiedAt": "2026-07-03T02:59:22+08:00"
+      "verifiedAt": "2026-07-04T02:49:05+08:00"
     },
     {
       "code": "26702",
@@ -25563,7 +25563,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26702",
-      "verifiedAt": "2026-07-03T02:59:24+08:00"
+      "verifiedAt": "2026-07-04T02:49:06+08:00"
     },
     {
       "code": "26703",
@@ -25627,7 +25627,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26703",
-      "verifiedAt": "2026-07-03T02:59:25+08:00"
+      "verifiedAt": "2026-07-04T02:49:08+08:00"
     },
     {
       "code": "26704",
@@ -25701,7 +25701,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26704",
-      "verifiedAt": "2026-07-03T02:59:27+08:00"
+      "verifiedAt": "2026-07-04T02:49:09+08:00"
     },
     {
       "code": "26716",
@@ -25779,7 +25779,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26716",
-      "verifiedAt": "2026-07-03T02:59:28+08:00"
+      "verifiedAt": "2026-07-04T02:49:10+08:00"
     },
     {
       "code": "26718",
@@ -25843,7 +25843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26718",
-      "verifiedAt": "2026-07-03T02:59:29+08:00"
+      "verifiedAt": "2026-07-04T02:49:12+08:00"
     },
     {
       "code": "26719",
@@ -25927,7 +25927,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26719",
-      "verifiedAt": "2026-07-03T02:59:31+08:00"
+      "verifiedAt": "2026-07-04T02:49:13+08:00"
     },
     {
       "code": "26720",
@@ -26005,7 +26005,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26720",
-      "verifiedAt": "2026-07-03T02:59:32+08:00"
+      "verifiedAt": "2026-07-04T02:49:14+08:00"
     },
     {
       "code": "26721",
@@ -26059,7 +26059,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26721",
-      "verifiedAt": "2026-07-03T02:59:33+08:00"
+      "verifiedAt": "2026-07-04T02:49:15+08:00"
     },
     {
       "code": "26722",
@@ -26143,7 +26143,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26722",
-      "verifiedAt": "2026-07-03T02:59:35+08:00"
+      "verifiedAt": "2026-07-04T02:49:16+08:00"
     },
     {
       "code": "26723",
@@ -26231,7 +26231,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26723",
-      "verifiedAt": "2026-07-03T02:59:36+08:00"
+      "verifiedAt": "2026-07-04T02:49:17+08:00"
     },
     {
       "code": "26724",
@@ -26285,7 +26285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26724",
-      "verifiedAt": "2026-07-03T02:59:37+08:00"
+      "verifiedAt": "2026-07-04T02:49:18+08:00"
     },
     {
       "code": "26725",
@@ -26369,7 +26369,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26725",
-      "verifiedAt": "2026-07-03T02:59:39+08:00"
+      "verifiedAt": "2026-07-04T02:49:20+08:00"
     },
     {
       "code": "26726",
@@ -26423,7 +26423,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26726",
-      "verifiedAt": "2026-07-03T02:59:41+08:00"
+      "verifiedAt": "2026-07-04T02:49:21+08:00"
     },
     {
       "code": "26727",
@@ -26477,7 +26477,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26727",
-      "verifiedAt": "2026-07-03T02:59:42+08:00"
+      "verifiedAt": "2026-07-04T02:49:22+08:00"
     },
     {
       "code": "26728",
@@ -26531,7 +26531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26728",
-      "verifiedAt": "2026-07-03T02:59:43+08:00"
+      "verifiedAt": "2026-07-04T02:49:23+08:00"
     },
     {
       "code": "26729",
@@ -26585,7 +26585,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26729",
-      "verifiedAt": "2026-07-03T02:59:45+08:00"
+      "verifiedAt": "2026-07-04T02:49:24+08:00"
     },
     {
       "code": "26730",
@@ -26639,7 +26639,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26730",
-      "verifiedAt": "2026-07-03T02:59:46+08:00"
+      "verifiedAt": "2026-07-04T02:49:25+08:00"
     },
     {
       "code": "26731",
@@ -26693,7 +26693,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26731",
-      "verifiedAt": "2026-07-03T02:59:47+08:00"
+      "verifiedAt": "2026-07-04T02:49:27+08:00"
     },
     {
       "code": "26732",
@@ -26757,7 +26757,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26732",
-      "verifiedAt": "2026-07-03T02:59:49+08:00"
+      "verifiedAt": "2026-07-04T02:49:28+08:00"
     },
     {
       "code": "26733",
@@ -26851,7 +26851,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26733",
-      "verifiedAt": "2026-07-03T02:59:51+08:00"
+      "verifiedAt": "2026-07-04T02:49:29+08:00"
     },
     {
       "code": "26734",
@@ -26929,7 +26929,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26734",
-      "verifiedAt": "2026-07-03T02:59:52+08:00"
+      "verifiedAt": "2026-07-04T02:49:30+08:00"
     },
     {
       "code": "26735",
@@ -27017,7 +27017,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26735",
-      "verifiedAt": "2026-07-03T02:59:53+08:00"
+      "verifiedAt": "2026-07-04T02:49:31+08:00"
     },
     {
       "code": "26744",
@@ -27081,7 +27081,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26744",
-      "verifiedAt": "2026-07-03T02:59:54+08:00"
+      "verifiedAt": "2026-07-04T02:49:32+08:00"
     },
     {
       "code": "26745",
@@ -27135,7 +27135,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26745",
-      "verifiedAt": "2026-07-03T02:59:56+08:00"
+      "verifiedAt": "2026-07-04T02:49:33+08:00"
     },
     {
       "code": "26746",
@@ -27189,7 +27189,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26746",
-      "verifiedAt": "2026-07-03T02:59:57+08:00"
+      "verifiedAt": "2026-07-04T02:49:34+08:00"
     },
     {
       "code": "26747",
@@ -27243,7 +27243,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26747",
-      "verifiedAt": "2026-07-03T02:59:58+08:00"
+      "verifiedAt": "2026-07-04T02:49:36+08:00"
     },
     {
       "code": "26750",
@@ -27317,7 +27317,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26750",
-      "verifiedAt": "2026-07-03T02:59:59+08:00"
+      "verifiedAt": "2026-07-04T02:49:37+08:00"
     },
     {
       "code": "26751",
@@ -27391,7 +27391,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26751",
-      "verifiedAt": "2026-07-03T03:00:01+08:00"
+      "verifiedAt": "2026-07-04T02:49:38+08:00"
     },
     {
       "code": "26752",
@@ -27485,7 +27485,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26752",
-      "verifiedAt": "2026-07-03T03:00:02+08:00"
+      "verifiedAt": "2026-07-04T02:49:39+08:00"
     },
     {
       "code": "26753",
@@ -27539,7 +27539,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26753",
-      "verifiedAt": "2026-07-03T03:00:04+08:00"
+      "verifiedAt": "2026-07-04T02:49:40+08:00"
     },
     {
       "code": "26760",
@@ -27603,7 +27603,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26760",
-      "verifiedAt": "2026-07-03T03:00:05+08:00"
+      "verifiedAt": "2026-07-04T02:49:41+08:00"
     },
     {
       "code": "26761",
@@ -27661,7 +27661,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26761",
-      "verifiedAt": "2026-07-03T03:00:07+08:00"
+      "verifiedAt": "2026-07-04T02:49:43+08:00"
     },
     {
       "code": "26762",
@@ -27745,7 +27745,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26762",
-      "verifiedAt": "2026-07-03T03:00:08+08:00"
+      "verifiedAt": "2026-07-04T02:49:44+08:00"
     },
     {
       "code": "26763",
@@ -27829,7 +27829,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26763",
-      "verifiedAt": "2026-07-03T03:00:09+08:00"
+      "verifiedAt": "2026-07-04T02:49:45+08:00"
     },
     {
       "code": "26764",
@@ -27883,7 +27883,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26764",
-      "verifiedAt": "2026-07-03T03:00:11+08:00"
+      "verifiedAt": "2026-07-04T02:49:46+08:00"
     },
     {
       "code": "26765",
@@ -27947,7 +27947,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26765",
-      "verifiedAt": "2026-07-03T03:00:12+08:00"
+      "verifiedAt": "2026-07-04T02:49:47+08:00"
     },
     {
       "code": "26766",
@@ -28011,7 +28011,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26766",
-      "verifiedAt": "2026-07-03T03:00:14+08:00"
+      "verifiedAt": "2026-07-04T02:49:48+08:00"
     },
     {
       "code": "26767",
@@ -28065,7 +28065,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26767",
-      "verifiedAt": "2026-07-03T03:00:15+08:00"
+      "verifiedAt": "2026-07-04T02:49:49+08:00"
     },
     {
       "code": "26768",
@@ -28153,7 +28153,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26768",
-      "verifiedAt": "2026-07-03T03:00:17+08:00"
+      "verifiedAt": "2026-07-04T02:49:50+08:00"
     },
     {
       "code": "26769",
@@ -28227,7 +28227,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26769",
-      "verifiedAt": "2026-07-03T03:00:18+08:00"
+      "verifiedAt": "2026-07-04T02:49:51+08:00"
     },
     {
       "code": "26770",
@@ -28281,7 +28281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26770",
-      "verifiedAt": "2026-07-03T03:00:19+08:00"
+      "verifiedAt": "2026-07-04T02:49:53+08:00"
     },
     {
       "code": "26771",
@@ -28345,7 +28345,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26771",
-      "verifiedAt": "2026-07-03T03:00:21+08:00"
+      "verifiedAt": "2026-07-04T02:49:54+08:00"
     },
     {
       "code": "26772",
@@ -28403,7 +28403,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26772",
-      "verifiedAt": "2026-07-03T03:00:22+08:00"
+      "verifiedAt": "2026-07-04T02:49:55+08:00"
     },
     {
       "code": "26773",
@@ -28457,7 +28457,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26773",
-      "verifiedAt": "2026-07-03T03:00:24+08:00"
+      "verifiedAt": "2026-07-04T02:49:56+08:00"
     },
     {
       "code": "26774",
@@ -28521,7 +28521,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26774",
-      "verifiedAt": "2026-07-03T03:00:25+08:00"
+      "verifiedAt": "2026-07-04T02:49:58+08:00"
     },
     {
       "code": "26775",
@@ -28585,7 +28585,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26775",
-      "verifiedAt": "2026-07-03T03:00:26+08:00"
+      "verifiedAt": "2026-07-04T02:49:59+08:00"
     },
     {
       "code": "26776",
@@ -28643,7 +28643,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26776",
-      "verifiedAt": "2026-07-03T03:00:27+08:00"
+      "verifiedAt": "2026-07-04T02:50:00+08:00"
     },
     {
       "code": "26777",
@@ -28721,7 +28721,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26777",
-      "verifiedAt": "2026-07-03T03:00:29+08:00"
+      "verifiedAt": "2026-07-04T02:50:01+08:00"
     },
     {
       "code": "26779",
@@ -28779,7 +28779,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26779",
-      "verifiedAt": "2026-07-03T03:00:30+08:00"
+      "verifiedAt": "2026-07-04T02:50:02+08:00"
     },
     {
       "code": "26780",
@@ -28853,7 +28853,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26780",
-      "verifiedAt": "2026-07-03T03:00:32+08:00"
+      "verifiedAt": "2026-07-04T02:50:03+08:00"
     },
     {
       "code": "26781",
@@ -28907,7 +28907,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26781",
-      "verifiedAt": "2026-07-03T03:00:33+08:00"
+      "verifiedAt": "2026-07-04T02:50:04+08:00"
     },
     {
       "code": "26782",
@@ -28951,7 +28951,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26782",
-      "verifiedAt": "2026-07-03T03:00:35+08:00"
+      "verifiedAt": "2026-07-04T02:50:06+08:00"
     },
     {
       "code": "26783",
@@ -29009,7 +29009,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26783",
-      "verifiedAt": "2026-07-03T03:00:36+08:00"
+      "verifiedAt": "2026-07-04T02:50:07+08:00"
     },
     {
       "code": "26784",
@@ -29067,7 +29067,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26784",
-      "verifiedAt": "2026-07-03T03:00:38+08:00"
+      "verifiedAt": "2026-07-04T02:50:08+08:00"
     },
     {
       "code": "26785",
@@ -29135,7 +29135,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26785",
-      "verifiedAt": "2026-07-03T03:00:39+08:00"
+      "verifiedAt": "2026-07-04T02:50:09+08:00"
     },
     {
       "code": "26786",
@@ -29203,7 +29203,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26786",
-      "verifiedAt": "2026-07-03T03:00:41+08:00"
+      "verifiedAt": "2026-07-04T02:50:10+08:00"
     },
     {
       "code": "26787",
@@ -29267,7 +29267,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26787",
-      "verifiedAt": "2026-07-03T03:00:42+08:00"
+      "verifiedAt": "2026-07-04T02:50:12+08:00"
     },
     {
       "code": "26790",
@@ -29331,7 +29331,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26790",
-      "verifiedAt": "2026-07-03T03:00:44+08:00"
+      "verifiedAt": "2026-07-04T02:50:13+08:00"
     },
     {
       "code": "26791",
@@ -29385,7 +29385,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26791",
-      "verifiedAt": "2026-07-03T03:00:46+08:00"
+      "verifiedAt": "2026-07-04T02:50:14+08:00"
     },
     {
       "code": "26792",
@@ -29439,7 +29439,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26792",
-      "verifiedAt": "2026-07-03T03:00:47+08:00"
+      "verifiedAt": "2026-07-04T02:50:15+08:00"
     },
     {
       "code": "26793",
@@ -29513,7 +29513,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26793",
-      "verifiedAt": "2026-07-03T03:00:48+08:00"
+      "verifiedAt": "2026-07-04T02:50:16+08:00"
     },
     {
       "code": "26794",
@@ -29581,7 +29581,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26794",
-      "verifiedAt": "2026-07-03T03:00:50+08:00"
+      "verifiedAt": "2026-07-04T02:50:17+08:00"
     },
     {
       "code": "26795",
@@ -29649,7 +29649,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26795",
-      "verifiedAt": "2026-07-03T03:00:51+08:00"
+      "verifiedAt": "2026-07-04T02:50:18+08:00"
     },
     {
       "code": "26796",
@@ -29707,7 +29707,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26796",
-      "verifiedAt": "2026-07-03T03:00:52+08:00"
+      "verifiedAt": "2026-07-04T02:50:20+08:00"
     },
     {
       "code": "26797",
@@ -29755,7 +29755,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26797",
-      "verifiedAt": "2026-07-03T03:00:54+08:00"
+      "verifiedAt": "2026-07-04T02:50:21+08:00"
     },
     {
       "code": "26798",
@@ -29813,7 +29813,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26798",
-      "verifiedAt": "2026-07-03T03:00:55+08:00"
+      "verifiedAt": "2026-07-04T02:50:22+08:00"
     },
     {
       "code": "26799",
@@ -29861,7 +29861,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26799",
-      "verifiedAt": "2026-07-03T03:00:56+08:00"
+      "verifiedAt": "2026-07-04T02:50:23+08:00"
     },
     {
       "code": "26800",
@@ -29909,7 +29909,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26800",
-      "verifiedAt": "2026-07-03T03:00:58+08:00"
+      "verifiedAt": "2026-07-04T02:50:24+08:00"
     },
     {
       "code": "26801",
@@ -29977,7 +29977,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26801",
-      "verifiedAt": "2026-07-03T03:00:59+08:00"
+      "verifiedAt": "2026-07-04T02:50:25+08:00"
     },
     {
       "code": "26802",
@@ -30045,7 +30045,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26802",
-      "verifiedAt": "2026-07-03T03:01:01+08:00"
+      "verifiedAt": "2026-07-04T02:50:27+08:00"
     },
     {
       "code": "26803",
@@ -30103,7 +30103,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26803",
-      "verifiedAt": "2026-07-03T03:01:02+08:00"
+      "verifiedAt": "2026-07-04T02:50:28+08:00"
     },
     {
       "code": "26804",
@@ -30167,7 +30167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26804",
-      "verifiedAt": "2026-07-03T03:01:03+08:00"
+      "verifiedAt": "2026-07-04T02:50:29+08:00"
     },
     {
       "code": "26805",
@@ -30225,7 +30225,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26805",
-      "verifiedAt": "2026-07-03T03:01:04+08:00"
+      "verifiedAt": "2026-07-04T02:50:30+08:00"
     },
     {
       "code": "26806",
@@ -30283,7 +30283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26806",
-      "verifiedAt": "2026-07-03T03:01:06+08:00"
+      "verifiedAt": "2026-07-04T02:50:31+08:00"
     },
     {
       "code": "26807",
@@ -30341,7 +30341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26807",
-      "verifiedAt": "2026-07-03T03:01:07+08:00"
+      "verifiedAt": "2026-07-04T02:50:32+08:00"
     },
     {
       "code": "26808",
@@ -30409,7 +30409,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26808",
-      "verifiedAt": "2026-07-03T03:01:09+08:00"
+      "verifiedAt": "2026-07-04T02:50:33+08:00"
     },
     {
       "code": "26809",
@@ -30473,7 +30473,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26809",
-      "verifiedAt": "2026-07-03T03:01:10+08:00"
+      "verifiedAt": "2026-07-04T02:50:35+08:00"
     },
     {
       "code": "26810",
@@ -30527,7 +30527,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26810",
-      "verifiedAt": "2026-07-03T03:01:11+08:00"
+      "verifiedAt": "2026-07-04T02:50:36+08:00"
     },
     {
       "code": "26811",
@@ -30585,7 +30585,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26811",
-      "verifiedAt": "2026-07-03T03:01:13+08:00"
+      "verifiedAt": "2026-07-04T02:50:37+08:00"
     },
     {
       "code": "26812",
@@ -30649,7 +30649,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26812",
-      "verifiedAt": "2026-07-03T03:01:14+08:00"
+      "verifiedAt": "2026-07-04T02:50:38+08:00"
     },
     {
       "code": "26813",
@@ -30743,7 +30743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26813",
-      "verifiedAt": "2026-07-03T03:01:15+08:00"
+      "verifiedAt": "2026-07-04T02:50:39+08:00"
     },
     {
       "code": "26814",
@@ -30797,7 +30797,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26814",
-      "verifiedAt": "2026-07-03T03:01:17+08:00"
+      "verifiedAt": "2026-07-04T02:50:40+08:00"
     },
     {
       "code": "26815",
@@ -30855,7 +30855,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26815",
-      "verifiedAt": "2026-07-03T03:01:19+08:00"
+      "verifiedAt": "2026-07-04T02:50:42+08:00"
     },
     {
       "code": "26816",
@@ -30913,7 +30913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26816",
-      "verifiedAt": "2026-07-03T03:01:20+08:00"
+      "verifiedAt": "2026-07-04T02:50:43+08:00"
     },
     {
       "code": "26817",
@@ -30977,7 +30977,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26817",
-      "verifiedAt": "2026-07-03T03:01:21+08:00"
+      "verifiedAt": "2026-07-04T02:50:44+08:00"
     },
     {
       "code": "26818",
@@ -31045,7 +31045,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26818",
-      "verifiedAt": "2026-07-03T03:01:23+08:00"
+      "verifiedAt": "2026-07-04T02:50:45+08:00"
     },
     {
       "code": "26819",
@@ -31103,7 +31103,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26819",
-      "verifiedAt": "2026-07-03T03:01:24+08:00"
+      "verifiedAt": "2026-07-04T02:50:46+08:00"
     },
     {
       "code": "26820",
@@ -31161,7 +31161,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26820",
-      "verifiedAt": "2026-07-03T03:01:25+08:00"
+      "verifiedAt": "2026-07-04T02:50:47+08:00"
     },
     {
       "code": "26821",
@@ -31245,7 +31245,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26821",
-      "verifiedAt": "2026-07-03T03:01:27+08:00"
+      "verifiedAt": "2026-07-04T02:50:48+08:00"
     },
     {
       "code": "26822",
@@ -31299,7 +31299,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26822",
-      "verifiedAt": "2026-07-03T03:01:28+08:00"
+      "verifiedAt": "2026-07-04T02:50:49+08:00"
     },
     {
       "code": "26823",
@@ -31373,7 +31373,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26823",
-      "verifiedAt": "2026-07-03T03:01:29+08:00"
+      "verifiedAt": "2026-07-04T02:50:50+08:00"
     },
     {
       "code": "26824",
@@ -31431,7 +31431,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26824",
-      "verifiedAt": "2026-07-03T03:01:30+08:00"
+      "verifiedAt": "2026-07-04T02:50:52+08:00"
     },
     {
       "code": "26825",
@@ -31489,7 +31489,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26825",
-      "verifiedAt": "2026-07-03T03:01:32+08:00"
+      "verifiedAt": "2026-07-04T02:50:53+08:00"
     },
     {
       "code": "26826",
@@ -31553,7 +31553,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26826",
-      "verifiedAt": "2026-07-03T03:01:33+08:00"
+      "verifiedAt": "2026-07-04T02:50:54+08:00"
     },
     {
       "code": "26827",
@@ -31611,7 +31611,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26827",
-      "verifiedAt": "2026-07-03T03:01:34+08:00"
+      "verifiedAt": "2026-07-04T02:50:55+08:00"
     },
     {
       "code": "26828",
@@ -31665,7 +31665,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26828",
-      "verifiedAt": "2026-07-03T03:01:36+08:00"
+      "verifiedAt": "2026-07-04T02:50:56+08:00"
     },
     {
       "code": "26829",
@@ -31723,7 +31723,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26829",
-      "verifiedAt": "2026-07-03T03:01:37+08:00"
+      "verifiedAt": "2026-07-04T02:50:58+08:00"
     },
     {
       "code": "26830",
@@ -31797,7 +31797,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26830",
-      "verifiedAt": "2026-07-03T03:01:39+08:00"
+      "verifiedAt": "2026-07-04T02:51:00+08:00"
     },
     {
       "code": "26831",
@@ -31855,7 +31855,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26831",
-      "verifiedAt": "2026-07-03T03:01:40+08:00"
+      "verifiedAt": "2026-07-04T02:51:01+08:00"
     },
     {
       "code": "26832",
@@ -31899,7 +31899,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26832",
-      "verifiedAt": "2026-07-03T03:01:42+08:00"
+      "verifiedAt": "2026-07-04T02:51:03+08:00"
     },
     {
       "code": "26833",
@@ -31943,7 +31943,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26833",
-      "verifiedAt": "2026-07-03T03:01:43+08:00"
+      "verifiedAt": "2026-07-04T02:51:04+08:00"
     },
     {
       "code": "26834",
@@ -31987,7 +31987,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26834",
-      "verifiedAt": "2026-07-03T03:01:44+08:00"
+      "verifiedAt": "2026-07-04T02:51:05+08:00"
     },
     {
       "code": "26835",
@@ -32041,7 +32041,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26835",
-      "verifiedAt": "2026-07-03T03:01:45+08:00"
+      "verifiedAt": "2026-07-04T02:51:06+08:00"
     },
     {
       "code": "26836",
@@ -32099,7 +32099,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26836",
-      "verifiedAt": "2026-07-03T03:01:47+08:00"
+      "verifiedAt": "2026-07-04T02:51:08+08:00"
     },
     {
       "code": "26837",
@@ -32167,7 +32167,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26837",
-      "verifiedAt": "2026-07-03T03:01:48+08:00"
+      "verifiedAt": "2026-07-04T02:51:09+08:00"
     },
     {
       "code": "26838",
@@ -32221,7 +32221,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26838",
-      "verifiedAt": "2026-07-03T03:01:49+08:00"
+      "verifiedAt": "2026-07-04T02:51:10+08:00"
     },
     {
       "code": "26840",
@@ -32265,7 +32265,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26840",
-      "verifiedAt": "2026-07-03T03:01:50+08:00"
+      "verifiedAt": "2026-07-04T02:51:11+08:00"
     },
     {
       "code": "26843",
@@ -32309,7 +32309,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26843",
-      "verifiedAt": "2026-07-03T03:01:52+08:00"
+      "verifiedAt": "2026-07-04T02:51:12+08:00"
     },
     {
       "code": "26844",
@@ -32357,7 +32357,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26844",
-      "verifiedAt": "2026-07-03T03:01:53+08:00"
+      "verifiedAt": "2026-07-04T02:51:14+08:00"
     },
     {
       "code": "26845",
@@ -32411,7 +32411,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26845",
-      "verifiedAt": "2026-07-03T03:01:55+08:00"
+      "verifiedAt": "2026-07-04T02:51:15+08:00"
     },
     {
       "code": "26846",
@@ -32465,7 +32465,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26846",
-      "verifiedAt": "2026-07-03T03:01:57+08:00"
+      "verifiedAt": "2026-07-04T02:51:16+08:00"
     },
     {
       "code": "26847",
@@ -32499,7 +32499,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26847",
-      "verifiedAt": "2026-07-03T03:01:58+08:00"
+      "verifiedAt": "2026-07-04T02:51:18+08:00"
     },
     {
       "code": "26848",
@@ -32533,7 +32533,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26848",
-      "verifiedAt": "2026-07-03T03:02:00+08:00"
+      "verifiedAt": "2026-07-04T02:51:19+08:00"
     },
     {
       "code": "26849",
@@ -32567,7 +32567,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26849",
-      "verifiedAt": "2026-07-03T03:02:01+08:00"
+      "verifiedAt": "2026-07-04T02:51:20+08:00"
     },
     {
       "code": "26850",
@@ -32621,7 +32621,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26850",
-      "verifiedAt": "2026-07-03T03:02:03+08:00"
+      "verifiedAt": "2026-07-04T02:51:22+08:00"
     },
     {
       "code": "26851",
@@ -32675,7 +32675,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26851",
-      "verifiedAt": "2026-07-03T03:02:06+08:00"
+      "verifiedAt": "2026-07-04T02:51:23+08:00"
     },
     {
       "code": "26852",
@@ -32733,7 +32733,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26852",
-      "verifiedAt": "2026-07-03T03:02:08+08:00"
+      "verifiedAt": "2026-07-04T02:51:25+08:00"
     },
     {
       "code": "26853",
@@ -32787,7 +32787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26853",
-      "verifiedAt": "2026-07-03T03:02:10+08:00"
+      "verifiedAt": "2026-07-04T02:51:26+08:00"
     },
     {
       "code": "26854",
@@ -32831,7 +32831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26854",
-      "verifiedAt": "2026-07-03T03:02:12+08:00"
+      "verifiedAt": "2026-07-04T02:51:27+08:00"
     },
     {
       "code": "26855",
@@ -32905,7 +32905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26855",
-      "verifiedAt": "2026-07-03T03:02:14+08:00"
+      "verifiedAt": "2026-07-04T02:51:28+08:00"
     },
     {
       "code": "26856",
@@ -32989,7 +32989,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26856",
-      "verifiedAt": "2026-07-03T03:02:16+08:00"
+      "verifiedAt": "2026-07-04T02:51:29+08:00"
     },
     {
       "code": "26857",
@@ -33043,7 +33043,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26857",
-      "verifiedAt": "2026-07-03T03:02:17+08:00"
+      "verifiedAt": "2026-07-04T02:51:30+08:00"
     },
     {
       "code": "26858",
@@ -33097,7 +33097,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26858",
-      "verifiedAt": "2026-07-03T03:02:20+08:00"
+      "verifiedAt": "2026-07-04T02:51:31+08:00"
     },
     {
       "code": "26859",
@@ -33151,7 +33151,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26859",
-      "verifiedAt": "2026-07-03T03:02:21+08:00"
+      "verifiedAt": "2026-07-04T02:51:33+08:00"
     },
     {
       "code": "26860",
@@ -33199,7 +33199,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26860",
-      "verifiedAt": "2026-07-03T03:02:23+08:00"
+      "verifiedAt": "2026-07-04T02:51:34+08:00"
     },
     {
       "code": "26861",
@@ -33263,7 +33263,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26861",
-      "verifiedAt": "2026-07-03T03:02:25+08:00"
+      "verifiedAt": "2026-07-04T02:51:35+08:00"
     },
     {
       "code": "26862",
@@ -33297,7 +33297,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26862",
-      "verifiedAt": "2026-07-03T03:02:26+08:00"
+      "verifiedAt": "2026-07-04T02:51:36+08:00"
     },
     {
       "code": "26863",
@@ -33381,7 +33381,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26863",
-      "verifiedAt": "2026-07-03T03:02:27+08:00"
+      "verifiedAt": "2026-07-04T02:51:37+08:00"
     },
     {
       "code": "26864",
@@ -33463,7 +33463,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26864",
-      "verifiedAt": "2026-07-03T03:02:29+08:00"
+      "verifiedAt": "2026-07-04T02:51:38+08:00"
     },
     {
       "code": "26865",
@@ -33527,7 +33527,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26865",
-      "verifiedAt": "2026-07-03T03:02:30+08:00"
+      "verifiedAt": "2026-07-04T02:51:40+08:00"
     },
     {
       "code": "26866",
@@ -33581,7 +33581,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26866",
-      "verifiedAt": "2026-07-03T03:02:32+08:00"
+      "verifiedAt": "2026-07-04T02:51:41+08:00"
     },
     {
       "code": "26867",
@@ -33625,7 +33625,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26867",
-      "verifiedAt": "2026-07-03T03:02:34+08:00"
+      "verifiedAt": "2026-07-04T02:51:42+08:00"
     },
     {
       "code": "26868",
@@ -33669,7 +33669,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26868",
-      "verifiedAt": "2026-07-03T03:02:36+08:00"
+      "verifiedAt": "2026-07-04T02:51:43+08:00"
     },
     {
       "code": "26869",
@@ -33733,7 +33733,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26869",
-      "verifiedAt": "2026-07-03T03:02:37+08:00"
+      "verifiedAt": "2026-07-04T02:51:44+08:00"
     },
     {
       "code": "26870",
@@ -33787,7 +33787,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26870",
-      "verifiedAt": "2026-07-03T03:02:39+08:00"
+      "verifiedAt": "2026-07-04T02:51:46+08:00"
     },
     {
       "code": "26871",
@@ -33831,7 +33831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26871",
-      "verifiedAt": "2026-07-03T03:02:40+08:00"
+      "verifiedAt": "2026-07-04T02:51:47+08:00"
     },
     {
       "code": "26872",
@@ -33885,7 +33885,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26872",
-      "verifiedAt": "2026-07-03T03:02:42+08:00"
+      "verifiedAt": "2026-07-04T02:51:48+08:00"
     },
     {
       "code": "26873",
@@ -33939,7 +33939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26873",
-      "verifiedAt": "2026-07-03T03:02:43+08:00"
+      "verifiedAt": "2026-07-04T02:51:50+08:00"
     },
     {
       "code": "26874",
@@ -33983,7 +33983,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26874",
-      "verifiedAt": "2026-07-03T03:02:45+08:00"
+      "verifiedAt": "2026-07-04T02:51:51+08:00"
     },
     {
       "code": "26875",
@@ -34027,7 +34027,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26875",
-      "verifiedAt": "2026-07-03T03:02:47+08:00"
+      "verifiedAt": "2026-07-04T02:51:52+08:00"
     },
     {
       "code": "26876",
@@ -34091,7 +34091,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26876",
-      "verifiedAt": "2026-07-03T03:02:48+08:00"
+      "verifiedAt": "2026-07-04T02:51:54+08:00"
     },
     {
       "code": "26877",
@@ -34155,7 +34155,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26877",
-      "verifiedAt": "2026-07-03T03:02:50+08:00"
+      "verifiedAt": "2026-07-04T02:51:55+08:00"
     },
     {
       "code": "26878",
@@ -34219,7 +34219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26878",
-      "verifiedAt": "2026-07-03T03:02:51+08:00"
+      "verifiedAt": "2026-07-04T02:51:56+08:00"
     },
     {
       "code": "26879",
@@ -34283,7 +34283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26879",
-      "verifiedAt": "2026-07-03T03:02:52+08:00"
+      "verifiedAt": "2026-07-04T02:51:57+08:00"
     },
     {
       "code": "26880",
@@ -34357,7 +34357,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26880",
-      "verifiedAt": "2026-07-03T03:02:53+08:00"
+      "verifiedAt": "2026-07-04T02:51:58+08:00"
     },
     {
       "code": "26881",
@@ -34401,7 +34401,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26881",
-      "verifiedAt": "2026-07-03T03:02:55+08:00"
+      "verifiedAt": "2026-07-04T02:51:59+08:00"
     },
     {
       "code": "26882",
@@ -34455,7 +34455,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26882",
-      "verifiedAt": "2026-07-03T03:02:56+08:00"
+      "verifiedAt": "2026-07-04T02:52:01+08:00"
     },
     {
       "code": "26883",
@@ -34509,7 +34509,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26883",
-      "verifiedAt": "2026-07-03T03:02:57+08:00"
+      "verifiedAt": "2026-07-04T02:52:02+08:00"
     },
     {
       "code": "26884",
@@ -34563,7 +34563,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26884",
-      "verifiedAt": "2026-07-03T03:02:59+08:00"
+      "verifiedAt": "2026-07-04T02:52:03+08:00"
     },
     {
       "code": "26885",
@@ -34617,7 +34617,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26885",
-      "verifiedAt": "2026-07-03T03:03:00+08:00"
+      "verifiedAt": "2026-07-04T02:52:04+08:00"
     },
     {
       "code": "26886",
@@ -34681,7 +34681,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26886",
-      "verifiedAt": "2026-07-03T03:03:02+08:00"
+      "verifiedAt": "2026-07-04T02:52:05+08:00"
     },
     {
       "code": "26887",
@@ -34725,7 +34725,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26887",
-      "verifiedAt": "2026-07-03T03:03:03+08:00"
+      "verifiedAt": "2026-07-04T02:52:07+08:00"
     },
     {
       "code": "26888",
@@ -34759,7 +34759,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26888",
-      "verifiedAt": "2026-07-03T03:03:05+08:00"
+      "verifiedAt": "2026-07-04T02:52:08+08:00"
     },
     {
       "code": "26889",
@@ -34803,7 +34803,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26889",
-      "verifiedAt": "2026-07-03T03:03:06+08:00"
+      "verifiedAt": "2026-07-04T02:52:09+08:00"
     },
     {
       "code": "26890",
@@ -34861,7 +34861,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26890",
-      "verifiedAt": "2026-07-03T03:03:07+08:00"
+      "verifiedAt": "2026-07-04T02:52:11+08:00"
     },
     {
       "code": "26891",
@@ -34935,7 +34935,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26891",
-      "verifiedAt": "2026-07-03T03:03:09+08:00"
+      "verifiedAt": "2026-07-04T02:52:12+08:00"
     },
     {
       "code": "26892",
@@ -35019,7 +35019,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26892",
-      "verifiedAt": "2026-07-03T03:03:10+08:00"
+      "verifiedAt": "2026-07-04T02:52:13+08:00"
     },
     {
       "code": "26893",
@@ -35093,7 +35093,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26893",
-      "verifiedAt": "2026-07-03T03:03:11+08:00"
+      "verifiedAt": "2026-07-04T02:52:14+08:00"
     },
     {
       "code": "26894",
@@ -35137,7 +35137,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26894",
-      "verifiedAt": "2026-07-03T03:03:13+08:00"
+      "verifiedAt": "2026-07-04T02:52:16+08:00"
     },
     {
       "code": "26895",
@@ -35215,7 +35215,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26895",
-      "verifiedAt": "2026-07-03T03:03:14+08:00"
+      "verifiedAt": "2026-07-04T02:52:17+08:00"
     },
     {
       "code": "26896",
@@ -35283,7 +35283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26896",
-      "verifiedAt": "2026-07-03T03:03:16+08:00"
+      "verifiedAt": "2026-07-04T02:52:19+08:00"
     },
     {
       "code": "26897",
@@ -35337,7 +35337,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26897",
-      "verifiedAt": "2026-07-03T03:03:17+08:00"
+      "verifiedAt": "2026-07-04T02:52:20+08:00"
     },
     {
       "code": "26898",
@@ -35391,7 +35391,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26898",
-      "verifiedAt": "2026-07-03T03:03:18+08:00"
+      "verifiedAt": "2026-07-04T02:52:21+08:00"
     },
     {
       "code": "26899",
@@ -35485,7 +35485,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26899",
-      "verifiedAt": "2026-07-03T03:03:19+08:00"
+      "verifiedAt": "2026-07-04T02:52:22+08:00"
     },
     {
       "code": "26900",
@@ -35553,7 +35553,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26900",
-      "verifiedAt": "2026-07-03T03:03:21+08:00"
+      "verifiedAt": "2026-07-04T02:52:24+08:00"
     },
     {
       "code": "26901",
@@ -35607,7 +35607,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26901",
-      "verifiedAt": "2026-07-03T03:03:22+08:00"
+      "verifiedAt": "2026-07-04T02:52:25+08:00"
     },
     {
       "code": "26902",
@@ -35661,7 +35661,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26902",
-      "verifiedAt": "2026-07-03T03:03:23+08:00"
+      "verifiedAt": "2026-07-04T02:52:26+08:00"
     },
     {
       "code": "26903",
@@ -35715,7 +35715,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26903",
-      "verifiedAt": "2026-07-03T03:03:25+08:00"
+      "verifiedAt": "2026-07-04T02:52:27+08:00"
     },
     {
       "code": "26904",
@@ -35769,7 +35769,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26904",
-      "verifiedAt": "2026-07-03T03:03:26+08:00"
+      "verifiedAt": "2026-07-04T02:52:29+08:00"
     },
     {
       "code": "26905",
@@ -35823,7 +35823,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26905",
-      "verifiedAt": "2026-07-03T03:03:28+08:00"
+      "verifiedAt": "2026-07-04T02:52:30+08:00"
     },
     {
       "code": "26906",
@@ -35857,7 +35857,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26906",
-      "verifiedAt": "2026-07-03T03:03:29+08:00"
+      "verifiedAt": "2026-07-04T02:52:31+08:00"
     },
     {
       "code": "26907",
@@ -35905,7 +35905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26907",
-      "verifiedAt": "2026-07-03T03:03:30+08:00"
+      "verifiedAt": "2026-07-04T02:52:32+08:00"
     },
     {
       "code": "26908",
@@ -35939,7 +35939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26908",
-      "verifiedAt": "2026-07-03T03:03:31+08:00"
+      "verifiedAt": "2026-07-04T02:52:34+08:00"
     },
     {
       "code": "26909",
@@ -35993,7 +35993,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26909",
-      "verifiedAt": "2026-07-03T03:03:33+08:00"
+      "verifiedAt": "2026-07-04T02:52:35+08:00"
     },
     {
       "code": "26910",
@@ -36027,7 +36027,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26910",
-      "verifiedAt": "2026-07-03T03:03:34+08:00"
+      "verifiedAt": "2026-07-04T02:52:36+08:00"
     },
     {
       "code": "26911",
@@ -36061,7 +36061,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26911",
-      "verifiedAt": "2026-07-03T03:03:35+08:00"
+      "verifiedAt": "2026-07-04T02:52:37+08:00"
     },
     {
       "code": "26912",
@@ -36125,7 +36125,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26912",
-      "verifiedAt": "2026-07-03T03:03:37+08:00"
+      "verifiedAt": "2026-07-04T02:52:38+08:00"
     },
     {
       "code": "26913",
@@ -36179,7 +36179,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26913",
-      "verifiedAt": "2026-07-03T03:03:38+08:00"
+      "verifiedAt": "2026-07-04T02:52:39+08:00"
     },
     {
       "code": "26914",
@@ -36223,7 +36223,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26914",
-      "verifiedAt": "2026-07-03T03:03:40+08:00"
+      "verifiedAt": "2026-07-04T02:52:40+08:00"
     },
     {
       "code": "26918",
@@ -36281,7 +36281,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26918",
-      "verifiedAt": "2026-07-03T03:03:41+08:00"
+      "verifiedAt": "2026-07-04T02:52:42+08:00"
     },
     {
       "code": "26919",
@@ -36349,7 +36349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26919",
-      "verifiedAt": "2026-07-03T03:03:42+08:00"
+      "verifiedAt": "2026-07-04T02:52:43+08:00"
     },
     {
       "code": "26920",
@@ -36427,7 +36427,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26920",
-      "verifiedAt": "2026-07-03T03:03:44+08:00"
+      "verifiedAt": "2026-07-04T02:52:44+08:00"
     },
     {
       "code": "26921",
@@ -36535,7 +36535,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26921",
-      "verifiedAt": "2026-07-03T03:03:46+08:00"
+      "verifiedAt": "2026-07-04T02:52:45+08:00"
     },
     {
       "code": "26922",
@@ -36593,7 +36593,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26922",
-      "verifiedAt": "2026-07-03T03:03:47+08:00"
+      "verifiedAt": "2026-07-04T02:52:47+08:00"
     },
     {
       "code": "26923",
@@ -36637,7 +36637,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26923",
-      "verifiedAt": "2026-07-03T03:03:49+08:00"
+      "verifiedAt": "2026-07-04T02:52:48+08:00"
     },
     {
       "code": "26924",
@@ -36701,7 +36701,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26924",
-      "verifiedAt": "2026-07-03T03:03:50+08:00"
+      "verifiedAt": "2026-07-04T02:52:49+08:00"
     },
     {
       "code": "26925",
@@ -36779,7 +36779,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26925",
-      "verifiedAt": "2026-07-03T03:03:51+08:00"
+      "verifiedAt": "2026-07-04T02:52:50+08:00"
     },
     {
       "code": "26926",
@@ -36843,7 +36843,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26926",
-      "verifiedAt": "2026-07-03T03:03:53+08:00"
+      "verifiedAt": "2026-07-04T02:52:51+08:00"
     },
     {
       "code": "26927",
@@ -36897,7 +36897,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26927",
-      "verifiedAt": "2026-07-03T03:03:54+08:00"
+      "verifiedAt": "2026-07-04T02:52:52+08:00"
     },
     {
       "code": "26928",
@@ -36971,7 +36971,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26928",
-      "verifiedAt": "2026-07-03T03:03:55+08:00"
+      "verifiedAt": "2026-07-04T02:52:54+08:00"
     },
     {
       "code": "26930",
@@ -37015,7 +37015,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26930",
-      "verifiedAt": "2026-07-03T03:03:57+08:00"
+      "verifiedAt": "2026-07-04T02:52:55+08:00"
     },
     {
       "code": "26933",
@@ -37069,7 +37069,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26933",
-      "verifiedAt": "2026-07-03T03:03:58+08:00"
+      "verifiedAt": "2026-07-04T02:52:57+08:00"
     },
     {
       "code": "26934",
@@ -37123,7 +37123,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26934",
-      "verifiedAt": "2026-07-03T03:03:59+08:00"
+      "verifiedAt": "2026-07-04T02:52:58+08:00"
     },
     {
       "code": "26935",
@@ -37177,7 +37177,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26935",
-      "verifiedAt": "2026-07-03T03:04:01+08:00"
+      "verifiedAt": "2026-07-04T02:52:59+08:00"
     },
     {
       "code": "26937",
@@ -37285,7 +37285,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26937",
-      "verifiedAt": "2026-07-03T03:04:02+08:00"
+      "verifiedAt": "2026-07-04T02:53:00+08:00"
     },
     {
       "code": "26938",
@@ -37339,7 +37339,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26938",
-      "verifiedAt": "2026-07-03T03:04:03+08:00"
+      "verifiedAt": "2026-07-04T02:53:02+08:00"
     },
     {
       "code": "26939",
@@ -37393,7 +37393,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26939",
-      "verifiedAt": "2026-07-03T03:04:05+08:00"
+      "verifiedAt": "2026-07-04T02:53:03+08:00"
     },
     {
       "code": "26940",
@@ -37451,7 +37451,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26940",
-      "verifiedAt": "2026-07-03T03:04:06+08:00"
+      "verifiedAt": "2026-07-04T02:53:04+08:00"
     },
     {
       "code": "26941",
@@ -37545,7 +37545,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26941",
-      "verifiedAt": "2026-07-03T03:04:07+08:00"
+      "verifiedAt": "2026-07-04T02:53:05+08:00"
     },
     {
       "code": "26942",
@@ -37619,7 +37619,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26942",
-      "verifiedAt": "2026-07-03T03:04:08+08:00"
+      "verifiedAt": "2026-07-04T02:53:06+08:00"
     },
     {
       "code": "26943",
@@ -37683,7 +37683,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26943",
-      "verifiedAt": "2026-07-03T03:04:10+08:00"
+      "verifiedAt": "2026-07-04T02:53:08+08:00"
     },
     {
       "code": "26944",
@@ -37777,7 +37777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26944",
-      "verifiedAt": "2026-07-03T03:04:11+08:00"
+      "verifiedAt": "2026-07-04T02:53:09+08:00"
     },
     {
       "code": "26945",
@@ -37831,7 +37831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26945",
-      "verifiedAt": "2026-07-03T03:04:12+08:00"
+      "verifiedAt": "2026-07-04T02:53:10+08:00"
     },
     {
       "code": "26946",
@@ -37885,7 +37885,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26946",
-      "verifiedAt": "2026-07-03T03:04:13+08:00"
+      "verifiedAt": "2026-07-04T02:53:11+08:00"
     },
     {
       "code": "26947",
@@ -37939,7 +37939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26947",
-      "verifiedAt": "2026-07-03T03:04:15+08:00"
+      "verifiedAt": "2026-07-04T02:53:12+08:00"
     },
     {
       "code": "26948",
@@ -38013,7 +38013,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26948",
-      "verifiedAt": "2026-07-03T03:04:16+08:00"
+      "verifiedAt": "2026-07-04T02:53:13+08:00"
     },
     {
       "code": "26949",
@@ -38057,7 +38057,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26949",
-      "verifiedAt": "2026-07-03T03:04:18+08:00"
+      "verifiedAt": "2026-07-04T02:53:15+08:00"
     },
     {
       "code": "26950",
@@ -38135,7 +38135,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26950",
-      "verifiedAt": "2026-07-03T03:04:20+08:00"
+      "verifiedAt": "2026-07-04T02:53:16+08:00"
     },
     {
       "code": "26951",
@@ -38229,7 +38229,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26951",
-      "verifiedAt": "2026-07-03T03:04:21+08:00"
+      "verifiedAt": "2026-07-04T02:53:17+08:00"
     },
     {
       "code": "26952",
@@ -38273,7 +38273,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26952",
-      "verifiedAt": "2026-07-03T03:04:22+08:00"
+      "verifiedAt": "2026-07-04T02:53:19+08:00"
     },
     {
       "code": "26953",
@@ -38317,7 +38317,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26953",
-      "verifiedAt": "2026-07-03T03:04:23+08:00"
+      "verifiedAt": "2026-07-04T02:53:20+08:00"
     },
     {
       "code": "26954",
@@ -38371,7 +38371,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26954",
-      "verifiedAt": "2026-07-03T03:04:25+08:00"
+      "verifiedAt": "2026-07-04T02:53:21+08:00"
     },
     {
       "code": "26955",
@@ -38459,7 +38459,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26955",
-      "verifiedAt": "2026-07-03T03:04:26+08:00"
+      "verifiedAt": "2026-07-04T02:53:22+08:00"
     },
     {
       "code": "26956",
@@ -38513,7 +38513,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26956",
-      "verifiedAt": "2026-07-03T03:04:28+08:00"
+      "verifiedAt": "2026-07-04T02:53:23+08:00"
     },
     {
       "code": "26957",
@@ -38567,7 +38567,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26957",
-      "verifiedAt": "2026-07-03T03:04:29+08:00"
+      "verifiedAt": "2026-07-04T02:53:25+08:00"
     },
     {
       "code": "26958",
@@ -38621,7 +38621,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26958",
-      "verifiedAt": "2026-07-03T03:04:30+08:00"
+      "verifiedAt": "2026-07-04T02:53:26+08:00"
     },
     {
       "code": "26959",
@@ -38689,7 +38689,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26959",
-      "verifiedAt": "2026-07-03T03:04:32+08:00"
+      "verifiedAt": "2026-07-04T02:53:27+08:00"
     },
     {
       "code": "26960",
@@ -38743,7 +38743,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26960",
-      "verifiedAt": "2026-07-03T03:04:33+08:00"
+      "verifiedAt": "2026-07-04T02:53:28+08:00"
     },
     {
       "code": "26961",
@@ -38831,7 +38831,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26961",
-      "verifiedAt": "2026-07-03T03:04:34+08:00"
+      "verifiedAt": "2026-07-04T02:53:30+08:00"
     },
     {
       "code": "26962",
@@ -38875,7 +38875,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26962",
-      "verifiedAt": "2026-07-03T03:04:35+08:00"
+      "verifiedAt": "2026-07-04T02:53:31+08:00"
     },
     {
       "code": "26963",
@@ -38939,7 +38939,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26963",
-      "verifiedAt": "2026-07-03T03:04:37+08:00"
+      "verifiedAt": "2026-07-04T02:53:32+08:00"
     },
     {
       "code": "26964",
@@ -39003,7 +39003,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26964",
-      "verifiedAt": "2026-07-03T03:04:39+08:00"
+      "verifiedAt": "2026-07-04T02:53:33+08:00"
     },
     {
       "code": "26965",
@@ -39061,7 +39061,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26965",
-      "verifiedAt": "2026-07-03T03:04:40+08:00"
+      "verifiedAt": "2026-07-04T02:53:34+08:00"
     },
     {
       "code": "26966",
@@ -39149,7 +39149,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26966",
-      "verifiedAt": "2026-07-03T03:04:41+08:00"
+      "verifiedAt": "2026-07-04T02:53:36+08:00"
     },
     {
       "code": "26967",
@@ -39193,7 +39193,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26967",
-      "verifiedAt": "2026-07-03T03:04:42+08:00"
+      "verifiedAt": "2026-07-04T02:53:37+08:00"
     },
     {
       "code": "26968",
@@ -39237,7 +39237,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26968",
-      "verifiedAt": "2026-07-03T03:04:44+08:00"
+      "verifiedAt": "2026-07-04T02:53:38+08:00"
     },
     {
       "code": "26969",
@@ -39311,7 +39311,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26969",
-      "verifiedAt": "2026-07-03T03:04:45+08:00"
+      "verifiedAt": "2026-07-04T02:53:39+08:00"
     },
     {
       "code": "26970",
@@ -39365,7 +39365,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26970",
-      "verifiedAt": "2026-07-03T03:04:46+08:00"
+      "verifiedAt": "2026-07-04T02:53:40+08:00"
     },
     {
       "code": "26971",
@@ -39429,7 +39429,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26971",
-      "verifiedAt": "2026-07-03T03:04:48+08:00"
+      "verifiedAt": "2026-07-04T02:53:41+08:00"
     },
     {
       "code": "26972",
@@ -39483,7 +39483,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26972",
-      "verifiedAt": "2026-07-03T03:04:49+08:00"
+      "verifiedAt": "2026-07-04T02:53:42+08:00"
     },
     {
       "code": "26973",
@@ -39537,7 +39537,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26973",
-      "verifiedAt": "2026-07-03T03:04:50+08:00"
+      "verifiedAt": "2026-07-04T02:53:43+08:00"
     },
     {
       "code": "26974",
@@ -39601,7 +39601,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26974",
-      "verifiedAt": "2026-07-03T03:04:52+08:00"
+      "verifiedAt": "2026-07-04T02:53:44+08:00"
     },
     {
       "code": "26975",
@@ -39645,7 +39645,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26975",
-      "verifiedAt": "2026-07-03T03:04:53+08:00"
+      "verifiedAt": "2026-07-04T02:53:46+08:00"
     },
     {
       "code": "26976",
@@ -39699,7 +39699,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26976",
-      "verifiedAt": "2026-07-03T03:04:54+08:00"
+      "verifiedAt": "2026-07-04T02:53:47+08:00"
     },
     {
       "code": "26977",
@@ -39777,7 +39777,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26977",
-      "verifiedAt": "2026-07-03T03:04:56+08:00"
+      "verifiedAt": "2026-07-04T02:53:48+08:00"
     },
     {
       "code": "26978",
@@ -39841,7 +39841,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26978",
-      "verifiedAt": "2026-07-03T03:04:57+08:00"
+      "verifiedAt": "2026-07-04T02:53:50+08:00"
     },
     {
       "code": "26979",
@@ -39905,7 +39905,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26979",
-      "verifiedAt": "2026-07-03T03:04:58+08:00"
+      "verifiedAt": "2026-07-04T02:53:51+08:00"
     },
     {
       "code": "26980",
@@ -39949,7 +39949,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26980",
-      "verifiedAt": "2026-07-03T03:05:00+08:00"
+      "verifiedAt": "2026-07-04T02:53:52+08:00"
     },
     {
       "code": "26982",
@@ -40003,7 +40003,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26982",
-      "verifiedAt": "2026-07-03T03:05:02+08:00"
+      "verifiedAt": "2026-07-04T02:53:53+08:00"
     },
     {
       "code": "26983",
@@ -40047,7 +40047,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26983",
-      "verifiedAt": "2026-07-03T03:05:03+08:00"
+      "verifiedAt": "2026-07-04T02:53:54+08:00"
     },
     {
       "code": "26984",
@@ -40105,7 +40105,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26984",
-      "verifiedAt": "2026-07-03T03:05:04+08:00"
+      "verifiedAt": "2026-07-04T02:53:56+08:00"
     },
     {
       "code": "26985",
@@ -40159,7 +40159,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26985",
-      "verifiedAt": "2026-07-03T03:05:06+08:00"
+      "verifiedAt": "2026-07-04T02:53:57+08:00"
     },
     {
       "code": "26986",
@@ -40223,7 +40223,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26986",
-      "verifiedAt": "2026-07-03T03:05:08+08:00"
+      "verifiedAt": "2026-07-04T02:53:58+08:00"
     },
     {
       "code": "26987",
@@ -40287,7 +40287,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26987",
-      "verifiedAt": "2026-07-03T03:05:09+08:00"
+      "verifiedAt": "2026-07-04T02:53:59+08:00"
     },
     {
       "code": "26988",
@@ -40341,7 +40341,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26988",
-      "verifiedAt": "2026-07-03T03:05:11+08:00"
+      "verifiedAt": "2026-07-04T02:54:01+08:00"
     },
     {
       "code": "26989",
@@ -40395,7 +40395,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26989",
-      "verifiedAt": "2026-07-03T03:05:12+08:00"
+      "verifiedAt": "2026-07-04T02:54:02+08:00"
     },
     {
       "code": "26990",
@@ -40459,7 +40459,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26990",
-      "verifiedAt": "2026-07-03T03:05:14+08:00"
+      "verifiedAt": "2026-07-04T02:54:03+08:00"
     },
     {
       "code": "26991",
@@ -40523,7 +40523,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26991",
-      "verifiedAt": "2026-07-03T03:05:15+08:00"
+      "verifiedAt": "2026-07-04T02:54:04+08:00"
     },
     {
       "code": "26992",
@@ -40607,7 +40607,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26992",
-      "verifiedAt": "2026-07-03T03:05:16+08:00"
+      "verifiedAt": "2026-07-04T02:54:05+08:00"
     },
     {
       "code": "26993",
@@ -40651,7 +40651,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26993",
-      "verifiedAt": "2026-07-03T03:05:18+08:00"
+      "verifiedAt": "2026-07-04T02:54:06+08:00"
     },
     {
       "code": "26994",
@@ -40705,7 +40705,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26994",
-      "verifiedAt": "2026-07-03T03:05:19+08:00"
+      "verifiedAt": "2026-07-04T02:54:08+08:00"
     },
     {
       "code": "26995",
@@ -40759,7 +40759,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26995",
-      "verifiedAt": "2026-07-03T03:05:20+08:00"
+      "verifiedAt": "2026-07-04T02:54:09+08:00"
     },
     {
       "code": "26996",
@@ -40813,7 +40813,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26996",
-      "verifiedAt": "2026-07-03T03:05:21+08:00"
+      "verifiedAt": "2026-07-04T02:54:10+08:00"
     },
     {
       "code": "26997",
@@ -40911,7 +40911,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26997",
-      "verifiedAt": "2026-07-03T03:05:23+08:00"
+      "verifiedAt": "2026-07-04T02:54:11+08:00"
     },
     {
       "code": "26998",
@@ -40975,7 +40975,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26998",
-      "verifiedAt": "2026-07-03T03:05:24+08:00"
+      "verifiedAt": "2026-07-04T02:54:12+08:00"
     },
     {
       "code": "26999",
@@ -41039,7 +41039,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/26999",
-      "verifiedAt": "2026-07-03T03:05:25+08:00"
+      "verifiedAt": "2026-07-04T02:54:13+08:00"
     },
     {
       "code": "40431",
@@ -41085,7 +41085,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40431",
-      "verifiedAt": "2026-07-03T03:05:26+08:00"
+      "verifiedAt": "2026-07-04T02:54:14+08:00"
     },
     {
       "code": "40432",
@@ -41151,7 +41151,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40432",
-      "verifiedAt": "2026-07-03T03:05:26+08:00"
+      "verifiedAt": "2026-07-04T02:54:14+08:00"
     },
     {
       "code": "40442",
@@ -41217,7 +41217,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40442",
-      "verifiedAt": "2026-07-03T03:05:27+08:00"
+      "verifiedAt": "2026-07-04T02:54:15+08:00"
     },
     {
       "code": "40443",
@@ -41283,7 +41283,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40443",
-      "verifiedAt": "2026-07-03T03:05:28+08:00"
+      "verifiedAt": "2026-07-04T02:54:16+08:00"
     },
     {
       "code": "40445",
@@ -41349,7 +41349,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40445",
-      "verifiedAt": "2026-07-03T03:05:29+08:00"
+      "verifiedAt": "2026-07-04T02:54:17+08:00"
     },
     {
       "code": "40449",
@@ -41425,7 +41425,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40449",
-      "verifiedAt": "2026-07-03T03:05:29+08:00"
+      "verifiedAt": "2026-07-04T02:54:17+08:00"
     },
     {
       "code": "40451",
@@ -41471,7 +41471,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40451",
-      "verifiedAt": "2026-07-03T03:05:30+08:00"
+      "verifiedAt": "2026-07-04T02:54:18+08:00"
     },
     {
       "code": "40483",
@@ -41547,7 +41547,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40483",
-      "verifiedAt": "2026-07-03T03:05:31+08:00"
+      "verifiedAt": "2026-07-04T02:54:19+08:00"
     },
     {
       "code": "40508",
@@ -41613,7 +41613,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40508",
-      "verifiedAt": "2026-07-03T03:05:32+08:00"
+      "verifiedAt": "2026-07-04T02:54:19+08:00"
     },
     {
       "code": "40509",
@@ -41679,7 +41679,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40509",
-      "verifiedAt": "2026-07-03T03:05:33+08:00"
+      "verifiedAt": "2026-07-04T02:54:20+08:00"
     },
     {
       "code": "40553",
@@ -41735,7 +41735,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40553",
-      "verifiedAt": "2026-07-03T03:05:33+08:00"
+      "verifiedAt": "2026-07-04T02:54:21+08:00"
     },
     {
       "code": "40558",
@@ -41791,7 +41791,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40558",
-      "verifiedAt": "2026-07-03T03:05:35+08:00"
+      "verifiedAt": "2026-07-04T02:54:21+08:00"
     },
     {
       "code": "40573",
@@ -41847,7 +41847,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40573",
-      "verifiedAt": "2026-07-03T03:05:35+08:00"
+      "verifiedAt": "2026-07-04T02:54:22+08:00"
     },
     {
       "code": "40574",
@@ -41913,7 +41913,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40574",
-      "verifiedAt": "2026-07-03T03:05:36+08:00"
+      "verifiedAt": "2026-07-04T02:54:23+08:00"
     },
     {
       "code": "40576",
@@ -41969,7 +41969,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/40576",
-      "verifiedAt": "2026-07-03T03:05:37+08:00"
+      "verifiedAt": "2026-07-04T02:54:23+08:00"
     },
     {
       "code": "50374",
@@ -42045,7 +42045,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50374",
-      "verifiedAt": "2026-07-03T03:05:38+08:00"
+      "verifiedAt": "2026-07-04T02:54:24+08:00"
     },
     {
       "code": "50389",
@@ -42119,7 +42119,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50389",
-      "verifiedAt": "2026-07-03T03:05:40+08:00"
+      "verifiedAt": "2026-07-04T02:54:26+08:00"
     },
     {
       "code": "50467",
@@ -42183,7 +42183,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50467",
-      "verifiedAt": "2026-07-03T03:05:42+08:00"
+      "verifiedAt": "2026-07-04T02:54:27+08:00"
     },
     {
       "code": "50468",
@@ -42249,7 +42249,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50468",
-      "verifiedAt": "2026-07-03T03:05:42+08:00"
+      "verifiedAt": "2026-07-04T02:54:27+08:00"
     },
     {
       "code": "50469",
@@ -42305,7 +42305,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50469",
-      "verifiedAt": "2026-07-03T03:05:43+08:00"
+      "verifiedAt": "2026-07-04T02:54:28+08:00"
     },
     {
       "code": "50470",
@@ -42371,7 +42371,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50470",
-      "verifiedAt": "2026-07-03T03:05:44+08:00"
+      "verifiedAt": "2026-07-04T02:54:28+08:00"
     },
     {
       "code": "50471",
@@ -42445,7 +42445,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50471",
-      "verifiedAt": "2026-07-03T03:05:45+08:00"
+      "verifiedAt": "2026-07-04T02:54:30+08:00"
     },
     {
       "code": "50472",
@@ -42531,7 +42531,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50472",
-      "verifiedAt": "2026-07-03T03:05:46+08:00"
+      "verifiedAt": "2026-07-04T02:54:30+08:00"
     },
     {
       "code": "50473",
@@ -42571,7 +42571,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50473",
-      "verifiedAt": "2026-07-03T03:05:46+08:00"
+      "verifiedAt": "2026-07-04T02:54:31+08:00"
     },
     {
       "code": "50484",
@@ -42605,7 +42605,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50484",
-      "verifiedAt": "2026-07-03T03:05:48+08:00"
+      "verifiedAt": "2026-07-04T02:54:33+08:00"
     },
     {
       "code": "50496",
@@ -42643,7 +42643,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50496",
-      "verifiedAt": "2026-07-03T03:05:49+08:00"
+      "verifiedAt": "2026-07-04T02:54:34+08:00"
     },
     {
       "code": "50508",
@@ -42717,7 +42717,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50508",
-      "verifiedAt": "2026-07-03T03:05:51+08:00"
+      "verifiedAt": "2026-07-04T02:54:35+08:00"
     },
     {
       "code": "50509",
@@ -42791,7 +42791,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50509",
-      "verifiedAt": "2026-07-03T03:05:52+08:00"
+      "verifiedAt": "2026-07-04T02:54:36+08:00"
     },
     {
       "code": "50510",
@@ -42865,7 +42865,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50510",
-      "verifiedAt": "2026-07-03T03:05:53+08:00"
+      "verifiedAt": "2026-07-04T02:54:37+08:00"
     },
     {
       "code": "50511",
@@ -42919,7 +42919,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50511",
-      "verifiedAt": "2026-07-03T03:05:54+08:00"
+      "verifiedAt": "2026-07-04T02:54:38+08:00"
     },
     {
       "code": "50512",
@@ -42973,7 +42973,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50512",
-      "verifiedAt": "2026-07-03T03:05:56+08:00"
+      "verifiedAt": "2026-07-04T02:54:39+08:00"
     },
     {
       "code": "50513",
@@ -43027,7 +43027,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50513",
-      "verifiedAt": "2026-07-03T03:05:57+08:00"
+      "verifiedAt": "2026-07-04T02:54:40+08:00"
     },
     {
       "code": "50514",
@@ -43091,7 +43091,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50514",
-      "verifiedAt": "2026-07-03T03:05:58+08:00"
+      "verifiedAt": "2026-07-04T02:54:42+08:00"
     },
     {
       "code": "50515",
@@ -43165,7 +43165,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50515",
-      "verifiedAt": "2026-07-03T03:06:00+08:00"
+      "verifiedAt": "2026-07-04T02:54:43+08:00"
     },
     {
       "code": "50516",
@@ -43219,7 +43219,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50516",
-      "verifiedAt": "2026-07-03T03:06:01+08:00"
+      "verifiedAt": "2026-07-04T02:54:44+08:00"
     },
     {
       "code": "50528",
@@ -43275,7 +43275,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50528",
-      "verifiedAt": "2026-07-03T03:06:02+08:00"
+      "verifiedAt": "2026-07-04T02:54:44+08:00"
     },
     {
       "code": "50529",
@@ -43310,7 +43310,7 @@ window.KFC_COUPON_DATA = {
       ],
       "unknownItems": [],
       "startDate": null,
-      "endDate": "2026-12-31",
+      "endDate": "2026-06-30",
       "available": true,
       "deliveryAvailable": false,
       "parseStatus": "missing_dates",
@@ -43321,7 +43321,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50529",
-      "verifiedAt": "2026-07-03T03:06:03+08:00"
+      "verifiedAt": "2026-07-04T02:54:46+08:00"
     },
     {
       "code": "50531",
@@ -43366,7 +43366,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50531",
-      "verifiedAt": "2026-07-03T03:06:06+08:00"
+      "verifiedAt": "2026-07-04T02:54:47+08:00"
     },
     {
       "code": "50535",
@@ -43410,7 +43410,7 @@ window.KFC_COUPON_DATA = {
         "kfc.izo.tw"
       ],
       "sourceUrl": "https://kfc.izo.tw/coupons/50535",
-      "verifiedAt": "2026-07-03T03:06:10+08:00"
+      "verifiedAt": "2026-07-04T02:54:50+08:00"
     }
   ]
 };
