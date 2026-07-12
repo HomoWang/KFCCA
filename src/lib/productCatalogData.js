@@ -70,6 +70,14 @@ export const productCategories = [
         "aliases": [
           "花生起司蛋堡"
         ]
+      },
+      {
+        "key": "osaka_seafood_burger",
+        "label": "大阪燒海陸堡",
+        "aliases": [
+          "大阪燒海陸堡",
+          "大阪燒雙蝦咔啦海陸堡"
+        ]
       }
     ]
   },
@@ -262,10 +270,11 @@ export const productCategories = [
       },
       {
         "key": "milk_tea",
-        "label": "冰奶茶",
+        "label": "奶茶",
         "aliases": [
           "經典冰奶茶",
-          "冰奶茶"
+          "冰奶茶",
+          "奶茶"
         ]
       },
       {
@@ -372,7 +381,8 @@ export const productCategories = [
         "label": "鱈魚圈圈",
         "aliases": [
           "鱈魚圈圈",
-          "鱈魚圈"
+          "鱈魚圈",
+          "魚圈圈"
         ]
       },
       {
@@ -435,6 +445,7 @@ export const productCategories = [
           "糖醋醬",
           "南洋酸甜醬",
           "青花椒香麻沾醬",
+          "BBQ煙燻醬",
           "醬料",
           "沾醬"
         ]

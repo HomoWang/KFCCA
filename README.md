@@ -24,6 +24,16 @@
 
 單筆 API timeout、無效券、格式解析失敗或商品無法標準化都不會中斷整體流程。無法標準化的商品會保留在 `unknownItems`，前端仍會顯示該優惠券。
 
+### 菜單資料
+
+`script/menu.py` 掃描官方線上點餐菜單（GetQueryMenu → 各分類 GetQueryFood → 逐商品家族 GetQueryFoodDetail），輸出 `public/menu.json`。每個商品項目包含：
+
+- 單點與套餐變體（`isSingleItem` 區分），以及 `basePrice` / `minPrice`（實付 = basePrice + 所選選項的 `extra` 加價）。
+- `fixedItems`（固定內容物，已標準化為 productKey）、`choiceGroups`（任選群組）與 `addonGroups`（加購）。
+- 可購買時段 `mealPeriods`（1=早餐、2=午餐、3=下午茶、4=晚餐）與所屬菜單分類。
+
+抓取失敗時保留既有 `menu.json`。此檔是「全菜單最省點法」的資料基礎，前端接入開發中。
+
 ## 官方 API 設定
 
 官方 API 端點可能變動，因此以環境變數設定：
@@ -46,8 +56,9 @@ CHECK_RANGES=30000-30100
 `.github/workflows/main.yml` 每天 UTC 17:15 執行，約等於台灣時間 01:15。流程會：
 
 1. 執行 `python script/kfc.py`。
-2. 若 `public/coupon.json` 或 `public/product-history.json` 有異動，自動 commit 回 repository。
-3. 部署目前靜態網站到 GitHub Pages。
+2. 執行 `python script/menu.py`。
+3. 若 `public/coupon.json`、`public/product-history.json` 或 `public/menu.json` 有異動，自動 commit 回 repository。
+4. 部署目前靜態網站到 GitHub Pages。
 
 請到 repository settings 啟用 GitHub Pages，來源選擇 GitHub Actions。
 

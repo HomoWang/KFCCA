@@ -241,8 +241,13 @@ def convert_food_detail_data(data: Any, code: str) -> dict[str, Any]:
         mlist = food.get("MList") or []
         if not mlist or not isinstance(mlist[0], dict):
             continue
+        # MinCount=0 是加購 slot（可買可不買），不屬於優惠券內容物，也不該計入價格；
+        # MinCount 缺漏時沿用舊行為視為 1。
+        min_count = food.get("MinCount")
+        quantity = parse_price(min_count) if min_count is not None else 1
+        if quantity <= 0:
+            continue
         main_item = mlist[0]
-        quantity = parse_price(food.get("MinCount")) or 1
         raw_items.append({"name": normalize_name(main_item.get("Name", "")), "quantity": quantity})
         price += parse_price(main_item.get("MListPrice")) * quantity
 
