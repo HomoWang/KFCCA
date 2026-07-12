@@ -1,6 +1,6 @@
 {
   "baselineDate": "2026-06-16",
-  "updatedAt": "2026-07-12T02:23:47+08:00",
+  "updatedAt": "2026-07-13T00:13:27+08:00",
   "codes": {
     "15532": "2026-06-16",
     "15533": "2026-06-16",
@@ -1050,6 +1050,7 @@
     "milk_tea": "2026-06-16",
     "strawberry_cheese_mochi": "2026-06-16",
     "new_orleans_burger": "2026-06-16",
-    "apple_juice": "2026-06-16"
+    "apple_juice": "2026-06-16",
+    "crispy_chicken_spicy": "2026-07-13"
   }
 }
