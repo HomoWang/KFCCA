@@ -10,6 +10,7 @@ import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from http.cookiejar import CookieJar
+from pathlib import Path
 from typing import Any
 
 TAIPEI = timezone(timedelta(hours=8))
@@ -23,52 +24,23 @@ QUERY_DELIVERY_TIME_URL = "https://olo-api.kfcclub.com.tw/menu/v1/QueryDeliveryT
 DATE_RE = re.compile(r"(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})")
 FREE_RE = re.compile(r"(免費|0\s*元|贈|送)")
 
+# 商品目錄單一來源：src/data/product-catalog.json，與前端共用；不得在此硬編碼商品清單。
+CATALOG_PATH = Path(__file__).resolve().parents[2] / "src" / "data" / "product-catalog.json"
+_CATALOG_CATEGORIES: list[dict[str, Any]] = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["categories"]
+
 PRODUCT_RULES: list[tuple[str, list[str]]] = [
-    ("peanut_zinger_burger", ["花生熔岩雞腿堡", "花生熔岩咔啦雞腿堡", "花生脆雞堡"]),
-    ("sichuan_zinger_burger", ["青花椒卡啦雞腿堡", "青花椒咔啦雞腿堡", "青花椒香麻咔啦雞腿堡"]),
-    ("new_orleans_burger", ["紐奧良烤雞腿堡"]),
-    ("shrimp_burger", ["蝦堡", "魚子海陸蝦堡", "黃金魚子海陸堡"]),
-    ("crispy_chicken_burger", ["脆雞堡", "原味脆雞堡"]),
-    ("pork_burger", ["起司豬肉堡", "豬肉堡"]),
-    ("peanut_cheese_egg_burger", ["花生起司蛋堡"]),
-    ("zinger_burger", ["卡啦雞腿堡", "咔啦雞腿堡", "卡拉雞腿堡"]),
-    ("paper_chicken", ["紙包雞", "義式香草紙包雞"]),
-    ("crispy_chicken_spicy", ["卡拉脆雞-辣", "卡啦脆雞-辣", "咔啦脆雞-辣", "卡拉脆雞(辣)", "咔啦脆雞辣味", "辣味卡拉脆雞"]),
-    ("crispy_chicken_original", ["卡拉脆雞-原味", "卡啦脆雞-原味", "咔啦脆雞-原味", "卡拉脆雞(原味)", "咔啦脆雞原味", "原味卡拉脆雞"]),
-    ("sichuan_fried_chicken", ["青花椒炸雞", "青花椒卡拉脆雞", "青花椒香麻脆雞"]),
-    ("original_fried_chicken", ["原味炸雞"]),
-    ("spicy_fried_chicken", ["辣味炸雞"]),
-    ("fried_chicken_piece", ["炸雞", "咔啦脆雞", "卡啦脆雞", "脆雞", "無骨雞腿"]),
-    ("egg_tart_ice_cream", ["蛋塔風味冰淇淋", "蛋撻風味冰淇淋", "冰心蛋塔冰淇淋", "冰心蛋撻風味冰淇淋"]),
-    ("egg_tart", ["蛋塔", "蛋撻", "奶皇流心蛋撻", "原味蛋塔", "原味蛋撻", "葡式蛋撻"]),
-    ("pepsi", ["百事可樂", "可樂"]),
-    ("iced_tea", ["冰紅茶", "紅茶", "檸檬風味紅茶"]),
-    ("seven_up", ["七喜"]),
-    ("green_tea", ["綠茶", "無糖綠茶"]),
-    ("milk_tea", ["經典冰奶茶", "冰奶茶"]),
-    ("apple_juice", ["蘋果汁"]),
-    ("bottled_drink", ["瓶裝"]),
-    ("small_drink", ["小飲", "小杯飲料", "小杯"]),
-    ("medium_drink", ["中飲", "中杯飲料", "中杯"]),
-    ("drink", ["飲料"]),
-    ("large_fries", ["大薯", "大份薯條", "薯條(大)", "香酥脆薯(大)"]),
-    ("medium_fries", ["中薯", "中份薯條", "香酥脆薯(中)"]),
-    ("small_fries", ["小薯", "小份薯條", "香酥脆薯(小)", "薯條"]),
-    ("chicken_nuggets", ["雞塊", "上校雞塊", "蝦塊"]),
-    ("popcorn_chicken", ["雞米花", "爆米花雞"]),
-    ("hash_brown", ["薯餅"]),
-    ("onion_rings", ["洋蔥圈"]),
-    ("biscuit", ["比司吉", "蜂蜜奶油餅乾"]),
-    ("sweet_potato_ball", ["地瓜球"]),
-    ("qq_ball", ["雙色轉轉QQ球"]),
-    ("strawberry_cheese_mochi", ["草苺起司冰淇淋大福", "草莓起司冰淇淋大福", "冰淇淋大福"]),
-    ("cod_ring", ["鱈魚圈圈", "鱈魚圈"]),
-    ("soup", ["小濃湯", "濃湯"]),
-    ("rice", ["雞汁風味飯"]),
-    ("omelet_flatbread", ["總匯歐姆蛋燒餅"]),
-    ("sauce", ["糖醋醬", "南洋酸甜醬", "青花椒香麻沾醬", "醬料", "沾醬"]),
-    ("combo", ["套餐", "XL", "桶"]),
+    (product["key"], list(product.get("aliases") or [product["label"]]))
+    for category in _CATALOG_CATEGORIES
+    for product in category["products"]
 ]
+# 模糊比對採「最長別名優先」，與前端 productNormalizer.js 的 FUZZY_RULES 同一套演算法。
+_FUZZY_RULES = sorted(PRODUCT_RULES, key=lambda rule: -max(len(pattern) for pattern in rule[1]))
+
+PRODUCT_LABELS: dict[str, str] = {
+    product["key"]: product["label"]
+    for category in _CATALOG_CATEGORIES
+    for product in category["products"]
+}
 IGNORED_ITEM_RE = re.compile(r"(餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)")
 
 
@@ -127,7 +99,7 @@ class OfficialApiClient:
         title = first_value(data, ["productName", "couponName", "name", "title"])
         return {
             "code": code,
-            "title": str(title).strip() if title else f"?芣???{code}",
+            "title": str(title).strip() if title else f"優惠券 {code}",
             "description": str(title).strip() if title else "",
             "price": parse_price(first_value(data, ["amount", "price", "couponPrice", "discountAmount"])),
             "startDate": parse_date(first_value(data, ["startDate", "StartDate"])),
@@ -275,7 +247,7 @@ def convert_food_detail_data(data: Any, code: str) -> dict[str, Any]:
         price += parse_price(main_item.get("MListPrice")) * quantity
 
     items, unknown_items = normalize_raw_items(raw_items)
-    title = normalize_name(detail.get("Name", "")) or f"?芣???{code}"
+    title = normalize_name(detail.get("Name", "")) or f"優惠券 {code}"
     return {
         "code": code,
         "title": title,
@@ -391,7 +363,7 @@ def normalize_product_name(name: str) -> str | None:
     for key, patterns in PRODUCT_RULES:
         if name in patterns:
             return key
-    for key, patterns in PRODUCT_RULES:
+    for key, patterns in _FUZZY_RULES:
         if any(pattern in name for pattern in patterns):
             return key
     return None

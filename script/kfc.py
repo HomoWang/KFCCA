@@ -3,65 +3,25 @@ from __future__ import annotations
 import json
 import logging
 import os
-from datetime import datetime, timedelta, timezone
+import time
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 from gatherer.coupon import fetch_range_codes
 from gatherer.history import read_history, update_history, write_history
 from gatherer.izo import fetch_izo_codes, fetch_izo_coupon
-from gatherer.official_api import OfficialApiClient, is_free_coupon, merge_coupon_data, normalize_raw_items
+from gatherer.official_api import (
+    PRODUCT_LABELS,
+    OfficialApiClient,
+    is_free_coupon,
+    merge_coupon_data,
+    normalize_raw_items,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 TAIPEI = timezone(timedelta(hours=8))
-PRODUCT_LABELS = {
-    "zinger_burger": "卡啦雞腿堡",
-    "peanut_zinger_burger": "花生熔岩雞腿堡",
-    "sichuan_zinger_burger": "青花椒雞腿堡",
-    "crispy_chicken_burger": "脆雞堡",
-    "new_orleans_burger": "紐奧良烤雞腿堡",
-    "shrimp_burger": "蝦堡",
-    "pork_burger": "起司豬肉堡",
-    "peanut_cheese_egg_burger": "花生起司蛋堡",
-    "crispy_chicken_spicy": "卡拉脆雞-辣",
-    "crispy_chicken_original": "卡拉脆雞-原味",
-    "sichuan_fried_chicken": "青花椒炸雞",
-    "original_fried_chicken": "原味炸雞",
-    "spicy_fried_chicken": "辣味炸雞",
-    "fried_chicken_piece": "炸雞",
-    "small_fries": "小薯",
-    "medium_fries": "中薯",
-    "large_fries": "大薯",
-    "egg_tart": "蛋塔",
-    "egg_tart_ice_cream": "蛋塔風味冰淇淋",
-    "ice_cream_mochi": "冰淇淋大福",
-    "drink": "飲料",
-    "small_drink": "小飲",
-    "medium_drink": "中飲",
-    "pepsi": "百事可樂",
-    "iced_tea": "冰紅茶",
-    "seven_up": "七喜",
-    "green_tea": "綠茶",
-    "milk_tea": "冰奶茶",
-    "apple_juice": "蘋果汁",
-    "bottled_drink": "瓶裝飲料",
-    "chicken_nuggets": "雞塊",
-    "popcorn_chicken": "雞米花",
-    "hash_brown": "薯餅",
-    "onion_rings": "洋蔥圈",
-    "biscuit": "比司吉",
-    "sweet_potato_ball": "地瓜球",
-    "qq_ball": "雙色轉轉QQ球",
-    "strawberry_cheese_mochi": "草苺起司冰淇淋大福",
-    "cod_ring": "鱈魚圈圈",
-    "soup": "濃湯",
-    "rice": "雞汁風味飯",
-    "paper_chicken": "紙包雞",
-    "omelet_flatbread": "總匯歐姆蛋燒餅",
-    "sauce": "醬料",
-    "combo": "套餐",
-}
 
 
 def main() -> int:
@@ -90,7 +50,13 @@ def main() -> int:
     coupons: list[dict[str, Any]] = []
     official_verified = 0
 
-    for code in candidate_codes:
+    # 對官方 API 的禮貌性節流：每個候選碼之間固定延遲（retry backoff 另計）。
+    throttle_seconds = max(0.0, client.config.sleep_seconds)
+
+    for index, code in enumerate(candidate_codes):
+        if index and throttle_seconds:
+            time.sleep(throttle_seconds)
+
         verified = None
         try:
             verified = client.verify_coupon(code)
@@ -118,6 +84,9 @@ def main() -> int:
             failures.append({"code": code, "reason": ",".join(coupon["parseIssues"])})
         coupons.append(coupon)
 
+    grace_days = parse_positive_int(os.environ.get("KFC_EXPIRED_GRACE_DAYS")) or 14
+    coupons = prune_expired_coupons(coupons, datetime.now(TAIPEI).strftime("%Y-%m-%d"), grace_days)
+
     if not coupons:
         logging.warning("No coupons verified. Existing public data will be preserved when available.")
         existing = read_existing_data()
@@ -141,6 +110,16 @@ def main() -> int:
     log_quality(data["quality"])
     logging.info("Wrote %s verified coupons.", len(coupons))
     return 0
+
+
+def prune_expired_coupons(coupons: list[dict[str, Any]], today: str, grace_days: int) -> list[dict[str, Any]]:
+    # 過期太久的券對使用者無意義，只讓資料檔無限膨脹；保留寬限期是為了前端「已過季」區塊。
+    # endDate 缺漏的券保留（前端會標示 missing_dates）。
+    cutoff = (date.fromisoformat(today) - timedelta(days=grace_days)).isoformat()
+    kept = [coupon for coupon in coupons if not coupon.get("endDate") or str(coupon["endDate"]) >= cutoff]
+    if len(kept) < len(coupons):
+        logging.info("Pruned %s coupon(s) that expired more than %s days ago.", len(coupons) - len(kept), grace_days)
+    return kept
 
 
 def update_product_history(coupons: list[dict[str, Any]], now: str) -> None:
@@ -264,7 +243,6 @@ def write_data(data: dict[str, Any]) -> None:
     PUBLIC.mkdir(parents=True, exist_ok=True)
     json_text = json.dumps(data, ensure_ascii=False, indent=2)
     (PUBLIC / "coupon.json").write_text(json_text + "\n", encoding="utf-8")
-    (PUBLIC / "coupon.js").write_text("window.KFC_COUPON_DATA = " + json_text + ";\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

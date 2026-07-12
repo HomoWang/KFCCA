@@ -18,9 +18,9 @@
 1. 從 `https://kfc.izo.tw/` 擷取 `/coupons/xxxxx` 形式的 5 碼候選優惠碼。
 2. 從 `.env` 或 GitHub Actions variables 的 `COUPON_RANGES` / `CHECK_RANGES` 產生補充候選碼。
 3. 合併、去重、排序候選碼。
-4. 逐筆呼叫官方 API 驗證。
-5. 只保留驗證成功的優惠券。
-6. 輸出 `public/coupon.json` 與 `public/coupon.js`。
+4. 逐筆呼叫官方 API 驗證（候選碼之間依 `KFC_API_SLEEP` 節流）。
+5. 只保留驗證成功的優惠券，並排除過期超過 `KFC_EXPIRED_GRACE_DAYS`（預設 14）天的券。
+6. 輸出 `public/coupon.json`。
 
 單筆 API timeout、無效券、格式解析失敗或商品無法標準化都不會中斷整體流程。無法標準化的商品會保留在 `unknownItems`，前端仍會顯示該優惠券。
 
@@ -34,6 +34,7 @@ KFC_OFFICIAL_API_METHOD=POST
 KFC_API_TIMEOUT=20
 KFC_API_RETRIES=2
 KFC_API_SLEEP=0.8
+KFC_EXPIRED_GRACE_DAYS=14
 COUPON_RANGES=12000-12100,23456
 CHECK_RANGES=30000-30100
 ```
@@ -45,7 +46,7 @@ CHECK_RANGES=30000-30100
 `.github/workflows/main.yml` 每天 UTC 17:15 執行，約等於台灣時間 01:15。流程會：
 
 1. 執行 `python script/kfc.py`。
-2. 若 `public/coupon.json` 或 `public/coupon.js` 有異動，自動 commit 回 repository。
+2. 若 `public/coupon.json` 或 `public/product-history.json` 有異動，自動 commit 回 repository。
 3. 部署目前靜態網站到 GitHub Pages。
 
 請到 repository settings 啟用 GitHub Pages，來源選擇 GitHub Actions。
@@ -62,11 +63,13 @@ npx http-server . -p 4173 -c-1
 
 ## 新增商品標準化規則
 
-前端規則在 `src/lib/productNormalizer.js`，資料更新腳本規則在 `script/gatherer/official_api.py` 的 `PRODUCT_RULES`。新增商品時請同步調整兩邊：
+商品目錄（分類、品項、別名）的唯一來源是 `src/data/product-catalog.json`，前端與資料更新腳本共用。修改後執行：
 
-```js
-{ key: "egg_tart", patterns: ["蛋撻", "蛋塔", "原味蛋撻"] }
+```bash
+node script/build-catalog.mjs
 ```
+
+會重新生成前端使用的 `src/lib/productCatalogData.js`（`tests/catalogSync.test.js` 會確保兩者同步）；Python 端直接讀取同一份 JSON，無須另外維護規則。
 
 優惠券解析後會形成：
 
