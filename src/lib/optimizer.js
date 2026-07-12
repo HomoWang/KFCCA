@@ -7,6 +7,7 @@ import {
   productLabel
 } from "./productCatalog.js";
 import { canonicalizeItems, expandItemAliases } from "./productNormalizer.js";
+import { isCouponCurrentlyAvailable } from "./couponParser.js";
 
 const DEFAULT_OPTIONS = {
   maxCandidates: 36,
@@ -20,12 +21,13 @@ const DEFAULT_OPTIONS = {
 
 export function optimizeCoupons(requirementInput, coupons, options = {}) {
   const opts = { ...DEFAULT_OPTIONS, ...options };
+  const now = opts.now ?? new Date();
   const people = normalizePeopleRequirements(requirementInput);
   const requirements = people.flatMap((person) => person.requirements);
   if (!requirements.length) return wrapPlans(emptyResult(people), [], false);
 
   const activeCoupons = coupons
-    .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
+    .filter((coupon) => isUsableCoupon(coupon, now))
     .map(prepareCoupon)
     .filter((coupon) => Object.keys(coupon.items).length && requirements.some((requirement) => couponCanSatisfy(coupon, requirement)));
 
@@ -44,6 +46,9 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
     .map((coupon) => ({ coupon, maxQuantity: estimateMaxQuantity(coupon, searchableRequirements, opts) }))
     .filter((entry) => entry.maxQuantity > 0);
 
+  // 無解需求永遠會留在 missingRequirements 裡，「完整方案」= 除了它們以外沒有其他缺口。
+  const unsatisfiableIds = new Set(missingBeforeSearch.map((requirement) => requirement.id));
+
   const plans = [];
   let visited = 0;
 
@@ -52,9 +57,9 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
     if (visited > opts.maxStates) return;
     if (plans.length >= opts.alternativeLimit + opts.alternativeSearchLimit && totalPrice > plans[plans.length - 1].totalPrice) return;
 
-    const evaluated = evaluatePlan(selected, people, missingBeforeSearch, totalPrice, couponCount);
-    if (!evaluated.missingRequirements.length) {
-      if (hasRedundantCouponCopy(selected, people, missingBeforeSearch)) return;
+    const evaluated = evaluatePlan(selected, people, totalPrice, couponCount);
+    if (evaluated.missingRequirements.every((requirement) => unsatisfiableIds.has(requirement.id))) {
+      if (hasRedundantCouponCopy(selected, people, unsatisfiableIds)) return;
       rememberPlan(plans, evaluated, opts.alternativeLimit + opts.alternativeSearchLimit);
       return;
     }
@@ -75,7 +80,6 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
   if (best) {
     const alternatives = rankedPlans
       .slice(1)
-      .filter((plan) => !plan.missingRequirements.length)
       .slice(0, opts.alternativeLimit)
       .map((plan, index) => ({ ...plan, rank: index + 2, priceDelta: plan.totalPrice - best.totalPrice }));
     return wrapPlans({ ...best, rank: 1, priceDelta: 0 }, alternatives, visited > opts.maxStates);
@@ -93,11 +97,12 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
 
 export function findSimilarCoupons(requirementInput, coupons, options = {}) {
   const opts = { ...DEFAULT_OPTIONS, ...options };
+  const now = opts.now ?? new Date();
   const requirements = normalizePeopleRequirements(requirementInput).flatMap((person) => person.requirements);
   if (!requirements.length) return [];
 
   return coupons
-    .filter((coupon) => coupon.available !== false && Number(coupon.price) >= 0)
+    .filter((coupon) => isUsableCoupon(coupon, now))
     .map(prepareCoupon)
     .map((coupon) => {
       const matchedRequirements = requirements.filter((requirement) => couponCanSatisfy(coupon, requirement));
@@ -132,7 +137,7 @@ export function findSimilarCoupons(requirementInput, coupons, options = {}) {
 export function allocateToPeople(peopleRequirements, providedItems) {
   const people = normalizePeopleRequirements({ people: peopleRequirements });
   const pseudoCoupon = prepareCoupon({ code: "manual", price: 0, items: providedItems, available: true });
-  const plan = evaluatePlan([{ coupon: pseudoCoupon, quantity: 1 }], people, [], 0, 0);
+  const plan = evaluatePlan([{ coupon: pseudoCoupon, quantity: 1 }], people, 0, 0);
   return {
     people: people.map((person) => ({
       personIndex: person.personIndex,
@@ -161,10 +166,10 @@ export function requirementLabel(requirement) {
   return productLabel(requirement.productKey);
 }
 
-function evaluatePlan(selected, people, seedMissing, totalPrice, couponCount) {
+function evaluatePlan(selected, people, totalPrice, couponCount) {
   const itemUnits = buildItemUnits(selected);
   const assignment = assignRequirements(people, itemUnits);
-  const missingRequirements = [...seedMissing, ...assignment.missingRequirements];
+  const missingRequirements = assignment.missingRequirements;
   const extraItems = summarizeUnits(assignment.remainingUnits);
   const providedItems = summarizeUnits(itemUnits);
   const fulfilledItems = summarizeAssignedItems(assignment.assignment);
@@ -288,6 +293,12 @@ function normalizeRequirement(requirement, personIndex, index) {
   };
 }
 
+// 資料管線對每張券恆寫 available: true，且資料一天才更新一次；
+// 可用性必須以日期即時判斷，不能信任靜態欄位。
+function isUsableCoupon(coupon, now) {
+  return coupon.available !== false && Number(coupon.price) >= 0 && isCouponCurrentlyAvailable(coupon, now);
+}
+
 function prepareCoupon(coupon) {
   const items = canonicalizeItems(coupon.items);
   return {
@@ -375,13 +386,13 @@ function estimateMaxQuantity(coupon, requirements, opts) {
   return relevant.length ? Math.max(...relevant) + opts.extraBuffer : 0;
 }
 
-function hasRedundantCouponCopy(selected, people, seedMissing) {
+function hasRedundantCouponCopy(selected, people, unsatisfiableIds) {
   return selected.some((entry) => {
     if (entry.quantity <= 1) return false;
     const reduced = selected
       .map((candidate) => candidate === entry ? { ...candidate, quantity: candidate.quantity - 1 } : candidate)
       .filter((candidate) => candidate.quantity > 0);
-    return evaluatePlan(reduced, people, seedMissing, 0, 0).missingRequirements.length === 0;
+    return evaluatePlan(reduced, people, 0, 0).missingRequirements.every((requirement) => unsatisfiableIds.has(requirement.id));
   });
 }
 

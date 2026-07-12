@@ -19,7 +19,8 @@ const state = {
   coupons: [],
   people: [],
   selectedItemFilters: new Set(),
-  selectedStatus: "all",
+  // 預設只看進行中：資料含寬限期內的過期券，預設排序（期限近到遠）會把它們排最前。
+  selectedStatus: "ongoing",
   history: null,
   productStatus: null,
   now: new Date(),
@@ -494,8 +495,8 @@ function calculateBestDeal() {
   const people = readPeopleRequirements();
   const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
   state.alternativeVisibleCount = 5;
-  const result = optimizeCoupons({ people }, usableCoupons, { alternativeLimit: 12 });
-  const similarCoupons = result.similarCoupons ?? (result.missingRequirements?.length ? findSimilarCoupons({ people }, usableCoupons) : []);
+  const result = optimizeCoupons({ people }, usableCoupons, { alternativeLimit: 12, now: state.now });
+  const similarCoupons = result.similarCoupons ?? (result.missingRequirements?.length ? findSimilarCoupons({ people }, usableCoupons, { now: state.now }) : []);
   state.lastResult = result;
   state.lastPeople = people;
   renderResult(result, people, similarCoupons);

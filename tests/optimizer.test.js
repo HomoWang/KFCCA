@@ -8,6 +8,9 @@ import { findSimilarCoupons, optimizeCoupons } from "../src/lib/optimizer.js";
 const fixture = JSON.parse(fs.readFileSync(new URL("./fixtures/sample-coupons.json", import.meta.url), "utf8"));
 const realCoupon15867 = enrichCoupon(fixture.coupons.find((coupon) => coupon.code === "15867"));
 
+// fixture 15867 效期 2025-11-07 ~ 2026-06-30；用固定時鐘讓測試不隨真實日期過期。
+const FIXTURE_NOW = new Date("2026-06-01T12:00:00+08:00");
+
 function holidayBundleDemand(chickenNuggetsQuantity) {
   return {
     people: [
@@ -245,7 +248,7 @@ test("real 15867 wins when chicken nugget demand is lower than provided quantity
     available: true
   };
 
-  const result = optimizeCoupons(holidayBundleDemand(3), [nearMatch, realCoupon15867]);
+  const result = optimizeCoupons(holidayBundleDemand(3), [nearMatch, realCoupon15867], { now: FIXTURE_NOW });
 
   assert.equal(result.bestPlan.totalPrice, 398);
   assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
@@ -268,7 +271,7 @@ test("real 15867 wins when chicken nugget demand is close to provided quantity",
     available: true
   };
 
-  const result = optimizeCoupons(holidayBundleDemand(6), [nearMatch, realCoupon15867]);
+  const result = optimizeCoupons(holidayBundleDemand(6), [nearMatch, realCoupon15867], { now: FIXTURE_NOW });
 
   assert.equal(result.bestPlan.totalPrice, 398);
   assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["15867", 1]]);
@@ -284,6 +287,59 @@ test("legacy flat demand remains supported", () => {
 
   assert.equal(result.bestPlan.totalPrice, 100);
   assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
+test("mixed demand: unsatisfiable item does not abort the satisfiable part", () => {
+  const result = optimizeCoupons(
+    {
+      people: [{
+        requirements: [
+          { type: "exact", productKey: "zinger_burger", quantity: 1 },
+          { type: "exact", productKey: "soup", quantity: 1 }
+        ]
+      }]
+    },
+    [{ code: "A", price: 80, items: { zinger_burger: 1 }, available: true }]
+  );
+
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => [coupon.code, coupon.quantity]), [["A", 1]]);
+  assert.equal(result.bestPlan.totalPrice, 80);
+  assert.deepEqual(result.bestPlan.missingRequirements.map((requirement) => requirement.productKey), ["soup"]);
+});
+
+test("empty demand returns an empty plan without coupons", () => {
+  const result = optimizeCoupons(
+    { people: [] },
+    [{ code: "A", price: 80, items: { zinger_burger: 1 }, available: true }]
+  );
+
+  assert.deepEqual(result.bestPlan.selectedCoupons, []);
+  assert.equal(result.bestPlan.totalPrice, 0);
+  assert.deepEqual(result.bestPlan.missingRequirements, []);
+});
+
+test("expired coupon is skipped even though data marks it available", () => {
+  const result = optimizeCoupons(
+    { people: [{ requirements: [{ type: "broad", category: "burger", quantity: 1 }] }] },
+    [
+      { code: "EXPIRED", price: 50, items: { zinger_burger: 1 }, available: true, startDate: "2026-01-01", endDate: "2026-06-30" },
+      { code: "VALID", price: 80, items: { zinger_burger: 1 }, available: true, startDate: "2026-01-01", endDate: "2026-12-31" }
+    ],
+    { now: new Date("2026-07-12T12:00:00+08:00") }
+  );
+
+  assert.deepEqual(result.bestPlan.selectedCoupons.map((coupon) => coupon.code), ["VALID"]);
+  assert.equal(result.bestPlan.totalPrice, 80);
+});
+
+test("findSimilarCoupons excludes expired coupons", () => {
+  const recommendations = findSimilarCoupons(
+    { people: [{ requirements: [{ type: "broad", category: "burger", quantity: 1 }] }] },
+    [{ code: "EXPIRED", price: 50, items: { zinger_burger: 1 }, available: true, startDate: "2026-01-01", endDate: "2026-06-30" }],
+    { now: new Date("2026-07-12T12:00:00+08:00") }
+  );
+
+  assert.deepEqual(recommendations, []);
 });
 
 test("similar coupon recommendations still work", () => {
