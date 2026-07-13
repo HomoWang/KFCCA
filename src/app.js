@@ -9,14 +9,22 @@ import {
 import { canonicalizeItems } from "./lib/productNormalizer.js";
 import { couponMatchesItemFilters, makeFilterId } from "./lib/couponFilters.js";
 import { enrichCoupon, isCouponCurrentlyAvailable } from "./lib/couponParser.js";
-import { getCouponLifecycle, matchesStatus } from "./lib/couponLifecycle.js";
+import { getCouponLifecycle, isWithinNewWindow, matchesStatus } from "./lib/couponLifecycle.js";
+import { couponsToOffers, filterOffersByMealPeriod, isOfferCurrentlyAvailable, menuProductsToOffers } from "./lib/offers.js";
 import { buildProductStatus, productStatusFor } from "./lib/productStatus.js";
 import { matchCoupon, buildSuggestions } from "./lib/couponSearch.js";
-import { findSimilarCoupons, formatItems, optimizeCoupons, requirementLabel } from "./lib/optimizer.js";
+import { findSimilarCoupons, formatItems, optimizeOffers, requirementLabel } from "./lib/optimizer.js";
 
 const state = {
   data: { lastUpdated: null, coupons: [] },
+  menuData: { lastUpdated: null, products: [] },
   coupons: [],
+  offers: [],
+  calculatorOffers: [],
+  calculatorProductKeys: new Set(),
+  couponLoadFailed: false,
+  menuLoadFailed: false,
+  historyLoadFailed: false,
   people: [],
   selectedItemFilters: new Set(),
   // 預設只看進行中：資料含寬限期內的過期券，預設排序（期限近到遠）會把它們排最前。
@@ -43,7 +51,9 @@ const els = {
   tabs: [...document.querySelectorAll("[data-view-tab]")],
   panels: [...document.querySelectorAll("[data-view-panel]")],
   personCount: document.querySelector("#person-count"),
+  mealPeriod: document.querySelector("#meal-period"),
   buildPeople: document.querySelector("#build-people"),
+  calculatorDataStatus: document.querySelector("#calculator-data-status"),
   peopleForms: document.querySelector("#people-forms"),
   calculate: document.querySelector("#calculate"),
   result: document.querySelector("#result")
@@ -51,9 +61,10 @@ const els = {
 
 async function init() {
   state.now = new Date();
-  await loadCoupons();
-  await loadHistory();
+  await Promise.all([loadCoupons(), loadMenu(), loadHistory()]);
+  rebuildOfferPool();
   state.productStatus = buildProductStatus(state.coupons, { now: state.now, history: state.history });
+  renderLastUpdated();
   renderStatusFilter();
   renderItemFilters();
   updateFilterChipStates();
@@ -64,35 +75,122 @@ async function init() {
 
 async function loadCoupons() {
   try {
-    const response = await fetch("./public/coupon.json", { cache: "no-store" });
+    const response = await fetch("./public/coupon.json", { cache: "no-cache" });
     if (!response.ok) throw new Error(`coupon.json HTTP ${response.status}`);
-    state.data = await response.json();
+    const data = await response.json();
+    if (!Array.isArray(data.coupons)) throw new Error("coupon.json missing coupons array");
+    state.data = data;
+    state.coupons = data.coupons.map(enrichCoupon);
+    state.couponLoadFailed = false;
   } catch (error) {
     console.error(error);
     state.data = { lastUpdated: null, coupons: [] };
+    state.coupons = [];
+    state.couponLoadFailed = true;
   }
+}
 
-  state.coupons = (state.data.coupons ?? []).map(enrichCoupon);
-  els.lastUpdated.textContent = `資料更新：${formatDateTime(state.data.lastUpdated)}`;
+async function loadMenu() {
+  try {
+    const response = await fetch("./public/menu.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error(`menu.json HTTP ${response.status}`);
+    state.menuData = await response.json();
+    if (!Array.isArray(state.menuData.products)) throw new Error("menu.json missing products array");
+    state.menuLoadFailed = false;
+  } catch (error) {
+    console.error(error);
+    state.menuData = { lastUpdated: null, products: [] };
+    state.menuLoadFailed = true;
+  }
+}
+
+function rebuildOfferPool() {
+  let couponOffers = [];
+  let menuOffers = [];
+  try {
+    const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
+    couponOffers = couponsToOffers(usableCoupons);
+  } catch (error) {
+    console.error(error);
+    state.couponLoadFailed = true;
+  }
+  try {
+    menuOffers = menuProductsToOffers(state.menuData.products ?? []);
+  } catch (error) {
+    console.error(error);
+    state.menuLoadFailed = true;
+  }
+  state.offers = [...couponOffers, ...menuOffers];
+  refreshCalculatorSupply();
+}
+
+function refreshCalculatorSupply() {
+  const mealPeriod = els.mealPeriod.value;
+  state.calculatorOffers = filterOffersByMealPeriod(state.offers, mealPeriod)
+    .filter((offer) => isOfferCurrentlyAvailable(offer, state.now));
+  state.calculatorProductKeys = new Set(state.calculatorOffers.flatMap((offer) => [
+    ...Object.keys(offer.items ?? {}),
+    ...(offer.choiceGroups ?? []).flatMap((group) =>
+      (group.options ?? []).map((option) => option.productKey).filter(Boolean)
+    )
+  ]));
+  renderCalculatorDataStatus();
+}
+
+function renderCalculatorDataStatus() {
+  const counts = state.calculatorOffers.reduce((sum, offer) => {
+    sum[offer.kind] = (sum[offer.kind] ?? 0) + 1;
+    return sum;
+  }, {});
+  const sourceStatus = state.couponLoadFailed && state.menuLoadFailed
+    ? "優惠券與菜單資料皆載入失敗。"
+    : state.menuLoadFailed
+      ? "菜單資料載入失敗，暫以優惠券計算。"
+      : state.couponLoadFailed
+        ? "優惠券資料載入失敗，暫以單點與套餐計算。"
+        : "";
+  const poolStatus = `供給池：優惠券 ${counts.coupon ?? 0}、單點 ${counts.alacarte ?? 0}、套餐方案 ${counts.combo ?? 0}。`;
+  const couponsWithoutPeriods = state.calculatorOffers.filter((offer) =>
+    offer.kind === "coupon" && !offer.mealPeriods?.length
+  ).length;
+  const periodStatus = couponsWithoutPeriods
+    ? `另有 ${couponsWithoutPeriods} 張優惠券尚無時段資料，暫保留於所有時段。`
+    : "優惠券已依可用時段篩選。";
+  els.calculatorDataStatus.textContent = `${sourceStatus}${poolStatus}${periodStatus}`;
+  els.calculate.disabled = state.calculatorOffers.length === 0;
+}
+
+function renderLastUpdated() {
+  const couponUpdated = formatDateTime(state.data.lastUpdated);
+  const menuUpdated = state.menuData.lastUpdated ? formatDateTime(state.menuData.lastUpdated) : "未提供";
+  const historyStatus = state.historyLoadFailed ? "｜新品紀錄載入失敗" : "";
+  els.lastUpdated.textContent = `資料更新：優惠券 ${couponUpdated}｜菜單 ${menuUpdated}${historyStatus}`;
 }
 
 async function loadHistory() {
   try {
-    const response = await fetch("./public/product-history.json", { cache: "no-store" });
+    const response = await fetch("./public/product-history.json", { cache: "no-cache" });
     if (!response.ok) {
       state.history = null;
+      state.historyLoadFailed = true;
       return;
     }
     state.history = await response.json();
+    state.historyLoadFailed = false;
   } catch (error) {
     // 歷史檔在 pipeline 上線前不存在屬正常情況，新登場狀態與徽章會優雅降級。
     state.history = null;
+    state.historyLoadFailed = true;
   }
 }
 
 function bindEvents() {
-  [els.search, els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
-  els.search.addEventListener("input", renderSuggestions);
+  const renderSearch = debounce(() => {
+    renderCoupons();
+    renderSuggestions();
+  }, 150);
+  els.search.addEventListener("input", renderSearch);
+  [els.maxPrice, els.sort].forEach((el) => el.addEventListener("input", renderCoupons));
   els.searchSuggestions.addEventListener("click", handleSuggestionClick);
   document.addEventListener("click", (event) => {
     if (!event.target.closest(".search-wrap")) hideSuggestions();
@@ -102,6 +200,7 @@ function bindEvents() {
   els.clearItemFilters.addEventListener("click", clearItemFilters);
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchView(tab.dataset.viewTab)));
   els.buildPeople.addEventListener("click", buildPeopleForms);
+  els.mealPeriod.addEventListener("change", handleMealPeriodChange);
   els.calculate.addEventListener("click", calculateBestDeal);
   els.peopleForms.addEventListener("click", handlePeopleFormsClick);
   els.peopleForms.addEventListener("change", handlePeopleFormsChange);
@@ -290,6 +389,11 @@ function updateFilterChipStates() {
 }
 
 function renderCoupons() {
+  if (state.couponLoadFailed) {
+    els.couponCount.textContent = "優惠券資料載入失敗";
+    els.couponList.innerHTML = `<div class="empty-state" role="alert">無法載入優惠券資料，請檢查網路後重新整理頁面。</div>`;
+    return;
+  }
   const query = els.search.value.trim();
   const maxPrice = Number(els.maxPrice.value);
   const selectedKeys = [...state.selectedItemFilters];
@@ -318,7 +422,7 @@ function renderCouponCard(coupon) {
   const parseStatus = coupon.parseStatus && coupon.parseStatus !== "ok"
     ? `<span class="badge warn">解析：${escapeHtml(coupon.parseStatus)}</span>`
     : "";
-  const parseIssues = coupon.parseIssues?.length
+  const parseIssues = Array.isArray(coupon.parseIssues) && coupon.parseIssues.length
     ? `<p class="muted">解析問題：${coupon.parseIssues.map(escapeHtml).join(", ")}</p>`
     : "";
   const canDeliver = coupon.deliveryAvailable !== false;
@@ -401,20 +505,24 @@ function renderPersonForm(person, index) {
   `;
 }
 
-// 只回傳「實際出現在現有優惠券」的分類/品項，讓需求下拉與卡片所見一致（WYSIWYG）。
+// 只回傳目前時段供給池中實際可取得的分類/品項，避免需求選到不供應的菜單品項。
 function appearingCategories() {
   return calculatorCategories().filter((category) =>
-    category.products.some((product) => productStatusFor(state.productStatus, product.key).couponCount > 0)
+    category.products.some((product) => state.calculatorProductKeys.has(product.key))
   );
 }
 
 function appearingProducts(categoryKey) {
-  return categoryProducts(categoryKey).filter((product) => productStatusFor(state.productStatus, product.key).couponCount > 0);
+  return categoryProducts(categoryKey).filter((product) => state.calculatorProductKeys.has(product.key));
 }
 
 function renderRequirementRow(requirement = { type: "broad", category: "burger", quantity: 1 }) {
   const type = requirement.type ?? "broad";
-  const category = requirement.category ?? productCategoryKey(requirement.productKey) ?? "burger";
+  const categories = appearingCategories();
+  const requestedCategory = requirement.category ?? productCategoryKey(requirement.productKey) ?? "burger";
+  const category = categories.some((entry) => entry.key === requestedCategory)
+    ? requestedCategory
+    : (categories[0]?.key ?? requestedCategory);
   const productKey = requirement.productKey ?? appearingProducts(category)[0]?.key ?? "";
 
   return `
@@ -424,7 +532,7 @@ function renderRequirementRow(requirement = { type: "broad", category: "burger",
         <option value="exact" ${type === "exact" ? "selected" : ""}>精準品項</option>
       </select>
       <select data-category aria-label="分類">
-        ${appearingCategories().map((item) => `<option value="${item.key}" ${item.key === category ? "selected" : ""}>${item.label}</option>`).join("")}
+        ${categories.map((item) => `<option value="${escapeHtml(item.key)}" ${item.key === category ? "selected" : ""}>${escapeHtml(item.label)}</option>`).join("")}
       </select>
       <select data-product aria-label="品項">
         ${productOptionsHtml(type, category, productKey)}
@@ -437,11 +545,19 @@ function renderRequirementRow(requirement = { type: "broad", category: "burger",
 
 function productOptionsHtml(type, category, selectedProductKey) {
   if (type === "broad") {
-    return `<option value="${category}">${broadLabel(category)}</option>`;
+    return `<option value="${escapeHtml(category)}">${escapeHtml(broadLabel(category))}</option>`;
   }
   return appearingProducts(category)
-    .map((product) => `<option value="${product.key}" ${product.key === selectedProductKey ? "selected" : ""}>${product.label}</option>`)
+    .map((product) => `<option value="${escapeHtml(product.key)}" ${product.key === selectedProductKey ? "selected" : ""}>${escapeHtml(product.label)}</option>`)
     .join("");
+}
+
+function handleMealPeriodChange() {
+  state.now = new Date();
+  refreshCalculatorSupply();
+  buildPeopleForms();
+  state.lastResult = null;
+  els.result.innerHTML = "";
 }
 
 function handlePeopleFormsClick(event) {
@@ -492,10 +608,13 @@ function readPeopleRequirements({ silent = false } = {}) {
 }
 
 function calculateBestDeal() {
+  state.now = new Date();
+  refreshCalculatorSupply();
+  buildPeopleForms();
   const people = readPeopleRequirements();
   const usableCoupons = state.coupons.filter((coupon) => !coupon.unknownItems?.length || Object.keys(coupon.items ?? {}).length);
   state.alternativeVisibleCount = 5;
-  const result = optimizeCoupons({ people }, usableCoupons, { alternativeLimit: 12, now: state.now });
+  const result = optimizeOffers({ people }, state.calculatorOffers, { alternativeLimit: 12, now: state.now });
   const similarCoupons = result.similarCoupons ?? (result.missingRequirements?.length ? findSimilarCoupons({ people }, usableCoupons, { now: state.now }) : []);
   state.lastResult = result;
   state.lastPeople = people;
@@ -514,7 +633,7 @@ function renderResult(result, people, similarCoupons = []) {
       <section>
         <h3>相似推薦</h3>
         <ul class="mini-list">
-          ${similarCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)}，$${coupon.price}，相似度 ${Math.round(coupon.similarity * 100)}%，符合 ${formatItems(coupon.matchedItems)}</li>`).join("")}
+          ${similarCoupons.map((coupon) => `<li>${escapeHtml(coupon.code)}，$${escapeHtml(coupon.price)}，相似度 ${escapeHtml(Math.round(coupon.similarity * 100))}%，符合 ${escapeHtml(formatItems(coupon.matchedItems))}</li>`).join("")}
         </ul>
       </section>
     `
@@ -541,8 +660,17 @@ function renderResult(result, people, similarCoupons = []) {
 }
 
 function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = false } = {}) {
-  const delta = bestPrice === null ? "" : `<span class="muted">比最佳方案貴 $${Math.max(0, plan.totalPrice - bestPrice)}</span>`;
-  const totalCouponCount = plan.selectedCoupons.reduce((sum, coupon) => sum + coupon.quantity, 0);
+  const delta = bestPrice === null ? "" : `<span class="muted">比最佳方案貴 $${escapeHtml(Math.max(0, plan.totalPrice - bestPrice))}</span>`;
+  const selectedOffers = plan.selectedOffers ?? plan.selectedCoupons ?? [];
+  const sourceCounts = selectedOffers.reduce((sum, offer) => {
+    sum[offer.kind] = (sum[offer.kind] ?? 0) + offer.quantity;
+    return sum;
+  }, {});
+  const purchaseSummary = [
+    sourceCounts.coupon ? `優惠券 ${sourceCounts.coupon} 張` : "",
+    sourceCounts.alacarte ? `單點 ${sourceCounts.alacarte} 份` : "",
+    sourceCounts.combo ? `套餐 ${sourceCounts.combo} 份` : ""
+  ].filter(Boolean).join("、") || "無需購買";
   const hasExtraItems = Object.keys(plan.extraItems ?? {}).length > 0;
 
   return `
@@ -553,11 +681,11 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
           <h3>${escapeHtml(title ?? `方案 ${rank ?? ""}`)}</h3>
           ${delta}
         </div>
-        <p class="price plan-price"><span>總金額</span>$${plan.totalPrice}</p>
+        <p class="price plan-price"><span>總金額</span>$${escapeHtml(plan.totalPrice)}</p>
       </div>
       ${isBest ? `
         <section class="summary-strip">
-          <span>使用優惠券 ${totalCouponCount} 張</span>
+          <span>${escapeHtml(purchaseSummary)}</span>
           <span>${hasExtraItems ? "有多買品項" : "沒有多買品項"}</span>
           <span>${plan.missingRequirements?.length ? "有無法滿足項目" : "需求皆可滿足"}</span>
         </section>
@@ -565,7 +693,7 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
       ` : ""}
       <section>
         <h3>推薦購買</h3>
-        ${plan.selectedCoupons.length ? plan.selectedCoupons.map(renderSelectedCoupon).join("") : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`}
+        ${selectedOffers.length ? selectedOffers.map(renderSelectedOffer).join("") : `<p class="muted">目前沒有找到可滿足需求的組合。</p>`}
       </section>
       <section>
         <h3>需求滿足明細</h3>
@@ -574,7 +702,7 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
       <section class="result-grid compact">
         <div>
           <h3>多買品項</h3>
-          <p>${formatItems(plan.extraItems)}</p>
+          <p>${escapeHtml(formatItems(plan.extraItems))}</p>
         </div>
         <div>
           <h3>無法滿足品項</h3>
@@ -585,20 +713,41 @@ function renderPlan(plan, people, { title, rank, bestPrice = null, isBest = fals
   `;
 }
 
-function renderSelectedCoupon(coupon) {
+function renderSelectedOffer(offer) {
+  const kindLabel = { coupon: "優惠券", alacarte: "單點", combo: "套餐" }[offer.kind] ?? "品項";
+  const identifier = offer.kind === "coupon" && offer.code ? ` ${offer.code}` : "";
+  const newBadge = offer.kind !== "coupon" && isWithinNewWindow(
+    state.history?.menuProducts?.[offer.fcode],
+    state.history?.baselineDate,
+    state.now
+  ) ? `<span class="badge new">新品</span>` : "";
+  const choices = Array.isArray(offer.selectedChoices) && offer.selectedChoices.length
+    ? `
+      <div class="choice-summary">
+        <strong>套餐選擇：</strong>
+        ${offer.selectedChoices.map((choice) => `${escapeHtml(choice.name)} x ${escapeHtml(choice.quantity)}${choice.extra ? `（加價 $${escapeHtml(choice.extra)}）` : ""}`).join("、")}
+      </div>
+    `
+    : "";
+  const fallback = offer.variantFallback
+    ? `<p class="muted">此套餐選項過多，目前以各組最低價選項代表計算。</p>`
+    : "";
+  const dateLabel = offer.kind === "coupon" ? "期限" : "供應至";
   return `
-    <article class="coupon-purchase">
-      <h4>優惠券 ${escapeHtml(coupon.code)}｜${escapeHtml(coupon.title ?? "")}</h4>
+    <article class="offer-purchase">
+      <h4><span class="badge offer-kind-badge">${escapeHtml(kindLabel)}</span>${newBadge}${escapeHtml(identifier)}｜${escapeHtml(offer.title ?? "")}</h4>
       <div class="purchase-meta">
-        <span>單價：$${coupon.unitPrice ?? coupon.price}</span>
-        <span>數量：${coupon.quantity}</span>
-        <span>小計：$${coupon.subtotal ?? (coupon.price * coupon.quantity)}</span>
-        ${coupon.endDate ? `<span>期限：${escapeHtml(coupon.endDate)}</span>` : ""}
+        <span>單價：$${escapeHtml(offer.unitPrice ?? offer.price)}</span>
+        <span>數量：${escapeHtml(offer.quantity)}</span>
+        <span>小計：$${escapeHtml(offer.subtotal ?? (offer.price * offer.quantity))}</span>
+        ${offer.endDate ? `<span>${dateLabel}：${escapeHtml(offer.endDate)}</span>` : ""}
       </div>
       <div>
-        <strong>優惠內容：</strong>
-        ${renderItemDetails(coupon.displayItems)}
+        <strong>內容：</strong>
+        ${renderItemDetails(offer.displayItems)}
       </div>
+      ${choices}
+      ${fallback}
     </article>
   `;
 }
@@ -613,9 +762,9 @@ function renderAssignment(assignment, people) {
         <ul class="mini-list">
           ${entries.map((entry) => `
             <li>
-              需求：${escapeHtml(requirementLabel(entry))} x ${entry.quantity}<br />
-              實際分配：${entry.assignedItems.length ? entry.assignedItems.map((item) => `${escapeHtml(item.label)} x ${item.quantity}`).join("、") : "無"}<br />
-              來源：${entry.assignedItems.length ? [...new Set(entry.assignedItems.map((item) => item.couponCode))].map(escapeHtml).join("、") : "無"}
+              需求：${escapeHtml(requirementLabel(entry))} x ${escapeHtml(entry.quantity)}<br />
+              實際分配：${entry.assignedItems.length ? entry.assignedItems.map((item) => `${escapeHtml(item.label)} x ${escapeHtml(item.quantity)}`).join("、") : "無"}<br />
+              來源：${entry.assignedItems.length ? [...new Set(entry.assignedItems.map(assignmentSourceLabel))].map(escapeHtml).join("、") : "無"}
             </li>
           `).join("")}
         </ul>
@@ -624,15 +773,20 @@ function renderAssignment(assignment, people) {
   }).join("");
 }
 
+function assignmentSourceLabel(item) {
+  const kindLabel = { coupon: "優惠券", alacarte: "單點", combo: "套餐" }[item.sourceKind] ?? "來源";
+  return `${kindLabel} ${item.sourceLabel ?? item.couponCode ?? item.sourceId ?? "未提供"}`;
+}
+
 function renderMissingRequirements(requirements) {
   if (!requirements.length) return "無";
-  return requirements.map((requirement) => `${requirementLabel(requirement)} x ${requirement.quantity}`).join("、");
+  return requirements.map((requirement) => `${escapeHtml(requirementLabel(requirement))} x ${escapeHtml(requirement.quantity)}`).join("、");
 }
 
 function renderItemDetails(items = []) {
   const details = Array.isArray(items) ? items : itemObjectToDetails(items);
   if (!details.length) return "無";
-  return `<ul class="mini-list">${details.map((item) => `<li>${escapeHtml(item.label ?? productLabel(item.productKey))} x ${item.quantity}</li>`).join("")}</ul>`;
+  return `<ul class="mini-list">${details.map((item) => `<li>${escapeHtml(item.label ?? productLabel(item.productKey))} x ${escapeHtml(item.quantity)}</li>`).join("")}</ul>`;
 }
 
 function itemObjectToDetails(items = {}) {
@@ -649,7 +803,9 @@ function countCouponsForItem(filter) {
 
 function formatDateTime(value) {
   if (!value) return "未提供資料時間";
-  return new Intl.DateTimeFormat("zh-TW", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "未提供資料時間";
+  return new Intl.DateTimeFormat("zh-TW", { dateStyle: "medium", timeStyle: "short" }).format(date);
 }
 
 function clamp(value, min, max) {
@@ -658,6 +814,14 @@ function clamp(value, min, max) {
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char]));
+}
+
+function debounce(callback, delay) {
+  let timeoutId = null;
+  return (...args) => {
+    window.clearTimeout(timeoutId);
+    timeoutId = window.setTimeout(() => callback(...args), delay);
+  };
 }
 
 init();

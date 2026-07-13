@@ -328,7 +328,15 @@ export const productCategories = [
         "label": "雞塊",
         "aliases": [
           "雞塊",
-          "上校雞塊",
+          "上校雞塊"
+        ]
+      },
+      {
+        "key": "shrimp_nuggets",
+        "label": "黃金超蝦塊",
+        "aliases": [
+          "黃金超蝦塊",
+          "超蝦塊",
           "蝦塊"
         ]
       },
@@ -413,6 +421,14 @@ export const productCategories = [
         "label": "雞汁風味飯",
         "aliases": [
           "雞汁風味飯"
+        ]
+      },
+      {
+        "key": "porridge",
+        "label": "紅藜燕麥脆雞粥",
+        "aliases": [
+          "紅藜燕麥脆雞粥",
+          "脆雞粥"
         ]
       },
       {

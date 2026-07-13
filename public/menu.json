@@ -18887,7 +18887,7 @@
       "startDate": "2024-10-18",
       "endDate": "2026-07-26",
       "fixedItems": {
-        "chicken_nuggets": 1
+        "shrimp_nuggets": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -19126,7 +19126,7 @@
             },
             {
               "name": "黃金超蝦塊",
-              "productKey": "chicken_nuggets",
+              "productKey": "shrimp_nuggets",
               "extra": 0,
               "quantity": 1
             },

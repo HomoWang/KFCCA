@@ -7,6 +7,7 @@ from datetime import datetime
 from typing import Any
 
 from .official_api import (
+    PRODUCT_CATEGORIES,
     TAIPEI,
     OfficialApiClient,
     normalize_name,
@@ -19,6 +20,7 @@ from .official_api import (
 
 # 菜單名稱的數量常寫在字尾（「咔啦脆雞2塊」「上校雞塊(4塊)」），與優惠券的字首慣例不同。
 _COUNT_RE = re.compile(r"(\d+)\s*(?:塊|入|顆|份|杯)")
+_BUY_GET_RE = re.compile(r"買\s*(\d+)\s*送\s*(\d+)")
 
 GET_QUERY_MENU_URL = "https://olo-api.kfcclub.com.tw/menu/v1/GetQueryMenu"
 GET_QUERY_FOOD_URL = "https://olo-api.kfcclub.com.tw/menu/v1/GetQueryFood"
@@ -120,6 +122,8 @@ def parse_food_variant(variant: dict[str, Any]) -> dict[str, Any]:
         if len(options) == 1:
             option = options[0]
             quantity = min_count * option["quantity"]
+            if option["isNoItem"]:
+                continue
             if option["productKey"]:
                 fixed_items[option["productKey"]] = fixed_items.get(option["productKey"], 0) + quantity
             else:
@@ -128,14 +132,31 @@ def parse_food_variant(variant: dict[str, Any]) -> dict[str, Any]:
             choice_groups.append({"count": min_count, "options": options})
 
     name = normalize_name(variant.get("Name", ""))
-    # 單點商品的內容物不會列在 slots 裡（slots 只有加購），商品本身即內容物。
-    if variant.get("isSingleItem") and not fixed_items and not choice_groups:
-        key = normalize_product_name(name.replace(" ", ""))
-        quantity = _infer_count(name)
-        if key:
-            fixed_items[key] = quantity
-        else:
-            unknown_items.append({"name": name, "quantity": quantity})
+    # 主商品本身常不會列在 slots 裡；部分 API 變體甚至把單點誤標為非 single。
+    # 以商品名補內容物，但若同品項已在固定／任選 slot 中就不重複計數。
+    choice_keys = {
+        option["productKey"]
+        for group in choice_groups
+        for option in group["options"]
+        if option.get("productKey")
+    }
+    inferred_items = _infer_named_items(name)
+    is_compound_name = len(re.split(r"[+＋]", name)) > 1
+    for key, quantity in inferred_items.items():
+        if key == "combo" or key in choice_keys:
+            continue
+        if key in fixed_items:
+            fixed_items[key] = max(fixed_items[key], quantity)
+            continue
+        category = PRODUCT_CATEGORIES.get(key)
+        has_same_category_item = category and any(
+            PRODUCT_CATEGORIES.get(existing_key) == category for existing_key in fixed_items
+        )
+        if not is_compound_name and has_same_category_item:
+            continue
+        fixed_items[key] = quantity
+    if not fixed_items and not choice_groups and not inferred_items:
+        unknown_items.append({"name": name, "quantity": _infer_count(name)})
 
     return {
         "fcode": str(variant.get("Fcode") or ""),
@@ -160,12 +181,26 @@ def _parse_option(entry: dict[str, Any]) -> dict[str, Any]:
         "productKey": normalize_product_name(name.replace(" ", "")),
         "extra": parse_price(entry.get("MListPrice")),
         "quantity": _infer_count(name),
+        "isNoItem": name.startswith("不需附"),
     }
 
 
 def _infer_count(name: str) -> int:
+    buy_get = _BUY_GET_RE.search(name)
+    if buy_get:
+        return int(buy_get.group(1)) + int(buy_get.group(2))
     match = _COUNT_RE.search(name)
     return int(match.group(1)) if match else 1
+
+
+def _infer_named_items(name: str) -> dict[str, int]:
+    items: dict[str, int] = {}
+    for part in re.split(r"[+＋]", name):
+        key = normalize_product_name(part.replace(" ", ""))
+        if not key:
+            continue
+        items[key] = items.get(key, 0) + _infer_count(part)
+    return items
 
 
 def _fetch_menu_list(client: OfficialApiClient, period: str) -> list[dict[str, Any]]:

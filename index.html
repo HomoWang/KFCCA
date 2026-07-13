@@ -57,7 +57,15 @@
           <label for="person-count">人數</label>
           <input id="person-count" type="number" min="1" max="10" value="2" />
           <button id="build-people" type="button">產生需求</button>
+          <label for="meal-period">用餐時段</label>
+          <select id="meal-period">
+            <option value="1">早餐</option>
+            <option value="2" selected>午餐</option>
+            <option value="3">下午茶</option>
+            <option value="4">晚餐</option>
+          </select>
         </div>
+        <p id="calculator-data-status" class="muted calculator-data-status" aria-live="polite"></p>
         <div id="people-forms" class="people-forms"></div>
         <button id="calculate" class="primary" type="button">計算最划算組合</button>
         <div id="result" class="result" aria-live="polite"></div>

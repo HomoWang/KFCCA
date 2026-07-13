@@ -6,32 +6,39 @@ import {
   productCategoryKey,
   productLabel
 } from "./productCatalog.js";
-import { canonicalizeItems, expandItemAliases } from "./productNormalizer.js";
-import { isCouponCurrentlyAvailable } from "./couponParser.js";
+import { expandItemAliases } from "./productNormalizer.js";
+import { couponToOffer, isOfferCurrentlyAvailable, normalizeOffer, resolveNativeComboOffers } from "./offers.js";
 
 const DEFAULT_OPTIONS = {
   maxCandidates: 36,
   extraBuffer: 2,
   maxStates: 250000,
   alternativeLimit: 5,
-  alternativeSearchLimit: 30,
   similarLimit: 5,
   minSimilarity: 0.5
 };
 
 export function optimizeCoupons(requirementInput, coupons, options = {}) {
+  const result = optimizeOffers(requirementInput, coupons.map(couponToOffer), options);
+  if (!result.selectedOffers.length && result.missingRequirements.length) {
+    result.similarCoupons = findSimilarCoupons(requirementInput, coupons, options);
+  }
+  return result;
+}
+
+export function optimizeOffers(requirementInput, offers, options = {}) {
   const opts = { ...DEFAULT_OPTIONS, ...options };
   const now = opts.now ?? new Date();
   const people = normalizePeopleRequirements(requirementInput);
   const requirements = people.flatMap((person) => person.requirements);
   if (!requirements.length) return wrapPlans(emptyResult(people), [], false);
 
-  const activeCoupons = coupons
-    .filter((coupon) => isUsableCoupon(coupon, now))
-    .map(prepareCoupon)
-    .filter((coupon) => Object.keys(coupon.items).length && requirements.some((requirement) => couponCanSatisfy(coupon, requirement)));
+  const activeOffers = resolveNativeComboOffers(offers, requirements)
+    .map(normalizeOffer)
+    .filter((offer) => isOfferCurrentlyAvailable(offer, now))
+    .filter((offer) => Object.keys(offer.items).length && requirements.some((requirement) => offerCanSatisfy(offer, requirement)));
 
-  const missingBeforeSearch = requirements.filter((requirement) => !activeCoupons.some((coupon) => couponCanSatisfy(coupon, requirement)));
+  const missingBeforeSearch = requirements.filter((requirement) => !activeOffers.some((offer) => offerCanSatisfy(offer, requirement)));
   const searchableRequirements = requirements.filter((requirement) => !missingBeforeSearch.includes(requirement));
   if (!searchableRequirements.length) {
     return wrapPlans({
@@ -41,35 +48,39 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
     }, [], false);
   }
 
-  const candidates = selectCandidateCoupons(activeCoupons, searchableRequirements, opts)
-    .slice(0, opts.maxCandidates)
-    .map((coupon) => ({ coupon, maxQuantity: estimateMaxQuantity(coupon, searchableRequirements, opts) }))
+  const candidates = selectCandidateOffers(activeOffers, searchableRequirements, opts)
+    .map((offer) => ({ offer, maxQuantity: estimateMaxQuantity(offer, searchableRequirements, opts) }))
     .filter((entry) => entry.maxQuantity > 0);
 
   // 無解需求永遠會留在 missingRequirements 裡，「完整方案」= 除了它們以外沒有其他缺口。
   const unsatisfiableIds = new Set(missingBeforeSearch.map((requirement) => requirement.id));
 
   const plans = [];
+  const planLimit = Math.max(1, opts.alternativeLimit + 1);
+  seedFeasiblePlans(plans, candidates.map((candidate) => candidate.offer), searchableRequirements, people, unsatisfiableIds, planLimit);
   let visited = 0;
 
-  function dfs(index, selected, totalPrice, couponCount) {
+  function dfs(index, selected, totalPrice, offerCount) {
     visited += 1;
     if (visited > opts.maxStates) return;
-    if (plans.length >= opts.alternativeLimit + opts.alternativeSearchLimit && totalPrice > plans[plans.length - 1].totalPrice) return;
+    const priceCeiling = plans.length >= planLimit ? plans[plans.length - 1].totalPrice : Number.POSITIVE_INFINITY;
+    if (totalPrice > priceCeiling) return;
 
-    const evaluated = evaluatePlan(selected, people, totalPrice, couponCount);
+    const evaluated = evaluatePlan(selected, people, totalPrice, offerCount);
     if (evaluated.missingRequirements.every((requirement) => unsatisfiableIds.has(requirement.id))) {
-      if (hasRedundantCouponCopy(selected, people, unsatisfiableIds)) return;
-      rememberPlan(plans, evaluated, opts.alternativeLimit + opts.alternativeSearchLimit);
+      if (hasRedundantOfferCopy(selected, people, unsatisfiableIds)) return;
+      rememberPlan(plans, evaluated, planLimit);
       return;
     }
 
     if (index >= candidates.length) return;
+    const additionalCost = optimisticAdditionalCost(evaluated.missingRequirements, candidates, index, unsatisfiableIds);
+    if (totalPrice + additionalCost > priceCeiling) return;
 
-    const { coupon, maxQuantity } = candidates[index];
+    const { offer, maxQuantity } = candidates[index];
     for (let quantity = maxQuantity; quantity >= 0; quantity -= 1) {
-      const nextSelected = quantity ? [...selected, { coupon, quantity }] : selected;
-      dfs(index + 1, nextSelected, totalPrice + coupon.price * quantity, couponCount + quantity);
+      const nextSelected = quantity ? [...selected, { offer, quantity }] : selected;
+      dfs(index + 1, nextSelected, totalPrice + offer.price * quantity, offerCount + quantity);
     }
   }
 
@@ -89,7 +100,6 @@ export function optimizeCoupons(requirementInput, coupons, options = {}) {
     ...emptyResult(people),
     missingRequirements: requirements,
     missingItems: requirementsToItemObject(requirements),
-    similarCoupons: findSimilarCoupons(requirementInput, coupons, opts),
     searchLimitReached: visited > opts.maxStates
   };
   return wrapPlans(empty, [], visited > opts.maxStates);
@@ -102,33 +112,33 @@ export function findSimilarCoupons(requirementInput, coupons, options = {}) {
   if (!requirements.length) return [];
 
   return coupons
-    .filter((coupon) => isUsableCoupon(coupon, now))
-    .map(prepareCoupon)
-    .map((coupon) => {
-      const matchedRequirements = requirements.filter((requirement) => couponCanSatisfy(coupon, requirement));
-      const matchedCount = matchedRequirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(coupon.items, requirement)), 0);
+    .map(couponToOffer)
+    .filter((offer) => isOfferCurrentlyAvailable(offer, now))
+    .map((offer) => {
+      const matchedRequirements = requirements.filter((requirement) => offerCanSatisfy(offer, requirement));
+      const matchedCount = matchedRequirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(offer.items, requirement)), 0);
       const totalDemand = requirements.reduce((sum, requirement) => sum + requirement.quantity, 0);
       return {
-        coupon,
+        offer,
         matchedRequirements,
-        matchedItems: Object.fromEntries(matchedRequirements.map((requirement) => [requirementKey(requirement), Math.min(requirement.quantity, matchingQuantity(coupon.items, requirement))])),
+        matchedItems: Object.fromEntries(matchedRequirements.map((requirement) => [requirementKey(requirement), Math.min(requirement.quantity, matchingQuantity(offer.items, requirement))])),
         similarity: totalDemand ? matchedCount / totalDemand : 0
       };
     })
     .filter((entry) => entry.similarity >= opts.minSimilarity)
     .sort((a, b) =>
       b.similarity - a.similarity ||
-      a.coupon.price - b.coupon.price ||
-      String(b.coupon.endDate ?? "").localeCompare(String(a.coupon.endDate ?? ""))
+      a.offer.price - b.offer.price ||
+      String(b.offer.endDate ?? "").localeCompare(String(a.offer.endDate ?? ""))
     )
     .slice(0, opts.similarLimit)
     .map((entry) => ({
-      code: entry.coupon.code,
-      title: entry.coupon.title,
-      price: entry.coupon.price,
-      endDate: entry.coupon.endDate,
-      items: entry.coupon.items,
-      displayItems: entry.coupon.displayItems,
+      code: entry.offer.code,
+      title: entry.offer.title,
+      price: entry.offer.price,
+      endDate: entry.offer.endDate,
+      items: entry.offer.items,
+      displayItems: entry.offer.displayItems,
       matchedItems: entry.matchedItems,
       similarity: entry.similarity
     }));
@@ -136,8 +146,8 @@ export function findSimilarCoupons(requirementInput, coupons, options = {}) {
 
 export function allocateToPeople(peopleRequirements, providedItems) {
   const people = normalizePeopleRequirements({ people: peopleRequirements });
-  const pseudoCoupon = prepareCoupon({ code: "manual", price: 0, items: providedItems, available: true });
-  const plan = evaluatePlan([{ coupon: pseudoCoupon, quantity: 1 }], people, 0, 0);
+  const manualOffer = normalizeOffer({ id: "manual", kind: "alacarte", title: "manual", price: 0, items: providedItems });
+  const plan = evaluatePlan([{ offer: manualOffer, quantity: 1 }], people, 0, 0);
   return {
     people: people.map((person) => ({
       personIndex: person.personIndex,
@@ -166,17 +176,19 @@ export function requirementLabel(requirement) {
   return productLabel(requirement.productKey);
 }
 
-function evaluatePlan(selected, people, totalPrice, couponCount) {
+function evaluatePlan(selected, people, totalPrice, offerCount) {
   const itemUnits = buildItemUnits(selected);
   const assignment = assignRequirements(people, itemUnits);
   const missingRequirements = assignment.missingRequirements;
   const extraItems = summarizeUnits(assignment.remainingUnits);
   const providedItems = summarizeUnits(itemUnits);
   const fulfilledItems = summarizeAssignedItems(assignment.assignment);
-  const selectedCoupons = buildSelectedCoupons(selected);
+  const selectedOffers = buildSelectedOffers(selected);
+  const selectedCoupons = selectedOffers.filter((offer) => offer.kind === "coupon");
 
   return {
     totalPrice,
+    selectedOffers,
     selectedCoupons,
     providedItems,
     fulfilledItems,
@@ -185,8 +197,9 @@ function evaluatePlan(selected, people, totalPrice, couponCount) {
     missingItems: requirementsToItemObject(missingRequirements),
     missingRequirements,
     assignment: assignment.assignment,
-    couponCount,
-    latestEndDate: selectedCoupons.reduce((latest, coupon) => maxDateString(latest, coupon.endDate), "")
+    offerCount,
+    couponCount: selectedCoupons.reduce((sum, coupon) => sum + coupon.quantity, 0),
+    latestEndDate: selectedOffers.reduce((latest, offer) => maxDateString(latest, offer.endDate), "")
   };
 }
 
@@ -210,6 +223,9 @@ function assignRequirements(people, itemUnits) {
         productKey: unit.productKey,
         label: productLabel(unit.productKey),
         quantity: take,
+        sourceId: unit.sourceId,
+        sourceKind: unit.sourceKind,
+        sourceLabel: unit.sourceLabel,
         couponCode: unit.couponCode
       });
     }
@@ -293,31 +309,8 @@ function normalizeRequirement(requirement, personIndex, index) {
   };
 }
 
-// 資料管線對每張券恆寫 available: true，且資料一天才更新一次；
-// 可用性必須以日期即時判斷，不能信任靜態欄位。
-function isUsableCoupon(coupon, now) {
-  return coupon.available !== false && Number(coupon.price) >= 0 && isCouponCurrentlyAvailable(coupon, now);
-}
-
-function prepareCoupon(coupon) {
-  const items = canonicalizeItems(coupon.items);
-  return {
-    ...coupon,
-    price: Number(coupon.price) || 0,
-    unitPrice: Number(coupon.price) || 0,
-    items,
-    displayItems: coupon.displayItems?.length
-      ? coupon.displayItems.map((item) => ({
-          productKey: canonicalProductKey(item.productKey ?? item.key),
-          label: item.label ?? productLabel(item.productKey ?? item.key),
-          quantity: Number(item.quantity) || 1
-        }))
-      : itemObjectToDetails(items)
-  };
-}
-
-function couponCanSatisfy(coupon, requirement) {
-  return matchingQuantity(coupon.items, requirement) > 0;
+function offerCanSatisfy(offer, requirement) {
+  return matchingQuantity(offer.items, requirement) > 0;
 }
 
 function matchingQuantity(items, requirement) {
@@ -332,61 +325,192 @@ function unitSatisfiesRequirement(unit, requirement) {
 
 function buildItemUnits(selected) {
   const units = [];
-  for (const { coupon, quantity } of selected) {
+  for (const { offer, quantity } of selected) {
     for (let copy = 0; copy < quantity; copy += 1) {
-      for (const [productKey, itemQuantity] of Object.entries(coupon.items)) {
-        units.push({ productKey, quantity: itemQuantity, couponCode: coupon.code });
+      for (const [productKey, itemQuantity] of Object.entries(offer.items)) {
+        units.push({
+          productKey,
+          quantity: itemQuantity,
+          sourceId: offer.id,
+          sourceKind: offer.kind,
+          sourceLabel: offer.kind === "coupon"
+            ? offer.code
+            : `${offer.title}${offer.variantLabel ? `（${offer.variantLabel}）` : ""}`,
+          couponCode: offer.kind === "coupon" ? offer.code : undefined
+        });
       }
     }
   }
   return units;
 }
 
-function buildSelectedCoupons(selected) {
+function buildSelectedOffers(selected) {
   return selected
     .filter((entry) => entry.quantity > 0)
-    .map(({ coupon, quantity }) => ({
-      code: coupon.code,
-      title: coupon.title,
+    .map(({ offer, quantity }) => ({
+      id: offer.id,
+      kind: offer.kind,
+      code: offer.code,
+      fcode: offer.fcode,
+      title: offer.title,
       quantity,
-      price: coupon.price,
-      unitPrice: coupon.price,
-      subtotal: coupon.price * quantity,
-      endDate: coupon.endDate,
-      displayItems: coupon.displayItems
+      price: offer.price,
+      unitPrice: offer.price,
+      subtotal: offer.price * quantity,
+      items: offer.items,
+      startDate: offer.startDate,
+      endDate: offer.endDate,
+      mealPeriods: offer.mealPeriods,
+      selectedChoices: offer.selectedChoices,
+      choiceSelections: offer.choiceSelections,
+      variantLabel: offer.variantLabel,
+      variantFallback: offer.variantFallback,
+      variantCount: offer.variantCount,
+      expansionMode: offer.expansionMode,
+      theoreticalVariantCount: offer.theoreticalVariantCount,
+      displayItems: offer.displayItems
     }))
-    .sort((a, b) => String(a.code).localeCompare(String(b.code)));
+    .sort((a, b) => String(a.id).localeCompare(String(b.id)));
 }
 
-function selectCandidateCoupons(activeCoupons, requirements, opts) {
-  const byEfficiency = [...activeCoupons].sort((a, b) => scoreCoupon(a, requirements) - scoreCoupon(b, requirements));
-  const byCoverage = [...activeCoupons].sort((a, b) =>
+function selectCandidateOffers(activeOffers, requirements, opts) {
+  const byEfficiency = [...activeOffers].sort((a, b) => scoreOffer(a, requirements) - scoreOffer(b, requirements));
+  const byCoverage = [...activeOffers].sort((a, b) =>
     coverageKinds(b, requirements) - coverageKinds(a, requirements) ||
     coveredUnits(b, requirements) - coveredUnits(a, requirements) ||
     extraUnits(a, requirements) - extraUnits(b, requirements) ||
     a.price - b.price
   );
-  const perRequirement = requirements.flatMap((requirement) =>
+  const requiredBaseline = uniqueOffers(requirements.flatMap((requirement) =>
     byEfficiency
-      .filter((coupon) => couponCanSatisfy(coupon, requirement))
-      .slice(0, 6)
+      .filter((offer) => offerCanSatisfy(offer, requirement))
+      .slice(0, 1)
+  ));
+  const perRequirement = requirements.flatMap((requirement) =>
+    byEfficiency.filter((offer) => offerCanSatisfy(offer, requirement)).slice(0, 6)
   );
-
-  return uniqueCoupons([
+  const coverageBaseline = byCoverage.slice(0, Math.max(1, Math.ceil(opts.maxCandidates * 0.6)));
+  const essential = uniqueOffers([...requiredBaseline, ...coverageBaseline]);
+  const optional = uniqueOffers([
+    ...perRequirement,
     ...byCoverage.slice(0, Math.ceil(opts.maxCandidates * 0.6)),
-    ...byEfficiency.slice(0, Math.ceil(opts.maxCandidates * 0.6)),
-    ...perRequirement
-  ]);
+    ...byEfficiency.slice(0, Math.ceil(opts.maxCandidates * 0.6))
+  ]).filter((offer) => !essential.some((required) => required.id === offer.id));
+  const optionalLimit = Math.max(0, opts.maxCandidates - essential.length);
+
+  // 每項需求至少保留一個可重複購買的供應來源；需求種類超過上限時，
+  // 正確性優先於 maxCandidates 的軟上限，避免把唯一單點兜底截掉。
+  return [...essential, ...optional.slice(0, optionalLimit)];
 }
 
-function estimateMaxQuantity(coupon, requirements, opts) {
-  const relevant = requirements
-    .filter((requirement) => couponCanSatisfy(coupon, requirement))
-    .map((requirement) => Math.ceil(requirement.quantity / Math.max(1, matchingQuantity(coupon.items, requirement))));
-  return relevant.length ? Math.max(...relevant) + opts.extraBuffer : 0;
+function seedFeasiblePlans(plans, offers, requirements, people, unsatisfiableIds, planLimit) {
+  for (const preferredOffer of [null, ...offers]) {
+    const selected = minimizeSelection(
+      buildGreedySelection(offers, requirements, preferredOffer),
+      people,
+      unsatisfiableIds,
+      preferredOffer?.id
+    );
+    const totalPrice = selected.reduce((sum, entry) => sum + entry.offer.price * entry.quantity, 0);
+    const offerCount = selected.reduce((sum, entry) => sum + entry.quantity, 0);
+    const evaluated = evaluatePlan(selected, people, totalPrice, offerCount);
+    if (evaluated.missingRequirements.every((requirement) => unsatisfiableIds.has(requirement.id))) {
+      rememberPlan(plans, evaluated, planLimit);
+    }
+  }
 }
 
-function hasRedundantCouponCopy(selected, people, unsatisfiableIds) {
+function buildGreedySelection(offers, requirements, preferredOffer) {
+  const selected = new Map();
+  if (preferredOffer) selected.set(preferredOffer.id, { offer: preferredOffer, quantity: 1 });
+
+  for (const requirement of requirements) {
+    const provider = offers
+      .filter((offer) => offerCanSatisfy(offer, requirement))
+      .sort((a, b) =>
+        a.price / matchingQuantity(a.items, requirement) - b.price / matchingQuantity(b.items, requirement) ||
+        a.price - b.price ||
+        String(a.id).localeCompare(String(b.id))
+      )[0];
+    if (!provider) continue;
+
+    const quantity = Math.ceil(requirement.quantity / matchingQuantity(provider.items, requirement));
+    const entry = selected.get(provider.id) ?? { offer: provider, quantity: 0 };
+    entry.quantity += quantity;
+    selected.set(provider.id, entry);
+  }
+
+  return [...selected.values()];
+}
+
+function minimizeSelection(selected, people, unsatisfiableIds, preferredId) {
+  let minimized = selected.map((entry) => ({ ...entry }));
+  const offerIds = selected
+    .map((entry) => entry.offer.id)
+    .sort((a, b) => Number(a === preferredId) - Number(b === preferredId));
+  for (const offerId of offerIds) {
+    while (true) {
+      const entry = minimized.find((candidate) => candidate.offer.id === offerId);
+      if (!entry || entry.quantity <= 0) break;
+      const reduced = minimized
+        .map((candidate) => candidate.offer.id === offerId ? { ...candidate, quantity: candidate.quantity - 1 } : candidate)
+        .filter((candidate) => candidate.quantity > 0);
+      const missing = evaluatePlan(reduced, people, 0, 0).missingRequirements;
+      if (!missing.every((requirement) => unsatisfiableIds.has(requirement.id))) break;
+      minimized = reduced;
+    }
+  }
+  return minimized;
+}
+
+function optimisticAdditionalCost(missingRequirements, candidates, index, unsatisfiableIds) {
+  let lowerBound = 0;
+  for (const requirement of missingRequirements) {
+    if (unsatisfiableIds.has(requirement.id)) continue;
+    let cheapest = Number.POSITIVE_INFINITY;
+    for (let candidateIndex = index; candidateIndex < candidates.length; candidateIndex += 1) {
+      const { offer } = candidates[candidateIndex];
+      const quantity = matchingQuantity(offer.items, requirement);
+      if (quantity <= 0) continue;
+      // Fractional unit price is an optimistic lower bound. Rounding each offer up
+      // would be unsafe here because a cheaper combination may split the demand.
+      cheapest = Math.min(cheapest, requirement.quantity * offer.price / quantity);
+    }
+    lowerBound = Math.max(lowerBound, cheapest);
+  }
+  return lowerBound;
+}
+
+function estimateMaxQuantity(offer, requirements, opts) {
+  const relevant = requirements.filter((requirement) => offerCanSatisfy(offer, requirement));
+  if (!relevant.length) return 0;
+
+  const exactDemand = new Map();
+  const broadDemand = new Map();
+  for (const requirement of relevant) {
+    const demand = requirement.type === "exact" ? exactDemand : broadDemand;
+    const key = requirement.type === "exact" ? requirement.productKey : requirement.category;
+    demand.set(key, (demand.get(key) ?? 0) + requirement.quantity);
+  }
+
+  let copies = 0;
+  for (const [productKey, quantity] of exactDemand) {
+    copies = Math.max(copies, Math.ceil(quantity / Number(offer.items[productKey])));
+  }
+  for (const [category, quantity] of broadDemand) {
+    const exactQuantity = [...exactDemand]
+      .filter(([productKey]) => productCategoryKey(productKey) === category)
+      .reduce((sum, [, demandQuantity]) => sum + demandQuantity, 0);
+    const unitsPerCopy = Object.entries(offer.items)
+      .filter(([productKey]) => productCategoryKey(productKey) === category)
+      .reduce((sum, [, itemQuantity]) => sum + itemQuantity, 0);
+    copies = Math.max(copies, Math.ceil((quantity + exactQuantity) / unitsPerCopy));
+  }
+
+  return copies + opts.extraBuffer;
+}
+
+function hasRedundantOfferCopy(selected, people, unsatisfiableIds) {
   return selected.some((entry) => {
     if (entry.quantity <= 1) return false;
     const reduced = selected
@@ -396,24 +520,24 @@ function hasRedundantCouponCopy(selected, people, unsatisfiableIds) {
   });
 }
 
-function scoreCoupon(coupon, requirements) {
-  const relevantUnits = requirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(coupon.items, requirement)), 0);
-  return coupon.price / Math.max(1, relevantUnits);
+function scoreOffer(offer, requirements) {
+  const relevantUnits = requirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(offer.items, requirement)), 0);
+  return offer.price / Math.max(1, relevantUnits);
 }
 
-function coverageKinds(coupon, requirements) {
-  return requirements.filter((requirement) => couponCanSatisfy(coupon, requirement)).length;
+function coverageKinds(offer, requirements) {
+  return requirements.filter((requirement) => offerCanSatisfy(offer, requirement)).length;
 }
 
-function coveredUnits(coupon, requirements) {
-  return requirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(coupon.items, requirement)), 0);
+function coveredUnits(offer, requirements) {
+  return requirements.reduce((sum, requirement) => sum + Math.min(requirement.quantity, matchingQuantity(offer.items, requirement)), 0);
 }
 
-function extraUnits(coupon, requirements) {
+function extraUnits(offer, requirements) {
   const relevant = new Set(requirements.flatMap((requirement) =>
     requirement.type === "exact" ? [requirement.productKey] : categoryProducts(requirement.category).map((product) => product.key)
   ));
-  return Object.entries(coupon.items).reduce((sum, [key, quantity]) => sum + (relevant.has(key) ? 0 : quantity), 0);
+  return Object.entries(offer.items).reduce((sum, [key, quantity]) => sum + (relevant.has(key) ? 0 : quantity), 0);
 }
 
 function rememberPlan(plans, candidate, maxPlans) {
@@ -431,13 +555,13 @@ function comparePlans(a, b) {
   return (
     a.totalPrice - b.totalPrice ||
     itemCount(a.extraItems) - itemCount(b.extraItems) ||
-    a.couponCount - b.couponCount ||
+    a.offerCount - b.offerCount ||
     String(b.latestEndDate).localeCompare(String(a.latestEndDate))
   );
 }
 
 function planKey(plan) {
-  return plan.selectedCoupons.map((coupon) => `${coupon.code}:${coupon.quantity}`).join("|");
+  return plan.selectedOffers.map((offer) => `${offer.id}:${offer.quantity}`).join("|");
 }
 
 function requirementKey(requirement) {
@@ -467,7 +591,7 @@ function itemObjectToDetails(items = {}) {
 }
 
 function mergeAssignedItem(items, next) {
-  const existing = items.find((item) => item.productKey === next.productKey && item.couponCode === next.couponCode);
+  const existing = items.find((item) => item.productKey === next.productKey && item.sourceId === next.sourceId);
   if (existing) {
     existing.quantity += next.quantity;
   } else {
@@ -480,11 +604,11 @@ function addQuantity(items, key, quantity) {
   return items;
 }
 
-function uniqueCoupons(coupons) {
+function uniqueOffers(offers) {
   const seen = new Set();
-  return coupons.filter((coupon) => {
-    if (seen.has(coupon.code)) return false;
-    seen.add(coupon.code);
+  return offers.filter((offer) => {
+    if (seen.has(offer.id)) return false;
+    seen.add(offer.id);
     return true;
   });
 }
@@ -520,6 +644,7 @@ function wrapPlans(bestPlan, alternativePlans = [], searchLimitReached = false) 
 function emptyResult(people = []) {
   return {
     totalPrice: 0,
+    selectedOffers: [],
     selectedCoupons: [],
     providedItems: {},
     fulfilledItems: {},
@@ -528,6 +653,8 @@ function emptyResult(people = []) {
     missingItems: {},
     missingRequirements: [],
     assignment: [],
+    offerCount: 0,
+    couponCount: 0,
     people
   };
 }

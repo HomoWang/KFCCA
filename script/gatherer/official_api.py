@@ -41,6 +41,11 @@ PRODUCT_LABELS: dict[str, str] = {
     for category in _CATALOG_CATEGORIES
     for product in category["products"]
 }
+PRODUCT_CATEGORIES: dict[str, str] = {
+    product["key"]: category["key"]
+    for category in _CATALOG_CATEGORIES
+    for product in category["products"]
+}
 IGNORED_ITEM_RE = re.compile(r"(餐具|紙袋|刀叉|手套|湯匙|叉子|吸管|環保)")
 
 
@@ -118,9 +123,9 @@ class OfficialApiClient:
         if not product_code:
             return {}
 
-        meal_period = self._find_available_meal_period(code)
-        if not meal_period:
-            return {"deliveryAvailable": False}
+        meal_periods = self._find_available_meal_periods(code)
+        if not meal_periods:
+            return {"deliveryAvailable": False, "mealPeriods": []}
 
         payload = self._post(
             self.config.query_food_detail_url,
@@ -128,22 +133,25 @@ class OfficialApiClient:
                 "shopcode": self.config.shop_code,
                 "fcode": product_code,
                 "menuid": "",
-                "mealperiod": meal_period,
+                "mealperiod": meal_periods[0],
                 "ordertype": "2",
                 "orderdate": today_slash(),
             },
             "GetQueryFoodDetail",
         )
         if not payload or is_invalid_payload(payload):
-            return {}
+            return {"mealPeriods": meal_periods}
         data = extract_coupon_payload(payload)
-        return convert_food_detail_data(data, code)
+        details = convert_food_detail_data(data, code)
+        details["mealPeriods"] = meal_periods
+        return details
 
     def _lookup_product_code(self, code: str) -> str | None:
         verified = self.verify_coupon(code)
         return verified.get("productCode") if verified else None
 
-    def _find_available_meal_period(self, code: str) -> str | None:
+    def _find_available_meal_periods(self, code: str) -> list[str]:
+        available: list[str] = []
         for period in ("1", "2", "3", "4"):
             payload = self._post(
                 self.config.check_coupon_product_url,
@@ -158,8 +166,8 @@ class OfficialApiClient:
                 "checkCouponProduct",
             )
             if payload and payload.get("Message") == "OK" and payload.get("Success") is True:
-                return period
-        return None
+                available.append(period)
+        return available
 
     def _post(self, url: str, body: dict[str, Any], label: str) -> Any:
         self._init_delivery_info()

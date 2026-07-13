@@ -11,12 +11,18 @@ import {
 test("former side foods are reclassified under the visible 正餐 category", () => {
   assert.equal(productCategoryKey("paper_chicken"), "meal");
   assert.equal(productCategoryKey("rice"), "meal");
+  assert.equal(productCategoryKey("porridge"), "meal");
   assert.equal(productCategoryKey("omelet_flatbread"), "meal");
   assert.equal(productCategoryKey("combo"), "meal");
 });
 
 test("sauce moves to its own 醬料 category", () => {
   assert.equal(productCategoryKey("sauce"), "condiment");
+});
+
+test("shrimp nuggets are distinct from chicken nuggets", () => {
+  assert.equal(productCategoryKey("chicken_nuggets"), "snack");
+  assert.equal(productCategoryKey("shrimp_nuggets"), "snack");
 });
 
 test("meal and condiment categories are selectable; side no longer exists", () => {
@@ -32,5 +38,5 @@ test("category metadata and product membership are intact", () => {
   assert.equal(broadLabel("meal"), "任一正餐");
   assert.equal(broadLabel("condiment"), "任一醬料");
   const mealKeys = categoryProducts("meal").map((product) => product.key);
-  assert.deepEqual(mealKeys, ["paper_chicken", "rice", "omelet_flatbread", "combo"]);
+  assert.deepEqual(mealKeys, ["paper_chicken", "rice", "porridge", "omelet_flatbread", "combo"]);
 });

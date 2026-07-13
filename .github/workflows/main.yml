@@ -61,6 +61,9 @@ jobs:
       - name: Validate coupon data and calculator logic
         run: node --test
 
+      - name: Validate Python gatherers
+        run: python -m unittest discover -s tests -p "*_test.py"
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

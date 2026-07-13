@@ -54,4 +54,33 @@ def update_history(
         "updatedAt": updated_at or today,
         "codes": codes,
         "products": products,
+        "menuProducts": dict(existing.get("menuProducts") or {}),
+    }
+
+
+def update_menu_history(
+    existing: dict[str, Any],
+    menu_products: list[dict[str, Any]],
+    today: str,
+    updated_at: str | None = None,
+) -> dict[str, Any]:
+    """Track menu product first-seen dates without marking the initial snapshot as new."""
+    existing = existing if isinstance(existing, dict) else {}
+    baseline = existing.get("baselineDate") or today
+    had_menu_history = "menuProducts" in existing
+    menu_history = dict(existing.get("menuProducts") or {})
+    first_seen = today if had_menu_history else baseline
+
+    for product in menu_products:
+        fcode = str(product.get("fcode", "")).strip()
+        if fcode and fcode not in menu_history:
+            menu_history[fcode] = first_seen
+
+    return {
+        **existing,
+        "baselineDate": baseline,
+        "updatedAt": updated_at or existing.get("updatedAt") or today,
+        "codes": dict(existing.get("codes") or {}),
+        "products": dict(existing.get("products") or {}),
+        "menuProducts": menu_history,
     }

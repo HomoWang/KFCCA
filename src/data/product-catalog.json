@@ -78,7 +78,8 @@
       "label": "點心",
       "broadOptionLabel": "任一點心",
       "products": [
-        { "key": "chicken_nuggets", "label": "雞塊", "aliases": ["雞塊", "上校雞塊", "蝦塊"] },
+        { "key": "chicken_nuggets", "label": "雞塊", "aliases": ["雞塊", "上校雞塊"] },
+        { "key": "shrimp_nuggets", "label": "黃金超蝦塊", "aliases": ["黃金超蝦塊", "超蝦塊", "蝦塊"] },
         { "key": "popcorn_chicken", "label": "雞米花", "aliases": ["雞米花", "爆米花雞"] },
         { "key": "hash_brown", "label": "薯餅", "aliases": ["薯餅"] },
         { "key": "onion_rings", "label": "洋蔥圈", "aliases": ["洋蔥圈"] },
@@ -96,6 +97,7 @@
       "products": [
         { "key": "paper_chicken", "label": "紙包雞", "aliases": ["紙包雞", "義式香草紙包雞"] },
         { "key": "rice", "label": "雞汁風味飯", "aliases": ["雞汁風味飯"] },
+        { "key": "porridge", "label": "紅藜燕麥脆雞粥", "aliases": ["紅藜燕麥脆雞粥", "脆雞粥"] },
         { "key": "omelet_flatbread", "label": "總匯歐姆蛋燒餅", "aliases": ["總匯歐姆蛋燒餅"] },
         { "key": "combo", "label": "套餐", "aliases": ["套餐", "XL", "桶"] }
       ]
