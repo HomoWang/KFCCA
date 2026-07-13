@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T21:10:00+08:00",
+  "lastUpdated": "2026-07-14T03:27:38+08:00",
   "shopCode": "TWI104",
   "orderType": "2",
   "source": {
@@ -30,13 +30,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -207,13 +200,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -346,13 +332,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -435,13 +414,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -534,13 +506,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -621,13 +586,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -875,13 +833,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -1106,13 +1057,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -1317,13 +1261,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -1609,13 +1546,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -2051,13 +1981,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -2168,13 +2091,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -2295,13 +2211,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -2408,13 +2317,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -2928,13 +2830,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -3815,13 +3710,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -4030,13 +3918,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -4224,7 +4105,7 @@
       "fcode": "CO0054",
       "name": "義式香草紙包雞XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 211,
       "minPrice": 249,
       "startDate": "2025-02-19",
@@ -4240,13 +4121,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -4439,7 +4313,7 @@
       "fcode": "CO0056",
       "name": "咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
@@ -4455,13 +4329,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -4654,7 +4521,7 @@
       "fcode": "CO0057",
       "name": "花生熔岩咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 207,
       "minPrice": 245,
       "startDate": "2025-02-19",
@@ -4670,13 +4537,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -4869,7 +4729,7 @@
       "fcode": "CO0058",
       "name": "青花椒咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 185,
       "minPrice": 223,
       "startDate": "2025-02-19",
@@ -4885,13 +4745,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -5105,13 +4958,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -5299,7 +5145,7 @@
       "fcode": "CO0062",
       "name": "雙層咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 225,
       "minPrice": 263,
       "startDate": "2025-02-19",
@@ -5315,13 +5161,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -5535,13 +5374,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -5745,13 +5577,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -5963,13 +5788,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -6159,13 +5977,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -6365,13 +6176,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -6561,13 +6365,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -6767,13 +6564,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -6963,13 +6753,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -7169,13 +6952,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -7349,7 +7125,7 @@
       "fcode": "CO0102",
       "name": "咔啦爆脆雞 XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
@@ -7780,13 +7556,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -7996,13 +7765,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -8192,13 +7954,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -8408,13 +8163,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -8630,13 +8378,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -8827,13 +8568,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -9049,13 +8783,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -9229,7 +8956,7 @@
       "fcode": "CO0126",
       "name": "大阪燒雙蝦咔啦海陸堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 235,
       "minPrice": 273,
       "startDate": "2026-06-16",
@@ -9245,13 +8972,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -9465,13 +9185,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -9661,13 +9374,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -9982,7 +9688,7 @@
       "fcode": "CO0504",
       "name": "義式香草紙包雞C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
@@ -10138,7 +9844,7 @@
       "fcode": "CO0506",
       "name": "咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 139,
       "minPrice": 177,
       "startDate": "2025-02-19",
@@ -10294,7 +10000,7 @@
       "fcode": "CO0507",
       "name": "花生熔岩咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 171,
       "minPrice": 209,
       "startDate": "2026-07-13",
@@ -10450,7 +10156,7 @@
       "fcode": "CO0508",
       "name": "青花椒咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
@@ -10762,7 +10468,7 @@
       "fcode": "CO0512",
       "name": "雙層咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 189,
       "minPrice": 227,
       "startDate": "2025-02-19",
@@ -11230,7 +10936,7 @@
       "fcode": "CO0526",
       "name": "咔啦爆脆雞 C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2026-04-08",
@@ -12044,7 +11750,7 @@
       "fcode": "CO0538",
       "name": "大阪燒雙蝦咔啦海陸堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 199,
       "minPrice": 237,
       "startDate": "2026-06-16",
@@ -12218,13 +11924,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -12489,7 +12188,7 @@
       "fcode": "CO1004",
       "name": "義式香草紙包雞B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
@@ -12620,7 +12319,7 @@
       "fcode": "CO1006",
       "name": "咔啦雞腿堡B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
@@ -12751,7 +12450,7 @@
       "fcode": "CO1007",
       "name": "花生熔岩咔啦雞腿堡B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
@@ -12882,7 +12581,7 @@
       "fcode": "CO1008",
       "name": "青花椒咔啦雞腿堡B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
@@ -13144,7 +12843,7 @@
       "fcode": "CO1012",
       "name": "雙層咔啦雞腿堡B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
@@ -13537,7 +13236,7 @@
       "fcode": "CO1026",
       "name": "咔啦爆脆雞 B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
@@ -14226,7 +13925,7 @@
       "fcode": "CO1038",
       "name": "大阪燒雙蝦咔啦海陸堡B雞汁飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
@@ -14373,13 +14072,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -14695,7 +14387,7 @@
       "fcode": "CO1504",
       "name": "義式香草紙包雞A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
@@ -14851,7 +14543,7 @@
       "fcode": "CO1506",
       "name": "咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
@@ -15007,7 +14699,7 @@
       "fcode": "CO1507",
       "name": "花生熔岩咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
@@ -15163,7 +14855,7 @@
       "fcode": "CO1508",
       "name": "青花椒咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
@@ -15475,7 +15167,7 @@
       "fcode": "CO1512",
       "name": "雙層咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
@@ -15943,7 +15635,7 @@
       "fcode": "CO1526",
       "name": "咔啦爆脆雞 A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
@@ -16756,7 +16448,7 @@
       "fcode": "CO1538",
       "name": "大阪燒雙蝦咔啦海陸堡A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
@@ -17022,7 +16714,7 @@
       "fcode": "CO2004",
       "name": "義式香草紙包雞",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 131,
       "minPrice": 131,
       "startDate": "2025-02-19",
@@ -17076,7 +16768,7 @@
       "fcode": "CO2009",
       "name": "咔啦爆脆雞(不辣)",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2026-04-08",
@@ -17292,7 +16984,7 @@
       "fcode": "CO2506",
       "name": "咔啦爆脆雞2塊(不辣)",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2026-04-08",
@@ -17515,7 +17207,7 @@
       "fcode": "CO3000",
       "name": "咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 95,
       "minPrice": 95,
       "startDate": "2025-02-19",
@@ -17569,7 +17261,7 @@
       "fcode": "CO3001",
       "name": "花生熔岩咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 127,
       "minPrice": 127,
       "startDate": "2026-07-13",
@@ -17623,7 +17315,7 @@
       "fcode": "CO3002",
       "name": "青花椒咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 105,
       "minPrice": 105,
       "startDate": "2025-02-19",
@@ -17731,7 +17423,7 @@
       "fcode": "CO3006",
       "name": "雙層咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 145,
       "minPrice": 145,
       "startDate": "2025-02-19",
@@ -17949,7 +17641,7 @@
       "fcode": "CO3023",
       "name": "大阪燒雙蝦咔啦海陸堡",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 155,
       "minPrice": 155,
       "startDate": "2026-06-16",
@@ -20821,13 +20513,6 @@
               "isNoItem": false
             },
             {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
@@ -20938,13 +20623,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
@@ -22198,13 +21876,6 @@
             {
               "name": "咔啦脆雞(辣)",
               "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "咔啦爆脆雞(不辣)",
-              "productKey": "fried_chicken_piece",
               "extra": 0,
               "quantity": 1,
               "isNoItem": false
