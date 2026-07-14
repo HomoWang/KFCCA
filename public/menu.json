@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T03:27:38+08:00",
+  "lastUpdated": "2026-07-15T02:51:15+08:00",
   "shopCode": "TWI104",
   "orderType": "2",
   "source": {
@@ -17,8 +17,8 @@
       "soldOut": false,
       "basePrice": 933,
       "minPrice": 933,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "pepsi": 1
       },
@@ -182,8 +182,8 @@
       "soldOut": true,
       "basePrice": 1231,
       "minPrice": 1231,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "pepsi": 1
       },
@@ -314,8 +314,8 @@
       "soldOut": false,
       "basePrice": 368,
       "minPrice": 368,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "medium_fries": 1
       },
@@ -401,8 +401,8 @@
       "soldOut": false,
       "basePrice": 491,
       "minPrice": 491,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "medium_fries": 2
       },
@@ -488,8 +488,8 @@
       "soldOut": false,
       "basePrice": 594,
       "minPrice": 594,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "medium_fries": 2
       },
@@ -575,8 +575,8 @@
       "soldOut": false,
       "basePrice": 497,
       "minPrice": 629,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -816,7 +816,7 @@
       "basePrice": 556,
       "minPrice": 622,
       "startDate": "2025-01-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1
       },
@@ -1038,8 +1038,8 @@
       "soldOut": false,
       "basePrice": 316,
       "minPrice": 392,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "chicken_nuggets": 4
@@ -1246,8 +1246,8 @@
       "soldOut": false,
       "basePrice": 661,
       "minPrice": 661,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -1361,8 +1361,8 @@
       "soldOut": false,
       "basePrice": 313,
       "minPrice": 389,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "sichuan_fried_chicken": 2,
@@ -1533,8 +1533,8 @@
       "soldOut": false,
       "basePrice": 459,
       "minPrice": 558,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 3
       },
@@ -1756,8 +1756,8 @@
       "soldOut": false,
       "basePrice": 346,
       "minPrice": 412,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 5,
         "qq_ball": 1
@@ -1961,8 +1961,8 @@
       "soldOut": false,
       "basePrice": 484,
       "minPrice": 484,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -2076,8 +2076,8 @@
       "soldOut": false,
       "basePrice": 641,
       "minPrice": 641,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -2191,8 +2191,8 @@
       "soldOut": false,
       "basePrice": 810,
       "minPrice": 810,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 8,
@@ -2306,8 +2306,8 @@
       "soldOut": false,
       "basePrice": 299,
       "minPrice": 299,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -2391,8 +2391,8 @@
       "soldOut": false,
       "basePrice": 233,
       "minPrice": 299,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 2
       },
@@ -2622,7 +2622,7 @@
       "basePrice": 293,
       "minPrice": 359,
       "startDate": "2025-09-22",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1,
         "peanut_zinger_burger": 1,
@@ -2817,7 +2817,7 @@
       "basePrice": 233,
       "minPrice": 299,
       "startDate": "2026-03-18",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1,
         "rice": 1
@@ -3047,7 +3047,7 @@
       "basePrice": 312,
       "minPrice": 388,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 4,
         "chicken_nuggets": 4,
@@ -3231,7 +3231,7 @@
       "basePrice": 299,
       "minPrice": 299,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 6,
         "sauce": 2
@@ -3300,7 +3300,7 @@
       "basePrice": 449,
       "minPrice": 449,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 8,
         "sauce": 2
@@ -3369,7 +3369,7 @@
       "basePrice": 488,
       "minPrice": 488,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 6,
         "chicken_nuggets": 8,
@@ -3460,7 +3460,7 @@
       "basePrice": 599,
       "minPrice": 599,
       "startDate": "2026-06-02",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 8
       },
@@ -3546,7 +3546,7 @@
       "basePrice": 299,
       "minPrice": 299,
       "startDate": "2026-06-03",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 6
       },
@@ -3614,7 +3614,7 @@
       "basePrice": 12,
       "minPrice": 12,
       "startDate": "2025-05-12",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sauce": 1
       },
@@ -3641,7 +3641,7 @@
       "basePrice": 16,
       "minPrice": 16,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sauce": 1
       },
@@ -3668,7 +3668,7 @@
       "basePrice": 16,
       "minPrice": 16,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sauce": 1
       },
@@ -3694,8 +3694,8 @@
       "soldOut": false,
       "basePrice": 204,
       "minPrice": 242,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -3901,7 +3901,7 @@
       "basePrice": 218,
       "minPrice": 256,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -4105,11 +4105,11 @@
       "fcode": "CO0054",
       "name": "義式香草紙包雞XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 211,
       "minPrice": 249,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -4313,11 +4313,11 @@
       "fcode": "CO0056",
       "name": "咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -4521,11 +4521,11 @@
       "fcode": "CO0057",
       "name": "花生熔岩咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 207,
       "minPrice": 245,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -4729,11 +4729,11 @@
       "fcode": "CO0058",
       "name": "青花椒咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 185,
       "minPrice": 223,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -4941,7 +4941,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -5145,11 +5145,11 @@
       "fcode": "CO0062",
       "name": "雙層咔啦雞腿堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 225,
       "minPrice": 263,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -5357,7 +5357,7 @@
       "basePrice": 136,
       "minPrice": 174,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -5564,8 +5564,8 @@
       "soldOut": false,
       "basePrice": 145,
       "minPrice": 183,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -5773,7 +5773,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -5965,7 +5965,7 @@
       "basePrice": 218,
       "minPrice": 256,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -6159,7 +6159,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -6353,7 +6353,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -6547,7 +6547,7 @@
       "basePrice": 185,
       "minPrice": 223,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -6741,7 +6741,7 @@
       "basePrice": 207,
       "minPrice": 245,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -6935,7 +6935,7 @@
       "basePrice": 225,
       "minPrice": 263,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -7125,11 +7125,11 @@
       "fcode": "CO0102",
       "name": "咔啦爆脆雞 XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -7340,7 +7340,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -7539,7 +7539,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -7748,7 +7748,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2025-11-20",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -7942,7 +7942,7 @@
       "basePrice": 179,
       "minPrice": 217,
       "startDate": "2026-03-26",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -8150,7 +8150,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8360,7 +8360,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-23",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8555,7 +8555,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8765,7 +8765,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8956,11 +8956,11 @@
       "fcode": "CO0126",
       "name": "大阪燒雙蝦咔啦海陸堡XL全明星餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 235,
       "minPrice": 273,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -9168,7 +9168,7 @@
       "basePrice": 235,
       "minPrice": 273,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -9362,7 +9362,7 @@
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -9536,7 +9536,7 @@
       "basePrice": 182,
       "minPrice": 220,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "chicken_nuggets": 4
@@ -9688,11 +9688,11 @@
       "fcode": "CO0504",
       "name": "義式香草紙包雞C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1,
         "chicken_nuggets": 4
@@ -9844,11 +9844,11 @@
       "fcode": "CO0506",
       "name": "咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 139,
       "minPrice": 177,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10000,11 +10000,11 @@
       "fcode": "CO0507",
       "name": "花生熔岩咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 171,
       "minPrice": 209,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10156,11 +10156,11 @@
       "fcode": "CO0508",
       "name": "青花椒咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10316,7 +10316,7 @@
       "basePrice": 139,
       "minPrice": 177,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1,
         "chicken_nuggets": 4
@@ -10468,11 +10468,11 @@
       "fcode": "CO0512",
       "name": "雙層咔啦雞腿堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 189,
       "minPrice": 227,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10628,7 +10628,7 @@
       "basePrice": 100,
       "minPrice": 138,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1,
         "chicken_nuggets": 4
@@ -10784,7 +10784,7 @@
       "basePrice": 109,
       "minPrice": 147,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10936,11 +10936,11 @@
       "fcode": "CO0526",
       "name": "咔啦爆脆雞 C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -11121,7 +11121,7 @@
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4
@@ -11278,7 +11278,7 @@
       "basePrice": 143,
       "minPrice": 181,
       "startDate": "2026-03-26",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "chicken_nuggets": 4
@@ -11436,7 +11436,7 @@
       "basePrice": 180,
       "minPrice": 218,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4,
@@ -11594,7 +11594,7 @@
       "basePrice": 180,
       "minPrice": 218,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4,
@@ -11750,11 +11750,11 @@
       "fcode": "CO0538",
       "name": "大阪燒雙蝦咔啦海陸堡C雙享餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 199,
       "minPrice": 237,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1,
         "chicken_nuggets": 4
@@ -11906,13 +11906,13 @@
     },
     {
       "fcode": "CO1000",
-      "name": "吮指雙雞B雞汁飯餐",
+      "name": "吮指雙雞B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "rice": 1
       },
@@ -12055,13 +12055,13 @@
     },
     {
       "fcode": "CO1003",
-      "name": "青花椒香麻脆雞B雞汁飯餐",
+      "name": "青花椒香麻脆雞B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 156,
       "minPrice": 194,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "rice": 1
@@ -12186,13 +12186,13 @@
     },
     {
       "fcode": "CO1004",
-      "name": "義式香草紙包雞B雞汁飯餐",
+      "name": "義式香草紙包雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1,
         "rice": 1
@@ -12317,13 +12317,13 @@
     },
     {
       "fcode": "CO1006",
-      "name": "咔啦雞腿堡B雞汁飯餐",
+      "name": "咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1,
         "rice": 1
@@ -12448,13 +12448,13 @@
     },
     {
       "fcode": "CO1007",
-      "name": "花生熔岩咔啦雞腿堡B雞汁飯餐",
+      "name": "花生熔岩咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "rice": 1
@@ -12579,13 +12579,13 @@
     },
     {
       "fcode": "CO1008",
-      "name": "青花椒咔啦雞腿堡B雞汁飯餐",
+      "name": "青花椒咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "rice": 1
@@ -12710,13 +12710,13 @@
     },
     {
       "fcode": "CO1009",
-      "name": "紐澳良烤雞腿堡B雞汁飯餐",
+      "name": "紐澳良烤雞腿堡B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1,
         "rice": 1
@@ -12841,13 +12841,13 @@
     },
     {
       "fcode": "CO1012",
-      "name": "雙層咔啦雞腿堡B雞汁飯餐",
+      "name": "雙層咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1,
         "rice": 1
@@ -12972,13 +12972,13 @@
     },
     {
       "fcode": "CO1016",
-      "name": "原味脆雞堡(小)B雞汁飯餐",
+      "name": "原味脆雞堡(小)B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 74,
       "minPrice": 112,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1,
         "rice": 1
@@ -13103,13 +13103,13 @@
     },
     {
       "fcode": "CO1017",
-      "name": "花生脆雞堡(小)B雞汁飯餐",
+      "name": "花生脆雞堡(小)B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 83,
       "minPrice": 121,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "rice": 1
@@ -13234,13 +13234,13 @@
     },
     {
       "fcode": "CO1026",
-      "name": "咔啦爆脆雞 B雞汁飯餐",
+      "name": "咔啦爆脆雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "rice": 1
       },
@@ -13390,13 +13390,13 @@
     },
     {
       "fcode": "CO1028",
-      "name": "爆脆無骨雞腿霸 B雞汁飯餐",
+      "name": "爆脆無骨雞腿霸 B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1
@@ -13522,13 +13522,13 @@
     },
     {
       "fcode": "CO1032",
-      "name": "韓式起司脆雞飯 B雞汁飯餐",
+      "name": "韓式起司脆雞飯 B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 117,
       "minPrice": 155,
       "startDate": "2026-03-25",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "rice": 1
@@ -13655,13 +13655,13 @@
     },
     {
       "fcode": "CO1033",
-      "name": "爆脆無骨雞腿霸2塊+南洋酸甜醬 B雞汁飯餐",
+      "name": "爆脆無骨雞腿霸2塊+南洋酸甜醬B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1,
@@ -13788,13 +13788,13 @@
     },
     {
       "fcode": "CO1034",
-      "name": "爆脆無骨雞腿霸2塊+BBQ煙燻醬 B雞汁飯餐",
+      "name": "爆脆無骨雞腿霸2塊+BBQ煙燻醬 B米飯餐",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1,
@@ -13923,13 +13923,13 @@
     },
     {
       "fcode": "CO1038",
-      "name": "大阪燒雙蝦咔啦海陸堡B雞汁飯餐",
+      "name": "大阪燒雙蝦咔啦海陸堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1,
         "rice": 1
@@ -14062,7 +14062,7 @@
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -14235,7 +14235,7 @@
       "basePrice": 156,
       "minPrice": 194,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -14387,11 +14387,11 @@
       "fcode": "CO1504",
       "name": "義式香草紙包雞A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -14543,11 +14543,11 @@
       "fcode": "CO1506",
       "name": "咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -14699,11 +14699,11 @@
       "fcode": "CO1507",
       "name": "花生熔岩咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -14855,11 +14855,11 @@
       "fcode": "CO1508",
       "name": "青花椒咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -15015,7 +15015,7 @@
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -15167,11 +15167,11 @@
       "fcode": "CO1512",
       "name": "雙層咔啦雞腿堡A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -15327,7 +15327,7 @@
       "basePrice": 74,
       "minPrice": 112,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -15483,7 +15483,7 @@
       "basePrice": 83,
       "minPrice": 121,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -15635,11 +15635,11 @@
       "fcode": "CO1526",
       "name": "咔啦爆脆雞 A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -15819,7 +15819,7 @@
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -15976,7 +15976,7 @@
       "basePrice": 117,
       "minPrice": 155,
       "startDate": "2026-03-26",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16134,7 +16134,7 @@
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -16292,7 +16292,7 @@
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -16448,11 +16448,11 @@
       "fcode": "CO1538",
       "name": "大阪燒雙蝦咔啦海陸堡A經典餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -16610,7 +16610,7 @@
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16664,7 +16664,7 @@
       "basePrice": 78,
       "minPrice": 78,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 1
       },
@@ -16714,11 +16714,11 @@
       "fcode": "CO2004",
       "name": "義式香草紙包雞",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 131,
       "minPrice": 131,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -16768,11 +16768,11 @@
       "fcode": "CO2009",
       "name": "咔啦爆脆雞(不辣)",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16826,7 +16826,7 @@
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16880,7 +16880,7 @@
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -16934,7 +16934,7 @@
       "basePrice": 138,
       "minPrice": 138,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -16984,11 +16984,11 @@
       "fcode": "CO2506",
       "name": "咔啦爆脆雞2塊(不辣)",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -17042,7 +17042,7 @@
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -17097,7 +17097,7 @@
       "basePrice": 136,
       "minPrice": 136,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sauce": 1,
         "fried_chicken_piece": 2
@@ -17153,7 +17153,7 @@
       "basePrice": 136,
       "minPrice": 136,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sauce": 1,
         "fried_chicken_piece": 2
@@ -17207,11 +17207,11 @@
       "fcode": "CO3000",
       "name": "咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 95,
       "minPrice": 95,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -17261,11 +17261,11 @@
       "fcode": "CO3001",
       "name": "花生熔岩咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 127,
       "minPrice": 127,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -17315,11 +17315,11 @@
       "fcode": "CO3002",
       "name": "青花椒咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 105,
       "minPrice": 105,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -17373,7 +17373,7 @@
       "basePrice": 95,
       "minPrice": 95,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -17423,11 +17423,11 @@
       "fcode": "CO3006",
       "name": "雙層咔啦雞腿堡",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 145,
       "minPrice": 145,
       "startDate": "2025-02-19",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -17481,7 +17481,7 @@
       "basePrice": 56,
       "minPrice": 56,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -17535,7 +17535,7 @@
       "basePrice": 65,
       "minPrice": 65,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -17589,7 +17589,7 @@
       "basePrice": 99,
       "minPrice": 99,
       "startDate": "2026-03-26",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -17641,11 +17641,11 @@
       "fcode": "CO3023",
       "name": "大阪燒雙蝦咔啦海陸堡",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 155,
       "minPrice": 155,
       "startDate": "2026-06-16",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -17701,7 +17701,7 @@
       "basePrice": 98,
       "minPrice": 98,
       "startDate": "2024-10-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 8
       },
@@ -17761,8 +17761,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "pepsi": 1
       },
@@ -17789,8 +17789,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "pepsi": 1
       },
@@ -17817,8 +17817,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "seven_up": 1
       },
@@ -17845,8 +17845,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "seven_up": 1
       },
@@ -17873,8 +17873,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -17901,8 +17901,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -17929,8 +17929,8 @@
       "soldOut": false,
       "basePrice": 36,
       "minPrice": 36,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -17951,41 +17951,14 @@
       ]
     },
     {
-      "fcode": "EA022",
-      "name": "玉米濃湯(小)",
-      "isSingleItem": false,
-      "soldOut": true,
-      "basePrice": 40,
-      "minPrice": 40,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "soup": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "點心/飲料"
-      ],
-      "familyFcodes": [
-        "EA022"
-      ]
-    },
-    {
       "fcode": "EA058",
       "name": "冰無糖綠茶(小)",
       "isSingleItem": true,
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "green_tea": 1
       },
@@ -18012,8 +17985,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "green_tea": 1
       },
@@ -18040,8 +18013,8 @@
       "soldOut": false,
       "basePrice": 46,
       "minPrice": 46,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "pepsi": 1
       },
@@ -18062,41 +18035,14 @@
       ]
     },
     {
-      "fcode": "EA072",
-      "name": "玉米濃湯(大)",
-      "isSingleItem": false,
-      "soldOut": true,
-      "basePrice": 52,
-      "minPrice": 52,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "soup": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "點心/飲料"
-      ],
-      "familyFcodes": [
-        "EA072"
-      ]
-    },
-    {
       "fcode": "EA074",
       "name": "經典冰奶茶",
       "isSingleItem": true,
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18123,8 +18069,8 @@
       "soldOut": false,
       "basePrice": 35,
       "minPrice": 35,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18151,8 +18097,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18180,7 +18126,7 @@
       "basePrice": 40,
       "minPrice": 40,
       "startDate": "2025-10-29",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "apple_juice": 1
       },
@@ -18208,7 +18154,7 @@
       "basePrice": 33,
       "minPrice": 33,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18236,7 +18182,7 @@
       "basePrice": 38,
       "minPrice": 38,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18293,7 +18239,7 @@
       "basePrice": 49,
       "minPrice": 49,
       "startDate": "2024-09-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -18319,8 +18265,8 @@
       "soldOut": false,
       "basePrice": 49,
       "minPrice": 49,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -18380,8 +18326,8 @@
       "soldOut": false,
       "basePrice": 41,
       "minPrice": 41,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "small_fries": 1
       },
@@ -18434,8 +18380,8 @@
       "soldOut": false,
       "basePrice": 52,
       "minPrice": 52,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "medium_fries": 1
       },
@@ -18488,8 +18434,8 @@
       "soldOut": false,
       "basePrice": 69,
       "minPrice": 69,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "large_fries": 1
       },
@@ -18543,7 +18489,7 @@
       "basePrice": 67,
       "minPrice": 67,
       "startDate": "2024-01-02",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 1,
         "small_fries": 1
@@ -18604,8 +18550,8 @@
       "soldOut": false,
       "basePrice": 50,
       "minPrice": 50,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "rice": 1
       },
@@ -18631,8 +18577,8 @@
       "soldOut": false,
       "basePrice": 210,
       "minPrice": 210,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 20
       },
@@ -18693,7 +18639,7 @@
       "basePrice": 55,
       "minPrice": 55,
       "startDate": "2024-09-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "strawberry_cheese_mochi": 1
       },
@@ -18721,7 +18667,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-09-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "qq_ball": 1
       },
@@ -18747,8 +18693,8 @@
       "soldOut": false,
       "basePrice": 268,
       "minPrice": 268,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 8,
         "large_fries": 3,
@@ -18811,7 +18757,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2025-02-03",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "biscuit": 1
       },
@@ -18843,7 +18789,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-10-18",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "shrimp_nuggets": 3
       },
@@ -18897,7 +18843,7 @@
       "basePrice": 182,
       "minPrice": 182,
       "startDate": "2024-10-18",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "shrimp_nuggets": 1,
         "cod_ring": 1,
@@ -18927,7 +18873,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "cod_ring": 1
       },
@@ -18981,7 +18927,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart_ice_cream": 1
       },
@@ -19008,7 +18954,7 @@
       "basePrice": 99,
       "minPrice": 99,
       "startDate": "2024-06-28",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 1,
         "egg_tart_ice_cream": 1
@@ -19036,7 +18982,7 @@
       "basePrice": 139,
       "minPrice": 139,
       "startDate": "2025-04-14",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 8,
         "qq_ball": 1,
@@ -19085,6 +19031,7 @@
         "4"
       ],
       "menus": [
+        "熱門優惠",
         "點心/飲料"
       ],
       "familyFcodes": [
@@ -19099,7 +19046,7 @@
       "basePrice": 64,
       "minPrice": 64,
       "startDate": "2025-05-12",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "medium_fries": 1,
         "sauce": 1
@@ -19127,7 +19074,7 @@
       "basePrice": 61,
       "minPrice": 61,
       "startDate": "2025-05-12",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 4,
         "sauce": 1
@@ -19155,7 +19102,7 @@
       "basePrice": 40,
       "minPrice": 40,
       "startDate": "2026-02-05",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "hash_brown": 1
       },
@@ -19184,7 +19131,7 @@
       "basePrice": 75,
       "minPrice": 75,
       "startDate": "2026-03-18",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19212,7 +19159,7 @@
       "basePrice": 79,
       "minPrice": 79,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19241,7 +19188,7 @@
       "basePrice": 79,
       "minPrice": 79,
       "startDate": "2026-04-21",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19269,7 +19216,7 @@
       "basePrice": 55,
       "minPrice": 55,
       "startDate": "2026-06-03",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "small_fries": 1
       },
@@ -19296,7 +19243,7 @@
       "basePrice": 100,
       "minPrice": 100,
       "startDate": "2026-06-03",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "chicken_nuggets": 8
       },
@@ -19323,7 +19270,7 @@
       "basePrice": 57,
       "minPrice": 57,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -19350,7 +19297,7 @@
       "basePrice": 101,
       "minPrice": 101,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 2
       },
@@ -19377,7 +19324,7 @@
       "basePrice": 52,
       "minPrice": 52,
       "startDate": "2024-09-27",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "omelet_flatbread": 1
       },
@@ -19402,7 +19349,7 @@
       "basePrice": 56,
       "minPrice": 56,
       "startDate": "2025-02-11",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -19426,8 +19373,8 @@
       "soldOut": false,
       "basePrice": 36,
       "minPrice": 71,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "omelet_flatbread": 1
       },
@@ -19459,6 +19406,13 @@
             },
             {
               "name": "立頓檸檬風味紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "無糖紅茶(小)",
               "productKey": "iced_tea",
               "extra": 35,
               "quantity": 1,
@@ -19514,9 +19468,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -19542,7 +19510,7 @@
       "basePrice": 41,
       "minPrice": 76,
       "startDate": "2025-02-13",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -19580,6 +19548,13 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(小)",
               "productKey": "green_tea",
               "extra": 35,
@@ -19629,9 +19604,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -19656,8 +19645,8 @@
       "soldOut": false,
       "basePrice": 58,
       "minPrice": 58,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -19681,8 +19670,8 @@
       "soldOut": false,
       "basePrice": 42,
       "minPrice": 77,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -19720,6 +19709,13 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(小)",
               "productKey": "green_tea",
               "extra": 35,
@@ -19769,9 +19765,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -19790,66 +19800,14 @@
       ]
     },
     {
-      "fcode": "HA116",
-      "name": "玉米濃湯(小)",
-      "isSingleItem": false,
-      "soldOut": true,
-      "basePrice": 40,
-      "minPrice": 40,
-      "startDate": "2025-04-01",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "soup": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [],
-      "addonGroups": [],
-      "mealPeriods": [
-        "1"
-      ],
-      "menus": [
-        "早餐",
-        "點心/飲料"
-      ],
-      "familyFcodes": [
-        "HA116"
-      ]
-    },
-    {
-      "fcode": "HA117",
-      "name": "玉米濃湯(大)",
-      "isSingleItem": false,
-      "soldOut": true,
-      "basePrice": 52,
-      "minPrice": 52,
-      "startDate": "2025-04-01",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "soup": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [],
-      "addonGroups": [],
-      "mealPeriods": [
-        "1"
-      ],
-      "menus": [
-        "早餐",
-        "點心/飲料"
-      ],
-      "familyFcodes": [
-        "HA117"
-      ]
-    },
-    {
       "fcode": "HA203",
       "name": "紅藜燕麥脆雞粥",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 48,
       "minPrice": 48,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "porridge": 1
       },
@@ -19873,8 +19831,8 @@
       "soldOut": false,
       "basePrice": 32,
       "minPrice": 67,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "porridge": 1
       },
@@ -19912,6 +19870,13 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(小)",
               "productKey": "green_tea",
               "extra": 35,
@@ -19961,9 +19926,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -19989,7 +19968,7 @@
       "basePrice": 36,
       "minPrice": 36,
       "startDate": "2022-11-22",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_cheese_egg_burger": 1
       },
@@ -20014,7 +19993,7 @@
       "basePrice": 65,
       "minPrice": 65,
       "startDate": "2022-11-22",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -20039,7 +20018,7 @@
       "basePrice": 15,
       "minPrice": 50,
       "startDate": "2022-11-22",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_cheese_egg_burger": 1
       },
@@ -20071,6 +20050,13 @@
             },
             {
               "name": "立頓檸檬風味紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "無糖紅茶(小)",
               "productKey": "iced_tea",
               "extra": 35,
               "quantity": 1,
@@ -20126,9 +20112,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -20154,7 +20154,7 @@
       "basePrice": 50,
       "minPrice": 85,
       "startDate": "2022-11-22",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -20186,6 +20186,13 @@
             },
             {
               "name": "立頓檸檬風味紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "無糖紅茶(小)",
               "productKey": "iced_tea",
               "extra": 35,
               "quantity": 1,
@@ -20241,9 +20248,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -20268,8 +20289,8 @@
       "soldOut": false,
       "basePrice": 71,
       "minPrice": 141,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "peanut_zinger_burger": 1
@@ -20308,6 +20329,13 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(小)",
               "productKey": "green_tea",
               "extra": 35,
@@ -20357,9 +20385,23 @@
               "isNoItem": false
             },
             {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
               "name": "無糖綠茶(中)",
               "productKey": "green_tea",
               "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
               "quantity": 1,
               "isNoItem": false
             }
@@ -20385,7 +20427,7 @@
       "basePrice": 257,
       "minPrice": 257,
       "startDate": "2025-01-28",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 6
       },
@@ -20398,7 +20440,6 @@
         "4"
       ],
       "menus": [
-        "熱門優惠",
         "蛋撻"
       ],
       "familyFcodes": [
@@ -20412,8 +20453,8 @@
       "soldOut": false,
       "basePrice": 439,
       "minPrice": 439,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "strawberry_cheese_mochi": 8
       },
@@ -20441,7 +20482,7 @@
       "basePrice": 286,
       "minPrice": 286,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -20468,7 +20509,7 @@
       "basePrice": 305,
       "minPrice": 305,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 6
       },
@@ -20489,6 +20530,286 @@
       ]
     },
     {
+      "fcode": "LB862",
+      "name": "50540-激省7雞桶(附醬)",
+      "isSingleItem": false,
+      "soldOut": false,
+      "basePrice": 299,
+      "minPrice": 299,
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-20",
+      "fixedItems": {
+        "sauce": 1
+      },
+      "unknownItems": [],
+      "choiceGroups": [
+        {
+          "count": 7,
+          "options": [
+            {
+              "name": "咔啦脆雞(辣)",
+              "productKey": "crispy_chicken_spicy",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "爆脆雞",
+              "productKey": "fried_chicken_piece",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "青花椒香麻脆雞(辣)",
+              "productKey": "sichuan_fried_chicken",
+              "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        }
+      ],
+      "addonGroups": [
+        {
+          "maxCount": 35,
+          "options": [
+            {
+              "name": "青花椒香麻沾醬(小)",
+              "productKey": "sauce",
+              "extra": 12,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "南洋酸甜醬(大)",
+              "productKey": "sauce",
+              "extra": 16,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "BBQ煙燻醬(大)",
+              "productKey": "sauce",
+              "extra": 16,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        }
+      ],
+      "mealPeriods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "menus": [
+        "熱門優惠"
+      ],
+      "familyFcodes": [
+        "LB862"
+      ]
+    },
+    {
+      "fcode": "LB863",
+      "name": "50541-原味蛋撻買6顆送6顆",
+      "isSingleItem": false,
+      "soldOut": false,
+      "basePrice": 294,
+      "minPrice": 294,
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-27",
+      "fixedItems": {
+        "egg_tart": 12
+      },
+      "unknownItems": [],
+      "choiceGroups": [],
+      "addonGroups": [],
+      "mealPeriods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "menus": [
+        "熱門優惠"
+      ],
+      "familyFcodes": [
+        "LB863"
+      ]
+    },
+    {
+      "fcode": "LB864",
+      "name": "50542-大阪燒海陸堡買一套送一套",
+      "isSingleItem": false,
+      "soldOut": false,
+      "basePrice": 122,
+      "minPrice": 188,
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-20",
+      "fixedItems": {
+        "osaka_seafood_burger": 2
+      },
+      "unknownItems": [],
+      "choiceGroups": [
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "百事可樂(小)",
+              "productKey": "pepsi",
+              "extra": 33,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "七喜(小)",
+              "productKey": "seven_up",
+              "extra": 33,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "立頓檸檬風味紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 33,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "無糖紅茶(小)",
+              "productKey": "iced_tea",
+              "extra": 33,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "冰無糖綠茶(小)",
+              "productKey": "green_tea",
+              "extra": 33,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "經典熱奶茶(小)",
+              "productKey": "milk_tea",
+              "extra": 35,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "熱紅茶",
+              "productKey": "iced_tea",
+              "extra": 36,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "百事可樂(中)",
+              "productKey": "pepsi",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "七喜(中)",
+              "productKey": "seven_up",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "立頓檸檬風味紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "無糖紅茶(中)",
+              "productKey": "iced_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "冰無糖綠茶(中)",
+              "productKey": "green_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "經典冰奶茶",
+              "productKey": "milk_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "經典熱奶茶(中)",
+              "productKey": "milk_tea",
+              "extra": 38,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蘋果汁",
+              "productKey": "apple_juice",
+              "extra": 40,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "蜂蜜風味紅茶",
+              "productKey": "iced_tea",
+              "extra": 48,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        }
+      ],
+      "addonGroups": [
+        {
+          "maxCount": 35,
+          "options": [
+            {
+              "name": "青花椒香麻沾醬(小)",
+              "productKey": "sauce",
+              "extra": 12,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "南洋酸甜醬(大)",
+              "productKey": "sauce",
+              "extra": 16,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "BBQ煙燻醬(大)",
+              "productKey": "sauce",
+              "extra": 16,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        }
+      ],
+      "mealPeriods": [
+        "2",
+        "3",
+        "4"
+      ],
+      "menus": [
+        "熱門優惠"
+      ],
+      "familyFcodes": [
+        "LB864"
+      ]
+    },
+    {
       "fcode": "OA536",
       "name": "黃金超蝦塊特餐",
       "isSingleItem": false,
@@ -20496,7 +20817,7 @@
       "basePrice": 147,
       "minPrice": 185,
       "startDate": "2024-10-18",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "shrimp_nuggets": 1
       },
@@ -20611,7 +20932,7 @@
       "basePrice": 147,
       "minPrice": 185,
       "startDate": "2024-07-02",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "cod_ring": 1
       },
@@ -20726,7 +21047,7 @@
       "basePrice": 49,
       "minPrice": 49,
       "startDate": "2026-02-05",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -20845,7 +21166,7 @@
       "basePrice": 69,
       "minPrice": 69,
       "startDate": "2026-02-03",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -20978,542 +21299,11 @@
         "4"
       ],
       "menus": [
-        "$69天天肯定省"
+        "$69天天肯定省",
+        "熱門優惠"
       ],
       "familyFcodes": [
         "OA621"
-      ]
-    },
-    {
-      "fcode": "OA633",
-      "name": "原味脆雞堡(小)天天99元",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 61,
-      "minPrice": 99,
-      "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "crispy_chicken_burger": 1,
-        "egg_tart": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "熱紅茶",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "冰無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典冰奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典熱奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蘋果汁",
-              "productKey": "apple_juice",
-              "extra": 40,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 48,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [
-        {
-          "maxCount": 35,
-          "options": [
-            {
-              "name": "青花椒香麻沾醬(小)",
-              "productKey": "sauce",
-              "extra": 12,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "南洋酸甜醬(大)",
-              "productKey": "sauce",
-              "extra": 16,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "BBQ煙燻醬(大)",
-              "productKey": "sauce",
-              "extra": 16,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "mealPeriods": [
-        "2",
-        "3"
-      ],
-      "menus": [
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "OA633"
-      ]
-    },
-    {
-      "fcode": "OA634",
-      "name": "花生脆雞堡(小)天天99元",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 61,
-      "minPrice": 99,
-      "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "熱紅茶",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "冰無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典冰奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典熱奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蘋果汁",
-              "productKey": "apple_juice",
-              "extra": 40,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 48,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [
-        {
-          "maxCount": 35,
-          "options": [
-            {
-              "name": "青花椒香麻沾醬(小)",
-              "productKey": "sauce",
-              "extra": 12,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "南洋酸甜醬(大)",
-              "productKey": "sauce",
-              "extra": 16,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "BBQ煙燻醬(大)",
-              "productKey": "sauce",
-              "extra": 16,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "mealPeriods": [
-        "2",
-        "3"
-      ],
-      "menus": [
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "OA634"
-      ]
-    },
-    {
-      "fcode": "OA635",
-      "name": "原味脆雞堡(小)爽嗑餐129元",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 91,
-      "minPrice": 129,
-      "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "crispy_chicken_burger": 1,
-        "small_fries": 4
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "熱紅茶",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "冰無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典冰奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典熱奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蘋果汁",
-              "productKey": "apple_juice",
-              "extra": 40,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 48,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        },
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "糖醋醬",
-              "productKey": "sauce",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "不需附糖醋醬",
-              "productKey": "sauce",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": true
-            },
-            {
-              "name": "升級青花椒香麻沾醬(小)",
-              "productKey": "sauce",
-              "extra": 7,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "升級BBQ煙燻醬(大)",
-              "productKey": "sauce",
-              "extra": 11,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3"
-      ],
-      "menus": [
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "OA635"
-      ]
-    },
-    {
-      "fcode": "OA636",
-      "name": "花生脆雞堡(小)爽嗑餐129元",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 91,
-      "minPrice": 129,
-      "startDate": "2026-04-08",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "peanut_zinger_burger": 1,
-        "small_fries": 4
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "熱紅茶",
-              "productKey": "iced_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "冰無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典冰奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "經典熱奶茶(中)",
-              "productKey": "milk_tea",
-              "extra": 38,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蘋果汁",
-              "productKey": "apple_juice",
-              "extra": 40,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 48,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        },
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "糖醋醬",
-              "productKey": "sauce",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "不需附糖醋醬",
-              "productKey": "sauce",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": true
-            },
-            {
-              "name": "升級青花椒香麻沾醬(小)",
-              "productKey": "sauce",
-              "extra": 7,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "升級BBQ煙燻醬(大)",
-              "productKey": "sauce",
-              "extra": 11,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3"
-      ],
-      "menus": [
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "OA636"
       ]
     },
     {
@@ -21524,7 +21314,7 @@
       "basePrice": 123,
       "minPrice": 123,
       "startDate": "2026-07-01",
-      "endDate": "2026-07-27",
+      "endDate": "2026-07-28",
       "fixedItems": {
         "egg_tart": 2,
         "iced_tea": 1
@@ -21545,328 +21335,14 @@
       ]
     },
     {
-      "fcode": "QA316",
-      "name": "限定A餐",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 398,
-      "minPrice": 398,
-      "startDate": "2024-11-16",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "medium_fries": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 6,
-          "options": [
-            {
-              "name": "咔啦脆雞 (辣)",
-              "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        },
-        {
-          "count": 2,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 14,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "歡聚分享餐",
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "QA316"
-      ]
-    },
-    {
-      "fcode": "QA317",
-      "name": "限定B餐",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 544,
-      "minPrice": 544,
-      "startDate": "2024-11-16",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "medium_fries": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 8,
-          "options": [
-            {
-              "name": "咔啦脆雞 (辣)",
-              "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        },
-        {
-          "count": 4,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 14,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "歡聚分享餐",
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "QA317"
-      ]
-    },
-    {
-      "fcode": "QA318",
-      "name": "限定C餐",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 744,
-      "minPrice": 744,
-      "startDate": "2024-11-16",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "egg_tart": 6,
-        "large_fries": 1,
-        "pepsi": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 10,
-          "options": [
-            {
-              "name": "咔啦脆雞 (辣)",
-              "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "歡聚分享餐",
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "QA318"
-      ]
-    },
-    {
-      "fcode": "QA701",
-      "name": "限定D餐",
-      "isSingleItem": false,
-      "soldOut": false,
-      "basePrice": 242,
-      "minPrice": 242,
-      "startDate": "2024-11-16",
-      "endDate": "2026-07-27",
-      "fixedItems": {
-        "small_fries": 1,
-        "egg_tart": 1
-      },
-      "unknownItems": [],
-      "choiceGroups": [
-        {
-          "count": 3,
-          "options": [
-            {
-              "name": "咔啦脆雞 (辣)",
-              "productKey": "crispy_chicken_spicy",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "爆脆雞",
-              "productKey": "fried_chicken_piece",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        },
-        {
-          "count": 1,
-          "options": [
-            {
-              "name": "百事可樂(中)",
-              "productKey": "pepsi",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "七喜(中)",
-              "productKey": "seven_up",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "立頓檸檬風味紅茶(中)",
-              "productKey": "iced_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "無糖綠茶(中)",
-              "productKey": "green_tea",
-              "extra": 0,
-              "quantity": 1,
-              "isNoItem": false
-            },
-            {
-              "name": "蜂蜜風味紅茶",
-              "productKey": "iced_tea",
-              "extra": 14,
-              "quantity": 1,
-              "isNoItem": false
-            }
-          ]
-        }
-      ],
-      "addonGroups": [],
-      "mealPeriods": [
-        "2",
-        "3",
-        "4"
-      ],
-      "menus": [
-        "熱門優惠"
-      ],
-      "familyFcodes": [
-        "QA701"
-      ]
-    },
-    {
       "fcode": "ZZ582",
       "name": "經典A餐-6塊雞桶",
       "isSingleItem": false,
       "soldOut": false,
       "basePrice": 368,
       "minPrice": 368,
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-27",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-28",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
