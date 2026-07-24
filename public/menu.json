@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T03:19:23+08:00",
+  "lastUpdated": "2026-07-25T03:30:27+08:00",
   "shopCode": "TWI104",
   "orderType": "2",
   "source": {
@@ -20,7 +20,6 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 6,
         "pepsi": 1
       },
       "unknownItems": [],
@@ -79,6 +78,25 @@
               "name": "花生熔岩咔啦雞腿堡(辣)",
               "productKey": "peanut_zinger_burger",
               "extra": 25,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -174,7 +192,6 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 6,
         "pepsi": 1
       },
       "unknownItems": [],
@@ -200,6 +217,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -576,9 +612,7 @@
       "minPrice": 629,
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
-      "fixedItems": {
-        "egg_tart": 6
-      },
+      "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
         {
@@ -621,6 +655,25 @@
               "name": "薯條(大)",
               "productKey": "large_fries",
               "extra": 17,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -807,7 +860,6 @@
       "startDate": "2025-01-01",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 2,
         "qq_ball": 1
       },
       "unknownItems": [],
@@ -833,6 +885,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -1020,7 +1091,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
-        "egg_tart": 2,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
@@ -1046,6 +1116,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -1216,7 +1305,6 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 6,
         "qq_ball": 1,
         "chicken_nuggets": 4,
         "pepsi": 1
@@ -1244,6 +1332,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -1492,8 +1599,7 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "sichuan_fried_chicken": 3,
-        "egg_tart": 6
+        "sichuan_fried_chicken": 3
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -1518,6 +1624,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -1705,11 +1830,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "sichuan_fried_chicken": 5,
-        "qq_ball": 1,
-        "egg_tart": 2
+        "qq_ball": 1
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 2,
           "options": [
@@ -1892,7 +2035,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "qq_ball": 1,
-        "egg_tart": 2,
         "chicken_nuggets": 4,
         "pepsi": 1
       },
@@ -1919,6 +2061,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -1996,7 +2157,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "qq_ball": 1,
-        "egg_tart": 4,
         "chicken_nuggets": 4,
         "pepsi": 1
       },
@@ -2023,6 +2183,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -2100,7 +2279,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "qq_ball": 1,
-        "egg_tart": 6,
         "chicken_nuggets": 8,
         "pepsi": 1
       },
@@ -2127,6 +2305,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -2295,11 +2492,29 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "zinger_burger": 2,
-        "egg_tart": 2
+        "zinger_burger": 2
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 2,
           "options": [
@@ -2940,12 +3155,30 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 4,
-        "egg_tart": 2,
         "chicken_nuggets": 4,
         "sauce": 2
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 2,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -3334,11 +3567,30 @@
       "startDate": "2026-06-02",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "fried_chicken_piece": 8,
-        "egg_tart": 8
+        "fried_chicken_piece": 8
       },
       "unknownItems": [],
-      "choiceGroups": [],
+      "choiceGroups": [
+        {
+          "count": 8,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        }
+      ],
       "addonGroups": [
         {
           "maxCount": 35,
@@ -3549,9 +3801,7 @@
       "minPrice": 242,
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
-      "fixedItems": {
-        "egg_tart": 1
-      },
+      "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
         {
@@ -3575,6 +3825,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -3746,8 +4015,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "sichuan_fried_chicken": 2,
-        "egg_tart": 1
+        "sichuan_fried_chicken": 2
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -3772,6 +4040,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -3943,8 +4230,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "paper_chicken": 1,
-        "egg_tart": 1
+        "paper_chicken": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -3969,6 +4255,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -4140,8 +4445,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "zinger_burger": 1,
-        "egg_tart": 1
+        "zinger_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -4166,6 +4470,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -4337,8 +4660,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1
+        "peanut_zinger_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -4363,6 +4685,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -4534,8 +4875,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "sichuan_zinger_burger": 1,
-        "egg_tart": 1
+        "sichuan_zinger_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -4560,6 +4900,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -4731,7 +5090,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 1
+        "new_orleans_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -4756,6 +5115,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -4927,8 +5305,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "zinger_burger": 1,
-        "egg_tart": 1
+        "zinger_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -4953,6 +5330,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -5124,8 +5520,7 @@
       "startDate": "2025-02-13",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "crispy_chicken_burger": 1,
-        "egg_tart": 1
+        "crispy_chicken_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -5150,6 +5545,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -5321,8 +5735,7 @@
       "startDate": "2026-07-24",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "peanut_zinger_burger": 1,
-        "egg_tart": 1
+        "peanut_zinger_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -5347,6 +5760,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -6066,8 +6498,8 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 1,
-        "new_orleans_burger": 1
+        "new_orleans_burger": 1,
+        "egg_tart": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -6797,9 +7229,7 @@
       "minPrice": 242,
       "startDate": "2026-04-08",
       "endDate": "2026-08-07",
-      "fixedItems": {
-        "egg_tart": 1
-      },
+      "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
         {
@@ -6823,6 +7253,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -7174,8 +7623,7 @@
       "startDate": "2026-04-08",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1
+        "fried_chicken_piece": 2
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -7200,6 +7648,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -7372,8 +7839,7 @@
       "startDate": "2025-11-20",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "fried_chicken_piece": 2,
-        "egg_tart": 1
+        "fried_chicken_piece": 2
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -7398,6 +7864,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -7555,8 +8040,7 @@
       "startDate": "2026-03-26",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "fried_chicken_piece": 1,
-        "egg_tart": 1
+        "fried_chicken_piece": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -7581,6 +8065,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -7753,7 +8256,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 2,
-        "egg_tart": 1,
         "sauce": 1
       },
       "unknownItems": [],
@@ -7779,6 +8281,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -8136,7 +8657,6 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 2,
-        "egg_tart": 1,
         "sauce": 1
       },
       "unknownItems": [],
@@ -8162,6 +8682,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -8518,8 +9057,7 @@
       "startDate": "2026-06-16",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "osaka_seafood_burger": 1,
-        "egg_tart": 1
+        "osaka_seafood_burger": 1
       },
       "unknownItems": [],
       "choiceGroups": [
@@ -8544,6 +9082,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -8898,7 +9455,6 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
@@ -8924,6 +9480,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -9062,11 +9637,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9200,11 +9793,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "paper_chicken": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9338,11 +9949,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "zinger_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9476,11 +10105,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "peanut_zinger_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9614,11 +10261,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9751,11 +10416,30 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 1,
+        "new_orleans_burger": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -9889,11 +10573,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "zinger_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10027,11 +10729,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "crispy_chicken_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10165,11 +10885,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "peanut_zinger_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10302,7 +11040,6 @@
       "startDate": "2026-04-08",
       "endDate": "2026-08-07",
       "fixedItems": {
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
@@ -10328,6 +11065,25 @@
               "name": "青花椒香麻脆雞(辣)",
               "productKey": "sichuan_fried_chicken",
               "extra": 7,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
               "quantity": 1,
               "isNoItem": false
             }
@@ -10466,11 +11222,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 2,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10605,11 +11379,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10745,12 +11537,30 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 2,
-        "egg_tart": 1,
         "chicken_nuggets": 4,
         "sauce": 1
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -10885,12 +11695,30 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "fried_chicken_piece": 2,
-        "egg_tart": 1,
         "chicken_nuggets": 4,
         "sauce": 1
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -11027,11 +11855,29 @@
       "endDate": "2026-08-07",
       "fixedItems": {
         "osaka_seafood_burger": 1,
-        "egg_tart": 1,
         "chicken_nuggets": 4
       },
       "unknownItems": [],
       "choiceGroups": [
+        {
+          "count": 1,
+          "options": [
+            {
+              "name": "原味蛋撻",
+              "productKey": "egg_tart",
+              "extra": 0,
+              "quantity": 1,
+              "isNoItem": false
+            },
+            {
+              "name": "鐵觀音珍奶蛋撻",
+              "productKey": "egg_tart",
+              "extra": 8,
+              "quantity": 1,
+              "isNoItem": false
+            }
+          ]
+        },
         {
           "count": 1,
           "options": [
@@ -11977,6 +12823,7 @@
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
       "fixedItems": {
+        "new_orleans_burger": 1,
         "rice": 1
       },
       "unknownItems": [],
@@ -14281,7 +15128,9 @@
       "minPrice": 151,
       "startDate": "2025-02-19",
       "endDate": "2026-08-07",
-      "fixedItems": {},
+      "fixedItems": {
+        "new_orleans_burger": 1
+      },
       "unknownItems": [],
       "choiceGroups": [
         {
@@ -18016,7 +18865,7 @@
       "fcode": "FA168",
       "name": "金黃比司吉",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2025-02-03",
