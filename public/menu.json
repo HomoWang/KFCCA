@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T02:44:12+08:00",
+  "lastUpdated": "2026-07-27T02:54:01+08:00",
   "shopCode": "TWI104",
   "orderType": "2",
   "source": {
@@ -17,8 +17,8 @@
       "soldOut": false,
       "basePrice": 933,
       "minPrice": 933,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "pepsi": 1
       },
@@ -189,8 +189,8 @@
       "soldOut": true,
       "basePrice": 1231,
       "minPrice": 1231,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "pepsi": 1
       },
@@ -328,8 +328,8 @@
       "soldOut": false,
       "basePrice": 368,
       "minPrice": 368,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "medium_fries": 1
       },
@@ -422,8 +422,8 @@
       "soldOut": false,
       "basePrice": 491,
       "minPrice": 491,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "medium_fries": 2
       },
@@ -516,8 +516,8 @@
       "soldOut": false,
       "basePrice": 594,
       "minPrice": 594,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "medium_fries": 2
       },
@@ -610,8 +610,8 @@
       "soldOut": false,
       "basePrice": 497,
       "minPrice": 629,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -858,7 +858,7 @@
       "basePrice": 556,
       "minPrice": 622,
       "startDate": "2025-01-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1
       },
@@ -1087,8 +1087,8 @@
       "soldOut": false,
       "basePrice": 316,
       "minPrice": 392,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "chicken_nuggets": 4
@@ -1302,8 +1302,8 @@
       "soldOut": false,
       "basePrice": 661,
       "minPrice": 661,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -1424,8 +1424,8 @@
       "soldOut": false,
       "basePrice": 313,
       "minPrice": 389,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "sichuan_fried_chicken": 2,
@@ -1596,8 +1596,8 @@
       "soldOut": false,
       "basePrice": 459,
       "minPrice": 558,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 3
       },
@@ -1826,8 +1826,8 @@
       "soldOut": false,
       "basePrice": 346,
       "minPrice": 412,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 5,
         "qq_ball": 1
@@ -2031,8 +2031,8 @@
       "soldOut": false,
       "basePrice": 484,
       "minPrice": 484,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -2153,8 +2153,8 @@
       "soldOut": false,
       "basePrice": 641,
       "minPrice": 641,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 4,
@@ -2275,8 +2275,8 @@
       "soldOut": false,
       "basePrice": 810,
       "minPrice": 810,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1,
         "chicken_nuggets": 8,
@@ -2397,8 +2397,8 @@
       "soldOut": false,
       "basePrice": 299,
       "minPrice": 299,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -2489,8 +2489,8 @@
       "soldOut": false,
       "basePrice": 233,
       "minPrice": 299,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 2
       },
@@ -2720,7 +2720,7 @@
       "basePrice": 293,
       "minPrice": 359,
       "startDate": "2025-09-22",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "peanut_zinger_burger": 1,
@@ -2915,7 +2915,7 @@
       "basePrice": 233,
       "minPrice": 299,
       "startDate": "2026-03-18",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1,
         "rice": 1
@@ -3152,7 +3152,7 @@
       "basePrice": 312,
       "minPrice": 388,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 4,
         "chicken_nuggets": 4,
@@ -3336,7 +3336,7 @@
       "basePrice": 299,
       "minPrice": 299,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 6,
         "sauce": 2
@@ -3405,7 +3405,7 @@
       "basePrice": 449,
       "minPrice": 449,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 8,
         "sauce": 2
@@ -3474,7 +3474,7 @@
       "basePrice": 488,
       "minPrice": 488,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 6,
         "chicken_nuggets": 8,
@@ -3565,7 +3565,7 @@
       "basePrice": 599,
       "minPrice": 599,
       "startDate": "2026-06-02",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 8
       },
@@ -3651,7 +3651,7 @@
       "basePrice": 299,
       "minPrice": 299,
       "startDate": "2026-06-03",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 6
       },
@@ -3719,7 +3719,7 @@
       "basePrice": 12,
       "minPrice": 12,
       "startDate": "2025-05-12",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sauce": 1
       },
@@ -3746,7 +3746,7 @@
       "basePrice": 16,
       "minPrice": 16,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sauce": 1
       },
@@ -3773,7 +3773,7 @@
       "basePrice": 16,
       "minPrice": 16,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sauce": 1
       },
@@ -3799,8 +3799,8 @@
       "soldOut": false,
       "basePrice": 204,
       "minPrice": 242,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -4013,7 +4013,7 @@
       "basePrice": 218,
       "minPrice": 256,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -4228,7 +4228,7 @@
       "basePrice": 211,
       "minPrice": 249,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -4443,7 +4443,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -4658,7 +4658,7 @@
       "basePrice": 207,
       "minPrice": 245,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -4873,7 +4873,7 @@
       "basePrice": 185,
       "minPrice": 223,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -5088,7 +5088,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -5303,7 +5303,7 @@
       "basePrice": 225,
       "minPrice": 263,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -5518,7 +5518,7 @@
       "basePrice": 136,
       "minPrice": 174,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -5732,8 +5732,8 @@
       "soldOut": false,
       "basePrice": 145,
       "minPrice": 183,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -5948,7 +5948,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -6130,7 +6130,7 @@
       "basePrice": 218,
       "minPrice": 256,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "egg_tart": 1
@@ -6313,7 +6313,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "egg_tart": 1
@@ -6496,7 +6496,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1,
         "egg_tart": 1
@@ -6679,7 +6679,7 @@
       "basePrice": 185,
       "minPrice": 223,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "egg_tart": 1
@@ -6862,7 +6862,7 @@
       "basePrice": 207,
       "minPrice": 245,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "egg_tart": 1
@@ -7045,7 +7045,7 @@
       "basePrice": 225,
       "minPrice": 263,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "egg_tart": 1
@@ -7228,7 +7228,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -7439,7 +7439,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -7621,7 +7621,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -7837,7 +7837,7 @@
       "basePrice": 204,
       "minPrice": 242,
       "startDate": "2025-11-20",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -8034,11 +8034,11 @@
       "fcode": "CO0113",
       "name": "韓式起司脆雞飯 XL全明星餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 179,
       "minPrice": 217,
       "startDate": "2026-03-26",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -8253,7 +8253,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8470,7 +8470,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-23",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "egg_tart": 1,
@@ -8654,7 +8654,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -8871,7 +8871,7 @@
       "basePrice": 216,
       "minPrice": 254,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "egg_tart": 1,
@@ -9055,7 +9055,7 @@
       "basePrice": 235,
       "minPrice": 273,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -9270,7 +9270,7 @@
       "basePrice": 235,
       "minPrice": 273,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1,
         "egg_tart": 1
@@ -9453,7 +9453,7 @@
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -9634,7 +9634,7 @@
       "basePrice": 182,
       "minPrice": 220,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "chicken_nuggets": 4
@@ -9790,7 +9790,7 @@
       "basePrice": 175,
       "minPrice": 213,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1,
         "chicken_nuggets": 4
@@ -9946,7 +9946,7 @@
       "basePrice": 139,
       "minPrice": 177,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10101,8 +10101,8 @@
       "soldOut": false,
       "basePrice": 171,
       "minPrice": 209,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10258,7 +10258,7 @@
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10414,7 +10414,7 @@
       "basePrice": 139,
       "minPrice": 177,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1,
         "chicken_nuggets": 4
@@ -10570,7 +10570,7 @@
       "basePrice": 189,
       "minPrice": 227,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "chicken_nuggets": 4
@@ -10726,7 +10726,7 @@
       "basePrice": 100,
       "minPrice": 138,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1,
         "chicken_nuggets": 4
@@ -10882,7 +10882,7 @@
       "basePrice": 109,
       "minPrice": 147,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "chicken_nuggets": 4
@@ -11038,7 +11038,7 @@
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -11219,7 +11219,7 @@
       "basePrice": 168,
       "minPrice": 206,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4
@@ -11372,11 +11372,11 @@
       "fcode": "CO0532",
       "name": "韓式起司脆雞飯 C雙享餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 143,
       "minPrice": 181,
       "startDate": "2026-03-26",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "chicken_nuggets": 4
@@ -11534,7 +11534,7 @@
       "basePrice": 180,
       "minPrice": 218,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4,
@@ -11692,7 +11692,7 @@
       "basePrice": 180,
       "minPrice": 218,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "chicken_nuggets": 4,
@@ -11852,7 +11852,7 @@
       "basePrice": 199,
       "minPrice": 237,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1,
         "chicken_nuggets": 4
@@ -12006,11 +12006,11 @@
       "fcode": "CO1000",
       "name": "吮指雙雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "rice": 1
       },
@@ -12162,11 +12162,11 @@
       "fcode": "CO1003",
       "name": "青花椒香麻脆雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 156,
       "minPrice": 194,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2,
         "rice": 1
@@ -12293,11 +12293,11 @@
       "fcode": "CO1004",
       "name": "義式香草紙包雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1,
         "rice": 1
@@ -12424,11 +12424,11 @@
       "fcode": "CO1006",
       "name": "咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "rice": 1
@@ -12555,11 +12555,11 @@
       "fcode": "CO1007",
       "name": "花生熔岩咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "rice": 1
@@ -12686,11 +12686,11 @@
       "fcode": "CO1008",
       "name": "青花椒咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1,
         "rice": 1
@@ -12817,11 +12817,11 @@
       "fcode": "CO1009",
       "name": "紐澳良烤雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1,
         "rice": 1
@@ -12948,11 +12948,11 @@
       "fcode": "CO1012",
       "name": "雙層咔啦雞腿堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1,
         "rice": 1
@@ -13079,11 +13079,11 @@
       "fcode": "CO1016",
       "name": "原味脆雞堡(小)B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 74,
       "minPrice": 112,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1,
         "rice": 1
@@ -13210,11 +13210,11 @@
       "fcode": "CO1017",
       "name": "花生脆雞堡(小)B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 83,
       "minPrice": 121,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1,
         "rice": 1
@@ -13341,11 +13341,11 @@
       "fcode": "CO1026",
       "name": "咔啦爆脆雞B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "rice": 1
       },
@@ -13497,11 +13497,11 @@
       "fcode": "CO1028",
       "name": "爆脆無骨雞腿霸 B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1
@@ -13629,11 +13629,11 @@
       "fcode": "CO1032",
       "name": "韓式起司脆雞飯 B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 117,
       "minPrice": 155,
       "startDate": "2026-03-25",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "rice": 1
@@ -13762,11 +13762,11 @@
       "fcode": "CO1033",
       "name": "爆脆無骨雞腿霸2塊+南洋酸甜醬B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1,
@@ -13895,11 +13895,11 @@
       "fcode": "CO1034",
       "name": "爆脆無骨雞腿霸2塊+BBQ煙燻醬 B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "rice": 1,
@@ -14030,11 +14030,11 @@
       "fcode": "CO1038",
       "name": "大阪燒雙蝦咔啦海陸堡B米飯餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1,
         "rice": 1
@@ -14167,7 +14167,7 @@
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -14347,7 +14347,7 @@
       "basePrice": 156,
       "minPrice": 194,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -14503,7 +14503,7 @@
       "basePrice": 149,
       "minPrice": 187,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -14659,7 +14659,7 @@
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -14815,7 +14815,7 @@
       "basePrice": 145,
       "minPrice": 183,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -14971,7 +14971,7 @@
       "basePrice": 123,
       "minPrice": 161,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -15127,7 +15127,7 @@
       "basePrice": 113,
       "minPrice": 151,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -15283,7 +15283,7 @@
       "basePrice": 163,
       "minPrice": 201,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -15439,7 +15439,7 @@
       "basePrice": 74,
       "minPrice": 112,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -15595,7 +15595,7 @@
       "basePrice": 83,
       "minPrice": 121,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -15751,7 +15751,7 @@
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -15931,7 +15931,7 @@
       "basePrice": 142,
       "minPrice": 180,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -16084,11 +16084,11 @@
       "fcode": "CO1532",
       "name": "韓式起司脆雞飯 A經典餐",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 117,
       "minPrice": 155,
       "startDate": "2026-03-26",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16246,7 +16246,7 @@
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -16404,7 +16404,7 @@
       "basePrice": 154,
       "minPrice": 192,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2,
         "sauce": 1
@@ -16564,7 +16564,7 @@
       "basePrice": 173,
       "minPrice": 211,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -16722,7 +16722,7 @@
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16776,7 +16776,7 @@
       "basePrice": 78,
       "minPrice": 78,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 1
       },
@@ -16830,7 +16830,7 @@
       "basePrice": 131,
       "minPrice": 131,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "paper_chicken": 1
       },
@@ -16884,7 +16884,7 @@
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16938,7 +16938,7 @@
       "basePrice": 71,
       "minPrice": 71,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -16992,7 +16992,7 @@
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -17046,7 +17046,7 @@
       "basePrice": 138,
       "minPrice": 138,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_fried_chicken": 2
       },
@@ -17100,7 +17100,7 @@
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -17154,7 +17154,7 @@
       "basePrice": 124,
       "minPrice": 124,
       "startDate": "2026-04-08",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 2
       },
@@ -17209,7 +17209,7 @@
       "basePrice": 136,
       "minPrice": 136,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sauce": 1,
         "fried_chicken_piece": 2
@@ -17265,7 +17265,7 @@
       "basePrice": 136,
       "minPrice": 136,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sauce": 1,
         "fried_chicken_piece": 2
@@ -17323,7 +17323,7 @@
       "basePrice": 95,
       "minPrice": 95,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -17376,8 +17376,8 @@
       "soldOut": false,
       "basePrice": 127,
       "minPrice": 127,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -17431,7 +17431,7 @@
       "basePrice": 105,
       "minPrice": 105,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "sichuan_zinger_burger": 1
       },
@@ -17485,7 +17485,7 @@
       "basePrice": 95,
       "minPrice": 95,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "new_orleans_burger": 1
       },
@@ -17539,7 +17539,7 @@
       "basePrice": 145,
       "minPrice": 145,
       "startDate": "2025-02-19",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "zinger_burger": 1
       },
@@ -17593,7 +17593,7 @@
       "basePrice": 56,
       "minPrice": 56,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -17647,7 +17647,7 @@
       "basePrice": 65,
       "minPrice": 65,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -17697,11 +17697,11 @@
       "fcode": "CO3019",
       "name": "韓式起司脆雞飯",
       "isSingleItem": true,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 99,
       "minPrice": 99,
       "startDate": "2026-03-26",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -17757,7 +17757,7 @@
       "basePrice": 155,
       "minPrice": 155,
       "startDate": "2026-06-16",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "osaka_seafood_burger": 1
       },
@@ -17813,7 +17813,7 @@
       "basePrice": 98,
       "minPrice": 98,
       "startDate": "2024-10-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 8
       },
@@ -17873,8 +17873,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "pepsi": 1
       },
@@ -17901,8 +17901,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "pepsi": 1
       },
@@ -17929,8 +17929,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "seven_up": 1
       },
@@ -17957,8 +17957,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "seven_up": 1
       },
@@ -17985,8 +17985,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18013,8 +18013,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18041,8 +18041,8 @@
       "soldOut": false,
       "basePrice": 36,
       "minPrice": 36,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18069,8 +18069,8 @@
       "soldOut": false,
       "basePrice": 33,
       "minPrice": 33,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "green_tea": 1
       },
@@ -18097,8 +18097,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "green_tea": 1
       },
@@ -18125,8 +18125,8 @@
       "soldOut": false,
       "basePrice": 46,
       "minPrice": 46,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "pepsi": 1
       },
@@ -18153,8 +18153,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18181,8 +18181,8 @@
       "soldOut": false,
       "basePrice": 35,
       "minPrice": 35,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18209,8 +18209,8 @@
       "soldOut": false,
       "basePrice": 38,
       "minPrice": 38,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "milk_tea": 1
       },
@@ -18238,7 +18238,7 @@
       "basePrice": 40,
       "minPrice": 40,
       "startDate": "2025-10-29",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "apple_juice": 1
       },
@@ -18266,7 +18266,7 @@
       "basePrice": 33,
       "minPrice": 33,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18294,7 +18294,7 @@
       "basePrice": 38,
       "minPrice": 38,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "iced_tea": 1
       },
@@ -18351,7 +18351,7 @@
       "basePrice": 49,
       "minPrice": 49,
       "startDate": "2024-09-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -18377,8 +18377,8 @@
       "soldOut": false,
       "basePrice": 49,
       "minPrice": 49,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 4
       },
@@ -18438,8 +18438,8 @@
       "soldOut": false,
       "basePrice": 41,
       "minPrice": 41,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "small_fries": 1
       },
@@ -18492,8 +18492,8 @@
       "soldOut": false,
       "basePrice": 52,
       "minPrice": 52,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "medium_fries": 1
       },
@@ -18546,8 +18546,8 @@
       "soldOut": false,
       "basePrice": 69,
       "minPrice": 69,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "large_fries": 1
       },
@@ -18601,7 +18601,7 @@
       "basePrice": 67,
       "minPrice": 67,
       "startDate": "2024-01-02",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 1,
         "small_fries": 1
@@ -18659,11 +18659,11 @@
       "fcode": "FA063",
       "name": "雞汁風味飯",
       "isSingleItem": false,
-      "soldOut": false,
+      "soldOut": true,
       "basePrice": 50,
       "minPrice": 50,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "rice": 1
       },
@@ -18689,8 +18689,8 @@
       "soldOut": false,
       "basePrice": 210,
       "minPrice": 210,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 20
       },
@@ -18751,7 +18751,7 @@
       "basePrice": 55,
       "minPrice": 55,
       "startDate": "2024-09-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "strawberry_cheese_mochi": 1
       },
@@ -18779,7 +18779,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-09-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "qq_ball": 1
       },
@@ -18805,8 +18805,8 @@
       "soldOut": false,
       "basePrice": 268,
       "minPrice": 268,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 8,
         "large_fries": 3,
@@ -18869,7 +18869,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2025-02-03",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "biscuit": 1
       },
@@ -18902,7 +18902,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-10-18",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "shrimp_nuggets": 3
       },
@@ -18956,7 +18956,7 @@
       "basePrice": 182,
       "minPrice": 182,
       "startDate": "2024-10-18",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "shrimp_nuggets": 1,
         "cod_ring": 1,
@@ -18986,7 +18986,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "cod_ring": 1
       },
@@ -19040,7 +19040,7 @@
       "basePrice": 59,
       "minPrice": 59,
       "startDate": "2024-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart_ice_cream": 1
       },
@@ -19067,7 +19067,7 @@
       "basePrice": 99,
       "minPrice": 99,
       "startDate": "2024-06-28",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1,
         "egg_tart_ice_cream": 1
@@ -19095,7 +19095,7 @@
       "basePrice": 139,
       "minPrice": 139,
       "startDate": "2025-04-14",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 8,
         "qq_ball": 1,
@@ -19158,7 +19158,7 @@
       "basePrice": 64,
       "minPrice": 64,
       "startDate": "2025-05-12",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "medium_fries": 1,
         "sauce": 1
@@ -19186,7 +19186,7 @@
       "basePrice": 61,
       "minPrice": 61,
       "startDate": "2025-05-12",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 4,
         "sauce": 1
@@ -19214,7 +19214,7 @@
       "basePrice": 40,
       "minPrice": 40,
       "startDate": "2026-02-05",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "hash_brown": 1
       },
@@ -19243,7 +19243,7 @@
       "basePrice": 75,
       "minPrice": 75,
       "startDate": "2026-03-18",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19271,7 +19271,7 @@
       "basePrice": 79,
       "minPrice": 79,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19300,7 +19300,7 @@
       "basePrice": 79,
       "minPrice": 79,
       "startDate": "2026-04-21",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "small_fries": 4,
         "sauce": 1
@@ -19328,7 +19328,7 @@
       "basePrice": 55,
       "minPrice": 55,
       "startDate": "2026-06-03",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "small_fries": 1
       },
@@ -19355,7 +19355,7 @@
       "basePrice": 100,
       "minPrice": 100,
       "startDate": "2026-06-03",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "chicken_nuggets": 8
       },
@@ -19382,7 +19382,7 @@
       "basePrice": 57,
       "minPrice": 57,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -19409,7 +19409,7 @@
       "basePrice": 101,
       "minPrice": 101,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 2
       },
@@ -19432,11 +19432,11 @@
       "fcode": "HA002",
       "name": "總匯歐姆蛋燒餅",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 52,
       "minPrice": 52,
       "startDate": "2024-09-27",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "omelet_flatbread": 1
       },
@@ -19461,7 +19461,7 @@
       "basePrice": 56,
       "minPrice": 56,
       "startDate": "2025-02-11",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -19482,11 +19482,11 @@
       "fcode": "HA008",
       "name": "總匯歐姆蛋燒餅套餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 36,
       "minPrice": 71,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "omelet_flatbread": 1
       },
@@ -19622,7 +19622,7 @@
       "basePrice": 41,
       "minPrice": 76,
       "startDate": "2025-02-13",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "crispy_chicken_burger": 1
       },
@@ -19754,11 +19754,11 @@
       "fcode": "HA111",
       "name": "吮指脆雞燒餅",
       "isSingleItem": true,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 58,
       "minPrice": 58,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -19779,11 +19779,11 @@
       "fcode": "HA112",
       "name": "吮指脆雞燒餅套餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 42,
       "minPrice": 77,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1
       },
@@ -19915,11 +19915,11 @@
       "fcode": "HA203",
       "name": "紅藜燕麥脆雞粥",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 48,
       "minPrice": 48,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "porridge": 1
       },
@@ -19940,11 +19940,11 @@
       "fcode": "HA204",
       "name": "紅藜燕麥脆雞粥套餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 32,
       "minPrice": 67,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "porridge": 1
       },
@@ -20080,7 +20080,7 @@
       "basePrice": 36,
       "minPrice": 36,
       "startDate": "2022-11-22",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_cheese_egg_burger": 1
       },
@@ -20105,7 +20105,7 @@
       "basePrice": 65,
       "minPrice": 65,
       "startDate": "2022-11-22",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -20130,7 +20130,7 @@
       "basePrice": 15,
       "minPrice": 50,
       "startDate": "2022-11-22",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_cheese_egg_burger": 1
       },
@@ -20266,7 +20266,7 @@
       "basePrice": 50,
       "minPrice": 85,
       "startDate": "2022-11-22",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "peanut_zinger_burger": 1
       },
@@ -20398,11 +20398,11 @@
       "fcode": "HA220",
       "name": "雙雞特享雙人餐",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 71,
       "minPrice": 141,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "fried_chicken_piece": 1,
         "peanut_zinger_burger": 1
@@ -20539,7 +20539,7 @@
       "basePrice": 257,
       "minPrice": 257,
       "startDate": "2025-01-28",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 6
       },
@@ -20565,8 +20565,8 @@
       "soldOut": false,
       "basePrice": 439,
       "minPrice": 439,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "strawberry_cheese_mochi": 8
       },
@@ -20594,7 +20594,7 @@
       "basePrice": 286,
       "minPrice": 286,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 1
       },
@@ -20621,7 +20621,7 @@
       "basePrice": 305,
       "minPrice": 305,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 6
       },
@@ -20724,7 +20724,7 @@
       "fcode": "LB863",
       "name": "50541-原味蛋撻買6顆送6顆",
       "isSingleItem": false,
-      "soldOut": true,
+      "soldOut": false,
       "basePrice": 294,
       "minPrice": 294,
       "startDate": "2026-07-08",
@@ -20927,7 +20927,7 @@
       "basePrice": 147,
       "minPrice": 185,
       "startDate": "2024-10-18",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "shrimp_nuggets": 1
       },
@@ -21049,7 +21049,7 @@
       "basePrice": 147,
       "minPrice": 185,
       "startDate": "2024-07-02",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "cod_ring": 1
       },
@@ -21171,7 +21171,7 @@
       "basePrice": 49,
       "minPrice": 49,
       "startDate": "2026-02-05",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -21290,7 +21290,7 @@
       "basePrice": 69,
       "minPrice": 69,
       "startDate": "2026-02-03",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
@@ -21438,7 +21438,7 @@
       "basePrice": 123,
       "minPrice": 123,
       "startDate": "2026-07-01",
-      "endDate": "2026-08-08",
+      "endDate": "2026-08-10",
       "fixedItems": {
         "egg_tart": 2,
         "iced_tea": 1
@@ -21465,8 +21465,8 @@
       "soldOut": false,
       "basePrice": 368,
       "minPrice": 368,
-      "startDate": "2026-07-25",
-      "endDate": "2026-08-08",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-10",
       "fixedItems": {},
       "unknownItems": [],
       "choiceGroups": [
